@@ -118,8 +118,9 @@
   .maprow .frx{font-weight:700;color:#0a3d7a;flex:1;text-align:right}
   .callout{background:#fff7ec;border-left:4px solid var(--sun);border-radius:8px;padding:11px 13px;margin:0 0 12px;font-size:16.5px;line-height:1.55}
   .callout b{color:#a1560b}
-  .voxbtn{border:2px solid var(--line);background:#fff;color:var(--muted);border-radius:20px;padding:7px 14px;font-size:13px;font-weight:700;cursor:pointer}
-  .voxbtn.on{border-color:var(--sea);background:var(--sea);color:#fff}
+  .modetog{display:flex;gap:8px;margin:0 0 14px}
+  .modetog .mt{flex:1;border:0;border-radius:14px;padding:13px;font-size:16px;font-weight:800;cursor:pointer;background:#fff;color:var(--muted);box-shadow:0 6px 16px rgba(6,42,90,.07)}
+  .modetog .mt.on{background:linear-gradient(135deg,var(--sea),var(--deep));color:#fff}
   /* bilingual reader pairs: French over its literal Spanish, visually grouped */
   .reader .pair{margin:0 0 13px;border-left:4px solid var(--sea);border-radius:0 12px 12px 0;overflow:hidden;box-shadow:0 2px 9px rgba(6,42,90,.06)}
   .reader .pair .fr{background:#e8f1fc;color:#0a3d7a;padding:11px 13px;font-size:17.5px;line-height:1.5;font-weight:600}
@@ -133,18 +134,18 @@
 <div id="view" class="wrap"></div>
 <script>
 const AUDIO={base:"",clips:{},v:1};
-let LESSONS=[], GRAMMAR=null, ESS=null, cur=null;
+let LESSONS=[], GRAMMAR=null, ESS=null, CULTURE=null, cur=null;
 const REGLBL={parle:'🗣️ parlé',standard:'standard',ecrit:'écrit',litteraire:'littéraire'};
 const esc=s=>(s||'').replace(/</g,'&lt;');
 
 async function boot(){
   const man=await fetch('data/audio_manifest.json').then(r=>r.json());
   AUDIO.base=man.audio_base;AUDIO.clips=man.clips;AUDIO.v=man.version||1;
-  AUDIO.backends=man.backends||{el:{prefix:'el',label:'ElevenLabs'}};
-  AUDIO.backend=localStorage.getItem('fpb_backend')||man.default_backend||'el';
-  if(!AUDIO.backends[AUDIO.backend])AUDIO.backend=Object.keys(AUDIO.backends)[0];
+  AUDIO.backends=man.backends||{gg:{prefix:'gg',label:'Google'}};
+  AUDIO.backend=man.default_backend||Object.keys(AUDIO.backends)[0];  // fixed to Google, not user-selectable
   GRAMMAR=await fetch('data/spoken_grammar.json').then(r=>r.json()).catch(()=>null);
   ESS=await fetch('data/spoken_essentials.json').then(r=>r.json()).catch(()=>null);
+  CULTURE=await fetch('data/quiz_culture.json').then(r=>r.json()).catch(()=>null);
   const files=['data/curriculum/lesson_00_sons.json','data/curriculum/lesson_01_etre.json','data/curriculum/lesson_02_avoir.json',
     'data/curriculum/lesson_03_salut.json','data/curriculum/lesson_04_chiffres.json','data/curriculum/lesson_05_cafe.json',
     'data/curriculum/lesson_06_couleurs.json','data/curriculum/lesson_07_verbes_er.json',
@@ -154,13 +155,12 @@ async function boot(){
     'data/curriculum/lesson_14_small_talk.json','data/curriculum/lesson_15_vulgarite.json',
     'data/curriculum/lesson_16_verbes_ir_oir.json','data/curriculum/lesson_17_histoire.json',
     'data/curriculum/lesson_18_mode.json','data/curriculum/lesson_19_cuisine.json',
-    'data/curriculum/lesson_20_mythes_religions.json'];
+    'data/curriculum/lesson_20_mythes_religions.json','data/curriculum/lesson_21_prepositions.json'];
   LESSONS=await Promise.all(files.map(f=>fetch(f).then(r=>r.json())));
   route();
 }
 window.addEventListener('hashchange',route);
 function aurl(id){const p=(AUDIO.backends[AUDIO.backend]||{}).prefix||'el';return AUDIO.base+p+'/'+id+'.mp3?v='+AUDIO.v;}
-function setBackend(be){AUDIO.backend=be;localStorage.setItem('fpb_backend',be);route();}
 function play(id,btn){
   if(!id||!AUDIO.clips[id])return;
   if(cur){cur.el.pause();cur.el.currentTime=0;cur.btn&&cur.btn.classList.remove('playing');}
@@ -180,26 +180,39 @@ function route(){
   if(h.startsWith('lesson/'))renderLesson(h.split('/')[1]);
   else if(h==='parle')renderParle();
   else if(h==='flash')renderFlash();
-  else if(h==='quiz')renderQuiz();
+  else if(h.startsWith('quiz'))renderQuiz(h.split('/')[1]);
   else renderHome();
 }
+function setMode(m){localStorage.setItem('fpb_mode',m);renderHome();}
 function renderHome(){
   document.getElementById('ttl').textContent='Français pour bébas';
+  const mode=localStorage.getItem('fpb_mode')||'lessons';
   const lc=L=>`<div class="card lcard" onclick="location.hash='lesson/${L.id}'">
     <div class="lnum ${L.order===0?'z':''}">${L.order===0?'0':L.order}</div>
     <div class="vmain"><div class="t">${L.title}</div><div class="s">${L.es_title}</div></div>
     <span style="color:var(--muted);font-size:22px">›</span></div>`;
-  document.getElementById('view').innerHTML=`
-    <div class="card" style="text-align:center"><div style="font-size:15px;line-height:1.5">Bienvenue, ma belle 🌊<br>
-    <span style="color:var(--muted);font-size:13px">Le français à partir de ton espagnol · cap sur Nice</span></div></div>
-    <div class="card" style="display:flex;align-items:center;gap:8px;justify-content:center;flex-wrap:wrap;padding:12px">
-      <span style="color:var(--muted);font-size:13px">🎙️ Voix&nbsp;:</span>
-      ${Object.entries(AUDIO.backends).map(([k,b])=>`<button class="voxbtn ${k===AUDIO.backend?'on':''}" onclick="setBackend('${k}')">${b.label}</button>`).join('')}
-    </div>
-    ${LESSONS.map(lc).join('')}
+  const cat=(k,icon,t,d)=>`<div class="card lcard" onclick="location.hash='quiz/${k}'">
+    <div class="lnum" style="background:linear-gradient(135deg,var(--good),#0b9)">${icon}</div>
+    <div class="vmain"><div class="t">${t}</div><div class="s">${d}</div></div>
+    <span style="color:var(--muted);font-size:22px">›</span></div>`;
+  const lessonsView=`${LESSONS.map(lc).join('')}
     <a class="big purple" href="#parle">🗣️ Le français qu'on parle vraiment</a>
-    <a class="big coral" href="#flash">🎴 Flashcards — 3:2</a>
-    <a class="big green" href="#quiz">✅ Quiz de grammaire</a>`;
+    <a class="big coral" href="#flash">🎴 Flashcards — 3:2</a>`;
+  const quizView=`
+    ${cat('mix','🎲','Quiz mixte','un poco de todo')}
+    ${cat('ecoute','🎧','Écoute','oye y elige: el sentido o la transcripción')}
+    ${cat('trad','🔤','Traduction','🇪🇸 ↔ 🇫🇷')}
+    ${cat('gram','✍️','Grammaire','conjugación y género')}
+    ${cat('culture','🧠','Culture','¿qué sabes de Nice y del curso?')}
+    ${cat('pieges','⚖️','Pièges','trampas español → francés')}`;
+  document.getElementById('view').innerHTML=`
+    <div class="card" style="text-align:center;padding:14px"><div style="font-size:15px;line-height:1.5">Bienvenue, ma belle 🌊<br>
+    <span style="color:var(--muted);font-size:13px">Le français à partir de ton espagnol · cap sur Nice</span></div></div>
+    <div class="modetog">
+      <button class="mt ${mode==='lessons'?'on':''}" onclick="setMode('lessons')">📚 Leçons</button>
+      <button class="mt ${mode==='quiz'?'on':''}" onclick="setMode('quiz')">✅ Quiz</button>
+    </div>
+    ${mode==='lessons'?lessonsView:quizView}`;
 }
 /* ---------- phonology (Chapter 0) ---------- */
 function soundCard(s){
@@ -326,32 +339,54 @@ function drawCard(){
   };
 }
 function grade(k){if(!k)deck.push(deck[di]);di++;drawCard();}
-/* ---------- Quiz ---------- */
-function buildQuiz(){
-  const Q=[],verbLes=LESSONS.filter(L=>L.grammar);
-  const allForms=[...new Set(verbLes.flatMap(L=>L.grammar.conjugation.present.map(r=>r.form)))];
-  verbLes.forEach(L=>{const c=L.grammar.conjugation;c.present.forEach(r=>{if(/^nous/.test(r.pron.trim()))return;
-    Q.push({type:'Conjugaison',q:`${c.verb} — ${r.pron.split('/')[0].trim()}`,sub:c.es,ans:r.form,opts:shuffle([r.form,...shuffle(allForms.filter(f=>f!==r.form)).slice(0,3)]),aud:r.audio});});});
-  const sents=LESSONS.filter(L=>L.sentences).flatMap(L=>L.sentences).filter(s=>s.fr);
-  sents.forEach(s=>Q.push({type:'Traduce 🇪🇸→🇫🇷',q:s.es,sub:'¿frase correcta?',ans:s.fr,opts:shuffle([s.fr,...shuffle(sents.filter(x=>x.fr!==s.fr).map(x=>x.fr)).slice(0,2)]),aud:s.audio}));
-  LESSONS.filter(L=>L.vocab).flatMap(L=>L.vocab).filter(v=>v.gender&&/^(le |la )/.test(v.fr||'')).forEach(v=>{const bare=v.fr.replace(/^(le|la) /,'');
-    Q.push({type:'Genre',q:`___ ${bare}`,sub:'le o la ?',ans:v.fr.startsWith('la')?'la':'le',opts:shuffle(['le','la']),aud:v.audio});});
-  (GRAMMAR?.spanish_traps||[]).filter(t=>t.right&&t.wrong&&/[a-zà-ÿ]/i.test(t.wrong)).forEach(t=>Q.push({type:'Trampa 🇪🇸',q:t.right.es,sub:'francés hablado correcto:',ans:t.right.fr,opts:shuffle([t.right.fr,t.wrong]),aud:null}));
-  return shuffle(Q).slice(0,16);
+/* ---------- Quiz (categories + listening + culture) ---------- */
+function itemAV(it){
+  if(it.fr_m) return {fr:it.fr_m+' / '+it.fr_f, es:it.es, aud:it.audio_m};
+  return {fr:it.fr, es:it.es, aud:it.audio};
 }
-let quiz=[],qi=0,qs=0;
-function renderQuiz(){document.getElementById('ttl').textContent='Quiz';if(!quiz.length){quiz=buildQuiz();qi=0;qs=0;}drawQ();}
+function buildQuiz(cat){
+  const items=[...LESSONS.filter(L=>L.vocab).flatMap(L=>L.vocab),
+               ...LESSONS.filter(L=>L.sentences).flatMap(L=>L.sentences)]
+    .map(itemAV).filter(x=>x.aud&&x.es&&x.fr);
+  const allES=[...new Set(items.map(x=>x.es))], allFR=[...new Set(items.map(x=>x.fr))];
+  const pick=(arr,not,n)=>shuffle(arr.filter(x=>x!==not)).slice(0,n);
+  const Q={ecoute:[],trad:[],gram:[],culture:[],pieges:[]};
+  items.forEach(x=>{
+    Q.ecoute.push({type:'🎧 Sens',q:'Écoute — quel est le sens ?',aud:x.aud,autoplay:1,ans:x.es,opts:shuffle([x.es,...pick(allES,x.es,3)])});
+    Q.ecoute.push({type:'🎧 Transcription',q:'Écoute — quelle phrase ?',aud:x.aud,autoplay:1,ans:x.fr,opts:shuffle([x.fr,...pick(allFR,x.fr,3)])});
+    Q.trad.push({type:'🇪🇸 → 🇫🇷',q:x.es,ans:x.fr,opts:shuffle([x.fr,...pick(allFR,x.fr,3)]),aud:x.aud});
+    Q.trad.push({type:'🇫🇷 → 🇪🇸',q:x.fr,aud:x.aud,ans:x.es,opts:shuffle([x.es,...pick(allES,x.es,3)])});
+  });
+  const verbL=LESSONS.filter(L=>L.grammar);
+  const forms=[...new Set(verbL.flatMap(L=>L.grammar.conjugation.present.map(r=>r.form)))];
+  verbL.forEach(L=>{const c=L.grammar.conjugation;c.present.forEach(r=>{if(/^nous/.test(r.pron.trim()))return;
+    Q.gram.push({type:'Conjugaison',q:`${c.verb} — ${r.pron.split('/')[0].trim()}`,ans:r.form,opts:shuffle([r.form,...pick(forms,r.form,3)]),aud:r.audio});});});
+  LESSONS.filter(L=>L.vocab).flatMap(L=>L.vocab).filter(v=>v.gender&&/^(le |la )/.test(v.fr||'')).forEach(v=>{
+    const bare=v.fr.replace(/^(le|la) /,'');
+    Q.gram.push({type:'Genre',q:`___ ${bare}`,sub:'le / la ?',ans:v.fr.startsWith('la')?'la':'le',opts:['le','la'],aud:v.audio});});
+  ((CULTURE&&CULTURE.questions)||[]).forEach(c=>Q.culture.push({type:'🧠 Culture',q:c.q,ans:c.answer,opts:shuffle(c.options.slice())}));
+  ((GRAMMAR&&GRAMMAR.spanish_traps)||[]).filter(t=>t.right&&t.wrong&&/[a-zà-ÿ]/i.test(t.wrong)).forEach(t=>Q.pieges.push({type:'⚖️ Piège',q:t.right.es,sub:'français correct :',ans:t.right.fr,opts:shuffle([t.right.fr,t.wrong])}));
+  let pool;
+  if(cat==='mix') pool=[].concat(...Object.values(Q).map(a=>shuffle(a.slice()).slice(0,6)));
+  else pool=(Q[cat]||[]).slice();
+  return shuffle(pool).slice(0,16);
+}
+let quiz=[],qi=0,qs=0,quizCat='mix';
+function renderQuiz(cat){quizCat=cat||'mix';document.getElementById('ttl').textContent='Quiz';quiz=buildQuiz(quizCat);qi=0;qs=0;drawQ();}
 function drawQ(){
   const host=document.getElementById('view');
+  if(!quiz.length){host.innerHTML=`<div class="stage"><div class="empty">Rien ici pour l'instant.<br><br><button class="big coral" style="max-width:240px" onclick="location.hash=''">Retour</button></div></div>`;return;}
   if(qi>=quiz.length){const p=Math.round(qs/quiz.length*100);
-    host.innerHTML=`<div class="stage"><div class="empty"><div style="font-size:40px">${p>=80?'🎉':p>=50?'👍':'💪'}</div><div style="font-size:22px;font-weight:800;margin:8px 0">${qs}/${quiz.length}</div><button class="big coral" style="max-width:240px" onclick="quiz=[];renderQuiz()">Encore</button></div></div>`;return;}
+    host.innerHTML=`<div class="stage"><div class="empty"><div style="font-size:40px">${p>=80?'🎉':p>=50?'👍':'💪'}</div><div style="font-size:22px;font-weight:800;margin:8px 0">${qs}/${quiz.length}</div><button class="big coral" style="max-width:240px" onclick="renderQuiz(quizCat)">Encore</button></div></div>`;return;}
   const q=quiz[qi];host.dataset.done='';
+  const audBtn=q.aud?`<div style="text-align:center;margin:4px 0 10px"><button class="pbtn" data-aud="${q.aud}" style="width:58px;height:58px;font-size:23px">🔊</button></div>`:'';
   host.innerHTML=`<div class="prog"><i style="width:${qi/quiz.length*100}%"></i></div>
-    <div class="card"><div class="qtype">${q.type} · ${qi+1}/${quiz.length}</div><div class="qbig">${esc(q.q)}</div><div class="qsub">${q.sub||''}</div>
-      <div>${q.opts.map(o=>`<button class="opt" data-o="${esc(o)}">${esc(o)}</button>`).join('')}</div></div>`;
+    <div class="card"><div class="qtype">${q.type} · ${qi+1}/${quiz.length}</div><div class="qbig">${esc(q.q)}</div>${q.sub?`<div class="qsub">${q.sub}</div>`:''}
+      ${audBtn}<div>${q.opts.map(o=>`<button class="opt" data-o="${esc(o)}">${esc(o)}</button>`).join('')}</div></div>`;
+  if(q.autoplay&&q.aud)play(q.aud);
   host.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{if(host.dataset.done)return;host.dataset.done='1';
     const ok=b.dataset.o===q.ans;if(ok){b.classList.add('correct');qs++;}else{b.classList.add('wrong');host.querySelectorAll('.opt').forEach(x=>{if(x.dataset.o===q.ans)x.classList.add('correct');});}
-    if(q.aud)play(q.aud);setTimeout(()=>{qi++;drawQ();},ok?750:1600);});
+    if(q.aud&&!q.autoplay)play(q.aud);setTimeout(()=>{qi++;drawQ();},ok?800:1700);});
 }
 if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{});}
 boot();

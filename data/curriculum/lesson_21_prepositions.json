@@ -1,0 +1,324 @@
+{
+  "id": "L21",
+  "order": 21,
+  "slug": "prepositions",
+  "title": "Prépositions · y / en",
+  "es_title": "Las palabritas que lo pegan todo (à, de, pour/par, y, en)",
+  "focus": "Las preposiciones de todos los días — y dos trampas serias: por/para ≠ pour/par, y las palabritas « y » y « en » que el español no tiene.",
+  "objectives": [
+    "Usar à, de, dans, sur, avec, chez, pour, par.",
+    "Evitar la trampa por/para → pour/par (¡no es 1 a 1!).",
+    "Dominar « y » (allá / en ello) y « en » (de eso)."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Les petits mots magiques"
+    },
+    {
+      "t": "pair",
+      "fr": "Les prépositions sont les petits mots qui connectent toute la phrase. Sans elles, tes phrases élégantes tombent en morceaux.",
+      "es": "Las preposiciones son las pequeñas palabras que conectan toda la frase. Sin ellas, tus frases elegantes caen en pedazos."
+    },
+    {
+      "t": "h3",
+      "text": "À et de, les deux reines"
+    },
+    {
+      "t": "pair",
+      "fr": "Je vais à la plage et je reviens de la plage : à indique la destination, de indique l'origine ou la possession.",
+      "es": "Voy a la playa y vuelvo de la playa: a indica la destinación, de indica el origen o la posesión."
+    },
+    {
+      "t": "h3",
+      "text": "Dans, sur, avec — le trio pratique"
+    },
+    {
+      "t": "pair",
+      "fr": "Le portable est dans le sac, le sac est sur la table, et moi je danse avec mes amies. Simple, non ?",
+      "es": "El móvil está dentro del bolso, el bolso está sobre la mesa, y yo bailo con mis amigas. Simple, ¿no?"
+    },
+    {
+      "t": "h3",
+      "text": "Chez, le mot impossible"
+    },
+    {
+      "t": "pair",
+      "fr": "Le mot chez n'existe pas en espagnol : je dîne chez moi, je dors chez ma tante, j'achète le pain chez le boulanger.",
+      "es": "La palabra chez no existe en español: ceno en mi casa, duermo en casa de mi tía, compro el pan donde el panadero."
+    },
+    {
+      "t": "h3",
+      "text": "Pour et par, le grand piège"
+    },
+    {
+      "t": "pair",
+      "fr": "En principe, pour indique le but et par le passage : le bus pour Monaco passe par le port. Mais attention, la correspondance est traîtresse — on dit merci pour l'invitation !",
+      "es": "En principio, pour indica el propósito y par el paso: el bus para Mónaco pasa por el puerto. Pero atención, la correspondencia es traicionera — ¡se dice gracias por la invitación!"
+    },
+    {
+      "t": "h3",
+      "text": "Y, ton nouveau réflexe"
+    },
+    {
+      "t": "pair",
+      "fr": "Le petit y remplace un lieu ou une idée : j'y vais (à la plage !), tu y penses (à cette idée). L'espagnol n'a pas d'équivalent — c'est un pur réflexe français.",
+      "es": "La pequeña y reemplaza un lugar o una idea: j'y vais = voy allá (¡a la playa!), tu y penses = piensas en ello. El español no tiene equivalente — es un puro reflejo francés."
+    },
+    {
+      "t": "h3",
+      "text": "En, le petit frère de y"
+    },
+    {
+      "t": "pair",
+      "fr": "Et en remplace une quantité ou une origine : j'en veux (de cette glace), j'en viens (du Vieux-Nice). Tu en entends partout à Nice.",
+      "es": "Y en reemplaza una cantidad o un origen: j'en veux = quiero de eso, j'en viens = vengo de allá. Lo oyes por todas partes en Niza."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L21-a",
+      "fr": "à",
+      "es": "a / en",
+      "en": "to / at",
+      "ipa": "a",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je vais à la plage.",
+      "voice": "emilie",
+      "audio": "L21-a"
+    },
+    {
+      "id": "L21-de",
+      "fr": "de",
+      "es": "de / desde",
+      "en": "of / from",
+      "ipa": "də",
+      "pos": "prep",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Je viens de Nice.",
+      "voice": "oris",
+      "audio": "L21-de"
+    },
+    {
+      "id": "L21-dans",
+      "fr": "dans",
+      "es": "en / dentro de",
+      "en": "in",
+      "ipa": "dɑ̃",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je suis dans le bus.",
+      "voice": "emilie",
+      "audio": "L21-dans"
+    },
+    {
+      "id": "L21-sur",
+      "fr": "sur",
+      "es": "sobre / en",
+      "en": "on",
+      "ipa": "syʁ",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Le livre est sur la table.",
+      "voice": "oris",
+      "audio": "L21-sur"
+    },
+    {
+      "id": "L21-sous",
+      "fr": "sous",
+      "es": "bajo / debajo de",
+      "en": "under",
+      "ipa": "su",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "ex": "Le chat est sous la table.",
+      "voice": "emilie",
+      "audio": "L21-sous"
+    },
+    {
+      "id": "L21-avec",
+      "fr": "avec",
+      "es": "con",
+      "en": "with",
+      "ipa": "avɛk",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je viens avec toi.",
+      "voice": "oris",
+      "audio": "L21-avec"
+    },
+    {
+      "id": "L21-sans",
+      "fr": "sans",
+      "es": "sin",
+      "en": "without",
+      "ipa": "sɑ̃",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Un café sans sucre.",
+      "voice": "emilie",
+      "audio": "L21-sans"
+    },
+    {
+      "id": "L21-pour",
+      "fr": "pour",
+      "es": "para (finalidad)",
+      "en": "for",
+      "ipa": "puʁ",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "C'est pour toi.",
+      "voice": "oris",
+      "audio": "L21-pour"
+    },
+    {
+      "id": "L21-par",
+      "fr": "par",
+      "es": "por (medio / a través)",
+      "en": "by / through",
+      "ipa": "paʁ",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "On passe par le Vieux-Nice.",
+      "voice": "emilie",
+      "audio": "L21-par"
+    },
+    {
+      "id": "L21-chez",
+      "fr": "chez",
+      "es": "en casa de / donde",
+      "en": "at (someone's place)",
+      "ipa": "ʃe",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "On va chez moi.",
+      "voice": "oris",
+      "audio": "L21-chez"
+    },
+    {
+      "id": "L21-entre",
+      "fr": "entre",
+      "es": "entre",
+      "en": "between",
+      "ipa": "ɑ̃tʁ",
+      "pos": "prep",
+      "cognate_type": "transparent",
+      "ex": "Entre toi et moi.",
+      "voice": "emilie",
+      "audio": "L21-entre"
+    },
+    {
+      "id": "L21-vers",
+      "fr": "vers",
+      "es": "hacia / alrededor de",
+      "en": "toward / around",
+      "ipa": "vɛʁ",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "ex": "Je pars vers midi.",
+      "voice": "oris",
+      "audio": "L21-vers"
+    },
+    {
+      "id": "L21-depuis",
+      "fr": "depuis",
+      "es": "desde / desde hace",
+      "en": "since / for",
+      "ipa": "dəpɥi",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "ex": "Je suis là depuis lundi.",
+      "voice": "emilie",
+      "audio": "L21-depuis"
+    },
+    {
+      "id": "L21-pendant",
+      "fr": "pendant",
+      "es": "durante",
+      "en": "during",
+      "ipa": "pɑ̃dɑ̃",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "ex": "Pendant les vacances.",
+      "voice": "oris",
+      "audio": "L21-pendant"
+    },
+    {
+      "id": "L21-y",
+      "fr": "y",
+      "es": "allá / en ello (¡no existe en español!)",
+      "en": "there / about it",
+      "ipa": "i",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "J'y vais maintenant !",
+      "voice": "emilie",
+      "audio": "L21-y"
+    },
+    {
+      "id": "L21-en",
+      "fr": "en",
+      "es": "de eso / algo (¡no existe en español!)",
+      "en": "of it / some",
+      "ipa": "ɑ̃",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "J'en veux deux !",
+      "voice": "oris",
+      "audio": "L21-en"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L21-s01",
+      "register": "parle",
+      "fr": "Merci pour la glace ! On passe par le marché ?",
+      "es": "¡Gracias por el helado! ¿Pasamos por el mercado?",
+      "en": "Thanks for the ice cream! Shall we go by the market?",
+      "voice": "emilie",
+      "audio": "L21-s01",
+      "gloss": "pour (agradecer) vs par (a través): ¡la trampa por/para!"
+    },
+    {
+      "id": "L21-s02",
+      "register": "parle",
+      "fr": "Tu vas à la plage ? — Oui, j'y vais maintenant.",
+      "es": "¿Vas a la playa? — Sí, voy (allá) ahora.",
+      "en": "Are you going to the beach? — Yes, I'm going there now.",
+      "voice": "oris",
+      "audio": "L21-s02",
+      "gloss": "y = allá (reemplaza « à la plage »)"
+    },
+    {
+      "id": "L21-s03",
+      "register": "parle",
+      "fr": "Tu veux des glaces ? — Oui, j'en veux deux !",
+      "es": "¿Quieres helados? — ¡Sí, quiero dos (de ellos)!",
+      "en": "Do you want ice creams? — Yes, I want two of them!",
+      "voice": "emilie",
+      "audio": "L21-s03",
+      "gloss": "en = de eso (reemplaza « des glaces »)"
+    },
+    {
+      "id": "L21-s04",
+      "register": "parle",
+      "fr": "Ce soir, on mange chez moi, sans les parents.",
+      "es": "Esta noche, comemos en mi casa, sin los padres.",
+      "en": "Tonight, we're eating at my place, without the parents.",
+      "voice": "oris",
+      "audio": "L21-s04"
+    }
+  ]
+}
