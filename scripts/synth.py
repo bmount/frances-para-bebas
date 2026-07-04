@@ -13,24 +13,35 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tts import tts as _raw_tts          # noqa: E402
 from voices import get_voice             # noqa: E402
 from gender_guard import assert_gender_ok  # noqa: E402
+from google_tts import google_tts, GOOGLE_VOICES  # noqa: E402
 
-# Only these models actually honor language_code. multilingual_v2 IGNORES it and
-# must never be used for French-forced output.
+# Only these ElevenLabs models actually honor language_code. multilingual_v2
+# IGNORES it and must never be used for French-forced output.
 ENFORCING_MODELS = {"eleven_turbo_v2_5", "eleven_flash_v2_5"}
 DEFAULT_MODEL = "eleven_turbo_v2_5"
+BACKENDS = ("elevenlabs", "google")
 
 
-def synth(text, out_path, voice_key, model=DEFAULT_MODEL):
-    if model not in ENFORCING_MODELS:
-        raise ValueError(
-            f"SAFEGUARD(french): model {model!r} does not enforce language_code; "
-            f"use one of {sorted(ENFORCING_MODELS)}"
-        )
+def synth(text, out_path, voice_key, backend="elevenlabs", model=DEFAULT_MODEL):
+    """Generate one clip via the chosen backend. Both safeguards run first:
+    FRENCH (enforced per-backend) and GENDER (assert_gender_ok)."""
+    if backend not in BACKENDS:
+        raise ValueError(f"backend must be one of {BACKENDS}, got {backend!r}")
     v = get_voice(voice_key)
-    # SAFEGUARD(gender): refuse mismatched self-descriptions
-    assert_gender_ok(text, v["gender"])
-    res = _raw_tts(text, out_path, model=model, voice=v["voice_id"], language_code="fr")
-    res.update({"voice": voice_key, "voice_gender": v["gender"], "text": text})
+    gender = v["gender"]
+    # SAFEGUARD(gender): refuse mismatched self-descriptions (backend-agnostic)
+    assert_gender_ok(text, gender)
+
+    if backend == "google":
+        # SAFEGUARD(french): fr-FR voice can't speak another language
+        res = google_tts(text, out_path, GOOGLE_VOICES[gender])
+    else:
+        if model not in ENFORCING_MODELS:
+            raise ValueError(
+                f"SAFEGUARD(french): model {model!r} does not enforce language_code")
+        res = _raw_tts(text, out_path, model=model, voice=v["voice_id"], language_code="fr")
+        res["backend"] = "elevenlabs"
+    res.update({"voice": voice_key, "voice_gender": gender, "text": text})
     return res
 
 

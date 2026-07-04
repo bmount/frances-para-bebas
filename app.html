@@ -118,6 +118,8 @@
   .maprow .frx{font-weight:700;color:#0a3d7a;flex:1;text-align:right}
   .callout{background:#fff7ec;border-left:4px solid var(--sun);border-radius:8px;padding:11px 13px;margin:0 0 12px;font-size:16.5px;line-height:1.55}
   .callout b{color:#a1560b}
+  .voxbtn{border:2px solid var(--line);background:#fff;color:var(--muted);border-radius:20px;padding:7px 14px;font-size:13px;font-weight:700;cursor:pointer}
+  .voxbtn.on{border-color:var(--sea);background:var(--sea);color:#fff}
 </style>
 </head>
 <body>
@@ -132,6 +134,9 @@ const esc=s=>(s||'').replace(/</g,'&lt;');
 async function boot(){
   const man=await fetch('data/audio_manifest.json').then(r=>r.json());
   AUDIO.base=man.audio_base;AUDIO.clips=man.clips;AUDIO.v=man.version||1;
+  AUDIO.backends=man.backends||{el:{prefix:'el',label:'ElevenLabs'}};
+  AUDIO.backend=localStorage.getItem('fpb_backend')||man.default_backend||'el';
+  if(!AUDIO.backends[AUDIO.backend])AUDIO.backend=Object.keys(AUDIO.backends)[0];
   GRAMMAR=await fetch('data/spoken_grammar.json').then(r=>r.json()).catch(()=>null);
   ESS=await fetch('data/spoken_essentials.json').then(r=>r.json()).catch(()=>null);
   const files=['data/curriculum/lesson_00_sons.json','data/curriculum/lesson_01_etre.json','data/curriculum/lesson_02_avoir.json',
@@ -144,7 +149,8 @@ async function boot(){
   route();
 }
 window.addEventListener('hashchange',route);
-function aurl(id){return AUDIO.base+AUDIO.clips[id]+'?v='+AUDIO.v;}
+function aurl(id){const p=(AUDIO.backends[AUDIO.backend]||{}).prefix||'el';return AUDIO.base+p+'/'+id+'.mp3?v='+AUDIO.v;}
+function setBackend(be){AUDIO.backend=be;localStorage.setItem('fpb_backend',be);route();}
 function play(id,btn){
   if(!id||!AUDIO.clips[id])return;
   if(cur){cur.el.pause();cur.el.currentTime=0;cur.btn&&cur.btn.classList.remove('playing');}
@@ -176,6 +182,10 @@ function renderHome(){
   document.getElementById('view').innerHTML=`
     <div class="card" style="text-align:center"><div style="font-size:15px;line-height:1.5">Bienvenue, ma belle 🌊<br>
     <span style="color:var(--muted);font-size:13px">Le français à partir de ton espagnol · cap sur Nice</span></div></div>
+    <div class="card" style="display:flex;align-items:center;gap:8px;justify-content:center;flex-wrap:wrap;padding:12px">
+      <span style="color:var(--muted);font-size:13px">🎙️ Voix&nbsp;:</span>
+      ${Object.entries(AUDIO.backends).map(([k,b])=>`<button class="voxbtn ${k===AUDIO.backend?'on':''}" onclick="setBackend('${k}')">${b.label}</button>`).join('')}
+    </div>
     ${LESSONS.map(lc).join('')}
     <a class="big purple" href="#parle">🗣️ Le français qu'on parle vraiment</a>
     <a class="big coral" href="#flash">🎴 Flashcards — 3:2</a>
@@ -217,7 +227,9 @@ function vocabRow(it){
     <div class="ves">${it.es} · ${it.en}</div><div class="vex">« ${esc(it.ex_m)} / ${esc(it.ex_f)} »</div></div>
     ${chip(it.cognate_type)}<div class="gpair">${pbtn(it.audio_m,'m sm')}${pbtn(it.audio_f,'f sm')}</div></div>`;
   return `<div class="v"><div class="vmain"><div class="vfr">${it.fr} ${it.gender?`<span class="g">(${it.gender})</span>`:''}</div>
-    <div class="ves">${it.es} · ${it.en}</div><div class="vex">« ${esc(it.ex)} »</div></div>${chip(it.cognate_type)}${pbtn(it.audio)}</div>`;
+    <div class="ves">${it.es} · ${it.en}</div>
+    <div class="vex">« ${esc(it.ex)} »${it.ex2?` &nbsp;·&nbsp; « ${esc(it.ex2)} »`:''}</div></div>
+    ${chip(it.cognate_type)}${pbtn(it.audio)}${it.ex2?pbtn(it.audio2,'sm'):''}</div>`;
 }
 function sentRow(it){
   const tt=it.tense?`<span class="tt">${it.tense}</span> `:'', rg=reg(it.register||'parle');

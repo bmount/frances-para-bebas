@@ -196,6 +196,22 @@ A word list is not a lesson. Every lesson must have **connective tissue**.
   va, coucou), and real teen moments. It is a genuine *pleasure* for a Spanish speaker
   to recognize familiar words in a French context — lean into that delight.
 - **Readability.** Big fonts. She may be reading on a phone, in the sun, on a train.
+- **Multiple examples when pronunciation is context-dependent.** When a word's sound
+  changes with the *next* word (liaison, final-consonant), give **more than one**
+  spoken example so she hears both. Canonical case: **`cent`** → *cent euros*
+  (the `t` links: "cent‿t‿euros") vs *cent personnes* (the `t` is silent). Use the
+  `ex2`/`audio2` fields. Applies to numbers (`cent`, `vingt`, `six`, `dix`, `neuf`),
+  `est`/`es`, `plus`, `tout`, and anything where liaison flips the sound.
+
+## Audio backends (swappable)
+
+Two synthesis backends, chosen in-app (persisted): **Google Chirp3-HD** (default,
+highest quality — Aoede/Charon) and **ElevenLabs** (Émilie/Oris). Files are stored on
+GCS under backend-prefixed folders (`gg/`, `el/`); the app builds
+`<base><prefix>/<id>.mp3`. Both safeguards (French + gender) run for either backend.
+Regenerate a backend with `python3 scripts/build_audio.py --google` (or
+`--elevenlabs`). If Google returns `RESOURCE_EXHAUSTED`, it's a per-minute rate cap —
+just re-run (cached clips are skipped).
 
 ## Register defaults (apply everywhere)
 

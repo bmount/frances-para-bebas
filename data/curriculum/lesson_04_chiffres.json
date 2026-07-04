@@ -47,7 +47,7 @@
     {"id": "L04-soixantedix", "fr": "soixante-dix", "es": "setenta (60+10)", "en": "seventy", "ipa": "swasɑ̃t dis", "pos": "num", "cognate_type": "non_cognate", "star": true, "ex": "soixante-dix euros", "voice": "oris", "audio": "L04-soixantedix"},
     {"id": "L04-quatrevingts", "fr": "quatre-vingts", "es": "ochenta (4×20)", "en": "eighty", "ipa": "katʁə vɛ̃", "pos": "num", "cognate_type": "non_cognate", "star": true, "ex": "quatre-vingts euros", "voice": "emilie", "audio": "L04-quatrevingts"},
     {"id": "L04-quatrevingtdix", "fr": "quatre-vingt-dix", "es": "noventa (4×20+10)", "en": "ninety", "ipa": "katʁə vɛ̃ dis", "pos": "num", "cognate_type": "non_cognate", "star": true, "ex": "quatre-vingt-dix euros", "voice": "oris", "audio": "L04-quatrevingtdix"},
-    {"id": "L04-cent", "fr": "cent", "es": "cien", "en": "one hundred", "ipa": "sɑ̃", "pos": "num", "cognate_type": "semi", "ex": "cent euros", "voice": "emilie", "audio": "L04-cent"}
+    {"id": "L04-cent", "fr": "cent", "es": "cien", "en": "one hundred", "ipa": "sɑ̃", "pos": "num", "cognate_type": "semi", "ex": "cent euros", "voice": "emilie", "audio": "L04-cent", "ex2": "cent personnes", "audio2": "L04-cent2", "voice2": "oris", "note_es": "la « t » de cent SE OYE ante vocal (cent euros = « cent-t-euros ») pero DESAPARECE ante consonante (cent personnes)."}
   ],
   "sentences": [
     {"id": "L04-s01", "register": "parle", "fr": "C'est combien, la socca ?", "es": "¿Cuánto es la socca?", "en": "How much is the socca?", "voice": "emilie", "audio": "L04-s01"},
