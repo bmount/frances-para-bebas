@@ -1,0 +1,52 @@
+{
+  "id": "L05",
+  "order": 5,
+  "slug": "cafe",
+  "title": "Au café — ordering",
+  "es_title": "Pedir en el café: la mecánica",
+  "focus": "El francés de verdad pasa en la terraza. Aquí está tu guion: pedir, el agua gratis, la cuenta.",
+  "objectives": [
+    "Pedir con « je voudrais… s'il vous plaît ».",
+    "Conseguir agua gratis y pedir la cuenta.",
+    "Sobrevivir « sur place ou à emporter ? »."
+  ],
+  "reader": [
+    {"t": "lead", "html": "El francés de verdad no pasa en el libro, pasa en la <b>terrasse</b> con una bebida en la mano. El café es tu escenario y esto es tu guion. Memorízalo y Nice es tuyo."},
+    {"t": "h3", "text": "Pedir con clase"},
+    {"t": "p", "html": "La fórmula: <span class='fr'>je voudrais</span> + la cosa + <span class='fr'>s'il vous plaît</span>. <span class='fr'>«&nbsp;Je voudrais une socca, s'il vous plaît.&nbsp;»</span> Ojo: <span class='fr'>je veux</span> suena a bebé haciendo berrinche — es el condicional lo que te hace sonar educada, igual que «quisiera» vs «quiero»."},
+    {"t": "maps", "rows": [
+      {"es": "Quisiera un café", "fr": "Je voudrais un café"},
+      {"es": "¿Tienen crêpes?", "fr": "Vous avez des crêpes ?"},
+      {"es": "La cuenta, por favor", "fr": "L'addition, s'il vous plaît"}
+    ]},
+    {"t": "h3", "text": "El truco del agua 💧"},
+    {"t": "p", "html": "La cuenta no llega sola: pídela con <span class='fr'>l'addition, s'il vous plaît</span>. Y el truco de presupuesto de verano: <span class='fr'>une carafe d'eau, s'il vous plaît</span> — agua de grifo, gratis, totalmente normal, nadie te mira mal."},
+    {"t": "h3", "text": "Cultura de terrasse"},
+    {"t": "p", "html": "Nadie te apura; puedes quedarte dos horas con un solo café, es la ley. El mesero <b>no trae la cuenta hasta que la pidas</b> — no es mal servicio, es respeto. Propina: unas monedas, nada de 20% americano. Te preguntarán <span class='fr'>«&nbsp;sur place ou à emporter&nbsp;?&nbsp;»</span> — ¿para acá o para llevar?"},
+    {"t": "h3", "text": "El pedido completo"},
+    {"t": "p", "html": "<span class='fr'>—&nbsp;Bonjour&nbsp;! Je voudrais une socca et une limonade, s'il vous plaît. —&nbsp;Sur place ou à emporter&nbsp;? —&nbsp;Sur place.</span> Al final: <span class='fr'>L'addition, s'il vous plaît. Merci, au revoir&nbsp;!</span>"}
+  ],
+  "vocab": [
+    {"id": "L05-jevoudrais", "fr": "je voudrais", "es": "quisiera / me gustaría", "en": "I'd like", "ipa": "ʒə vudʁɛ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Je voudrais un café, s'il vous plaît.", "voice": "emilie", "audio": "L05-jevoudrais"},
+    {"id": "L05-vousavez", "fr": "vous avez… ?", "es": "¿tienen…?", "en": "do you have…?", "ipa": "vu zave", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Vous avez des crêpes ?", "voice": "oris", "audio": "L05-vousavez"},
+    {"id": "L05-laddition", "fr": "l'addition", "es": "la cuenta", "en": "the check", "ipa": "ladisjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "semi", "star": true, "ex": "L'addition, s'il vous plaît.", "voice": "emilie", "audio": "L05-laddition"},
+    {"id": "L05-carafe", "fr": "une carafe d'eau", "es": "una jarra de agua (del grifo)", "en": "a jug of tap water", "ipa": "yn kaʁaf do", "pos": "noun", "gender": "f", "cognate_type": "semi", "star": true, "ex": "Une carafe d'eau, s'il vous plaît.", "voice": "oris", "audio": "L05-carafe"},
+    {"id": "L05-surplace", "fr": "sur place", "es": "para tomar aquí", "en": "for here", "ipa": "syʁ plas", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Sur place, s'il vous plaît.", "voice": "emilie", "audio": "L05-surplace"},
+    {"id": "L05-emporter", "fr": "à emporter", "es": "para llevar", "en": "to go", "ipa": "a ɑ̃pɔʁte", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "C'est à emporter.", "voice": "oris", "audio": "L05-emporter"},
+    {"id": "L05-cafe", "fr": "un café", "es": "un café", "en": "a coffee", "ipa": "ɛ̃ kafe", "pos": "noun", "gender": "m", "cognate_type": "transparent", "ex": "Je voudrais un café.", "voice": "oris", "audio": "L05-cafe"},
+    {"id": "L05-glace", "fr": "une glace", "es": "un helado", "en": "an ice cream", "ipa": "yn ɡlas", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "star": true, "ex": "Une glace à la fraise, s'il vous plaît.", "voice": "emilie", "audio": "L05-glace"},
+    {"id": "L05-socca", "fr": "une socca", "es": "una socca (torta de garbanzo, típica de Nice)", "en": "a socca", "ipa": "yn sɔka", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "ex": "Une socca, s'il vous plaît.", "voice": "oris", "audio": "L05-socca"},
+    {"id": "L05-crepe", "fr": "une crêpe", "es": "una crepa", "en": "a crêpe", "ipa": "yn kʁɛp", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "Une crêpe au chocolat !", "voice": "emilie", "audio": "L05-crepe"},
+    {"id": "L05-limonade", "fr": "une limonade", "es": "una limonada / gaseosa", "en": "a lemonade", "ipa": "yn limɔnad", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "Une limonade, s'il vous plaît.", "voice": "oris", "audio": "L05-limonade"},
+    {"id": "L05-eau", "fr": "l'eau", "es": "el agua", "en": "water", "ipa": "lo", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "star": true, "ex": "Je voudrais de l'eau.", "voice": "emilie", "audio": "L05-eau"},
+    {"id": "L05-salade", "fr": "une salade niçoise", "es": "una ensalada nizarda", "en": "a niçoise salad", "ipa": "yn salad niswaz", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "Une salade niçoise, s'il vous plaît.", "voice": "oris", "audio": "L05-salade"},
+    {"id": "L05-terrasse", "fr": "la terrasse", "es": "la terraza", "en": "the terrace", "ipa": "la teʁas", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "On est en terrasse.", "voice": "emilie", "audio": "L05-terrasse"}
+  ],
+  "sentences": [
+    {"id": "L05-s01", "register": "parle", "fr": "Bonjour ! Je voudrais une socca, s'il vous plaît.", "es": "¡Hola! Quisiera una socca, por favor.", "en": "Hi! I'd like a socca, please.", "voice": "emilie", "audio": "L05-s01"},
+    {"id": "L05-s02", "register": "parle", "fr": "Sur place ou à emporter ? — Sur place.", "es": "¿Para aquí o para llevar? — Para aquí.", "en": "For here or to go? — For here.", "voice": "oris", "audio": "L05-s02"},
+    {"id": "L05-s03", "register": "parle", "fr": "Vous avez des glaces ? — Oui, bien sûr !", "es": "¿Tienen helados? — ¡Sí, claro!", "en": "Do you have ice cream? — Yes, of course!", "voice": "emilie", "audio": "L05-s03"},
+    {"id": "L05-s04", "register": "parle", "fr": "Une carafe d'eau, s'il vous plaît.", "es": "Una jarra de agua, por favor.", "en": "A jug of tap water, please.", "voice": "oris", "audio": "L05-s04"},
+    {"id": "L05-s05", "register": "parle", "fr": "L'addition, s'il vous plaît. Merci, au revoir !", "es": "La cuenta, por favor. ¡Gracias, adiós!", "en": "The check, please. Thanks, bye!", "voice": "emilie", "audio": "L05-s05"}
+  ]
+}

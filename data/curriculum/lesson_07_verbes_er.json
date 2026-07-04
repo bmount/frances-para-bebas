@@ -1,0 +1,77 @@
+{
+  "id": "L07",
+  "order": 7,
+  "slug": "verbes-er",
+  "title": "Verbes en -er",
+  "es_title": "Los verbos en -er (la clase gigante)",
+  "focus": "Aprende UN patrón, desbloquea cientos de verbos. Y casi todo verbo español en -ar te lo regala en -er.",
+  "objectives": [
+    "Conjugar los verbos -er en presente.",
+    "Oír que -e / -es / -ent son MUDAS (suenan igual).",
+    "Explotar la mina: español -ar → francés -er."
+  ],
+  "reader": [
+    {"t": "lead", "html": "Escucha: aprendes UN patrón y desbloqueas cientos de verbos de golpe. Los <span class='fr'>-er</span> son el 90% del francés — compras uno y te llevas quinientos gratis."},
+    {"t": "h3", "text": "El patrón (con parler)"},
+    {"t": "p", "html": "El plot twist: <span class='fr'>-e</span>, <span class='fr'>-es</span> y <span class='fr'>-ent</span> son <b>MUDAS</b>. <span class='fr'>je parle</span>, <span class='fr'>tu parles</span>, <span class='fr'>ils parlent</span> — todo suena idéntico: /paʁl/. Solo <span class='fr'>vous parlez</span> /paʁle/ se atreve a sonar distinto. Escribes cinco formas, pronuncias dos. Francés siendo francés."},
+    {"t": "h3", "text": "La mina de oro ⛏️"},
+    {"t": "p", "html": "Casi todo verbo español en <b>-ar</b> existe en francés en <b>-er</b>:"},
+    {"t": "maps", "rows": [
+      {"es": "visitar", "fr": "visiter"},
+      {"es": "adorar", "fr": "adorer"},
+      {"es": "preparar", "fr": "préparer"}
+    ]},
+    {"t": "p", "html": "<span class='fr'>manger, habiter, aimer</span>… ya te sabes cientos y ni abriste el libro. De nada."},
+    {"t": "h3", "text": "En la calle"},
+    {"t": "p", "html": "<span class='fr'>«&nbsp;J'adore Nice. On visite le Vieux-Nice, je mange une glace, tu parles avec le beau gosse de la plage.&nbsp;»</span> Todo con un solo patrón. Estás conjugando en francés y ni sudaste."}
+  ],
+  "grammar": {
+    "intro_es": "« parler » (hablar) es el modelo. Todos los -er se conjugan igual. Recuerda: -e, -es, -ent son mudas.",
+    "conjugation": {
+      "verb": "parler", "en": "to speak", "es": "hablar",
+      "present": [
+        {"pron": "je",            "form": "parle",   "ipa": "ʒə paʁl", "es": "hablo",    "ex": "Je parle un peu français.", "audio": "L07-c-je"},
+        {"pron": "tu",            "form": "parles",  "ipa": "ty paʁl", "es": "hablas",   "ex": "Tu parles anglais ?",       "audio": "L07-c-tu"},
+        {"pron": "il / elle / on","form": "parle",   "ipa": "il paʁl", "es": "habla",    "ex": "On parle espagnol à la maison.", "audio": "L07-c-il"},
+        {"pron": "nous",          "form": "parlons", "ipa": "nu paʁlɔ̃","es": "hablamos", "ex": "—",                         "audio": "L07-c-nous"},
+        {"pron": "vous",          "form": "parlez",  "ipa": "vu paʁle","es": "hablan",   "ex": "Vous parlez anglais ?",     "audio": "L07-c-vous"},
+        {"pron": "ils / elles",   "form": "parlent", "ipa": "il paʁl", "es": "hablan",   "ex": "Ils parlent très vite !",   "audio": "L07-c-ils"}
+      ]
+    },
+    "tenses": [
+      {"tense": "présent", "status": "teach", "label_es": "presente", "ex": "Je parle français.", "es": "Hablo francés.", "en": "I speak French.", "audio": "L07-t-pres"},
+      {"tense": "passé composé", "status": "teach", "label_es": "pretérito (evento)", "ex": "Hier, j'ai parlé avec Marie.", "es": "Ayer hablé con María.", "en": "Yesterday I spoke with Marie.", "audio": "L07-t-pc"},
+      {"tense": "imparfait", "status": "teach", "label_es": "imperfecto (fondo)", "ex": "Avant, je parlais espagnol.", "es": "Antes hablaba español.", "en": "I used to speak Spanish.", "audio": "L07-t-imp"},
+      {"tense": "futur proche", "status": "teach", "label_es": "futuro (voy a…)", "ex": "Je vais parler français à Nice.", "es": "Voy a hablar francés en Niza.", "en": "I'm going to speak French in Nice.", "audio": "L07-t-fp"},
+      {"tense": "conditionnel", "status": "teach", "label_es": "condicional (cortesía)", "ex": "J'aimerais parler avec toi.", "es": "Me gustaría hablar contigo.", "en": "I'd like to talk with you.", "audio": "L07-t-cond"},
+      {"tense": "subjonctif présent", "status": "teach", "label_es": "subjuntivo presente", "ex": "Il faut que tu parles français.", "es": "Tienes que hablar francés.", "en": "You have to speak French.", "audio": "L07-t-subjp"}
+    ],
+    "spoken_notes": [
+      "-e, -es, -ent son MUDAS: je parle = tu parles = ils parlent = /paʁl/.",
+      "Solo « vous parlez » /paʁle/ suena diferente.",
+      "Con « on » (= nous hablado): on parle, on mange, on visite.",
+      "Ojo faux-ami: « rester » = quedarse (NO restar); « quitter » = irse (NO quitar)."
+    ]
+  },
+  "vocab": [
+    {"id": "L07-parler", "fr": "parler", "es": "hablar", "en": "to speak", "ipa": "paʁle", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je parle un peu français.", "voice": "emilie", "audio": "L07-parler"},
+    {"id": "L07-adorer", "fr": "adorer", "es": "adorar / encantar", "en": "to love", "ipa": "adɔʁe", "pos": "verb", "cognate_type": "transparent", "rule": "ar_er_verbs", "star": true, "ex": "J'adore Nice !", "voice": "oris", "audio": "L07-adorer"},
+    {"id": "L07-visiter", "fr": "visiter", "es": "visitar", "en": "to visit", "ipa": "vizite", "pos": "verb", "cognate_type": "transparent", "rule": "ar_er_verbs", "ex": "On visite le Vieux-Nice.", "voice": "emilie", "audio": "L07-visiter"},
+    {"id": "L07-preparer", "fr": "préparer", "es": "preparar", "en": "to prepare", "ipa": "pʁepaʁe", "pos": "verb", "cognate_type": "transparent", "rule": "ar_er_verbs", "ex": "Je prépare mes vacances.", "voice": "oris", "audio": "L07-preparer"},
+    {"id": "L07-voyager", "fr": "voyager", "es": "viajar", "en": "to travel", "ipa": "vwajaʒe", "pos": "verb", "cognate_type": "transparent", "rule": "ar_er_verbs", "ex": "On voyage en France cet été.", "voice": "emilie", "audio": "L07-voyager"},
+    {"id": "L07-danser", "fr": "danser", "es": "bailar / danzar", "en": "to dance", "ipa": "dɑ̃se", "pos": "verb", "cognate_type": "semi", "rule": "ar_er_verbs", "ex": "On danse sur la plage.", "voice": "oris", "audio": "L07-danser"},
+    {"id": "L07-aimer", "fr": "aimer", "es": "gustar / amar", "en": "to like / love", "ipa": "eme", "pos": "verb", "cognate_type": "semi", "star": true, "ex": "J'aime la socca.", "voice": "emilie", "audio": "L07-aimer"},
+    {"id": "L07-manger", "fr": "manger", "es": "comer", "en": "to eat", "ipa": "mɑ̃ʒe", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je mange une glace.", "voice": "oris", "audio": "L07-manger"},
+    {"id": "L07-habiter", "fr": "habiter", "es": "vivir / habitar", "en": "to live", "ipa": "abite", "pos": "verb", "cognate_type": "semi", "rule": "ar_er_verbs", "ex": "J'habite à Nice cet été.", "voice": "emilie", "audio": "L07-habiter"},
+    {"id": "L07-regarder", "fr": "regarder", "es": "mirar / ver", "en": "to look / watch", "ipa": "ʁəɡaʁde", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je regarde la mer.", "voice": "oris", "audio": "L07-regarder"},
+    {"id": "L07-ecouter", "fr": "écouter", "es": "escuchar", "en": "to listen", "ipa": "ekute", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "J'écoute de la musique.", "voice": "emilie", "audio": "L07-ecouter"},
+    {"id": "L07-acheter", "fr": "acheter", "es": "comprar", "en": "to buy", "ipa": "aʃte", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "J'achète un petit souvenir.", "voice": "oris", "audio": "L07-acheter"},
+    {"id": "L07-chercher", "fr": "chercher", "es": "buscar", "en": "to look for", "ipa": "ʃɛʁʃe", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je cherche la plage.", "voice": "emilie", "audio": "L07-chercher"}
+  ],
+  "sentences": [
+    {"id": "L07-s01", "tense": "présent", "register": "parle", "fr": "J'adore Nice ! On visite le Vieux-Nice.", "es": "¡Me encanta Niza! Visitamos el Vieux-Nice.", "en": "I love Nice! We're visiting the old town.", "voice": "emilie", "audio": "L07-s01"},
+    {"id": "L07-s02", "tense": "présent", "register": "parle", "fr": "Je mange une glace et je regarde la mer.", "es": "Como un helado y miro el mar.", "en": "I'm eating an ice cream and watching the sea.", "voice": "oris", "audio": "L07-s02"},
+    {"id": "L07-s03", "tense": "passé composé", "register": "parle", "fr": "Hier, on a visité le marché et j'ai acheté une socca.", "es": "Ayer visitamos el mercado y compré una socca.", "en": "Yesterday we visited the market and I bought a socca.", "voice": "emilie", "audio": "L07-s03"},
+    {"id": "L07-s04", "tense": "présent", "register": "parle", "fr": "Tu parles anglais ? Moi, je parle espagnol et un peu français.", "es": "¿Hablas inglés? Yo hablo español y un poco de francés.", "en": "Do you speak English? Me, I speak Spanish and a little French.", "voice": "oris", "audio": "L07-s04"}
+  ]
+}
