@@ -1,0 +1,53 @@
+{
+  "id": "L03",
+  "order": 3,
+  "slug": "salut",
+  "title": "Salut ! — greetings",
+  "es_title": "Saludos y small talk",
+  "focus": "El peaje de entrada a Francia: di « bonjour » o eres oficialmente la maleducada. Saludos, tu/vous, y « ça va ? ».",
+  "objectives": [
+    "Saludar bien (bonjour / salut / bonsoir) y despedirse.",
+    "Elegir tu vs vous sin sonar grosera.",
+    "Usar « ça va ? » como navaja suiza social."
+  ],
+  "reader": [
+    {"t": "lead", "html": "En Francia, <b>bonjour</b> no es opcional — es el peaje de entrada. Entras a una tienda sin decirlo y ya eres oficialmente la maleducada del barrio. Dilo primero, siempre."},
+    {"t": "h3", "text": "tu vs vous"},
+    {"t": "p", "html": "Fácil: <span class='fr'>tu</span> = tú, <span class='fr'>vous</span> = usted (y también «ustedes», dos por uno). <span class='fr'>tu</span> para amigas, niños, gente de tu edad en la playa; <span class='fr'>vous</span> para adultos, desconocidos, la señora de la boulangerie. Equivocarte es como tutear a un desconocido — nadie muere, pero todos lo notan."},
+    {"t": "h3", "text": "« ça va ? » lo hace todo"},
+    {"t": "p", "html": "<span class='fr'>Ça va ?</span> es la navaja suiza: hola, qué tal, ¿todo bien?, todo en dos sílabas. La respuesta también es <span class='fr'>ça va</span> — sí, la misma frase, no lo cuestiones."},
+    {"t": "maps", "rows": [
+      {"es": "¿Qué tal? — Bien, ¿y tú?", "fr": "Ça va ? — Ça va, et toi ?"},
+      {"es": "¡Hola! (casual)", "fr": "Salut !"},
+      {"es": "Buenos días, señora", "fr": "Bonjour, madame !"}
+    ]},
+    {"t": "h3", "text": "La bise 😘"},
+    {"t": "p", "html": "La <span class='fr'>bise</span> son besitos al aire, mejilla con mejilla — en el sur normalmente <b>dos</b>, uno por lado. No es abrazo, no aprietes a nadie: es coreografía. Sigue a la otra persona."},
+    {"t": "h3", "text": "En la calle"},
+    {"t": "p", "html": "Entras al café del Vieux Nice: <span class='fr'>«&nbsp;Bonjour&nbsp;!&nbsp;» — «&nbsp;Bonjour&nbsp;! Ça va&nbsp;?&nbsp;» — «&nbsp;Ça va, et vous&nbsp;?&nbsp;»</span>. Tres frases y ya no eres turista, eres clienta. Al salir: <span class='fr'>merci, au revoir&nbsp;!</span>"}
+  ],
+  "vocab": [
+    {"id": "L03-bonjour", "fr": "bonjour", "es": "hola / buenos días", "en": "hello", "ipa": "bɔ̃ʒuʁ", "pos": "greeting", "cognate_type": "non_cognate", "star": true, "ex": "Bonjour, madame !", "voice": "emilie", "audio": "L03-bonjour"},
+    {"id": "L03-salut", "fr": "salut", "es": "hola / chau (casual)", "en": "hi / bye", "ipa": "saly", "pos": "greeting", "cognate_type": "non_cognate", "star": true, "ex": "Salut ! Ça va ?", "voice": "oris", "audio": "L03-salut"},
+    {"id": "L03-bonsoir", "fr": "bonsoir", "es": "buenas noches (al llegar)", "en": "good evening", "ipa": "bɔ̃swaʁ", "pos": "greeting", "cognate_type": "non_cognate", "ex": "Bonsoir !", "voice": "emilie", "audio": "L03-bonsoir"},
+    {"id": "L03-coucou", "fr": "coucou", "es": "¡hola! (tierno)", "en": "hey there", "ipa": "kuku", "pos": "greeting", "cognate_type": "non_cognate", "ex": "Coucou, c'est moi !", "voice": "emilie", "audio": "L03-coucou"},
+    {"id": "L03-cava", "fr": "ça va ?", "es": "¿qué tal? / ¿todo bien?", "en": "how's it going?", "ipa": "sa va", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Ça va ? — Ça va, et toi ?", "voice": "oris", "audio": "L03-cava"},
+    {"id": "L03-ettoi", "fr": "et toi ?", "es": "¿y tú?", "en": "and you?", "ipa": "e twa", "pos": "phrase", "cognate_type": "non_cognate", "ex": "Ça va, et toi ?", "voice": "emilie", "audio": "L03-ettoi"},
+    {"id": "L03-merci", "fr": "merci", "es": "gracias", "en": "thank you", "ipa": "mɛʁsi", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Merci beaucoup !", "voice": "oris", "audio": "L03-merci"},
+    {"id": "L03-derien", "fr": "de rien", "es": "de nada", "en": "you're welcome", "ipa": "də ʁjɛ̃", "pos": "phrase", "cognate_type": "non_cognate", "ex": "— Merci ! — De rien !", "voice": "emilie", "audio": "L03-derien"},
+    {"id": "L03-svp", "fr": "s'il vous plaît", "es": "por favor (formal)", "en": "please", "ipa": "sil vu plɛ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Un café, s'il vous plaît.", "voice": "oris", "audio": "L03-svp"},
+    {"id": "L03-pardon", "fr": "pardon", "es": "perdón / disculpa", "en": "sorry / excuse me", "ipa": "paʁdɔ̃", "pos": "phrase", "cognate_type": "transparent", "ex": "Pardon, excusez-moi.", "voice": "emilie", "audio": "L03-pardon"},
+    {"id": "L03-oui", "fr": "oui", "es": "sí", "en": "yes", "ipa": "wi", "pos": "word", "cognate_type": "non_cognate", "star": true, "ex": "Oui, ça va !", "voice": "oris", "audio": "L03-oui"},
+    {"id": "L03-non", "fr": "non", "es": "no", "en": "no", "ipa": "nɔ̃", "pos": "word", "cognate_type": "semi", "star": true, "ex": "Non, merci.", "voice": "emilie", "audio": "L03-non"},
+    {"id": "L03-aurevoir", "fr": "au revoir", "es": "adiós", "en": "goodbye", "ipa": "o ʁəvwaʁ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Au revoir, à bientôt !", "voice": "oris", "audio": "L03-aurevoir"},
+    {"id": "L03-abientot", "fr": "à bientôt", "es": "hasta pronto", "en": "see you soon", "ipa": "a bjɛ̃to", "pos": "phrase", "cognate_type": "non_cognate", "ex": "À bientôt !", "voice": "emilie", "audio": "L03-abientot"},
+    {"id": "L03-enchante", "fr_m": "enchanté", "fr_f": "enchantée", "es": "encantado / encantada (mucho gusto)", "en": "nice to meet you", "ipa_m": "ɑ̃ʃɑ̃te", "ipa_f": "ɑ̃ʃɑ̃te", "pos": "phrase", "cognate_type": "semi", "ex_m": "Enchanté !", "ex_f": "Enchantée !", "audio_m": "L03-enchante-m", "audio_f": "L03-enchante-f"}
+  ],
+  "sentences": [
+    {"id": "L03-s01", "register": "parle", "fr": "Bonjour ! Ça va ?", "es": "¡Hola! ¿Qué tal?", "en": "Hello! How's it going?", "voice": "emilie", "audio": "L03-s01"},
+    {"id": "L03-s02", "register": "parle", "fr": "Salut ! Ça va, et toi ?", "es": "¡Hola! Bien, ¿y tú?", "en": "Hi! Good, and you?", "voice": "oris", "audio": "L03-s02"},
+    {"id": "L03-s03", "register": "parle", "fr": "Un café, s'il vous plaît. Merci !", "es": "Un café, por favor. ¡Gracias!", "en": "A coffee, please. Thanks!", "voice": "emilie", "audio": "L03-s03"},
+    {"id": "L03-s04", "register": "parle", "fr": "Pardon, madame ! Excusez-moi.", "es": "¡Perdón, señora! Disculpe.", "en": "Sorry, ma'am! Excuse me.", "voice": "oris", "audio": "L03-s04"},
+    {"id": "L03-s05", "register": "parle", "fr": "Merci beaucoup ! Au revoir, à bientôt !", "es": "¡Muchas gracias! ¡Adiós, hasta pronto!", "en": "Thanks a lot! Bye, see you soon!", "voice": "emilie", "audio": "L03-s05"}
+  ]
+}
