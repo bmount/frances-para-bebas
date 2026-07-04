@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a6ee8">
+<title>Prononciation — test A/B</title>
+<style>
+  :root{--sea:#0a6ee8;--deep:#064b9e;--sun:#ffc93c;--coral:#ff6b6b;--ink:#12263a;--muted:#5b7590;--good:#12b886;--bad:#e03131}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--ink);
+    background:radial-gradient(120% 80% at 50% -10%,#7ec8ff,var(--sea) 45%,var(--deep));min-height:100dvh;
+    padding:max(18px,env(safe-area-inset-top)) 16px calc(30px + env(safe-area-inset-bottom))}
+  .wrap{max-width:480px;margin:0 auto}
+  header{color:#fff;text-align:center;margin:6px 0 18px}
+  h1{font-size:22px;margin:4px 0}
+  .lede{font-size:13.5px;opacity:.95;line-height:1.5;margin:8px 0 0}
+  .card{background:#fff;border-radius:20px;padding:16px 16px 10px;margin:0 0 14px;box-shadow:0 14px 34px rgba(6,42,90,.26)}
+  .whead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:4px}
+  .es{color:var(--muted);font-size:15px}
+  .fr{font-size:24px;font-weight:800}
+  .ipa{color:var(--sea);font-size:14px;font-family:"Times New Roman",serif}
+  .hint{font-size:12px;color:var(--muted);margin:0 0 12px}
+  .m{display:flex;align-items:center;gap:12px;padding:9px 0;border-top:1px solid #eef2f7}
+  .m:first-of-type{border-top:0}
+  .btn{border:0;flex-shrink:0;width:46px;height:46px;border-radius:50%;font-size:18px;cursor:pointer;
+    background:linear-gradient(135deg,var(--sea),var(--deep));color:#fff;box-shadow:0 6px 14px rgba(10,110,232,.35);transition:transform .08s}
+  .btn:active{transform:scale(.9)}
+  .btn.playing{background:linear-gradient(135deg,var(--sun),#f6a700);color:#5a3d00}
+  .ml{flex:1;min-width:0}
+  .mlabel{font-size:14px;font-weight:600;line-height:1.25}
+  .msub{font-size:11.5px;color:var(--muted)}
+  .tag{font-size:10px;font-weight:700;padding:2px 7px;border-radius:20px;white-space:nowrap}
+  .tag.ref{background:#ffe3e3;color:var(--bad)}
+  .tag.rec{background:#d3f9d8;color:var(--good)}
+  .foot{color:#fff;opacity:.9;font-size:12.5px;text-align:center;line-height:1.6;margin-top:4px}
+  code{background:rgba(255,255,255,.18);padding:1px 6px;border-radius:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🎧 Test de prononciation</h1>
+    <p class="lede">Chaque mot est un <b>faux-cognat piège</b> : écrit presque pareil qu'en anglais.
+    Le <span style="color:var(--sun)">jaune</span> = la méthode que je recommande. Écoute et dis-moi laquelle sonne vraiment <b>française</b>.</p>
+  </header>
+  <div id="list"></div>
+  <p class="foot">A = méthode actuelle (sonne <b>anglaise</b> ✗) &nbsp;·&nbsp; B/C forcent <code>fr</code> &nbsp;·&nbsp; E = mot dans une phrase française.<br>
+  Réponds-moi : <b>B, C ou E ?</b></p>
+</div>
+<script>
+const RECOMMEND = "B_flash_fr";
+const REF = "A_ml_plain";
+let cur=null;
+fetch('compare_audio/manifest.json').then(r=>r.json()).then(m=>{
+  const list=document.getElementById('list');
+  m.words.forEach(w=>{
+    const card=document.createElement('div');card.className='card';
+    card.innerHTML=`<div class="whead"><span class="es">🇪🇸 ${w.es}</span><span class="fr">🇫🇷 ${w.fr}</span><span class="ipa">/${w.ipa}/</span></div>
+      <p class="hint">objectif : son français, pas anglais</p>`;
+    Object.keys(w.clips).forEach(mid=>{
+      const label=m.methods[mid];
+      const row=document.createElement('div');row.className='m';
+      const tag = mid===REF?'<span class="tag ref">actuel ✗</span>' : mid===RECOMMEND?'<span class="tag rec">recommandé</span>':'';
+      row.innerHTML=`<button class="btn" data-src="compare_audio/${w.clips[mid]}">▶︎</button>
+        <div class="ml"><div class="mlabel">${mid.split('_')[0]} ${tag}</div><div class="msub">${label}</div></div>`;
+      card.appendChild(row);
+    });
+    list.appendChild(card);
+  });
+  document.querySelectorAll('.btn').forEach(b=>{
+    const a=new Audio(b.dataset.src);
+    a.addEventListener('ended',()=>b.classList.remove('playing'));
+    b.addEventListener('click',()=>{
+      if(cur&&cur.a===a){a.pause();a.currentTime=0;b.classList.remove('playing');cur=null;return;}
+      if(cur){cur.a.pause();cur.a.currentTime=0;cur.b.classList.remove('playing');}
+      cur={a,b};b.classList.add('playing');a.play().catch(()=>{b.classList.remove('playing');cur=null;});
+    });
+  });
+});
+</script>
+</body>
+</html>

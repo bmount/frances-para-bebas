@@ -1,0 +1,71 @@
+{
+  "methods": {
+    "A_ml_plain": "multilingual_v2 · plain (current/broken)",
+    "B_flash_fr": "flash_v2_5 · language_code=fr",
+    "C_turbo_fr": "turbo_v2_5 · language_code=fr",
+    "D_flash_ipa": "flash_v2_5 · IPA phoneme tag",
+    "E_ml_carrier": "multilingual_v2 · French carrier «la …»"
+  },
+  "words": [
+    {
+      "fr": "nation",
+      "es": "nación",
+      "ipa": "nasjɔ̃",
+      "clips": {
+        "A_ml_plain": "nation__A_ml_plain.mp3",
+        "B_flash_fr": "nation__B_flash_fr.mp3",
+        "C_turbo_fr": "nation__C_turbo_fr.mp3",
+        "D_flash_ipa": "nation__D_flash_ipa.mp3",
+        "E_ml_carrier": "nation__E_ml_carrier.mp3"
+      }
+    },
+    {
+      "fr": "station",
+      "es": "estación",
+      "ipa": "stasjɔ̃",
+      "clips": {
+        "A_ml_plain": "station__A_ml_plain.mp3",
+        "B_flash_fr": "station__B_flash_fr.mp3",
+        "C_turbo_fr": "station__C_turbo_fr.mp3",
+        "D_flash_ipa": "station__D_flash_ipa.mp3",
+        "E_ml_carrier": "station__E_ml_carrier.mp3"
+      }
+    },
+    {
+      "fr": "question",
+      "es": "pregunta",
+      "ipa": "kɛstjɔ̃",
+      "clips": {
+        "A_ml_plain": "question__A_ml_plain.mp3",
+        "B_flash_fr": "question__B_flash_fr.mp3",
+        "C_turbo_fr": "question__C_turbo_fr.mp3",
+        "D_flash_ipa": "question__D_flash_ipa.mp3",
+        "E_ml_carrier": "question__E_ml_carrier.mp3"
+      }
+    },
+    {
+      "fr": "table",
+      "es": "mesa",
+      "ipa": "tabl",
+      "clips": {
+        "A_ml_plain": "table__A_ml_plain.mp3",
+        "B_flash_fr": "table__B_flash_fr.mp3",
+        "C_turbo_fr": "table__C_turbo_fr.mp3",
+        "D_flash_ipa": "table__D_flash_ipa.mp3",
+        "E_ml_carrier": "table__E_ml_carrier.mp3"
+      }
+    },
+    {
+      "fr": "information",
+      "es": "información",
+      "ipa": "ɛ̃fɔʁmasjɔ̃",
+      "clips": {
+        "A_ml_plain": "information__A_ml_plain.mp3",
+        "B_flash_fr": "information__B_flash_fr.mp3",
+        "C_turbo_fr": "information__C_turbo_fr.mp3",
+        "D_flash_ipa": "information__D_flash_ipa.mp3",
+        "E_ml_carrier": "information__E_ml_carrier.mp3"
+      }
+    }
+  ]
+}
