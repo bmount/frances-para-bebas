@@ -1,0 +1,46 @@
+{
+  "id": "L10",
+  "order": 10,
+  "slug": "metiers",
+  "title": "Les métiers — jobs",
+  "es_title": "Los oficios (y « je suis prof », sin artículo)",
+  "focus": "Decir qué hace la gente — y soltar tu « quiero ser… ». Con être, ¡NADA de artículo!",
+  "objectives": [
+    "Nombrar oficios (casi todos cognados).",
+    "Usar être SIN artículo: « je suis étudiante ».",
+    "Cambiar por género: acteur / actrice."
+  ],
+  "reader": [
+    {"t": "lead", "html": "En Niza todo el mundo te va a preguntar qué haces — y tú vas a preguntar de vuelta, porque el chisme laboral es deporte nacional. Hoy: oficios, y tu « <span class='fr'>je veux être…</span> » con estilo."},
+    {"t": "h3", "text": "¡Sin artículo!"},
+    {"t": "p", "html": "Con <span class='fr'>être</span>, CERO artículo: <span class='fr'>je suis étudiante</span>, <span class='fr'>il est prof</span>, <span class='fr'>elle est médecin</span>. Igualito que en español — dices «soy estudiante», no «soy UNA estudiante». <span class='fr'>Je suis une prof</span> suena a turista; <span class='fr'>je suis prof</span> suena a jefa."},
+    {"t": "h3", "text": "Casi todos son regalos"},
+    {"t": "maps", "rows": [
+      {"es": "profesor", "fr": "professeur"},
+      {"es": "artista", "fr": "artiste"},
+      {"es": "ingeniero", "fr": "ingénieur"}
+    ]},
+    {"t": "h3", "text": "Cambian por género"},
+    {"t": "p", "html": "Varios cambian de traje: <span class='fr'>acteur/actrice</span>, <span class='fr'>serveur/serveuse</span>, <span class='fr'>cuisinier/cuisinière</span>. La que te atiende en el café es <span class='fr'>une serveuse</span>, no «un serveur»."},
+    {"t": "h3", "text": "En la calle"},
+    {"t": "p", "html": "Una teen presume en la terraza: <span class='fr'>«&nbsp;Ma mère est médecin, mon père est cuisinier — et moi, je veux être actrice.&nbsp;»</span> Corto, sin artículos, con actitud."}
+  ],
+  "vocab": [
+    {"id": "L10-etudiant", "fr_m": "étudiant", "fr_f": "étudiante", "es": "estudiante", "en": "student", "ipa_m": "etydjɑ̃", "ipa_f": "etydjɑ̃t", "pos": "noun", "cognate_type": "semi", "star": true, "ex_m": "Je suis étudiant.", "ex_f": "Je suis étudiante.", "audio_m": "L10-etudiant-m", "audio_f": "L10-etudiant-f"},
+    {"id": "L10-prof", "fr": "un prof / une prof", "es": "profe", "en": "teacher", "ipa": "pʁɔf", "pos": "noun", "cognate_type": "transparent", "star": true, "ex": "Elle est prof de maths.", "voice": "emilie", "audio": "L10-prof"},
+    {"id": "L10-medecin", "fr": "un médecin", "es": "médico/a", "en": "doctor", "ipa": "ɛ̃ medsɛ̃", "pos": "noun", "cognate_type": "semi", "star": true, "ex": "Mon père est médecin.", "voice": "oris", "audio": "L10-medecin"},
+    {"id": "L10-artiste", "fr": "un/une artiste", "es": "artista", "en": "artist", "ipa": "aʁtist", "pos": "noun", "cognate_type": "transparent", "ex": "Elle est artiste.", "voice": "emilie", "audio": "L10-artiste"},
+    {"id": "L10-ingenieur", "fr": "un ingénieur", "es": "ingeniero/a", "en": "engineer", "ipa": "ɛ̃ ɛ̃ʒenjœʁ", "pos": "noun", "cognate_type": "transparent", "ex": "Ma mère est ingénieur.", "voice": "oris", "audio": "L10-ingenieur"},
+    {"id": "L10-musicien", "fr_m": "musicien", "fr_f": "musicienne", "es": "músico/a", "en": "musician", "ipa_m": "myzisjɛ̃", "ipa_f": "myzisjɛn", "pos": "noun", "cognate_type": "transparent", "ex_m": "Il est musicien.", "ex_f": "Elle est musicienne.", "audio_m": "L10-musicien-m", "audio_f": "L10-musicien-f"},
+    {"id": "L10-acteur", "fr_m": "acteur", "fr_f": "actrice", "es": "actor / actriz", "en": "actor", "ipa_m": "aktœʁ", "ipa_f": "aktʁis", "pos": "noun", "cognate_type": "transparent", "star": true, "ex_m": "Il est acteur.", "ex_f": "Elle est actrice.", "audio_m": "L10-acteur-m", "audio_f": "L10-acteur-f"},
+    {"id": "L10-serveur", "fr_m": "serveur", "fr_f": "serveuse", "es": "mesero/a", "en": "waiter", "ipa_m": "sɛʁvœʁ", "ipa_f": "sɛʁvøz", "pos": "noun", "cognate_type": "non_cognate", "ex_m": "Il est serveur au café.", "ex_f": "Elle est serveuse au café.", "audio_m": "L10-serveur-m", "audio_f": "L10-serveur-f"},
+    {"id": "L10-cuisinier", "fr_m": "cuisinier", "fr_f": "cuisinière", "es": "cocinero/a", "en": "cook", "ipa_m": "kɥizinje", "ipa_f": "kɥizinjɛʁ", "pos": "noun", "cognate_type": "non_cognate", "ex_m": "Mon père est cuisinier.", "ex_f": "Ma mère est cuisinière.", "audio_m": "L10-cuisinier-m", "audio_f": "L10-cuisinier-f"},
+    {"id": "L10-avocat", "fr_m": "avocat", "fr_f": "avocate", "es": "abogado/a (¡o aguacate!)", "en": "lawyer", "ipa_m": "avɔka", "ipa_f": "avɔkat", "pos": "noun", "cognate_type": "non_cognate", "ex_m": "Il est avocat.", "ex_f": "Elle est avocate.", "audio_m": "L10-avocat-m", "audio_f": "L10-avocat-f"}
+  ],
+  "sentences": [
+    {"id": "L10-s01", "register": "parle", "self": true, "fr_m": "Je suis étudiant au lycée.", "fr_f": "Je suis étudiante au lycée.", "es": "Soy estudiante de prepa.", "en": "I'm a high-school student.", "audio_m": "L10-s01-m", "audio_f": "L10-s01-f"},
+    {"id": "L10-s02", "register": "parle", "fr": "Ma mère est médecin et mon père est cuisinier.", "es": "Mi mamá es médica y mi papá es cocinero.", "en": "My mom is a doctor and my dad is a cook.", "voice": "oris", "audio": "L10-s02"},
+    {"id": "L10-s03", "register": "parle", "fr": "Moi, je veux être actrice !", "es": "¡Yo quiero ser actriz!", "en": "Me, I want to be an actress!", "voice": "emilie", "audio": "L10-s03"},
+    {"id": "L10-s04", "register": "parle", "fr": "Elle est serveuse dans un café à Nice.", "es": "Ella es mesera en un café de Niza.", "en": "She's a waitress at a café in Nice.", "voice": "emilie", "audio": "L10-s04"}
+  ]
+}

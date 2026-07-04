@@ -1,0 +1,74 @@
+{
+  "id": "L08",
+  "order": 8,
+  "slug": "passe-compose",
+  "title": "Le passé composé",
+  "es_title": "El pasado de los eventos (= pretérito)",
+  "focus": "Presumir lo que HICISTE. avoir + participio, los -er en -é. Es tu pretérito español con un ayudante.",
+  "objectives": [
+    "Formar el passé composé: avoir + participio.",
+    "Hacer participios -é de los verbos -er.",
+    "Usar être (con concordancia) para verbos de movimiento."
+  ],
+  "reader": [
+    {"t": "lead", "html": "Ya sabes decir lo que haces. Ahora lo importante: presumir lo que <b>HICISTE</b> — ayer, esta mañana, el verano pasado. Sin pasado no hay chisme, y en Nice el chisme es deporte olímpico."},
+    {"t": "h3", "text": "La fórmula"},
+    {"t": "p", "html": "<span class='fr'>avoir</span> (en presente) + <b>participio</b>. Los verbos en -er hacen el participio en <b>-é</b>, cero drama: <span class='fr'>parler→parlé</span>, <span class='fr'>manger→mangé</span>, <span class='fr'>visiter→visité</span>."},
+    {"t": "maps", "rows": [
+      {"es": "Ayer comí una glace", "fr": "Hier, j'ai mangé une glace"},
+      {"es": "Visitamos el Vieux-Nice", "fr": "On a visité le Vieux-Nice"},
+      {"es": "Hablé francés", "fr": "J'ai parlé français"}
+    ]},
+    {"t": "h3", "text": "Los verbos de « être » 🚶‍♀️"},
+    {"t": "p", "html": "Un grupito de verbos de movimiento (ir, llegar, salir…) usa <span class='fr'>être</span> en vez de avoir — y ahí el participio <b>concuerda</b> contigo: <span class='fr'>je suis allé</span> (chico) / <span class='fr'>je suis allée</span> (chica), <span class='fr'>on est arrivés</span>. Sí, el pasado francés sabe tu género."},
+    {"t": "h3", "text": "Tu ancla"},
+    {"t": "p", "html": "Esto es literalmente tu <b>pretérito</b> español: hablé, comí, fui. Mismo instinto, forma nueva — el francés solo le agrega un verbo ayudante porque no hace nada solo."},
+    {"t": "h3", "text": "En la calle"},
+    {"t": "p", "html": "<span class='fr'>«&nbsp;Hier, j'ai visité le Vieux-Nice, j'ai mangé une glace, et je suis allée à la plage.&nbsp;»</span> Tres frases y suenas al mejor día de tu vida. Porque lo fue."}
+  ],
+  "grammar": {
+    "intro_es": "« manger » en passé composé. Todos los -er funcionan igual: avoir + participio en -é.",
+    "conjugation": {
+      "verb": "manger (passé composé)", "en": "to eat (past)", "es": "comer (pretérito)",
+      "present": [
+        {"pron": "j'",            "form": "ai mangé",    "ipa": "ʒe mɑ̃ʒe",   "es": "comí",     "ex": "J'ai mangé une glace.",       "audio": "L08-c-je"},
+        {"pron": "tu",            "form": "as mangé",    "ipa": "ty a mɑ̃ʒe", "es": "comiste",  "ex": "Tu as mangé une socca ?",     "audio": "L08-c-tu"},
+        {"pron": "il / elle / on","form": "a mangé",     "ipa": "il a mɑ̃ʒe", "es": "comió",    "ex": "On a mangé au resto.",        "audio": "L08-c-il"},
+        {"pron": "nous",          "form": "avons mangé", "ipa": "nu zavɔ̃ mɑ̃ʒe","es": "comimos","ex": "—",                          "audio": "L08-c-nous"},
+        {"pron": "vous",          "form": "avez mangé",  "ipa": "vu zave mɑ̃ʒe","es": "comieron","ex": "Vous avez mangé ?",          "audio": "L08-c-vous"},
+        {"pron": "ils / elles",   "form": "ont mangé",   "ipa": "il zɔ̃ mɑ̃ʒe","es": "comieron","ex": "Ils ont mangé une pizza.",   "audio": "L08-c-ils"}
+      ]
+    },
+    "tenses": [
+      {"tense": "présent", "status": "teach", "label_es": "presente", "ex": "Je mange une glace.", "es": "Como un helado.", "en": "I eat an ice cream.", "audio": "L08-t-pres"},
+      {"tense": "passé composé", "status": "teach", "label_es": "pretérito (evento) ⭐", "ex": "Hier, j'ai mangé une glace.", "es": "Ayer comí un helado.", "en": "Yesterday I ate an ice cream.", "audio": "L08-t-pc"},
+      {"tense": "imparfait", "status": "teach", "label_es": "imperfecto (fondo)", "ex": "Avant, je mangeais souvent des glaces.", "es": "Antes comía helados a menudo.", "en": "I used to eat ice cream a lot.", "audio": "L08-t-imp"},
+      {"tense": "futur proche", "status": "teach", "label_es": "futuro (voy a…)", "ex": "Je vais manger une glace.", "es": "Voy a comer un helado.", "en": "I'm going to eat an ice cream.", "audio": "L08-t-fp"}
+    ],
+    "spoken_notes": [
+      "avoir + participio. -er → -é: parler→parlé, visiter→visité, manger→mangé.",
+      "Verbos de movimiento con être + concordancia: je suis allé(e), on est arrivés.",
+      "Irregulares comunes: voir→vu, faire→fait, avoir→eu, être→été, prendre→pris.",
+      "En cadena de eventos, todo en passé composé: on est arrivés, on a mangé, on est partis."
+    ]
+  },
+  "vocab": [
+    {"id": "L08-hier", "fr": "hier", "es": "ayer", "en": "yesterday", "ipa": "jɛʁ", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "Hier, j'ai visité Nice.", "voice": "emilie", "audio": "L08-hier"},
+    {"id": "L08-cematin", "fr": "ce matin", "es": "esta mañana", "en": "this morning", "ipa": "sə matɛ̃", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Ce matin, j'ai couru sur la Prom.", "voice": "oris", "audio": "L08-cematin"},
+    {"id": "L08-etedernier", "fr": "l'été dernier", "es": "el verano pasado", "en": "last summer", "ipa": "lete dɛʁnje", "pos": "phrase", "cognate_type": "non_cognate", "ex": "L'été dernier, on a voyagé en France.", "voice": "emilie", "audio": "L08-etedernier"},
+    {"id": "L08-parle", "fr": "parlé", "es": "hablado (participio)", "en": "spoken", "ipa": "paʁle", "pos": "participle", "cognate_type": "non_cognate", "ex": "J'ai parlé français toute la journée.", "voice": "oris", "audio": "L08-parle"},
+    {"id": "L08-visite", "fr": "visité", "es": "visitado", "en": "visited", "ipa": "vizite", "pos": "participle", "cognate_type": "transparent", "ex": "On a visité le musée Matisse.", "voice": "emilie", "audio": "L08-visite"},
+    {"id": "L08-achete", "fr": "acheté", "es": "comprado", "en": "bought", "ipa": "aʃte", "pos": "participle", "cognate_type": "non_cognate", "ex": "J'ai acheté un souvenir.", "voice": "oris", "audio": "L08-achete"},
+    {"id": "L08-vu", "fr": "vu", "es": "visto (irregular: voir)", "en": "seen", "ipa": "vy", "pos": "participle", "cognate_type": "non_cognate", "star": true, "ex": "J'ai vu la mer ce matin.", "voice": "emilie", "audio": "L08-vu"},
+    {"id": "L08-fait", "fr": "fait", "es": "hecho (irregular: faire)", "en": "done/made", "ipa": "fɛ", "pos": "participle", "cognate_type": "non_cognate", "star": true, "ex": "J'ai fait une randonnée.", "voice": "oris", "audio": "L08-fait"},
+    {"id": "L08-pris", "fr": "pris", "es": "tomado (irregular: prendre)", "en": "taken", "ipa": "pʁi", "pos": "participle", "cognate_type": "non_cognate", "ex": "J'ai pris le tram.", "voice": "emilie", "audio": "L08-pris"},
+    {"id": "L08-alle", "fr_m": "allé", "fr_f": "allée", "es": "ido (con être)", "en": "gone", "ipa_m": "ale", "ipa_f": "ale", "pos": "participle", "cognate_type": "non_cognate", "star": true, "ex_m": "Je suis allé à la plage.", "ex_f": "Je suis allée à la plage.", "audio_m": "L08-alle-m", "audio_f": "L08-alle-f"},
+    {"id": "L08-arrive", "fr_m": "arrivé", "fr_f": "arrivée", "es": "llegado (con être)", "en": "arrived", "ipa_m": "aʁive", "ipa_f": "aʁive", "pos": "participle", "cognate_type": "transparent", "ex_m": "Je suis arrivé hier.", "ex_f": "Je suis arrivée hier.", "audio_m": "L08-arrive-m", "audio_f": "L08-arrive-f"}
+  ],
+  "sentences": [
+    {"id": "L08-s01", "tense": "passé composé", "self": true, "register": "parle", "fr_m": "Hier, je suis allé à la plage et j'ai nagé.", "fr_f": "Hier, je suis allée à la plage et j'ai nagé.", "es": "Ayer fui a la playa y nadé.", "en": "Yesterday I went to the beach and swam.", "audio_m": "L08-s01-m", "audio_f": "L08-s01-f"},
+    {"id": "L08-s02", "tense": "passé composé", "register": "parle", "fr": "On est arrivés, on a mangé une socca, puis on est allés à la plage.", "es": "Llegamos, comimos una socca, y luego fuimos a la playa.", "en": "We arrived, ate a socca, then went to the beach.", "voice": "oris", "audio": "L08-s02", "gloss": "cadena de eventos = todo passé composé"},
+    {"id": "L08-s03", "tense": "passé composé", "register": "parle", "fr": "Ce matin, j'ai vu la mer et j'ai fait une randonnée.", "es": "Esta mañana vi el mar e hice una caminata.", "en": "This morning I saw the sea and did a hike.", "voice": "emilie", "audio": "L08-s03"},
+    {"id": "L08-s04", "tense": "passé composé", "register": "parle", "fr": "Tu as pris le tram ? — Oui, et j'ai visité le Vieux-Nice.", "es": "¿Tomaste el tranvía? — Sí, y visité el Vieux-Nice.", "en": "Did you take the tram? — Yes, and I visited the old town.", "voice": "oris", "audio": "L08-s04"}
+  ]
+}
