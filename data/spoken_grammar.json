@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "note": "Structured spoken-French grammar spine derived from docs/teaching-charter.md. Contemporary spoken register only. Bridge = Spanish. Example clips have no audio ids yet; they get generated when each becomes a lesson.",
+    "register": ["on=we", "contractions (j'ai, c'est, y a)", "est-ce que / intonation questions", "ne dropped in fast speech (recognition)", "je voudrais/j'aimerais for politeness"]
+  },
+  "tense_system": [
+    {"tense": "présent", "status": "teach", "use": "now, general truths, near future in context", "es_anchor": "presente"},
+    {"tense": "passé composé", "status": "teach", "use": "completed, bounded events", "es_anchor": "pretérito (vi, comí)", "example": {"fr": "Hier, j'ai vu Marie.", "es": "Ayer vi a María.", "en": "Yesterday I saw Marie."}},
+    {"tense": "imparfait", "status": "teach", "use": "background, description, habit, ongoing states", "es_anchor": "imperfecto (hacía, estaba)", "example": {"fr": "Il faisait beau et j'étais fatiguée.", "es": "Hacía buen tiempo y estaba cansada.", "en": "It was nice out and I was tired."}},
+    {"tense": "futur proche", "status": "teach", "use": "PRIMARY everyday future: aller + infinitif", "es_anchor": "ir a + inf (voy a)", "example": {"fr": "Je vais manger.", "es": "Voy a comer.", "en": "I'm going to eat."}},
+    {"tense": "futur simple", "status": "teach-secondary", "use": "plans, predictions; less frequent in speech than futur proche", "es_anchor": "futuro (comeré)"},
+    {"tense": "conditionnel", "status": "teach", "use": "politeness and hypotheticals", "es_anchor": "condicional (querría, gustaría)", "example": {"fr": "Je voudrais un café.", "es": "Querría un café.", "en": "I'd like a coffee."}},
+    {"tense": "passé simple", "status": "recognition_only", "use": "literary narration; she READS it, never says it", "es_anchor": "pretérito literario"}
+  ],
+  "past_two_tense_rule": {
+    "principle": "Spoken past = passé composé (completed events) + imparfait (background/habit/state). Maps onto her Spanish pretérito/imperfecto instinct.",
+    "sequence_example": {"fr": "On est arrivés, on a mangé, puis on est partis.", "es": "Llegamos, comimos, y luego nos fuimos.", "en": "We arrived, ate, then left.", "note": "chain of completed events -> all passé composé"}
+  },
+  "subjunctive": {
+    "teach_as": "fixed high-frequency chunks, not theory",
+    "heuristic": "Main clause = pressure / wish / feeling / doubt / purpose -> subordinate verb goes subjunctive.",
+    "present_triggers": [
+      {"frame": "il faut que", "gloss_es": "hace falta que / hay que", "example": {"fr": "Il faut que tu viennes.", "es": "Tienes que venir.", "en": "You have to come."}},
+      {"frame": "je veux que", "gloss_es": "quiero que", "example": {"fr": "Je veux que tu sois là.", "es": "Quiero que estés ahí.", "en": "I want you to be there."}},
+      {"frame": "j'aimerais que", "gloss_es": "me gustaría que", "example": {"fr": "J'aimerais qu'on parte tôt.", "es": "Me gustaría que saliéramos temprano.", "en": "I'd like us to leave early."}},
+      {"frame": "c'est important que", "gloss_es": "es importante que", "example": {"fr": "C'est important qu'on parte tôt.", "es": "Es importante que salgamos temprano.", "en": "It's important that we leave early."}},
+      {"frame": "je suis content/désolé que", "gloss_es": "me alegra / siento que", "example": {"fr": "Je suis content qu'elle soit venue.", "es": "Me alegra que haya venido.", "en": "I'm happy she came.", "subj": "past"}},
+      {"frame": "avant que", "gloss_es": "antes de que", "example": {"fr": "Avant qu'on parte, il faut acheter de l'eau.", "es": "Antes de que salgamos, hay que comprar agua.", "en": "Before we leave, we need to buy water."}},
+      {"frame": "pour que", "gloss_es": "para que", "example": {"fr": "Je t'appelle pour que tu saches.", "es": "Te llamo para que sepas.", "en": "I'm calling so you know."}},
+      {"frame": "bien que", "gloss_es": "aunque (+ subj)", "example": {"fr": "Bien qu'il soit fatigué, il vient.", "es": "Aunque esté cansado, viene.", "en": "Although he's tired, he's coming."}}
+    ],
+    "indicative_contrast": [
+      {"frame": "même si", "takes": "indicative", "gloss_es": "aunque / incluso si (+ indicativo)", "example": {"fr": "Même s'il est fatigué, il vient.", "es": "Aunque está cansado, viene.", "en": "Even if he's tired, he's coming."}}
+    ],
+    "past_subjunctive": {
+      "name": "passé du subjonctif",
+      "form": "avoir/être (present subjunctive) + past participle — COMPOUND, not the imperfect subjunctive",
+      "use": "when the trigger points at something genuinely past",
+      "examples": [
+        {"fr": "Je suis content que tu sois venu.", "es": "Me alegra que hayas venido.", "en": "I'm glad you came."},
+        {"fr": "C'est dommage qu'on ait raté le train.", "es": "Es una pena que hayamos perdido el tren.", "en": "It's too bad we missed the train."},
+        {"fr": "Je ne crois pas qu'il ait compris.", "es": "No creo que haya entendido.", "en": "I don't think he understood."}
+      ]
+    }
+  },
+  "spanish_traps": [
+    {
+      "id": "subjunctive_tense_agreement",
+      "severity": "critical",
+      "her_instinct": "Spanish requires past subjunctive after a past main verb (Quería que vinieras).",
+      "french_reality": "Spoken French keeps the PRESENT subjunctive even after a past main verb.",
+      "wrong": "Je voulais que tu vinsses.",
+      "right": {"fr": "Je voulais que tu viennes.", "es": "Quería que vinieras.", "en": "I wanted you to come."},
+      "rule": "After a past main verb, still use the PRESENT subjunctive. The imparfait du subjonctif (vinsses, vînt, fût) is recognition-only."
+    },
+    {
+      "id": "ser_estar",
+      "severity": "high",
+      "her_instinct": "Spanish splits ser vs estar.",
+      "french_reality": "French has ONE verb être for both.",
+      "right": {"fr": "Je suis américaine. / Je suis à Nice.", "es": "Soy americana. / Estoy en Niza.", "en": "I am American. / I am in Nice."}
+    },
+    {
+      "id": "future_preference",
+      "severity": "medium",
+      "her_instinct": "Spanish uses both simple future (comeré) and ir a + inf (voy a comer).",
+      "french_reality": "Spoken French strongly prefers futur proche (je vais manger) over the simple future.",
+      "right": {"fr": "Je vais manger.", "es": "Voy a comer.", "en": "I'm going to eat."}
+    },
+    {
+      "id": "ne_expletif",
+      "severity": "low",
+      "her_instinct": "n/a",
+      "french_reality": "Careful/literary French inserts a meaningless 'ne' after craindre / avant que (Je crains qu'il ne parte). Spoken French usually drops it.",
+      "right": {"fr": "Je crains qu'il parte.", "es": "Temo que se vaya.", "en": "I'm afraid he'll leave."},
+      "rule": "recognition-only; do not drill production of ne explétif"
+    }
+  ]
+}
