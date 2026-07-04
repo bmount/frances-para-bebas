@@ -46,12 +46,12 @@ def collect():
                         p = s["pair"][side]
                         jobs.append((p["audio"], p["fr"], ALT[si % 2]))
             continue
-        # conjugation — speak the example sentence for each form
-        for j, row in enumerate(L["grammar"]["conjugation"]["present"]):
-            jobs.append((row["audio"], row["ex"], ALT[j % 2]))
-        # all-tenses tour
-        for j, row in enumerate(L["grammar"].get("tenses", [])):
-            jobs.append((row["audio"], row["ex"], ALT[j % 2]))
+        # verb grammar (thematic vocab modules have no "grammar" block)
+        if "grammar" in L:
+            for j, row in enumerate(L["grammar"]["conjugation"]["present"]):
+                jobs.append((row["audio"], row["ex"], ALT[j % 2]))
+            for j, row in enumerate(L["grammar"].get("tenses", [])):
+                jobs.append((row["audio"], row["ex"], ALT[j % 2]))
         # vocab — sentence via ex / ex_m / ex_f
         for it in L["vocab"]:
             if "ex_m" in it:

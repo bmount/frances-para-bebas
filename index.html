@@ -93,16 +93,16 @@
 const MODULES=[
   {n:1,t:"Être — to be",d:"tous les temps · adjectifs cognats · c'est, on",ready:1},
   {n:2,t:"Avoir — to have",d:"il y a · noms cognats de voyage",ready:1},
-  {n:3,t:"Verbes en -er",d:"la grande classe cognate · je voudrais",ready:0},
-  {n:4,t:"Le passé composé",d:"événements finis · ancre = pretérito",ready:0},
-  {n:5,t:"L'imparfait",d:"fond, habitude · PC vs imparfait",ready:0},
-  {n:6,t:"Verbes irréguliers + futur proche",d:"aller, faire, pouvoir · je vais + inf",ready:0},
-  {n:7,t:"Questions, négation, connecteurs",d:"est-ce que · le noyau non-cognat (~100)",ready:0},
-  {n:8,t:"Genre, articles, accord",d:"le/la/les · accord des adjectifs",ready:0},
-  {n:9,t:"Pronoms & routine",d:"le/la/lui/y/en · verbes réfléchis",ready:0},
-  {n:10,t:"Le subjonctif vivant",d:"il faut que… · le piège espagnol",ready:0},
-  {n:11,t:"Conditionnel & politesse",d:"je voudrais · si + imparfait · quisiera→voudrais",ready:0},
-  {n:12,t:"Nice & survie (capstone)",d:"café, transport, chiffres, tu/vous",ready:0},
+  {n:3,t:"Salut ! — saludos",d:"bonjour/salut · tu vs vous · ça va ?",ready:1},
+  {n:4,t:"Les chiffres — números",d:"0–100 · el caos 70/80/90 · precios",ready:1},
+  {n:5,t:"Au café — pedir comida",d:"je voudrais · l'addition · sur place",ready:1},
+  {n:6,t:"Les couleurs — colores",d:"después del nombre · concordancia",ready:1},
+  {n:7,t:"Verbes en -er",d:"la grande classe cognate · -ar → -er",ready:1},
+  {n:8,t:"Le passé composé",d:"événements finis · ancre = pretérito",ready:0},
+  {n:9,t:"L'imparfait",d:"fond, habitude · PC vs imparfait",ready:0},
+  {n:10,t:"Les métiers — oficios",d:"profesiones · cognados",ready:0},
+  {n:11,t:"L'école — school",d:"vocabulario del cole",ready:0},
+  {n:12,t:"Nice & survie (capstone)",d:"transport, tu/vous, subjonctif",ready:0},
 ];
 document.getElementById('map').innerHTML=MODULES.map(m=>{
   const tag=m.ready?'<span class="badge on">PRÊT</span>':'<span class="badge soon">bientôt</span>';

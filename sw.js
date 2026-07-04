@@ -1,5 +1,5 @@
 /* Français pour bébas — service worker (offline for the trip) */
-const VER = 'fpb-v4';
+const VER = 'fpb-v5';
 const SHELL = VER + '-shell';
 const AUDIO = 'fpb-audio';   // audio is versioned via ?v= query, so keep across releases
 const CORE = [
@@ -7,7 +7,12 @@ const CORE = [
   'data/audio_manifest.json', 'data/spoken_grammar.json', 'data/spoken_essentials.json',
   'data/curriculum/lesson_00_sons.json',
   'data/curriculum/lesson_01_etre.json',
-  'data/curriculum/lesson_02_avoir.json'
+  'data/curriculum/lesson_02_avoir.json',
+  'data/curriculum/lesson_03_salut.json',
+  'data/curriculum/lesson_04_chiffres.json',
+  'data/curriculum/lesson_05_cafe.json',
+  'data/curriculum/lesson_06_couleurs.json',
+  'data/curriculum/lesson_07_verbes_er.json'
 ];
 
 self.addEventListener('install', e => {

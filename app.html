@@ -134,7 +134,9 @@ async function boot(){
   AUDIO.base=man.audio_base;AUDIO.clips=man.clips;AUDIO.v=man.version||1;
   GRAMMAR=await fetch('data/spoken_grammar.json').then(r=>r.json()).catch(()=>null);
   ESS=await fetch('data/spoken_essentials.json').then(r=>r.json()).catch(()=>null);
-  const files=['data/curriculum/lesson_00_sons.json','data/curriculum/lesson_01_etre.json','data/curriculum/lesson_02_avoir.json'];
+  const files=['data/curriculum/lesson_00_sons.json','data/curriculum/lesson_01_etre.json','data/curriculum/lesson_02_avoir.json',
+    'data/curriculum/lesson_03_salut.json','data/curriculum/lesson_04_chiffres.json','data/curriculum/lesson_05_cafe.json',
+    'data/curriculum/lesson_06_couleurs.json','data/curriculum/lesson_07_verbes_er.json'];
   LESSONS=await Promise.all(files.map(f=>fetch(f).then(r=>r.json())));
   route();
 }
@@ -226,29 +228,31 @@ function renderLesson(id){
   const L=LESSONS.find(x=>x.id===id);if(!L){location.hash='';return;}
   if(L.sounds)return renderSounds(L);
   document.getElementById('ttl').textContent=L.title;
-  const c=L.grammar.conjugation,T=L.grammar.tenses||[];
+  const hasG=!!L.grammar, c=hasG?L.grammar.conjugation:null, T=hasG?(L.grammar.tenses||[]):[];
+  const def=L.reader?'r':(hasG?'c':'v');
+  const tab=(k,lbl)=>`<button class="tab ${k===def?'on':''}" data-t="${k}">${lbl}</button>`;
+  const sec=(k,html)=>`<div data-p="${k}" class="${k===def?'':'hidden'}">${html}</div>`;
   const crow=r=>{const obs=/^nous/.test(r.pron.trim());
     return `<tr class="${obs?'obs':''}"><td class="pron">${r.pron}</td>
       <td class="form">${r.form}${obs?'<span class="obsflag">vieilli · comme « vosotros »</span>':''}
       <div class="exs">${obs?'—':esc(r.ex)}</div><div class="es">${r.es}</div></td>
       <td style="width:44px;text-align:right">${obs?'':pbtn(r.audio,'sm')}</td></tr>`;};
-  document.getElementById('view').innerHTML=`
-    <div class="card"><div class="lead">${L.focus}</div></div>
-    <div class="tabs">${L.reader?'<button class="tab on" data-t="r">📖 Lis</button>':''}<button class="tab ${L.reader?'':'on'}" data-t="c">Présent</button><button class="tab" data-t="t">Tous les temps</button>
-      <button class="tab" data-t="v">Vocab</button><button class="tab" data-t="s">Phrases</button></div>
-    ${L.reader?`<div data-p="r"><div class="card reader">${renderReader(L.reader)}</div></div>`:''}
-    <div data-p="c" class="${L.reader?'hidden':''}"><div class="card"><h2>${c.verb} · ${c.es}</h2>
+  const tabs=[L.reader?tab('r','📖 Lis'):'', hasG?tab('c','Présent'):'', hasG?tab('t','Tous les temps'):'', tab('v','Vocab'), tab('s','Phrases')].join('');
+  const readerSec=L.reader?sec('r',`<div class="card reader">${renderReader(L.reader)}</div>`):'';
+  const grammarSec=hasG?sec('c',`<div class="card"><h2>${c.verb} · ${c.es}</h2>
       <div style="font-size:13px;color:var(--muted);line-height:1.5;margin-bottom:8px">${L.grammar.intro_es}</div>
       <table>${c.present.map(crow).join('')}</table>
       <div style="font-size:12px;color:var(--muted);margin-top:8px">« nous » se garde pour reconnaître, mais à l'oral on dit <b>on</b>.</div></div>
-      <div class="card"><h2>Comme on parle 🗣️</h2><ul class="notes" style="padding-left:18px;margin:0">${L.grammar.spoken_notes.map(n=>`<li>${n}</li>`).join('')}</ul></div></div>
-    <div data-p="t" class="hidden"><div class="card"><h2>${c.verb} à tous les temps parlés</h2>
+      <div class="card"><h2>Comme on parle 🗣️</h2><ul class="notes" style="padding-left:18px;margin:0">${(L.grammar.spoken_notes||[]).map(n=>`<li>${n}</li>`).join('')}</ul></div>`):'';
+  const tensesSec=hasG?sec('t',`<div class="card"><h2>${c.verb} à tous les temps parlés</h2>
       <table>${T.map(r=>`<tr class="${r.status==='recognition_only'?'recog':''}">
         <td style="width:33%"><div class="form" style="font-size:13px">${r.tense}<div class="es">${r.label_es}${r.status==='recognition_only'?' · solo leer':''}</div></div></td>
         <td><div class="form" style="font-size:15px">${esc(r.ex)}</div><div class="es">${r.es}</div></td>
-        <td style="width:44px;text-align:right">${pbtn(r.audio,'sm')}</td></tr>`).join('')}</table></div></div>
-    <div data-p="v" class="hidden"><div class="card"><h2>Vocabulaire — ${L.vocab.length} mots</h2>${L.vocab.map(vocabRow).join('')}</div></div>
-    <div data-p="s" class="hidden"><div class="card"><h2>Phrases</h2>${L.sentences.map(sentRow).join('')}</div></div>`;
+        <td style="width:44px;text-align:right">${pbtn(r.audio,'sm')}</td></tr>`).join('')}</table></div>`):'';
+  const vocabSec=sec('v',`<div class="card"><h2>Vocabulaire — ${L.vocab.length} mots</h2>${L.vocab.map(vocabRow).join('')}</div>`);
+  const sentSec=sec('s',`<div class="card"><h2>Phrases</h2>${(L.sentences||[]).map(sentRow).join('')}</div>`);
+  document.getElementById('view').innerHTML=`<div class="card"><div class="lead">${L.focus}</div></div>
+    <div class="tabs">${tabs}</div>${readerSec}${grammarSec}${tensesSec}${vocabSec}${sentSec}`;
   const v=document.getElementById('view');
   v.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{v.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
     v.querySelectorAll('[data-p]').forEach(p=>p.classList.toggle('hidden',p.dataset.p!==t.dataset.t));});
@@ -301,9 +305,9 @@ function buildQuiz(){
   const allForms=[...new Set(verbLes.flatMap(L=>L.grammar.conjugation.present.map(r=>r.form)))];
   verbLes.forEach(L=>{const c=L.grammar.conjugation;c.present.forEach(r=>{if(/^nous/.test(r.pron.trim()))return;
     Q.push({type:'Conjugaison',q:`${c.verb} — ${r.pron.split('/')[0].trim()}`,sub:c.es,ans:r.form,opts:shuffle([r.form,...shuffle(allForms.filter(f=>f!==r.form)).slice(0,3)]),aud:r.audio});});});
-  const sents=verbLes.flatMap(L=>L.sentences).filter(s=>s.fr);
+  const sents=LESSONS.filter(L=>L.sentences).flatMap(L=>L.sentences).filter(s=>s.fr);
   sents.forEach(s=>Q.push({type:'Traduce 🇪🇸→🇫🇷',q:s.es,sub:'¿frase correcta?',ans:s.fr,opts:shuffle([s.fr,...shuffle(sents.filter(x=>x.fr!==s.fr).map(x=>x.fr)).slice(0,2)]),aud:s.audio}));
-  verbLes.flatMap(L=>L.vocab).filter(v=>v.gender&&/^(le |la )/.test(v.fr||'')).forEach(v=>{const bare=v.fr.replace(/^(le|la) /,'');
+  LESSONS.filter(L=>L.vocab).flatMap(L=>L.vocab).filter(v=>v.gender&&/^(le |la )/.test(v.fr||'')).forEach(v=>{const bare=v.fr.replace(/^(le|la) /,'');
     Q.push({type:'Genre',q:`___ ${bare}`,sub:'le o la ?',ans:v.fr.startsWith('la')?'la':'le',opts:shuffle(['le','la']),aud:v.audio});});
   (GRAMMAR?.spanish_traps||[]).filter(t=>t.right&&t.wrong&&/[a-zà-ÿ]/i.test(t.wrong)).forEach(t=>Q.push({type:'Trampa 🇪🇸',q:t.right.es,sub:'francés hablado correcto:',ans:t.right.fr,opts:shuffle([t.right.fr,t.wrong]),aud:null}));
   return shuffle(Q).slice(0,16);
