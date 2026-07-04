@@ -1,0 +1,46 @@
+{
+  "id": "L12",
+  "order": 12,
+  "slug": "dehors",
+  "title": "Dehors ! — sport & découverte",
+  "es_title": "Nice activa: nadar, correr, trepar y descubrir",
+  "focus": "Nice no es para quedarte en la toalla — es mar, colinas y senderos, todo pegado. Tus tenis van a trabajar.",
+  "objectives": [
+    "Usar los verbos del movimiento (nager, courir, grimper…).",
+    "Sobrevivir la plage de galets (¡piedras, no arena!).",
+    "Narrar una mini-visita: la Colline du Château."
+  ],
+  "reader": [
+    {"t": "lead", "html": "Nice no es para quedarte tirada en la toalla — es <b>mar, colinas y senderos</b>, todo pegado. Tus tenis van a trabajar más que tú. Ponte protector y vámonos."},
+    {"t": "h3", "text": "Los verbos que sudan"},
+    {"t": "p", "html": "<span class='fr'>nager</span> (nadar), <span class='fr'>courir</span> (correr), <span class='fr'>marcher</span> (caminar), <span class='fr'>grimper</span> (trepar), <span class='fr'>faire de la randonnée</span> (senderismo). En vivo: <span class='fr'>«&nbsp;On va nager&nbsp;?&nbsp;»</span> y <span class='fr'>«&nbsp;je cours sur la Prom&nbsp;»</span>, como toda Niza a las 8 am."},
+    {"t": "h3", "text": "🪨 Dato salvavidas: galets"},
+    {"t": "p", "html": "Las playas de Nice son de <b>PIEDRAS</b> — <span class='fr'>une plage de galets</span> — cero arena. Lleva sandalias para el agua o vas a caminar como flamenco lastimado frente a toda Francia. Avisada estás."},
+    {"t": "h3", "text": "Mini-visita: la Colline du Château"},
+    {"t": "p", "html": "Subes las escaleras de la <span class='fr'>Colline du Château</span> (hay ascensor, pero tú eres deportista). Arriba tu guía interior dice: <span class='fr'>«&nbsp;à ta gauche, les ruines du vieux château&nbsp;»</span> — un castillo <b>medieval</b> que Louis XIV mandó demoler en <b>1706</b>. De paso, <span class='fr'>«&nbsp;voilà la cascade&nbsp;»</span> y el panorama sobre la <span class='fr'>Baie des Anges</span> que te calla la boca. ¿Ruinas de verdad ANTIGUAS? Las romanas (<span class='fr'>arènes et thermes</span>) están en <span class='fr'>Cimiez</span>, de hace ~2000 años."},
+    {"t": "h3", "text": "En la calle"},
+    {"t": "p", "html": "<span class='fr'>«&nbsp;Demain matin&nbsp;: je me baigne à 8h — galets, je sais, j'apporte mes sandales. Après je cours sur la Prom, 5 km tranquille. Et l'après-midi, on fait de la randonnée au Mont Boron.&nbsp;»</span>"}
+  ],
+  "vocab": [
+    {"id": "L12-nager", "fr": "nager", "es": "nadar", "en": "to swim", "ipa": "naʒe", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "On va nager à la plage ?", "voice": "emilie", "audio": "L12-nager"},
+    {"id": "L12-courir", "fr": "courir", "es": "correr", "en": "to run", "ipa": "kuʁiʁ", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je cours sur la Promenade.", "voice": "oris", "audio": "L12-courir"},
+    {"id": "L12-marcher", "fr": "marcher", "es": "caminar", "en": "to walk", "ipa": "maʁʃe", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "On marche jusqu'au château.", "voice": "emilie", "audio": "L12-marcher"},
+    {"id": "L12-grimper", "fr": "grimper", "es": "trepar / subir", "en": "to climb", "ipa": "ɡʁɛ̃pe", "pos": "verb", "cognate_type": "non_cognate", "ex": "Ça grimpe dur !", "voice": "oris", "audio": "L12-grimper"},
+    {"id": "L12-baigner", "fr": "se baigner", "es": "bañarse (en el mar)", "en": "to go for a swim", "ipa": "sə beɲe", "pos": "verb", "cognate_type": "non_cognate", "ex": "Je me baigne tous les matins.", "voice": "emilie", "audio": "L12-baigner"},
+    {"id": "L12-randonnee", "fr": "une randonnée", "es": "una caminata / senderismo", "en": "a hike", "ipa": "yn ʁɑ̃dɔne", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "star": true, "ex": "On fait une randonnée au Mont Boron.", "voice": "oris", "audio": "L12-randonnee"},
+    {"id": "L12-velo", "fr": "le vélo", "es": "la bici", "en": "the bike", "ipa": "lə velo", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "On fait du vélo sur la Prom.", "voice": "emilie", "audio": "L12-velo"},
+    {"id": "L12-plage", "fr": "la plage de galets", "es": "la playa de piedras", "en": "the pebble beach", "ipa": "la plaʒ də ɡalɛ", "pos": "noun", "gender": "f", "cognate_type": "semi", "star": true, "ex": "La plage est en galets, pas en sable !", "voice": "oris", "audio": "L12-plage"},
+    {"id": "L12-colline", "fr": "la colline", "es": "la colina", "en": "the hill", "ipa": "la kɔlin", "pos": "noun", "gender": "f", "cognate_type": "semi", "ex": "On monte la colline du Château.", "voice": "emilie", "audio": "L12-colline"},
+    {"id": "L12-sentier", "fr": "le sentier", "es": "el sendero", "en": "the trail", "ipa": "lə sɑ̃tje", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "Le sentier du littoral est magnifique.", "voice": "oris", "audio": "L12-sentier"},
+    {"id": "L12-vue", "fr": "le point de vue", "es": "el mirador", "en": "the viewpoint", "ipa": "lə pwɛ̃ də vy", "pos": "noun", "gender": "m", "cognate_type": "semi", "star": true, "ex": "Le point de vue sur la mer est incroyable.", "voice": "emilie", "audio": "L12-vue"},
+    {"id": "L12-cascade", "fr": "la cascade", "es": "la cascada", "en": "the waterfall", "ipa": "la kaskad", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "Il y a une cascade en haut de la colline.", "voice": "oris", "audio": "L12-cascade"},
+    {"id": "L12-ruines", "fr": "les ruines", "es": "las ruinas", "en": "the ruins", "ipa": "le ʁɥin", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "Voilà les ruines du vieux château.", "voice": "emilie", "audio": "L12-ruines"},
+    {"id": "L12-mer", "fr": "la mer", "es": "el mar", "en": "the sea", "ipa": "la mɛʁ", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "star": true, "ex": "La mer est bleue et calme.", "voice": "oris", "audio": "L12-mer"}
+  ],
+  "sentences": [
+    {"id": "L12-s01", "register": "parle", "fr": "On va nager, puis on fait une randonnée au Mont Boron.", "es": "Vamos a nadar, y luego hacemos una caminata al Mont Boron.", "en": "We'll swim, then hike up Mont Boron.", "voice": "emilie", "audio": "L12-s01"},
+    {"id": "L12-s02", "register": "parle", "fr": "Je cours sur la Promenade des Anglais tous les matins.", "es": "Corro por la Promenade des Anglais todas las mañanas.", "en": "I run on the Promenade des Anglais every morning.", "voice": "oris", "audio": "L12-s02"},
+    {"id": "L12-s03", "register": "parle", "fr": "À ta gauche, les ruines du vieux château. Et voilà la vue sur la Baie des Anges !", "es": "A tu izquierda, las ruinas del viejo castillo. ¡Y ahí la vista de la Baie des Anges!", "en": "On your left, the old castle ruins. And there's the view over the bay!", "voice": "emilie", "audio": "L12-s03", "gloss": "mini-tour de la Colline du Château"},
+    {"id": "L12-s04", "register": "parle", "fr": "Attention, la plage est en galets — prends des sandales !", "es": "Ojo, la playa es de piedras — ¡lleva sandalias!", "en": "Watch out, the beach is pebbles — bring sandals!", "voice": "oris", "audio": "L12-s04"}
+  ]
+}

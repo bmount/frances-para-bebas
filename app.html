@@ -136,7 +136,10 @@ async function boot(){
   ESS=await fetch('data/spoken_essentials.json').then(r=>r.json()).catch(()=>null);
   const files=['data/curriculum/lesson_00_sons.json','data/curriculum/lesson_01_etre.json','data/curriculum/lesson_02_avoir.json',
     'data/curriculum/lesson_03_salut.json','data/curriculum/lesson_04_chiffres.json','data/curriculum/lesson_05_cafe.json',
-    'data/curriculum/lesson_06_couleurs.json','data/curriculum/lesson_07_verbes_er.json'];
+    'data/curriculum/lesson_06_couleurs.json','data/curriculum/lesson_07_verbes_er.json',
+    'data/curriculum/lesson_08_passe_compose.json','data/curriculum/lesson_09_imparfait.json',
+    'data/curriculum/lesson_10_metiers.json','data/curriculum/lesson_11_ecole.json',
+    'data/curriculum/lesson_12_dehors.json','data/curriculum/lesson_13_survie.json'];
   LESSONS=await Promise.all(files.map(f=>fetch(f).then(r=>r.json())));
   route();
 }
@@ -237,14 +240,14 @@ function renderLesson(id){
       <td class="form">${r.form}${obs?'<span class="obsflag">vieilli · comme « vosotros »</span>':''}
       <div class="exs">${obs?'—':esc(r.ex)}</div><div class="es">${r.es}</div></td>
       <td style="width:44px;text-align:right">${obs?'':pbtn(r.audio,'sm')}</td></tr>`;};
-  const tabs=[L.reader?tab('r','📖 Lis'):'', hasG?tab('c','Présent'):'', hasG?tab('t','Tous les temps'):'', tab('v','Vocab'), tab('s','Phrases')].join('');
+  const tabs=[L.reader?tab('r','📖 Lis'):'', hasG?tab('c','Présent'):'', (hasG&&T.length)?tab('t','Tous les temps'):'', tab('v','Vocab'), tab('s','Phrases')].join('');
   const readerSec=L.reader?sec('r',`<div class="card reader">${renderReader(L.reader)}</div>`):'';
   const grammarSec=hasG?sec('c',`<div class="card"><h2>${c.verb} · ${c.es}</h2>
       <div style="font-size:13px;color:var(--muted);line-height:1.5;margin-bottom:8px">${L.grammar.intro_es}</div>
       <table>${c.present.map(crow).join('')}</table>
       <div style="font-size:12px;color:var(--muted);margin-top:8px">« nous » se garde pour reconnaître, mais à l'oral on dit <b>on</b>.</div></div>
       <div class="card"><h2>Comme on parle 🗣️</h2><ul class="notes" style="padding-left:18px;margin:0">${(L.grammar.spoken_notes||[]).map(n=>`<li>${n}</li>`).join('')}</ul></div>`):'';
-  const tensesSec=hasG?sec('t',`<div class="card"><h2>${c.verb} à tous les temps parlés</h2>
+  const tensesSec=(hasG&&T.length)?sec('t',`<div class="card"><h2>${c.verb} à tous les temps parlés</h2>
       <table>${T.map(r=>`<tr class="${r.status==='recognition_only'?'recog':''}">
         <td style="width:33%"><div class="form" style="font-size:13px">${r.tense}<div class="es">${r.label_es}${r.status==='recognition_only'?' · solo leer':''}</div></div></td>
         <td><div class="form" style="font-size:15px">${esc(r.ex)}</div><div class="es">${r.es}</div></td>

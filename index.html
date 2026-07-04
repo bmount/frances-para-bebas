@@ -83,7 +83,7 @@
       <div class="pill"><div class="i">🎧</div><div class="t">Audio + quiz</div><div class="d">Chaque phrase se parle, se teste</div></div>
     </div>
 
-    <h2 class="sec">Le parcours · 12 modules</h2>
+    <h2 class="sec">Le parcours · 13 modules + Chapitre 0</h2>
     <div id="map"></div>
 
     <footer>fait avec ❤️ par Papa · <span id="cnt"></span></footer>
@@ -98,11 +98,12 @@ const MODULES=[
   {n:5,t:"Au café — pedir comida",d:"je voudrais · l'addition · sur place",ready:1},
   {n:6,t:"Les couleurs — colores",d:"después del nombre · concordancia",ready:1},
   {n:7,t:"Verbes en -er",d:"la grande classe cognate · -ar → -er",ready:1},
-  {n:8,t:"Le passé composé",d:"événements finis · ancre = pretérito",ready:0},
-  {n:9,t:"L'imparfait",d:"fond, habitude · PC vs imparfait",ready:0},
-  {n:10,t:"Les métiers — oficios",d:"profesiones · cognados",ready:0},
-  {n:11,t:"L'école — school",d:"vocabulario del cole",ready:0},
-  {n:12,t:"Nice & survie (capstone)",d:"transport, tu/vous, subjonctif",ready:0},
+  {n:8,t:"Le passé composé",d:"lo que HICISTE · ancre = pretérito",ready:1},
+  {n:9,t:"L'imparfait",d:"el fondo · PC vs imparfait · imperfecto",ready:1},
+  {n:10,t:"Les métiers — oficios",d:"« je suis prof » sin artículo · cognados",ready:1},
+  {n:11,t:"L'école — school",d:"materias · faux-amis (collège, librairie)",ready:1},
+  {n:12,t:"Dehors ! — sport & rando",d:"nager, courir · la Colline du Château",ready:1},
+  {n:13,t:"Nice & survie",d:"tram, direcciones, au secours",ready:1},
 ];
 document.getElementById('map').innerHTML=MODULES.map(m=>{
   const tag=m.ready?'<span class="badge on">PRÊT</span>':'<span class="badge soon">bientôt</span>';
@@ -110,7 +111,7 @@ document.getElementById('map').innerHTML=MODULES.map(m=>{
   return `<a class="mod ${m.ready?'ready':''}" ${open}><div class="mn">${m.n}</div>
     <div class="mm"><div class="mt">${m.t}</div><div class="md">${m.d}</div></div>${tag}</a>`;
 }).join('');
-document.getElementById('cnt').textContent=MODULES.filter(m=>m.ready).length+" / 12 modules prêts";
+document.getElementById('cnt').textContent=MODULES.filter(m=>m.ready).length+" / "+MODULES.length+" modules prêts";
 // welcome audio
 let a=null;const pb=document.getElementById('play');
 pb.addEventListener('click',()=>{

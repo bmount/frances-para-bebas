@@ -1,0 +1,51 @@
+{
+  "id": "L13",
+  "order": 13,
+  "slug": "survie",
+  "title": "Nice & survie",
+  "es_title": "Moverte, orientarte y pedir ayuda",
+  "focus": "El módulo que te salva cuando el mapa muere con tu batería. Transporte, direcciones, y auxilio.",
+  "objectives": [
+    "Usar el tram y sacar un billet.",
+    "Preguntar y entender direcciones (à gauche / droite / tout droit).",
+    "Pedir ayuda con cortesía (vous)."
+  ],
+  "reader": [
+    {"t": "lead", "html": "Este es el módulo que te salva la vida cuando el mapa muere junto con tu batería. Apréndelo y Nice es tuya; sáltatelo y serás la americana llorando en una rotonda."},
+    {"t": "h3", "text": "Transporte"},
+    {"t": "p", "html": "El <span class='fr'>tram</span> es tu mejor amigo: barato y pasa por todos lados. Sube y di <span class='fr'>«&nbsp;un billet, s'il vous plaît&nbsp;»</span>; si dudas, <span class='fr'>«&nbsp;c'est quel arrêt&nbsp;?&nbsp;»</span>. ¿Drama de pueblito con vista al mar? <span class='fr'>le train</span> te lleva a Èze o Antibes por casi nada."},
+    {"t": "h3", "text": "Direcciones"},
+    {"t": "p", "html": "<span class='fr'>«&nbsp;Où est… ?&nbsp;»</span> es tu llave maestra. Las respuestas vienen en tres sabores:"},
+    {"t": "maps", "rows": [
+      {"es": "a la izquierda", "fr": "à gauche"},
+      {"es": "a la derecha", "fr": "à droite"},
+      {"es": "todo derecho", "fr": "tout droit"}
+    ]},
+    {"t": "p", "html": "Combínalas: <span class='fr'>«&nbsp;Où est la plage&nbsp;? — Tout droit, puis à gauche.&nbsp;»</span>"},
+    {"t": "h3", "text": "Por si acaso 🆘"},
+    {"t": "p", "html": "<span class='fr'>«&nbsp;Excusez-moi, je suis perdue&nbsp;»</span> abre puertas; <span class='fr'>«&nbsp;je cherche la pharmacie&nbsp;»</span> o <span class='fr'>«&nbsp;un médecin&nbsp;»</span> resuelve casi todo; y <span class='fr'>«&nbsp;au secours&nbsp;!&nbsp;»</span> es el grito real — resérvalo para emergencias reales."},
+    {"t": "h3", "text": "En la calle"},
+    {"t": "p", "html": "Le pides direcciones a una señora nizarda con <b>vous</b> (es desconocida — respeto = supervivencia social). Empieza con <span class='fr'>«&nbsp;excusez-moi&nbsp;»</span> y termina con <span class='fr'>«&nbsp;merci beaucoup&nbsp;»</span>, y hasta te sonríe."}
+  ],
+  "vocab": [
+    {"id": "L13-tram", "fr": "le tram", "es": "el tranvía", "en": "the tram", "ipa": "lə tʁam", "pos": "noun", "gender": "m", "cognate_type": "semi", "star": true, "ex": "Je prends le tram.", "voice": "emilie", "audio": "L13-tram"},
+    {"id": "L13-billet", "fr": "un billet", "es": "un boleto / billete", "en": "a ticket", "ipa": "ɛ̃ bijɛ", "pos": "noun", "gender": "m", "cognate_type": "semi", "star": true, "ex": "Un billet, s'il vous plaît.", "voice": "oris", "audio": "L13-billet"},
+    {"id": "L13-arret", "fr": "un arrêt", "es": "una parada", "en": "a stop", "ipa": "ɛ̃ naʁɛ", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "C'est quel arrêt ?", "voice": "emilie", "audio": "L13-arret"},
+    {"id": "L13-gare", "fr": "la gare", "es": "la estación de tren", "en": "the train station", "ipa": "la ɡaʁ", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "ex": "Où est la gare ?", "voice": "oris", "audio": "L13-gare"},
+    {"id": "L13-ouest", "fr": "où est… ?", "es": "¿dónde está…?", "en": "where is…?", "ipa": "u ɛ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Où est la plage ?", "voice": "emilie", "audio": "L13-ouest"},
+    {"id": "L13-gauche", "fr": "à gauche", "es": "a la izquierda", "en": "on the left", "ipa": "a ɡoʃ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "C'est à gauche.", "voice": "oris", "audio": "L13-gauche"},
+    {"id": "L13-droite", "fr": "à droite", "es": "a la derecha", "en": "on the right", "ipa": "a dʁwat", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Tourne à droite.", "voice": "emilie", "audio": "L13-droite"},
+    {"id": "L13-toutdroit", "fr": "tout droit", "es": "todo derecho", "en": "straight ahead", "ipa": "tu dʁwa", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "C'est tout droit.", "voice": "oris", "audio": "L13-toutdroit"},
+    {"id": "L13-excusez", "fr": "excusez-moi", "es": "disculpe", "en": "excuse me", "ipa": "ɛkskyze mwa", "pos": "phrase", "cognate_type": "semi", "star": true, "ex": "Excusez-moi, madame.", "voice": "emilie", "audio": "L13-excusez"},
+    {"id": "L13-cherche", "fr": "je cherche…", "es": "busco…", "en": "I'm looking for…", "ipa": "ʒə ʃɛʁʃ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Je cherche la pharmacie.", "voice": "oris", "audio": "L13-cherche"},
+    {"id": "L13-medecin", "fr": "un médecin", "es": "un médico", "en": "a doctor", "ipa": "ɛ̃ medsɛ̃", "pos": "noun", "gender": "m", "cognate_type": "semi", "ex": "Je cherche un médecin.", "voice": "emilie", "audio": "L13-medecin"},
+    {"id": "L13-secours", "fr": "au secours !", "es": "¡socorro! / ¡auxilio!", "en": "help!", "ipa": "o səkuʁ", "pos": "phrase", "cognate_type": "non_cognate", "ex": "Au secours !", "voice": "oris", "audio": "L13-secours"},
+    {"id": "L13-perdu", "fr_m": "je suis perdu", "fr_f": "je suis perdue", "es": "estoy perdido / perdida", "en": "I'm lost", "ipa_m": "ʒə sɥi pɛʁdy", "ipa_f": "ʒə sɥi pɛʁdy", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex_m": "Excusez-moi, je suis perdu.", "ex_f": "Excusez-moi, je suis perdue.", "audio_m": "L13-perdu-m", "audio_f": "L13-perdu-f"}
+  ],
+  "sentences": [
+    {"id": "L13-s01", "register": "parle", "fr": "Excusez-moi, où est la plage ? — Tout droit, puis à gauche.", "es": "Disculpe, ¿dónde está la playa? — Todo derecho, luego a la izquierda.", "en": "Excuse me, where's the beach? — Straight ahead, then left.", "voice": "oris", "audio": "L13-s01"},
+    {"id": "L13-s02", "register": "parle", "self": true, "fr_m": "Excusez-moi, je suis perdu. Je cherche le tram.", "fr_f": "Excusez-moi, je suis perdue. Je cherche le tram.", "es": "Disculpe, estoy perdido/a. Busco el tranvía.", "en": "Excuse me, I'm lost. I'm looking for the tram.", "audio_m": "L13-s02-m", "audio_f": "L13-s02-f"},
+    {"id": "L13-s03", "register": "parle", "fr": "Un billet pour Èze, s'il vous plaît.", "es": "Un boleto para Èze, por favor.", "en": "A ticket to Èze, please.", "voice": "emilie", "audio": "L13-s03"},
+    {"id": "L13-s04", "register": "parle", "fr": "C'est quel arrêt pour le Vieux-Nice ?", "es": "¿Cuál parada es para el Vieux-Nice?", "en": "Which stop is it for the old town?", "voice": "oris", "audio": "L13-s04"}
+  ]
+}

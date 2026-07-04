@@ -94,6 +94,7 @@ MORPH_SAFE = {
     "elle", "personne", "semaine", "capitaine", "fontaine", "douzaine",
     "centaine", "chose", "année", "journée", "matinée", "idée", "musée",
     "poupée", "colonne", "couronne", "téléphone", "zone", "aucune",
+    "lycée", "randonnée", "entrée", "soirée", "vallée",
 }
 
 
