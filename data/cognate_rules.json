@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "Reglas de cognados español → francés",
+    "note": "Each rule turns a Spanish word the learner already owns into its French cousin. Bridge language is Spanish. 'reliability' = how often the pattern holds (high = drill as a rule; medium = teach with a caution). Examples are hand-verified; watch the flagged exceptions.",
+    "bridge": "es",
+    "target": "fr"
+  },
+  "rules": [
+    {
+      "id": "cion_tion",
+      "es": "-ción",
+      "fr": "-tion",
+      "gender": "f",
+      "reliability": "high",
+      "gloss": "Sp -ción → Fr -tion. Almost perfectly regular. Note: pronounced /sjɔ̃/, NOT English '-shun'.",
+      "examples": [
+        {"es": "nación", "fr": "nation", "en": "nation", "ipa": "nasjɔ̃"},
+        {"es": "estación", "fr": "station", "en": "station", "ipa": "stasjɔ̃"},
+        {"es": "situación", "fr": "situation", "en": "situation", "ipa": "sitɥasjɔ̃"},
+        {"es": "información", "fr": "information", "en": "information", "ipa": "ɛ̃fɔʁmasjɔ̃"},
+        {"es": "educación", "fr": "éducation", "en": "education", "ipa": "edykasjɔ̃"},
+        {"es": "reservación", "fr": "réservation", "en": "reservation", "ipa": "ʁezɛʁvasjɔ̃"}
+      ]
+    },
+    {
+      "id": "sion_sion",
+      "es": "-sión",
+      "fr": "-sion",
+      "gender": "f",
+      "reliability": "high",
+      "gloss": "Sp -sión → Fr -sion. Pronounced /zjɔ̃/ or /sjɔ̃/.",
+      "examples": [
+        {"es": "televisión", "fr": "télévision", "en": "television", "ipa": "televizjɔ̃"},
+        {"es": "decisión", "fr": "décision", "en": "decision", "ipa": "desizjɔ̃"},
+        {"es": "ocasión", "fr": "occasion", "en": "occasion", "ipa": "ɔkazjɔ̃"},
+        {"es": "versión", "fr": "version", "en": "version", "ipa": "vɛʁsjɔ̃"},
+        {"es": "explosión", "fr": "explosion", "en": "explosion", "ipa": "ɛksplozjɔ̃"}
+      ]
+    },
+    {
+      "id": "dad_te",
+      "es": "-dad / -tad",
+      "fr": "-té",
+      "gender": "f",
+      "reliability": "high",
+      "gloss": "Sp -dad/-tad → Fr -té. The -é is not silent: /te/.",
+      "examples": [
+        {"es": "libertad", "fr": "liberté", "en": "liberty", "ipa": "libɛʁte"},
+        {"es": "ciudad", "fr": "cité", "en": "city", "ipa": "site", "note": "cité = a specific area; everyday 'city' is la ville (non-cognate)."},
+        {"es": "universidad", "fr": "université", "en": "university", "ipa": "ynivɛʁsite"},
+        {"es": "verdad", "fr": "vérité", "en": "truth", "ipa": "veʁite"},
+        {"es": "realidad", "fr": "réalité", "en": "reality", "ipa": "ʁealite"},
+        {"es": "sociedad", "fr": "société", "en": "society", "ipa": "sɔsjete"}
+      ]
+    },
+    {
+      "id": "oso_eux",
+      "es": "-oso / -osa",
+      "fr": "-eux / -euse",
+      "reliability": "high",
+      "gloss": "Sp adjective -oso → Fr -eux (m) / -euse (f). Final -x is silent.",
+      "examples": [
+        {"es": "famoso", "fr": "fameux", "en": "famous", "ipa": "famø", "note": "'fameux' often means 'notorious/some'; 'célèbre' = famous. Still a clean sound-pattern example."},
+        {"es": "curioso", "fr": "curieux", "en": "curious", "ipa": "kyʁjø"},
+        {"es": "delicioso", "fr": "délicieux", "en": "delicious", "ipa": "delisjø"},
+        {"es": "nervioso", "fr": "nerveux", "en": "nervous", "ipa": "nɛʁvø"},
+        {"es": "generoso", "fr": "généreux", "en": "generous", "ipa": "ʒeneʁø"},
+        {"es": "precioso", "fr": "précieux", "en": "precious", "ipa": "pʁesjø"}
+      ]
+    },
+    {
+      "id": "mente_ment",
+      "es": "-mente",
+      "fr": "-ment",
+      "pos": "adverb",
+      "reliability": "high",
+      "gloss": "Sp adverb -mente → Fr -ment. Final -t silent: /mɑ̃/.",
+      "examples": [
+        {"es": "normalmente", "fr": "normalement", "en": "normally", "ipa": "nɔʁmalmɑ̃"},
+        {"es": "generalmente", "fr": "généralement", "en": "generally", "ipa": "ʒeneʁalmɑ̃"},
+        {"es": "probablemente", "fr": "probablement", "en": "probably", "ipa": "pʁɔbabləmɑ̃"},
+        {"es": "exactamente", "fr": "exactement", "en": "exactly", "ipa": "ɛgzaktəmɑ̃"},
+        {"es": "finalmente", "fr": "finalement", "en": "finally", "ipa": "finalmɑ̃"},
+        {"es": "simplemente", "fr": "simplement", "en": "simply", "ipa": "sɛ̃pləmɑ̃"}
+      ]
+    },
+    {
+      "id": "ico_ique",
+      "es": "-ico / -ica",
+      "fr": "-ique",
+      "reliability": "high",
+      "gloss": "Sp -ico/-ica → Fr -ique (both genders). Pronounced /ik/.",
+      "examples": [
+        {"es": "música", "fr": "musique", "en": "music", "ipa": "myzik"},
+        {"es": "política", "fr": "politique", "en": "politics", "ipa": "pɔlitik"},
+        {"es": "físico", "fr": "physique", "en": "physical", "ipa": "fizik"},
+        {"es": "magnífico", "fr": "magnifique", "en": "magnificent", "ipa": "maɲifik"},
+        {"es": "práctico", "fr": "pratique", "en": "practical", "ipa": "pʁatik"},
+        {"es": "eléctrico", "fr": "électrique", "en": "electric", "ipa": "elɛktʁik"}
+      ]
+    },
+    {
+      "id": "ario_aire",
+      "es": "-ario / -aria",
+      "fr": "-aire",
+      "reliability": "high",
+      "gloss": "Sp -ario → Fr -aire. Pronounced /ɛʁ/.",
+      "examples": [
+        {"es": "necesario", "fr": "nécessaire", "en": "necessary", "ipa": "nesesɛʁ"},
+        {"es": "ordinario", "fr": "ordinaire", "en": "ordinary", "ipa": "ɔʁdinɛʁ"},
+        {"es": "salario", "fr": "salaire", "en": "salary", "ipa": "salɛʁ"},
+        {"es": "contrario", "fr": "contraire", "en": "contrary", "ipa": "kɔ̃tʁɛʁ"},
+        {"es": "vocabulario", "fr": "vocabulaire", "en": "vocabulary", "ipa": "vɔkabylɛʁ"}
+      ]
+    },
+    {
+      "id": "ancia_ance",
+      "es": "-ancia / -encia",
+      "fr": "-ance / -ence",
+      "gender": "f",
+      "reliability": "high",
+      "gloss": "Sp -ancia/-encia → Fr -ance/-ence. Nasal ending /ɑ̃s/.",
+      "examples": [
+        {"es": "importancia", "fr": "importance", "en": "importance", "ipa": "ɛ̃pɔʁtɑ̃s"},
+        {"es": "distancia", "fr": "distance", "en": "distance", "ipa": "distɑ̃s"},
+        {"es": "diferencia", "fr": "différence", "en": "difference", "ipa": "difeʁɑ̃s"},
+        {"es": "experiencia", "fr": "expérience", "en": "experience", "ipa": "ɛkspeʁjɑ̃s"},
+        {"es": "presencia", "fr": "présence", "en": "presence", "ipa": "pʁezɑ̃s"}
+      ]
+    },
+    {
+      "id": "es_e_initial",
+      "es": "es- (inicial)",
+      "fr": "é- / s-",
+      "reliability": "medium",
+      "gloss": "Sp words starting es-+consonant often drop to Fr é- (the s vanishes, marked by the accent). A cousin of the circumflex rule.",
+      "examples": [
+        {"es": "escuela", "fr": "école", "en": "school", "ipa": "ekɔl"},
+        {"es": "estado", "fr": "état", "en": "state", "ipa": "eta"},
+        {"es": "estudiante", "fr": "étudiant", "en": "student", "ipa": "etydjɑ̃"},
+        {"es": "estrella", "fr": "étoile", "en": "star", "ipa": "etwal", "note": "semi-irregular but same es→é logic."},
+        {"es": "escribir", "fr": "écrire", "en": "to write", "ipa": "ekʁiʁ"}
+      ]
+    },
+    {
+      "id": "circumflex_lost_s",
+      "es": "s + consonante",
+      "fr": "vocal + ˆ (circonflexe)",
+      "reliability": "medium",
+      "gloss": "The French circumflex ˆ is usually a fossil of a lost S — and Spanish (like English) often KEPT that S. So Sp/En 's' ≈ Fr 'ˆ'. A beautiful memory hook.",
+      "examples": [
+        {"es": "hospital", "fr": "hôpital", "en": "hospital", "ipa": "opital"},
+        {"es": "isla", "fr": "île", "en": "island", "ipa": "il"},
+        {"es": "fiesta", "fr": "fête", "en": "feast/party", "ipa": "fɛt"},
+        {"es": "costa", "fr": "côte", "en": "coast", "ipa": "kot"},
+        {"es": "bestia", "fr": "bête", "en": "beast", "ipa": "bɛt"},
+        {"es": "interés", "fr": "intérêt", "en": "interest", "ipa": "ɛ̃teʁɛ"}
+      ]
+    },
+    {
+      "id": "ente_ent",
+      "es": "-ente / -ante",
+      "fr": "-ent / -ant",
+      "reliability": "high",
+      "gloss": "Sp -ente/-ante → Fr -ent/-ant. Final consonant silent, nasal vowel /ɑ̃/.",
+      "examples": [
+        {"es": "presidente", "fr": "président", "en": "president", "ipa": "pʁezidɑ̃"},
+        {"es": "importante", "fr": "important", "en": "important", "ipa": "ɛ̃pɔʁtɑ̃"},
+        {"es": "diferente", "fr": "différent", "en": "different", "ipa": "difeʁɑ̃"},
+        {"es": "inteligente", "fr": "intelligent", "en": "intelligent", "ipa": "ɛ̃teliʒɑ̃"},
+        {"es": "restaurante", "fr": "restaurant", "en": "restaurant", "ipa": "ʁɛstoʁɑ̃"},
+        {"es": "elegante", "fr": "élégant", "en": "elegant", "ipa": "elegɑ̃"}
+      ]
+    },
+    {
+      "id": "ar_er_verbs",
+      "es": "verbos -ar",
+      "fr": "verbes -er",
+      "pos": "verb",
+      "reliability": "high",
+      "gloss": "A huge class of Sp -ar verbs → Fr -er verbs (the biggest, most regular French conjugation). Infinitive -er is /e/.",
+      "examples": [
+        {"es": "preparar", "fr": "préparer", "en": "to prepare", "ipa": "pʁepaʁe"},
+        {"es": "continuar", "fr": "continuer", "en": "to continue", "ipa": "kɔ̃tinɥe"},
+        {"es": "invitar", "fr": "inviter", "en": "to invite", "ipa": "ɛ̃vite"},
+        {"es": "visitar", "fr": "visiter", "en": "to visit", "ipa": "vizite"},
+        {"es": "reservar", "fr": "réserver", "en": "to reserve", "ipa": "ʁezɛʁve"},
+        {"es": "aceptar", "fr": "accepter", "en": "to accept", "ipa": "aksɛpte"},
+        {"es": "presentar", "fr": "présenter", "en": "to present", "ipa": "pʁezɑ̃te"}
+      ]
+    },
+    {
+      "id": "greek_ph_th",
+      "es": "f / t (griego)",
+      "fr": "ph / th",
+      "reliability": "medium",
+      "gloss": "In Greek-origin words, Spanish writes f/t where French keeps ph/th (same sound). Recognition rule, mostly for reading.",
+      "examples": [
+        {"es": "teléfono", "fr": "téléphone", "en": "telephone", "ipa": "telefɔn"},
+        {"es": "farmacia", "fr": "pharmacie", "en": "pharmacy", "ipa": "faʁmasi"},
+        {"es": "foto", "fr": "photo", "en": "photo", "ipa": "fɔto"},
+        {"es": "teatro", "fr": "théâtre", "en": "theater", "ipa": "teatʁ"},
+        {"es": "tema", "fr": "thème", "en": "theme", "ipa": "tɛm"}
+      ]
+    },
+    {
+      "id": "ia_ie",
+      "es": "-ía",
+      "fr": "-ie",
+      "gender": "f",
+      "reliability": "medium",
+      "gloss": "Sp -ía → Fr -ie (often academic/abstract nouns). Pronounced /i/.",
+      "examples": [
+        {"es": "economía", "fr": "économie", "en": "economy", "ipa": "ekɔnɔmi"},
+        {"es": "energía", "fr": "énergie", "en": "energy", "ipa": "enɛʁʒi"},
+        {"es": "geografía", "fr": "géographie", "en": "geography", "ipa": "ʒeɔɡʁafi"},
+        {"es": "filosofía", "fr": "philosophie", "en": "philosophy", "ipa": "filozɔfi"},
+        {"es": "categoría", "fr": "catégorie", "en": "category", "ipa": "kategɔʁi"}
+      ]
+    }
+  ],
+  "faux_amis": [
+    {"fr": "quitter", "fr_means": "to leave", "es_lookalike": "quitar", "es_means": "to remove", "ipa": "kite"},
+    {"fr": "rester", "fr_means": "to stay", "es_lookalike": "restar", "es_means": "to subtract", "ipa": "ʁɛste"},
+    {"fr": "nombre", "fr_means": "number", "es_lookalike": "nombre", "es_means": "name", "ipa": "nɔ̃bʁ"},
+    {"fr": "embrasser", "fr_means": "to kiss", "es_lookalike": "abrazar", "es_means": "to hug", "ipa": "ɑ̃bʁase"},
+    {"fr": "large", "fr_means": "wide", "es_lookalike": "largo", "es_means": "long", "ipa": "laʁʒ"},
+    {"fr": "constipé", "fr_means": "constipated", "es_lookalike": "constipado", "es_means": "having a cold", "ipa": "kɔ̃stipe"},
+    {"fr": "salir", "fr_means": "to make dirty", "es_lookalike": "salir", "es_means": "to leave/go out", "ipa": "saliʁ"},
+    {"fr": "entendre", "fr_means": "to hear", "es_lookalike": "entender", "es_means": "to understand", "ipa": "ɑ̃tɑ̃dʁ"}
+  ]
+}
