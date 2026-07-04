@@ -1,0 +1,60 @@
+{
+  "id": "L02",
+  "order": 2,
+  "slug": "avoir",
+  "title": "Avoir — to have",
+  "es_title": "El verbo « avoir » (tener / haber)",
+  "focus": "Your second verb — and « il y a », the phrase you'll use twenty times a day in Nice.",
+  "objectives": [
+    "Conjugate avoir in the present (spoken forms).",
+    "Use « il y a » = there is / there are.",
+    "Ask for things using cognate nouns (une réservation, un menu, une pharmacie)."
+  ],
+  "grammar": {
+    "intro_es": "« avoir » es tener (y también el auxiliar « haber »). Otra vez: lo rodeamos de cognados, así que lo único nuevo es el verbo. Y aprende « il y a » (hay) — es oro puro para viajar.",
+    "conjugation": {
+      "verb": "avoir", "en": "to have", "es": "tener / haber",
+      "present": [
+        {"pron": "j'",           "form": "ai",    "ipa": "ʒe",     "es": "(yo) tengo",        "audio": "L02-c-je"},
+        {"pron": "tu",           "form": "as",    "ipa": "ty a",   "es": "(tú) tienes",       "audio": "L02-c-tu"},
+        {"pron": "il / elle / on","form": "a",    "ipa": "il a",   "es": "(él/ella) tiene",   "audio": "L02-c-il"},
+        {"pron": "nous",         "form": "avons", "ipa": "nu zavɔ̃","es": "(nosotros) tenemos","audio": "L02-c-nous"},
+        {"pron": "vous",         "form": "avez",  "ipa": "vu zave","es": "(ustedes) tienen",  "audio": "L02-c-vous"},
+        {"pron": "ils / elles",  "form": "ont",   "ipa": "il zɔ̃", "es": "(ellos) tienen",    "audio": "L02-c-ils"}
+      ]
+    },
+    "spoken_notes": [
+      "il y a = there is / there are (both!). « Il y a un restaurant. » In fast speech: « y a ».",
+      "j'ai (not « je ai ») — je always drops its e before a vowel: j'ai, j'aime.",
+      "Liaison everywhere: nous avons → « nou-ZAVON », ils ont → « il-ZON » (vs ils sont → « il-SON », watch it!).",
+      "Careful faux-ami: French « avoir » is possession; for existence use « il y a », not « est »."
+    ]
+  },
+  "vocab": [
+    {"id": "L02-avoir", "fr": "avoir", "es": "tener / haber", "en": "to have", "ipa": "avwaʁ", "pos": "verb", "cognate_type": "non_cognate", "star": true, "voice": "oris", "audio": "L02-avoir"},
+    {"id": "L02-ilya", "fr": "il y a", "es": "hay", "en": "there is / there are", "ipa": "il i a", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "voice": "emilie", "audio": "L02-ilya"},
+    {"id": "L02-un", "fr": "un", "es": "un", "en": "a (m)", "ipa": "ɛ̃", "pos": "art", "cognate_type": "semi", "star": true, "voice": "oris", "audio": "L02-un"},
+    {"id": "L02-une", "fr": "une", "es": "una", "en": "a (f)", "ipa": "yn", "pos": "art", "cognate_type": "semi", "star": true, "voice": "emilie", "audio": "L02-une"},
+    {"id": "L02-ici", "fr": "ici", "es": "aquí", "en": "here", "ipa": "isi", "pos": "adv", "cognate_type": "non_cognate", "star": true, "voice": "oris", "audio": "L02-ici"},
+    {"id": "L02-pour", "fr": "pour", "es": "para / por", "en": "for", "ipa": "puʁ", "pos": "prep", "cognate_type": "non_cognate", "star": true, "voice": "emilie", "audio": "L02-pour"},
+
+    {"id": "L02-reservation", "fr": "une réservation", "es": "una reservación / reserva", "en": "a reservation", "ipa": "yn ʁezɛʁvasjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "cion_tion", "voice": "emilie", "audio": "L02-reservation"},
+    {"id": "L02-question", "fr": "une question", "es": "una cuestión / pregunta", "en": "a question", "ipa": "yn kɛstjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "semi", "rule": "cion_tion", "voice": "oris", "audio": "L02-question"},
+    {"id": "L02-probleme", "fr": "un problème", "es": "un problema", "en": "a problem", "ipa": "ɛ̃ pʁɔblɛm", "pos": "noun", "gender": "m", "cognate_type": "transparent", "voice": "emilie", "audio": "L02-probleme"},
+    {"id": "L02-moment", "fr": "un moment", "es": "un momento", "en": "a moment", "ipa": "ɛ̃ mɔmɑ̃", "pos": "noun", "gender": "m", "cognate_type": "transparent", "rule": "ente_ent", "voice": "oris", "audio": "L02-moment"},
+    {"id": "L02-idee", "fr": "une idée", "es": "una idea", "en": "an idea", "ipa": "yn ide", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "ia_ie", "voice": "emilie", "audio": "L02-idee"},
+    {"id": "L02-menu", "fr": "un menu", "es": "un menú", "en": "a menu", "ipa": "ɛ̃ məny", "pos": "noun", "gender": "m", "cognate_type": "transparent", "voice": "oris", "audio": "L02-menu"},
+    {"id": "L02-pharmacie", "fr": "une pharmacie", "es": "una farmacia", "en": "a pharmacy", "ipa": "yn faʁmasi", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "greek_ph_th", "voice": "emilie", "audio": "L02-pharmacie"},
+    {"id": "L02-photo", "fr": "une photo", "es": "una foto", "en": "a photo", "ipa": "yn fɔto", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "greek_ph_th", "voice": "oris", "audio": "L02-photo"}
+  ],
+  "sentences": [
+    {"id": "L02-s01", "self": true, "fr_m": "J'ai une réservation.", "fr_f": "J'ai une réservation.", "es": "Tengo una reservación.", "en": "I have a reservation.", "audio_m": "L02-s01-m", "audio_f": "L02-s01-f", "note": "no self-adjective; both voices identical text, kept for gender variety of narrator"},
+    {"id": "L02-s02", "fr": "J'ai une question et j'ai un problème.", "es": "Tengo una pregunta y tengo un problema.", "en": "I have a question and I have a problem.", "voice": "oris", "audio": "L02-s02"},
+    {"id": "L02-s03", "fr": "Il y a un restaurant ici.", "es": "Hay un restaurante aquí.", "en": "There's a restaurant here.", "voice": "emilie", "audio": "L02-s03"},
+    {"id": "L02-s04", "fr": "Il y a une pharmacie ?", "es": "¿Hay una farmacia?", "en": "Is there a pharmacy?", "voice": "oris", "audio": "L02-s04"},
+    {"id": "L02-s05", "fr": "Tu as le menu ?", "es": "¿Tienes el menú?", "en": "Do you have the menu?", "voice": "emilie", "audio": "L02-s05"},
+    {"id": "L02-s06", "fr": "Nous avons une réservation pour deux.", "es": "Tenemos una reservación para dos.", "en": "We have a reservation for two.", "voice": "emilie", "audio": "L02-s06"},
+    {"id": "L02-s07", "fr": "On a un moment ? J'ai une idée.", "es": "¿Tenemos un momento? Tengo una idea.", "en": "Do we have a minute? I have an idea.", "voice": "oris", "audio": "L02-s07"},
+    {"id": "L02-s08", "fr": "Il y a un problème avec la réservation.", "es": "Hay un problema con la reservación.", "en": "There's a problem with the reservation.", "voice": "emilie", "audio": "L02-s08", "gloss": "avec = with (non-cognate)"}
+  ]
+}

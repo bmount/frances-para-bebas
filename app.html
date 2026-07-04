@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a6ee8">
+<title>Français pour bébas</title>
+<style>
+  :root{--sea:#0a6ee8;--deep:#064b9e;--sun:#ffc93c;--coral:#ff6b6b;--good:#12b886;
+    --ink:#12263a;--muted:#5b7590;--line:#e9eef5;--card:#fff;--bg:#eef4fb}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    color:var(--ink);background:var(--bg);
+    padding:0 0 calc(84px + env(safe-area-inset-bottom))}
+  .top{position:sticky;top:0;z-index:20;color:#fff;
+    background:linear-gradient(135deg,var(--sea),var(--deep));
+    padding:max(12px,env(safe-area-inset-top)) 16px 12px;display:flex;align-items:center;gap:12px;
+    box-shadow:0 4px 18px rgba(6,42,90,.25)}
+  .top h1{font-size:17px;margin:0;font-weight:700;flex:1}
+  .back{background:rgba(255,255,255,.2);border:0;color:#fff;width:34px;height:34px;border-radius:50%;
+    font-size:18px;cursor:pointer;display:none}
+  .wrap{max-width:520px;margin:0 auto;padding:16px}
+  .card{background:var(--card);border-radius:18px;padding:16px;margin:0 0 14px;
+    box-shadow:0 8px 22px rgba(6,42,90,.08)}
+  .card h2{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin:0 0 12px}
+  /* lesson picker */
+  .lcard{cursor:pointer;display:flex;align-items:center;gap:14px}
+  .lnum{width:46px;height:46px;border-radius:14px;flex-shrink:0;display:grid;place-items:center;
+    font-weight:800;color:#fff;background:linear-gradient(135deg,var(--sun),#f6a700)}
+  .lcard .t{font-size:18px;font-weight:700}
+  .lcard .s{font-size:13px;color:var(--muted)}
+  .big{display:block;width:100%;border:0;cursor:pointer;color:#fff;font-size:17px;font-weight:700;
+    padding:16px;border-radius:16px;background:linear-gradient(135deg,var(--coral),#e8506b);
+    box-shadow:0 8px 20px rgba(255,107,107,.35)}
+  /* play buttons */
+  .pbtn{border:0;flex-shrink:0;width:40px;height:40px;border-radius:50%;font-size:16px;cursor:pointer;
+    background:linear-gradient(135deg,var(--sea),var(--deep));color:#fff;
+    box-shadow:0 4px 10px rgba(10,110,232,.3);transition:transform .08s}
+  .pbtn:active{transform:scale(.88)}
+  .pbtn.playing{background:linear-gradient(135deg,var(--sun),#f6a700);color:#5a3d00}
+  .pbtn.f{background:linear-gradient(135deg,#ff6b95,#e8506b)}
+  .pbtn.m{background:linear-gradient(135deg,#3aa0ff,#0a6ee8)}
+  .pbtn.sm{width:34px;height:34px;font-size:13px}
+  /* conjugation */
+  table{width:100%;border-collapse:collapse}
+  td{padding:9px 4px;border-top:1px solid var(--line);vertical-align:middle}
+  .pron{color:var(--muted);font-size:14px;width:34%}
+  .form{font-weight:700;font-size:17px}
+  .es{color:var(--muted);font-size:12px}
+  .notes li{font-size:13.5px;line-height:1.55;margin:0 0 7px;color:#2a3f56}
+  .notes li b{color:var(--ink)}
+  /* vocab rows */
+  .v{display:flex;align-items:center;gap:11px;padding:11px 0;border-top:1px solid var(--line)}
+  .v:first-child{border-top:0}
+  .vmain{flex:1;min-width:0}
+  .vfr{font-weight:700;font-size:17px}
+  .vfr .g{color:var(--coral);font-size:13px;font-weight:600}
+  .ves{color:var(--muted);font-size:13px}
+  .vipa{color:var(--sea);font-size:12px;font-family:"Times New Roman",serif}
+  .chip{font-size:10px;font-weight:700;padding:2px 7px;border-radius:20px;white-space:nowrap}
+  .chip.cog{background:#d3f9d8;color:#0b7a54}
+  .chip.non{background:#ffe3e3;color:#c92a2a}
+  .chip.semi{background:#fff3bf;color:#8a6d00}
+  .gpair{display:flex;gap:6px;align-items:center}
+  .sent{padding:12px 0;border-top:1px solid var(--line);display:flex;gap:11px;align-items:flex-start}
+  .sent:first-child{border-top:0}
+  .sfr{font-weight:600;font-size:16px;line-height:1.35}
+  .ses{color:var(--muted);font-size:13px;margin-top:2px}
+  .sen{color:#93a6ba;font-size:12px;font-style:italic;margin-top:1px}
+  .tabs{display:flex;gap:8px;margin:0 0 14px}
+  .tab{flex:1;text-align:center;padding:10px;border-radius:12px;font-size:13px;font-weight:700;
+    background:#fff;color:var(--muted);border:0;cursor:pointer}
+  .tab.on{background:var(--sea);color:#fff}
+  /* flashcards */
+  #fc{max-width:520px;margin:0 auto;padding:16px}
+  .fcstage{background:#fff;border-radius:22px;box-shadow:0 12px 30px rgba(6,42,90,.14);
+    padding:26px 20px;min-height:340px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+  .fcmix{font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--muted);margin-bottom:8px}
+  .fcmix .hard{color:var(--coral)}.fcmix .cog{color:var(--good)}
+  .fcprompt{font-size:15px;color:var(--muted)}
+  .fcbig{font-size:34px;font-weight:800;margin:8px 0}
+  .fcrev{font-size:15px;color:var(--muted);min-height:80px;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center}
+  .fcrev .fr{font-size:30px;font-weight:800;color:var(--ink)}
+  .fcrev .ipa{color:var(--sea);font-family:"Times New Roman",serif}
+  .fcrev .en{font-size:14px}
+  .fcbtns{display:flex;gap:10px;margin-top:16px;max-width:520px;margin-left:auto;margin-right:auto}
+  .fcbtns button{flex:1;border:0;border-radius:14px;padding:15px;font-size:15px;font-weight:700;cursor:pointer;color:#fff}
+  .reveal{background:var(--sea)}
+  .again{background:#ff8787}.good{background:var(--good)}
+  .prog{height:6px;background:#dbe5f0;border-radius:3px;overflow:hidden;margin:0 0 14px}
+  .prog>i{display:block;height:100%;background:var(--sun);width:0}
+  .hidden{display:none!important}
+  .empty{text-align:center;color:var(--muted);padding:40px 20px}
+</style>
+</head>
+<body>
+<div class="top">
+  <button class="back" id="back">‹</button>
+  <h1 id="ttl">Français pour bébas</h1>
+  <span style="font-size:20px">🌞</span>
+</div>
+
+<div id="home" class="wrap"></div>
+<div id="lesson" class="wrap hidden"></div>
+<div id="fc" class="hidden"></div>
+
+<script>
+const AUDIO = {base:"", clips:{}};
+let LESSONS = [];
+let cur = null; // audio element
+
+async function boot(){
+  const man = await fetch('data/audio_manifest.json').then(r=>r.json());
+  AUDIO.base = man.audio_base; AUDIO.clips = man.clips;
+  const files = ['data/curriculum/lesson_01_etre.json','data/curriculum/lesson_02_avoir.json'];
+  LESSONS = await Promise.all(files.map(f=>fetch(f).then(r=>r.json())));
+  route();
+}
+window.addEventListener('hashchange', route);
+
+function play(id, btn){
+  if(!id || !AUDIO.clips[id]) return;
+  const url = AUDIO.base + AUDIO.clips[id];
+  if(cur){ cur.el.pause(); cur.el.currentTime=0; cur.btn&&cur.btn.classList.remove('playing'); }
+  const el = new Audio(url);
+  cur = {el, btn};
+  if(btn) btn.classList.add('playing');
+  el.addEventListener('ended',()=>btn&&btn.classList.remove('playing'));
+  el.play().catch(()=>btn&&btn.classList.remove('playing'));
+}
+// event delegation for all play buttons
+document.body.addEventListener('click', e=>{
+  const b = e.target.closest('[data-aud]');
+  if(b) play(b.dataset.aud, b);
+});
+
+function chip(ct){
+  if(ct==='non_cognate') return '<span class="chip non">nuevo ⭐</span>';
+  if(ct==='semi') return '<span class="chip semi">semi-cognado</span>';
+  return '<span class="chip cog">cognado</span>';
+}
+function pbtn(id, cls){ return `<button class="pbtn ${cls||''}" data-aud="${id}">▶︎</button>`; }
+
+function route(){
+  const h = location.hash.slice(1);
+  const home=document.getElementById('home'), les=document.getElementById('lesson'), fc=document.getElementById('fc');
+  home.classList.add('hidden'); les.classList.add('hidden'); fc.classList.add('hidden');
+  document.getElementById('back').style.display = h ? 'block' : 'none';
+  document.getElementById('back').onclick=()=>location.hash='';
+  if(h.startsWith('lesson/')){ renderLesson(h.split('/')[1]); les.classList.remove('hidden'); }
+  else if(h==='flash'){ renderFlash(); fc.classList.remove('hidden'); }
+  else { renderHome(); home.classList.remove('hidden'); }
+}
+
+function renderHome(){
+  document.getElementById('ttl').textContent='Français pour bébas';
+  const el=document.getElementById('home');
+  el.innerHTML = `
+    <div class="card" style="text-align:center">
+      <div style="font-size:15px;line-height:1.5">Bienvenue, ma belle 🌊<br>
+      <span style="color:var(--muted);font-size:13px">Le français à partir de ton espagnol · cap sur Nice</span></div>
+    </div>
+    ${LESSONS.map(L=>`
+      <div class="card lcard" onclick="location.hash='lesson/${L.id}'">
+        <div class="lnum">${L.order}</div>
+        <div class="vmain"><div class="t">${L.title}</div><div class="s">${L.es_title}</div></div>
+        <span style="color:var(--muted);font-size:22px">›</span>
+      </div>`).join('')}
+    <button class="big" onclick="location.hash='flash'">🎴 Flashcards — drill</button>`;
+}
+
+function vocabRow(it){
+  if(it.fr_m){
+    return `<div class="v">
+      <div class="vmain">
+        <div class="vfr">${it.fr_m} <span class="g">/ ${it.fr_f}</span></div>
+        <div class="ves">${it.es} · ${it.en}</div>
+      </div>${chip(it.cognate_type)}
+      <div class="gpair">${pbtn(it.audio_m,'m sm')}${pbtn(it.audio_f,'f sm')}</div>
+    </div>`;
+  }
+  return `<div class="v">
+    <div class="vmain">
+      <div class="vfr">${it.fr} ${it.gender?`<span class="g">(${it.gender})</span>`:''}</div>
+      <div class="ves">${it.es} · ${it.en}</div>
+    </div>${chip(it.cognate_type)}${pbtn(it.audio)}</div>`;
+}
+
+function sentRow(it){
+  if(it.fr_m){
+    return `<div class="sent">
+      <div class="vmain"><div class="sfr">♂ ${it.fr_m}<br>♀ ${it.fr_f}</div>
+      <div class="ses">${it.es}</div><div class="sen">${it.en}</div></div>
+      <div class="gpair" style="flex-direction:column">${pbtn(it.audio_m,'m sm')}${pbtn(it.audio_f,'f sm')}</div>
+    </div>`;
+  }
+  return `<div class="sent">
+    <div class="vmain"><div class="sfr">${it.fr}</div><div class="ses">${it.es}</div>
+    <div class="sen">${it.en}${it.gloss?' · '+it.gloss:''}</div></div>
+    ${pbtn(it.audio)}</div>`;
+}
+
+function renderLesson(id){
+  const L = LESSONS.find(x=>x.id===id); if(!L) { location.hash=''; return; }
+  document.getElementById('ttl').textContent = L.title;
+  const c = L.grammar.conjugation;
+  const el=document.getElementById('lesson');
+  el.innerHTML = `
+    <div class="card"><div style="font-size:14px;line-height:1.5;color:#2a3f56">${L.focus}</div></div>
+    <div class="tabs">
+      <button class="tab on" data-t="g">Grammaire</button>
+      <button class="tab" data-t="v">Vocabulaire</button>
+      <button class="tab" data-t="s">Phrases</button>
+    </div>
+    <div data-p="g">
+      <div class="card"><h2>${c.verb} · ${c.es}</h2>
+        <div style="font-size:13.5px;color:var(--muted);line-height:1.5;margin-bottom:8px">${L.grammar.intro_es}</div>
+        <table>${c.present.map(r=>`<tr>
+          <td class="pron">${r.pron}</td>
+          <td class="form">${r.form}<div class="es">${r.es}</div></td>
+          <td style="width:44px;text-align:right">${pbtn(r.audio,'sm')}</td></tr>`).join('')}</table>
+      </div>
+      <div class="card"><h2>Comme on parle 🗣️</h2>
+        <ul class="notes" style="padding-left:18px;margin:0">${L.grammar.spoken_notes.map(n=>`<li>${n}</li>`).join('')}</ul></div>
+    </div>
+    <div data-p="v" class="hidden"><div class="card"><h2>Vocabulaire — ${L.vocab.length} mots</h2>
+      ${L.vocab.map(vocabRow).join('')}</div></div>
+    <div data-p="s" class="hidden"><div class="card"><h2>Phrases</h2>
+      ${L.sentences.map(sentRow).join('')}</div></div>`;
+  el.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+    el.querySelectorAll('.tab').forEach(x=>x.classList.remove('on')); t.classList.add('on');
+    el.querySelectorAll('[data-p]').forEach(p=>p.classList.toggle('hidden', p.dataset.p!==t.dataset.t));
+  });
+}
+
+/* ---- Flashcards: 3 hard : 2 cognate mix ---- */
+function buildDeck(){
+  const all = LESSONS.flatMap(L=>L.vocab);
+  const hard = all.filter(v=>v.cognate_type==='non_cognate' || v.star);
+  const cog  = all.filter(v=>!(v.cognate_type==='non_cognate' || v.star));
+  const shuffle=a=>a.map(x=>[Math.random(),x]).sort((p,q)=>p[0]-q[0]).map(p=>p[1]);
+  const H=shuffle(hard), C=shuffle(cog), deck=[]; let hi=0,ci=0;
+  while(hi<H.length || ci<C.length){
+    for(let k=0;k<3 && hi<H.length;k++) deck.push({...H[hi++],_k:'hard'});
+    for(let k=0;k<2 && ci<C.length;k++) deck.push({...C[ci++],_k:'cog'});
+  }
+  return deck;
+}
+let deck=[], di=0, revealed=false;
+function renderFlash(){
+  document.getElementById('ttl').textContent='Flashcards';
+  if(!deck.length){ deck=buildDeck(); di=0; }
+  drawCard();
+}
+function fcFace(it){
+  const fr = it.fr_m ? `${it.fr_m} / ${it.fr_f}` : it.fr;
+  const ipa = it.ipa || it.ipa_m || '';
+  const aud = it.audio || it.audio_m;
+  return {es: it.es, fr, ipa, en: it.en, aud, k: it._k};
+}
+function drawCard(){
+  const host=document.getElementById('fc');
+  if(di>=deck.length){
+    host.innerHTML=`<div class="fcstage"><div class="empty">🎉 Deck terminé !<br><br>
+      <button class="big" style="max-width:260px" onclick="deck=[];renderFlash()">Recommencer</button></div></div>`;
+    return;
+  }
+  const f = fcFace(deck[di]); revealed=false;
+  const mix = f.k==='hard' ? '<span class="hard">● nuevo / difícil</span>' : '<span class="cog">● cognado</span>';
+  host.innerHTML=`
+    <div class="prog"><i style="width:${(di/deck.length*100)}%"></i></div>
+    <div class="fcstage">
+      <div class="fcmix">${mix} &nbsp;·&nbsp; ${di+1}/${deck.length} &nbsp;·&nbsp; mezcla 3:2</div>
+      <div class="fcprompt">🇪🇸 ¿cómo se dice…?</div>
+      <div class="fcbig">${f.es}</div>
+      <div class="fcrev" id="rev"><button class="pbtn" data-aud="${f.aud}" style="width:54px;height:54px;font-size:20px">▶︎</button></div>
+    </div>
+    <div class="fcbtns" id="fcb">
+      <button class="reveal" id="revealBtn">Voir la réponse 🇫🇷</button>
+    </div>`;
+  document.getElementById('revealBtn').onclick=()=>{
+    document.getElementById('rev').innerHTML=`
+      <div class="fr">${f.fr}</div>
+      ${f.ipa?`<div class="ipa">/${f.ipa}/</div>`:''}
+      <div class="en">${f.en}</div>
+      <button class="pbtn" data-aud="${f.aud}" style="margin-top:6px">🔊</button>`;
+    play(f.aud);
+    document.getElementById('fcb').innerHTML=`
+      <button class="again" onclick="grade(false)">Encore</button>
+      <button class="good" onclick="grade(true)">Je sais ✓</button>`;
+  };
+}
+function grade(known){
+  // simple: unknown cards get requeued near the end
+  if(!known){ const c=deck[di]; deck.push(c); }
+  di++; drawCard();
+}
+boot();
+</script>
+</body>
+</html>

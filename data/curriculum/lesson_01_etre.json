@@ -1,0 +1,73 @@
+{
+  "id": "L01",
+  "order": 1,
+  "slug": "etre",
+  "title": "Être — to be",
+  "es_title": "El verbo « être » (ser / estar)",
+  "focus": "Your first French verb, wrapped in words you already own from Spanish.",
+  "objectives": [
+    "Conjugate être in the present (spoken forms).",
+    "Use c'est and on like a real French speaker.",
+    "Describe yourself and things using ~10 transparent cognate adjectives."
+  ],
+  "grammar": {
+    "intro_es": "« être » es como ser/estar. El francés no separa ser y estar: un solo verbo cubre los dos. Fíjate: casi todo lo que lo acompaña aquí ya lo reconoces del español.",
+    "conjugation": {
+      "verb": "être", "en": "to be", "es": "ser / estar",
+      "present": [
+        {"pron": "je",           "form": "suis",   "ipa": "ʒə sɥi", "es": "(yo) soy / estoy",        "audio": "L01-c-je"},
+        {"pron": "tu",           "form": "es",     "ipa": "ty ɛ",   "es": "(tú) eres / estás",        "audio": "L01-c-tu"},
+        {"pron": "il / elle / on","form": "est",   "ipa": "il ɛ",   "es": "(él/ella) es / está",      "audio": "L01-c-il"},
+        {"pron": "nous",         "form": "sommes", "ipa": "nu sɔm", "es": "(nosotros) somos / estamos","audio": "L01-c-nous"},
+        {"pron": "vous",         "form": "êtes",   "ipa": "vu zɛt", "es": "(ustedes) son / están",    "audio": "L01-c-vous"},
+        {"pron": "ils / elles",  "form": "sont",   "ipa": "il sɔ̃", "es": "(ellos) son / están",      "audio": "L01-c-ils"}
+      ]
+    },
+    "spoken_notes": [
+      "On = we, in everyday speech. « On est à Nice » (not « nous sommes »).",
+      "C'est = it is / that is — the single most useful phrase in French. « C'est important. »",
+      "Final consonants are silent: es, est → /ɛ/ (like ‘eh’). Only the vowel sounds.",
+      "Liaison: vous êtes → « vou-ZETT », ils sont → « il-SON »."
+    ]
+  },
+  "vocab": [
+    {"id": "L01-etre", "fr": "être", "es": "ser / estar", "en": "to be", "ipa": "ɛtʁ", "pos": "verb", "cognate_type": "non_cognate", "star": true, "voice": "emilie", "audio": "L01-etre"},
+    {"id": "L01-cest", "fr": "c'est", "es": "es / esto es", "en": "it is / that is", "ipa": "sɛ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "voice": "oris", "audio": "L01-cest"},
+    {"id": "L01-on", "fr": "on", "es": "nosotros (coloquial)", "en": "we (spoken)", "ipa": "ɔ̃", "pos": "pron", "cognate_type": "non_cognate", "star": true, "voice": "emilie", "audio": "L01-on"},
+    {"id": "L01-et", "fr": "et", "es": "y", "en": "and", "ipa": "e", "pos": "conj", "cognate_type": "non_cognate", "star": true, "voice": "oris", "audio": "L01-et"},
+    {"id": "L01-tres", "fr": "très", "es": "muy", "en": "very", "ipa": "tʁɛ", "pos": "adv", "cognate_type": "non_cognate", "star": true, "voice": "emilie", "audio": "L01-tres"},
+    {"id": "L01-a", "fr": "à", "es": "a / en", "en": "at / to", "ipa": "a", "pos": "prep", "cognate_type": "non_cognate", "star": true, "voice": "oris", "audio": "L01-a"},
+
+    {"id": "L01-important", "fr_m": "important", "fr_f": "importante", "es": "importante", "en": "important", "ipa_m": "ɛ̃pɔʁtɑ̃", "ipa_f": "ɛ̃pɔʁtɑ̃t", "pos": "adj", "cognate_type": "transparent", "rule": "ente_ent", "audio_m": "L01-important-m", "audio_f": "L01-important-f"},
+    {"id": "L01-different", "fr_m": "différent", "fr_f": "différente", "es": "diferente", "en": "different", "ipa_m": "difeʁɑ̃", "ipa_f": "difeʁɑ̃t", "pos": "adj", "cognate_type": "transparent", "rule": "ente_ent", "audio_m": "L01-different-m", "audio_f": "L01-different-f"},
+    {"id": "L01-intelligent", "fr_m": "intelligent", "fr_f": "intelligente", "es": "inteligente", "en": "intelligent", "ipa_m": "ɛ̃teliʒɑ̃", "ipa_f": "ɛ̃teliʒɑ̃t", "pos": "adj", "cognate_type": "transparent", "rule": "ente_ent", "audio_m": "L01-intelligent-m", "audio_f": "L01-intelligent-f"},
+    {"id": "L01-excellent", "fr_m": "excellent", "fr_f": "excellente", "es": "excelente", "en": "excellent", "ipa_m": "ɛksɛlɑ̃", "ipa_f": "ɛksɛlɑ̃t", "pos": "adj", "cognate_type": "transparent", "rule": "ente_ent", "audio_m": "L01-excellent-m", "audio_f": "L01-excellent-f"},
+    {"id": "L01-american", "fr_m": "américain", "fr_f": "américaine", "es": "americano / americana", "en": "American", "ipa_m": "ameʁikɛ̃", "ipa_f": "ameʁikɛn", "pos": "adj", "cognate_type": "transparent", "audio_m": "L01-american-m", "audio_f": "L01-american-f"},
+    {"id": "L01-french", "fr_m": "français", "fr_f": "française", "es": "francés / francesa", "en": "French", "ipa_m": "fʁɑ̃sɛ", "ipa_f": "fʁɑ̃sɛz", "pos": "adj", "cognate_type": "semi", "audio_m": "L01-french-m", "audio_f": "L01-french-f"},
+    {"id": "L01-content", "fr_m": "content", "fr_f": "contente", "es": "contento / contenta", "en": "happy, content", "ipa_m": "kɔ̃tɑ̃", "ipa_f": "kɔ̃tɑ̃t", "pos": "adj", "cognate_type": "transparent", "audio_m": "L01-content-m", "audio_f": "L01-content-f"},
+    {"id": "L01-curious", "fr_m": "curieux", "fr_f": "curieuse", "es": "curioso / curiosa", "en": "curious", "ipa_m": "kyʁjø", "ipa_f": "kyʁjøz", "pos": "adj", "cognate_type": "transparent", "rule": "oso_eux", "audio_m": "L01-curious-m", "audio_f": "L01-curious-f"},
+
+    {"id": "L01-possible", "fr": "possible", "es": "posible", "en": "possible", "ipa": "pɔsibl", "pos": "adj", "epicene": true, "cognate_type": "transparent", "voice": "oris", "audio": "L01-possible"},
+    {"id": "L01-necessaire", "fr": "nécessaire", "es": "necesario", "en": "necessary", "ipa": "nesesɛʁ", "pos": "adj", "epicene": true, "cognate_type": "transparent", "rule": "ario_aire", "voice": "emilie", "audio": "L01-necessaire"},
+    {"id": "L01-difficile", "fr": "difficile", "es": "difícil", "en": "difficult", "ipa": "difisil", "pos": "adj", "epicene": true, "cognate_type": "transparent", "voice": "oris", "audio": "L01-difficile"},
+
+    {"id": "L01-station", "fr": "la station", "es": "la estación", "en": "the station", "ipa": "la stasjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "cion_tion", "voice": "emilie", "audio": "L01-station"},
+    {"id": "L01-restaurant", "fr": "le restaurant", "es": "el restaurante", "en": "the restaurant", "ipa": "lə ʁɛstoʁɑ̃", "pos": "noun", "gender": "m", "cognate_type": "transparent", "rule": "ente_ent", "voice": "oris", "audio": "L01-restaurant"},
+    {"id": "L01-situation", "fr": "la situation", "es": "la situación", "en": "the situation", "ipa": "la sitɥasjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "cion_tion", "voice": "emilie", "audio": "L01-situation"},
+    {"id": "L01-nation", "fr": "la nation", "es": "la nación", "en": "the nation", "ipa": "la nasjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "cion_tion", "voice": "oris", "audio": "L01-nation"}
+  ],
+  "sentences": [
+    {"id": "L01-s01", "fr": "C'est important.", "es": "Es importante.", "en": "It's important.", "voice": "oris", "audio": "L01-s01"},
+    {"id": "L01-s02", "fr": "C'est possible et c'est nécessaire.", "es": "Es posible y es necesario.", "en": "It's possible and it's necessary.", "voice": "emilie", "audio": "L01-s02"},
+    {"id": "L01-s03", "fr": "Le restaurant est excellent.", "es": "El restaurante es excelente.", "en": "The restaurant is excellent.", "voice": "emilie", "audio": "L01-s03"},
+    {"id": "L01-s04", "fr": "La situation est difficile.", "es": "La situación es difícil.", "en": "The situation is difficult.", "voice": "oris", "audio": "L01-s04"},
+    {"id": "L01-s05", "fr": "On est à la station.", "es": "Estamos en la estación.", "en": "We're at the station.", "voice": "oris", "audio": "L01-s05"},
+    {"id": "L01-s06", "fr": "Nous sommes à Nice.", "es": "Estamos en Niza.", "en": "We are in Nice.", "voice": "emilie", "audio": "L01-s06"},
+    {"id": "L01-s07", "fr": "Il est très intelligent.", "es": "Él es muy inteligente.", "en": "He is very intelligent.", "voice": "oris", "audio": "L01-s07"},
+    {"id": "L01-s08", "fr": "Elle est très intelligente.", "es": "Ella es muy inteligente.", "en": "She is very intelligent.", "voice": "emilie", "audio": "L01-s08"},
+    {"id": "L01-s09", "self": true, "fr_m": "Je suis américain.", "fr_f": "Je suis américaine.", "es": "Soy americano / americana.", "en": "I am American.", "audio_m": "L01-s09-m", "audio_f": "L01-s09-f"},
+    {"id": "L01-s10", "self": true, "fr_m": "Je suis content et je suis curieux.", "fr_f": "Je suis contente et je suis curieuse.", "es": "Estoy contento/a y soy curioso/a.", "en": "I'm happy and I'm curious.", "audio_m": "L01-s10-m", "audio_f": "L01-s10-f"},
+    {"id": "L01-s11", "self": true, "fr_m": "Je suis français ? Non, je suis américain.", "fr_f": "Je suis française ? Non, je suis américaine.", "es": "¿Soy francés/a? No, soy americano/a.", "en": "Am I French? No, I'm American.", "audio_m": "L01-s11-m", "audio_f": "L01-s11-f"},
+    {"id": "L01-s12", "fr": "Tu es prêt ? On est en retard !", "es": "¿Estás listo? ¡Vamos tarde!", "en": "Ready? We're late!", "voice": "emilie", "audio": "L01-s12", "gloss": "prêt = ready (non-cognate); en retard = late"}
+  ]
+}
