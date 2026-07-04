@@ -1,6 +1,6 @@
 {
   "audio_base": "https://storage.googleapis.com/bmount-public-share/frances-para-bebas/",
-  "count": 214,
+  "count": 217,
   "clips": {
     "L01-a": "L01-a.mp3",
     "L01-american-f": "L01-american-f.mp3",
@@ -46,6 +46,9 @@
     "L01-s08": "L01-s08.mp3",
     "L01-s09-f": "L01-s09-f.mp3",
     "L01-s09-m": "L01-s09-m.mp3",
+    "L01-s10": "L01-s10.mp3",
+    "L01-s11": "L01-s11.mp3",
+    "L01-s12": "L01-s12.mp3",
     "L01-situation": "L01-situation.mp3",
     "L01-station": "L01-station.mp3",
     "L01-t-cond": "L01-t-cond.mp3",

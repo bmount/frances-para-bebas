@@ -10,6 +10,24 @@
     "Recognize être in all the tenses you'll actually hear in Nice.",
     "Describe yourself and things with cognate adjectives — and ask politely (je voudrais…)."
   ],
+  "reader": [
+    {"t": "lead", "html": "<b>Être</b> = «ser» y «estar» en un solo verbo. Es el jefe del francés: sale en cada saludo, cada queja, cada chisme. Sin être no eres nadie — literalmente."},
+    {"t": "h3", "text": "Un verbo para dos"},
+    {"t": "p", "html": "El truco de tu vida: el francés metió <b>ser</b> Y <b>estar</b> en UN verbo. Un verbo, cero drama."},
+    {"t": "maps", "rows": [
+      {"es": "Soy americana", "fr": "je suis américaine"},
+      {"es": "Estoy en Nice", "fr": "je suis à Nice"},
+      {"es": "Estoy contenta (hay socca 🫓)", "fr": "je suis contente"}
+    ]},
+    {"t": "h3", "text": "« on », no « nous »"},
+    {"t": "p", "html": "Nadie dice <span class='fr'>nous</span> en la calle — está tan muerto como el <i>vosotros</i> en México. Se dice <span class='fr'>on</span> (se conjuga como <i>il</i>): <span class='fr'>on est à la plage</span> = «estamos en la playa»."},
+    {"t": "h3", "text": "« c'est » — dos palabras mágicas"},
+    {"t": "callout", "html": "Pruebas la socca y sueltas: <span class='fr'>c'est bon !</span> Ya suenas local. <b>C'est</b> = «es / eso es», las dos palabras más útiles del idioma."},
+    {"t": "h3", "text": "En la calle, en Nice"},
+    {"t": "p", "html": "En la heladería del Vieux Nice: <span class='fr'>«&nbsp;Salut&nbsp;! Ça va&nbsp;?&nbsp;» — «&nbsp;Oui&nbsp;! On est en vacances, et cette glace… c'est parfait.&nbsp;»</span> Tres formas de être en diez segundos. Así respira el verbo."},
+    {"t": "h3", "text": "Cómo suena"},
+    {"t": "p", "html": "<span class='fr'>suis</span> /sɥi/, <span class='fr'>es</span> /ɛ/, <span class='fr'>est</span> /ɛ/ — sí, <i>es</i> y <i>est</i> suenan idéntico, como una «e» de encogerte de hombros 🤷‍♀️. Las letras finales son decorativas: el francés las escribe pero se niega a pronunciarlas."}
+  ],
   "grammar": {
     "intro_es": "« être » es ser/estar en un solo verbo. Aquí lo ves en TODOS los tiempos que se hablan de verdad, siempre en frases completas. Casi todo lo que lo rodea ya lo reconoces del español.",
     "conjugation": {
@@ -76,6 +94,9 @@
     {"id": "L01-s06", "tense": "conditionnel", "fr": "Je voudrais réserver une table.", "es": "Quisiera reservar una mesa.", "en": "I'd like to reserve a table.", "voice": "oris", "audio": "L01-s06", "gloss": "polite conditional — replaces Spanish 'quisiera'"},
     {"id": "L01-s07", "tense": "conditionnel", "fr": "Est-ce que vous pourriez m'aider ?", "es": "¿Podría ayudarme?", "en": "Could you help me?", "voice": "emilie", "audio": "L01-s07"},
     {"id": "L01-s08", "tense": "subjonctif", "fr": "Il faut que tu sois à l'heure.", "es": "Tienes que estar a tiempo.", "en": "You have to be on time.", "voice": "oris", "audio": "L01-s08"},
-    {"id": "L01-s09", "tense": "subjonctif", "self": true, "fr_m": "Je suis content que tu sois là.", "fr_f": "Je suis contente que tu sois là.", "es": "Me alegra que estés aquí.", "en": "I'm glad you're here.", "audio_m": "L01-s09-m", "audio_f": "L01-s09-f"}
+    {"id": "L01-s09", "tense": "subjonctif", "self": true, "fr_m": "Je suis content que tu sois là.", "fr_f": "Je suis contente que tu sois là.", "es": "Me alegra que estés aquí.", "en": "I'm glad you're here.", "audio_m": "L01-s09-m", "audio_f": "L01-s09-f"},
+    {"id": "L01-s10", "tense": "présent", "register": "parle", "fr": "Salut ! Ça va ?", "es": "¡Hola! ¿Qué tal?", "en": "Hi! How's it going?", "voice": "emilie", "audio": "L01-s10", "gloss": "saludo de calle — casual greeting"},
+    {"id": "L01-s11", "tense": "présent", "register": "parle", "fr": "La socca, c'est excellent !", "es": "¡La socca está buenísima!", "en": "The socca is excellent!", "voice": "oris", "audio": "L01-s11", "gloss": "la socca = especialidad de Nice 🫓"},
+    {"id": "L01-s12", "tense": "présent", "register": "parle", "fr": "On est en vacances à Nice, et c'est parfait.", "es": "Estamos de vacaciones en Niza, y es perfecto.", "en": "We're on vacation in Nice, and it's perfect.", "voice": "emilie", "audio": "L01-s12"}
   ]
 }

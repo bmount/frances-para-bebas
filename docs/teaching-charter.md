@@ -177,6 +177,26 @@ They unlock huge amounts of natural speech:
 
 ---
 
+## Lesson craft (distilled from the Être rewrite)
+
+A word list is not a lesson. Every lesson must have **connective tissue**.
+
+- **Reader first.** Each lesson opens with a short **READER** in Spanish — what the
+  thing *is*, why it matters, and the one Spanish contrast that reframes it — *before*
+  any list. Lists without prose are the failure mode to avoid.
+- **Contrast-first.** Lead with the single insight that rewrites her mental model, then
+  map it: *être = ser **and** estar in one verb* → *soy/estoy → je suis*. That "money
+  insight" goes at the top.
+- **Maximal compression.** Every word earns its place. Smart captions, not paragraphs.
+  Textbook that doesn't suck.
+- **Voice.** Irreverent, warm, big-sister / cool-dad energy. Funny, never cringe.
+  (Draftable with the **Fable** model for voice; always accuracy-check the French.)
+- **Theme: a HS girl's summer in Nice.** Prefer examples with **food** (la socca, une
+  glace, la salade niçoise, un pain bagnat, un café), **greetings** (bonjour, salut, ça
+  va, coucou), and real teen moments. It is a genuine *pleasure* for a Spanish speaker
+  to recognize familiar words in a French context — lean into that delight.
+- **Readability.** Big fonts. She may be reading on a phone, in the sun, on a train.
+
 ## Register defaults (apply everywhere)
 
 `on` = we · contractions (`j'ai`, `c'est`, `y a`) · est-ce que / intonation questions ·

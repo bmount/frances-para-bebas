@@ -82,6 +82,43 @@
   .hidden{display:none!important}.empty{text-align:center;color:var(--muted);padding:36px 16px}
   .lead{font-size:13px;color:#2a3f56;line-height:1.5;margin:0 0 12px}
 </style>
+<style>
+  /* ---- BIG readability upsize (overrides above) ---- */
+  body{font-size:18px}
+  .top h1{font-size:20px}
+  .card h2{font-size:14px}
+  .lnum{font-size:20px}.lcard .t{font-size:21px}.lcard .s{font-size:15px}
+  .big{font-size:19px;padding:16px}
+  .pron{font-size:16.5px}.form{font-size:20px}.exs{font-size:16px}.es{font-size:14.5px}
+  .notes li{font-size:16.5px;line-height:1.6}
+  .vfr{font-size:19.5px}.ves{font-size:15px}.vex{font-size:15px}
+  .chip{font-size:12px}.tt{font-size:12px}.reg{font-size:11.5px}
+  .sfr{font-size:18.5px;line-height:1.4}.ses{font-size:15.5px}.sen{font-size:13.5px}
+  .tab{font-size:14.5px;padding:11px 4px}
+  .ipa{font-size:18px}.sndlab{font-size:20px}.spell{font-size:14px}.sndnote{font-size:17px;line-height:1.6}
+  .newb{font-size:11.5px}.obsflag{font-size:11px}
+  .exfr{font-size:18.5px}.exipa{font-size:14px}.exes{font-size:14px}
+  .pcol .w{font-size:19px}.pnote{font-size:15px}
+  .lead{font-size:17px;line-height:1.6}
+  .prompt{font-size:16px}.big2{font-size:36px}.rev{font-size:16.5px}.rev .fr{font-size:30px}
+  .btns button{font-size:17px}
+  .qtype{font-size:13px}.qbig{font-size:25px}.qsub{font-size:15px}.opt{font-size:19px;padding:15px}
+  /* ---- reading material (connective tissue) ---- */
+  .reader{font-size:17px;line-height:1.62;color:#26384d}
+  .reader h3{font-size:14px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:16px 0 6px}
+  .reader h3:first-child{margin-top:0}
+  .reader p{margin:0 0 11px}
+  .reader b,.reader .k{color:var(--deep);font-weight:800}
+  .reader .fr{font-weight:700;color:#0a3d7a;font-style:normal}
+  .reader .lead-in{font-size:18.5px;line-height:1.5;font-weight:600;color:var(--ink)}
+  .maps{margin:6px 0 12px;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+  .maprow{display:flex;align-items:center;gap:8px;padding:10px 12px;border-top:1px solid var(--line);font-size:16px}
+  .maprow:first-child{border-top:0}
+  .maprow .esx{color:var(--muted);flex:1}.maprow .arw{color:var(--coral);font-weight:800}
+  .maprow .frx{font-weight:700;color:#0a3d7a;flex:1;text-align:right}
+  .callout{background:#fff7ec;border-left:4px solid var(--sun);border-radius:8px;padding:11px 13px;margin:0 0 12px;font-size:16.5px;line-height:1.55}
+  .callout b{color:#a1560b}
+</style>
 </head>
 <body>
 <div class="top"><button class="back" id="back">‹</button><h1 id="ttl">Français pour bébas</h1><span style="font-size:20px">🌞</span></div>
@@ -158,6 +195,17 @@ function renderSounds(L){
     <div class="card"><div class="lead">${L.intro_es}</div></div>
     <div class="card"><h2>${L.sounds.length} sons · muchos ejemplos</h2>${L.sounds.map(soundCard).join('')}</div>`;
 }
+/* ---------- reading material (connective tissue) ---------- */
+function renderReader(blocks){
+  return blocks.map(b=>{
+    if(b.t==='lead') return `<p class="lead-in">${b.html}</p>`;
+    if(b.t==='h3') return `<h3>${b.text}</h3>`;
+    if(b.t==='p') return `<p>${b.html}</p>`;
+    if(b.t==='callout') return `<div class="callout">${b.html}</div>`;
+    if(b.t==='maps') return `<div class="maps">${b.rows.map(r=>`<div class="maprow"><span class="esx">🇪🇸 ${r.es}</span><span class="arw">→</span><span class="frx">${r.fr}</span></div>`).join('')}</div>`;
+    return '';
+  }).join('');
+}
 /* ---------- verb lessons ---------- */
 function vocabRow(it){
   if(it.ex_m)return `<div class="v"><div class="vmain"><div class="vfr">${it.fr_m} <span class="g">/ ${it.fr_f}</span></div>
@@ -186,9 +234,10 @@ function renderLesson(id){
       <td style="width:44px;text-align:right">${obs?'':pbtn(r.audio,'sm')}</td></tr>`;};
   document.getElementById('view').innerHTML=`
     <div class="card"><div class="lead">${L.focus}</div></div>
-    <div class="tabs"><button class="tab on" data-t="c">Présent</button><button class="tab" data-t="t">Tous les temps</button>
+    <div class="tabs">${L.reader?'<button class="tab on" data-t="r">📖 Lis</button>':''}<button class="tab ${L.reader?'':'on'}" data-t="c">Présent</button><button class="tab" data-t="t">Tous les temps</button>
       <button class="tab" data-t="v">Vocab</button><button class="tab" data-t="s">Phrases</button></div>
-    <div data-p="c"><div class="card"><h2>${c.verb} · ${c.es}</h2>
+    ${L.reader?`<div data-p="r"><div class="card reader">${renderReader(L.reader)}</div></div>`:''}
+    <div data-p="c" class="${L.reader?'hidden':''}"><div class="card"><h2>${c.verb} · ${c.es}</h2>
       <div style="font-size:13px;color:var(--muted);line-height:1.5;margin-bottom:8px">${L.grammar.intro_es}</div>
       <table>${c.present.map(crow).join('')}</table>
       <div style="font-size:12px;color:var(--muted);margin-top:8px">« nous » se garde pour reconnaître, mais à l'oral on dit <b>on</b>.</div></div>
