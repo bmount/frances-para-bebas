@@ -43,7 +43,25 @@
       ]
     }
   },
+  "polite_conditional": {
+    "principle": "For polite requests French uses the CONDITIONAL, not a 'quisiera-style' imperfect subjunctive. These are survival phrases for Nice — teach as fixed chunks.",
+    "frames": [
+      {"fr": "Je voudrais un café.", "es": "Quisiera / Querría un café.", "en": "I'd like a coffee."},
+      {"fr": "J'aimerais réserver une table.", "es": "Me gustaría reservar una mesa.", "en": "I'd like to reserve a table."},
+      {"fr": "Est-ce que je pourrais avoir l'addition ?", "es": "¿Podría traerme la cuenta?", "en": "Could I have the check?"},
+      {"fr": "Vous pourriez m'aider ?", "es": "¿Podría ayudarme?", "en": "Could you help me?"}
+    ]
+  },
   "spanish_traps": [
+    {
+      "id": "quisiera_is_conditional",
+      "severity": "high",
+      "her_instinct": "Spanish uses the imperfect subjunctive 'quisiera' as a polite 'I'd like'.",
+      "french_reality": "French has NO 'quisiera'-style imperfect subjunctive for this. Polite requests use the conditional: je voudrais, j'aimerais, je pourrais, est-ce que vous pourriez…?",
+      "wrong": "(imperfect-subjunctive request forms do not exist in spoken French)",
+      "right": {"fr": "Je voudrais un café.", "es": "Quisiera un café.", "en": "I'd like a coffee."},
+      "rule": "Map quisiera/querría/me gustaría -> je voudrais / j'aimerais. Never build a French imperfect-subjunctive polite form."
+    },
     {
       "id": "subjunctive_tense_agreement",
       "severity": "critical",

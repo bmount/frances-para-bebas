@@ -79,8 +79,9 @@ EPICENE = {
 # --- first-person self-reference detection ---------------------------------
 # Constrain agreement ONLY when the adjective is a predicate of "je".
 FIRST_PERSON = re.compile(
-    r"\b(je\s+suis|je\s+me\s+sens|j['’]?étais|je\s+serai|je\s+serais|"
-    r"je\s+suis\s+allée?|moi[,\s]+je\s+suis)\b",
+    r"(je\s+suis|je\s+me\s+sens|je\s+me\s+sentais|j['’]?étais|je\s+serai|je\s+serais|"
+    r"j['’]?ai\s+été|je\s+suis\s+allée?|je\s+deviens|je\s+reste|je\s+resterais|"
+    r"moi[,\s]+je\s+suis)",
     re.IGNORECASE,
 )
 

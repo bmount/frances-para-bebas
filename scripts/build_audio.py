@@ -25,27 +25,30 @@ os.makedirs(OUT, exist_ok=True)
 ALT = ["emilie", "oris"]
 
 
-def conj_text(pron, form):
-    p = pron.split("/")[0].strip()
-    return p + form if p.endswith("'") else f"{p} {form}"
-
-
 def collect():
-    """Yield (audio_id, text, voice_key) for every clip across all lessons."""
+    """Yield (audio_id, text, voice_key) for every clip across all lessons.
+
+    RULE: every clip is a full SENTENCE (conjugation/tenses/vocab use their `ex`
+    field). Isolated words mispronounce even on the enforced model; sentence
+    context fixes it and matches the 'complete sentences' bias.
+    """
     jobs = []
-    for i, path in enumerate(LESSONS):
+    for path in LESSONS:
         with open(path, encoding="utf-8") as f:
             L = json.load(f)
-        # conjugation
+        # conjugation — speak the example sentence for each form
         for j, row in enumerate(L["grammar"]["conjugation"]["present"]):
-            jobs.append((row["audio"], conj_text(row["pron"], row["form"]), ALT[j % 2]))
-        # vocab
+            jobs.append((row["audio"], row["ex"], ALT[j % 2]))
+        # all-tenses tour
+        for j, row in enumerate(L["grammar"].get("tenses", [])):
+            jobs.append((row["audio"], row["ex"], ALT[j % 2]))
+        # vocab — sentence via ex / ex_m / ex_f
         for it in L["vocab"]:
-            if "fr_m" in it:
-                jobs.append((it["audio_m"], it["fr_m"], "oris"))
-                jobs.append((it["audio_f"], it["fr_f"], "emilie"))
+            if "ex_m" in it:
+                jobs.append((it["audio_m"], it["ex_m"], "oris"))
+                jobs.append((it["audio_f"], it["ex_f"], "emilie"))
             else:
-                jobs.append((it["audio"], it["fr"], it.get("voice", "emilie")))
+                jobs.append((it["audio"], it["ex"], it.get("voice", "emilie")))
         # sentences
         for it in L["sentences"]:
             if "fr_m" in it:
@@ -99,7 +102,8 @@ def main():
         raise SystemExit(1)
 
     results.sort(key=lambda r: r["id"])
-    manifest = {"audio_base": "", "count": len(results),
+    GCS_BASE = "https://storage.googleapis.com/bmount-public-share/frances-para-bebas/"
+    manifest = {"audio_base": GCS_BASE, "count": len(results),
                 "clips": {r["id"]: r["file"] for r in results}}
     with open(os.path.join(ROOT, "data", "audio_manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
