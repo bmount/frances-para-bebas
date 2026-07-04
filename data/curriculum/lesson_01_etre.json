@@ -11,46 +11,187 @@
     "Describe yourself and things with cognate adjectives — and ask politely (je voudrais…)."
   ],
   "reader": [
-    {"t": "lead", "html": "<b>Être</b> = «ser» y «estar» en un solo verbo. Es el jefe del francés: sale en cada saludo, cada queja, cada chisme. Sin être no eres nadie — literalmente."},
-    {"t": "h3", "text": "Un verbo para dos"},
-    {"t": "p", "html": "El truco de tu vida: el francés metió <b>ser</b> Y <b>estar</b> en UN verbo. Un verbo, cero drama."},
-    {"t": "maps", "rows": [
-      {"es": "Soy americana", "fr": "je suis américaine"},
-      {"es": "Estoy en Nice", "fr": "je suis à Nice"},
-      {"es": "Estoy contenta (hay socca 🫓)", "fr": "je suis contente"}
-    ]},
-    {"t": "h3", "text": "« on », no « nous »"},
-    {"t": "p", "html": "Nadie dice <span class='fr'>nous</span> en la calle — está tan muerto como el <i>vosotros</i> en México. Se dice <span class='fr'>on</span> (se conjuga como <i>il</i>): <span class='fr'>on est à la plage</span> = «estamos en la playa»."},
-    {"t": "h3", "text": "« c'est » — dos palabras mágicas"},
-    {"t": "callout", "html": "Pruebas la socca y sueltas: <span class='fr'>c'est bon !</span> Ya suenas local. <b>C'est</b> = «es / eso es», las dos palabras más útiles del idioma."},
-    {"t": "h3", "text": "En la calle, en Nice"},
-    {"t": "p", "html": "En la heladería del Vieux Nice: <span class='fr'>«&nbsp;Salut&nbsp;! Ça va&nbsp;?&nbsp;» — «&nbsp;Oui&nbsp;! On est en vacances, et cette glace… c'est parfait.&nbsp;»</span> Tres formas de être en diez segundos. Así respira el verbo."},
-    {"t": "h3", "text": "Cómo suena"},
-    {"t": "p", "html": "<span class='fr'>suis</span> /sɥi/, <span class='fr'>es</span> /ɛ/, <span class='fr'>est</span> /ɛ/ — sí, <i>es</i> y <i>est</i> suenan idéntico, como una «e» de encogerte de hombros 🤷‍♀️. Las letras finales son decorativas: el francés las escribe pero se niega a pronunciarlas."}
+    {
+      "t": "h3",
+      "text": "Un verbe pour deux"
+    },
+    {
+      "t": "pair",
+      "fr": "Le verbe « être » est le verbe le plus important du français. Il correspond à deux verbes espagnols : ser et estar.",
+      "es": "El verbo « être » es el verbo más importante del francés. Corresponde a dos verbos españoles: ser y estar."
+    },
+    {
+      "t": "pair",
+      "fr": "« Je suis américaine » et « je suis à Nice » utilisent le même verbe. Un seul verbe, zéro drame.",
+      "es": "« Je suis américaine » y « je suis à Nice » usan el mismo verbo. Un solo verbo, cero drama."
+    },
+    {
+      "t": "h3",
+      "text": "« on », pas « nous »"
+    },
+    {
+      "t": "pair",
+      "fr": "À l'oral, on utilise « on » pour dire « nous ». « On est à la plage » signifie : estamos en la playa.",
+      "es": "Al hablar, se utiliza « on » para decir « nosotros ». « On est à la plage » significa: estamos en la playa."
+    },
+    {
+      "t": "h3",
+      "text": "« c'est », deux mots magiques"
+    },
+    {
+      "t": "pair",
+      "fr": "« C'est » signifie « es » ou « esto es ». Tu goûtes la socca et tu déclares : « c'est bon ! »",
+      "es": "« C'est » significa « es » o « esto es ». Pruebas la socca y declaras: « ¡c'est bon! »"
+    },
+    {
+      "t": "h3",
+      "text": "Comment ça sonne"
+    },
+    {
+      "t": "pair",
+      "fr": "« suis », « es » et « est » se prononcent presque pareil : les consonnes finales sont muettes.",
+      "es": "« suis », « es » y « est » se pronuncian casi igual: las consonantes finales son mudas."
+    }
   ],
   "grammar": {
     "intro_es": "« être » es ser/estar en un solo verbo. Aquí lo ves en TODOS los tiempos que se hablan de verdad, siempre en frases completas. Casi todo lo que lo rodea ya lo reconoces del español.",
     "conjugation": {
-      "verb": "être", "en": "to be", "es": "ser / estar",
+      "verb": "être",
+      "en": "to be",
+      "es": "ser / estar",
       "present": [
-        {"pron": "je",            "form": "suis",   "ipa": "ʒə sɥi", "es": "soy / estoy",  "ex": "Je suis à Nice.",     "audio": "L01-c-je"},
-        {"pron": "tu",            "form": "es",     "ipa": "ty ɛ",   "es": "eres / estás", "ex": "Tu es à Nice.",       "audio": "L01-c-tu"},
-        {"pron": "il / elle / on","form": "est",    "ipa": "il ɛ",   "es": "es / está",    "ex": "Elle est à Nice.",    "audio": "L01-c-il"},
-        {"pron": "nous",          "form": "sommes", "ipa": "nu sɔm", "es": "somos/estamos","ex": "Nous sommes à Nice.", "audio": "L01-c-nous"},
-        {"pron": "vous",          "form": "êtes",   "ipa": "vu zɛt", "es": "son / están",  "ex": "Vous êtes à Nice.",   "audio": "L01-c-vous"},
-        {"pron": "ils / elles",   "form": "sont",   "ipa": "il sɔ̃", "es": "son / están",  "ex": "Ils sont à Nice.",    "audio": "L01-c-ils"}
+        {
+          "pron": "je",
+          "form": "suis",
+          "ipa": "ʒə sɥi",
+          "es": "soy / estoy",
+          "ex": "Je suis à Nice.",
+          "audio": "L01-c-je"
+        },
+        {
+          "pron": "tu",
+          "form": "es",
+          "ipa": "ty ɛ",
+          "es": "eres / estás",
+          "ex": "Tu es à Nice.",
+          "audio": "L01-c-tu"
+        },
+        {
+          "pron": "il / elle / on",
+          "form": "est",
+          "ipa": "il ɛ",
+          "es": "es / está",
+          "ex": "Elle est à Nice.",
+          "audio": "L01-c-il"
+        },
+        {
+          "pron": "nous",
+          "form": "sommes",
+          "ipa": "nu sɔm",
+          "es": "somos/estamos",
+          "ex": "Nous sommes à Nice.",
+          "audio": "L01-c-nous"
+        },
+        {
+          "pron": "vous",
+          "form": "êtes",
+          "ipa": "vu zɛt",
+          "es": "son / están",
+          "ex": "Vous êtes à Nice.",
+          "audio": "L01-c-vous"
+        },
+        {
+          "pron": "ils / elles",
+          "form": "sont",
+          "ipa": "il sɔ̃",
+          "es": "son / están",
+          "ex": "Ils sont à Nice.",
+          "audio": "L01-c-ils"
+        }
       ]
     },
     "tenses": [
-      {"tense": "présent", "status": "teach", "label_es": "presente", "ex": "Je suis à Nice.", "es": "Estoy en Niza.", "en": "I'm in Nice.", "audio": "L01-t-pres"},
-      {"tense": "passé composé", "status": "teach", "label_es": "pretérito (evento)", "ex": "Hier, j'ai été malade.", "es": "Ayer estuve enfermo/a.", "en": "Yesterday I was sick.", "audio": "L01-t-pc"},
-      {"tense": "imparfait", "status": "teach", "label_es": "imperfecto (fondo)", "ex": "Avant, c'était différent.", "es": "Antes, era diferente.", "en": "Before, it was different.", "audio": "L01-t-imp"},
-      {"tense": "futur proche", "status": "teach", "label_es": "futuro (voy a…)", "ex": "Ça va être génial.", "es": "Va a ser genial.", "en": "It's going to be great.", "audio": "L01-t-fp"},
-      {"tense": "futur simple", "status": "teach", "label_es": "futuro simple", "ex": "Je serai à l'heure.", "es": "Estaré a tiempo.", "en": "I'll be on time.", "audio": "L01-t-fs"},
-      {"tense": "conditionnel", "status": "teach", "label_es": "condicional (cortesía)", "ex": "Ce serait parfait.", "es": "Sería perfecto.", "en": "That would be perfect.", "audio": "L01-t-cond"},
-      {"tense": "subjonctif présent", "status": "teach", "label_es": "subjuntivo presente", "ex": "Il faut que tu sois à l'heure.", "es": "Tienes que estar a tiempo.", "en": "You have to be on time.", "audio": "L01-t-subjp"},
-      {"tense": "passé du subjonctif", "status": "teach", "label_es": "subjuntivo pasado (compuesto)", "ex": "C'est dommage qu'il ait été absent.", "es": "Es una pena que haya estado ausente.", "en": "It's a shame he was absent.", "audio": "L01-t-subjpast"},
-      {"tense": "passé simple", "status": "recognition_only", "label_es": "pretérito literario (solo leer)", "ex": "Il fut roi.", "es": "Fue rey. (literario)", "en": "He was king. (literary)", "audio": "L01-t-ps"}
+      {
+        "tense": "présent",
+        "status": "teach",
+        "label_es": "presente",
+        "ex": "Je suis à Nice.",
+        "es": "Estoy en Niza.",
+        "en": "I'm in Nice.",
+        "audio": "L01-t-pres"
+      },
+      {
+        "tense": "passé composé",
+        "status": "teach",
+        "label_es": "pretérito (evento)",
+        "ex": "Hier, j'ai été malade.",
+        "es": "Ayer estuve enfermo/a.",
+        "en": "Yesterday I was sick.",
+        "audio": "L01-t-pc"
+      },
+      {
+        "tense": "imparfait",
+        "status": "teach",
+        "label_es": "imperfecto (fondo)",
+        "ex": "Avant, c'était différent.",
+        "es": "Antes, era diferente.",
+        "en": "Before, it was different.",
+        "audio": "L01-t-imp"
+      },
+      {
+        "tense": "futur proche",
+        "status": "teach",
+        "label_es": "futuro (voy a…)",
+        "ex": "Ça va être génial.",
+        "es": "Va a ser genial.",
+        "en": "It's going to be great.",
+        "audio": "L01-t-fp"
+      },
+      {
+        "tense": "futur simple",
+        "status": "teach",
+        "label_es": "futuro simple",
+        "ex": "Je serai à l'heure.",
+        "es": "Estaré a tiempo.",
+        "en": "I'll be on time.",
+        "audio": "L01-t-fs"
+      },
+      {
+        "tense": "conditionnel",
+        "status": "teach",
+        "label_es": "condicional (cortesía)",
+        "ex": "Ce serait parfait.",
+        "es": "Sería perfecto.",
+        "en": "That would be perfect.",
+        "audio": "L01-t-cond"
+      },
+      {
+        "tense": "subjonctif présent",
+        "status": "teach",
+        "label_es": "subjuntivo presente",
+        "ex": "Il faut que tu sois à l'heure.",
+        "es": "Tienes que estar a tiempo.",
+        "en": "You have to be on time.",
+        "audio": "L01-t-subjp"
+      },
+      {
+        "tense": "passé du subjonctif",
+        "status": "teach",
+        "label_es": "subjuntivo pasado (compuesto)",
+        "ex": "C'est dommage qu'il ait été absent.",
+        "es": "Es una pena que haya estado ausente.",
+        "en": "It's a shame he was absent.",
+        "audio": "L01-t-subjpast"
+      },
+      {
+        "tense": "passé simple",
+        "status": "recognition_only",
+        "label_es": "pretérito literario (solo leer)",
+        "ex": "Il fut roi.",
+        "es": "Fue rey. (literario)",
+        "en": "He was king. (literary)",
+        "audio": "L01-t-ps"
+      }
     ],
     "spoken_notes": [
       "On = we, in everyday speech: « On est à Nice » (nous sommes = a bit more formal).",
@@ -60,43 +201,426 @@
     ]
   },
   "vocab": [
-    {"id": "L01-etre", "fr": "être", "es": "ser / estar", "en": "to be", "ipa": "ɛtʁ", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je veux être à l'heure.", "voice": "emilie", "audio": "L01-etre"},
-    {"id": "L01-cest", "fr": "c'est", "es": "es / esto es", "en": "it is / that is", "ipa": "sɛ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "C'est très important.", "voice": "oris", "audio": "L01-cest"},
-    {"id": "L01-on", "fr": "on", "es": "nosotros (coloquial)", "en": "we (spoken)", "ipa": "ɔ̃", "pos": "pron", "cognate_type": "non_cognate", "star": true, "ex": "On est à Nice.", "voice": "emilie", "audio": "L01-on"},
-    {"id": "L01-et", "fr": "et", "es": "y", "en": "and", "ipa": "e", "pos": "conj", "cognate_type": "non_cognate", "star": true, "ex": "C'est simple et rapide.", "voice": "oris", "audio": "L01-et"},
-    {"id": "L01-tres", "fr": "très", "es": "muy", "en": "very", "ipa": "tʁɛ", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "C'est très facile.", "voice": "emilie", "audio": "L01-tres"},
-    {"id": "L01-a", "fr": "à", "es": "a / en", "en": "at / to", "ipa": "a", "pos": "prep", "cognate_type": "non_cognate", "star": true, "ex": "On est à la station.", "voice": "oris", "audio": "L01-a"},
-
-    {"id": "L01-important", "fr_m": "important", "fr_f": "importante", "es": "importante", "en": "important", "ipa_m": "ɛ̃pɔʁtɑ̃", "ipa_f": "ɛ̃pɔʁtɑ̃t", "pos": "adj", "cognate_type": "transparent", "rule": "ente_ent", "ex_m": "Le message est important.", "ex_f": "La question est importante.", "audio_m": "L01-important-m", "audio_f": "L01-important-f"},
-    {"id": "L01-different", "fr_m": "différent", "fr_f": "différente", "es": "diferente", "en": "different", "ipa_m": "difeʁɑ̃", "ipa_f": "difeʁɑ̃t", "pos": "adj", "cognate_type": "transparent", "rule": "ente_ent", "ex_m": "C'est un cas différent.", "ex_f": "C'est une situation différente.", "audio_m": "L01-different-m", "audio_f": "L01-different-f"},
-    {"id": "L01-intelligent", "fr_m": "intelligent", "fr_f": "intelligente", "es": "inteligente", "en": "intelligent", "ipa_m": "ɛ̃teliʒɑ̃", "ipa_f": "ɛ̃teliʒɑ̃t", "pos": "adj", "cognate_type": "transparent", "rule": "ente_ent", "ex_m": "Il est intelligent.", "ex_f": "Elle est intelligente.", "audio_m": "L01-intelligent-m", "audio_f": "L01-intelligent-f"},
-    {"id": "L01-excellent", "fr_m": "excellent", "fr_f": "excellente", "es": "excelente", "en": "excellent", "ipa_m": "ɛksɛlɑ̃", "ipa_f": "ɛksɛlɑ̃t", "pos": "adj", "cognate_type": "transparent", "rule": "ente_ent", "ex_m": "Le café est excellent.", "ex_f": "La pizza est excellente.", "audio_m": "L01-excellent-m", "audio_f": "L01-excellent-f"},
-    {"id": "L01-american", "fr_m": "américain", "fr_f": "américaine", "es": "americano / americana", "en": "American", "ipa_m": "ameʁikɛ̃", "ipa_f": "ameʁikɛn", "pos": "adj", "cognate_type": "transparent", "ex_m": "Il est américain.", "ex_f": "Elle est américaine.", "audio_m": "L01-american-m", "audio_f": "L01-american-f"},
-    {"id": "L01-french", "fr_m": "français", "fr_f": "française", "es": "francés / francesa", "en": "French", "ipa_m": "fʁɑ̃sɛ", "ipa_f": "fʁɑ̃sɛz", "pos": "adj", "cognate_type": "semi", "ex_m": "Il est français.", "ex_f": "Elle est française.", "audio_m": "L01-french-m", "audio_f": "L01-french-f"},
-    {"id": "L01-content", "fr_m": "content", "fr_f": "contente", "es": "contento / contenta", "en": "happy, content", "ipa_m": "kɔ̃tɑ̃", "ipa_f": "kɔ̃tɑ̃t", "pos": "adj", "cognate_type": "transparent", "ex_m": "Il est content.", "ex_f": "Elle est contente.", "audio_m": "L01-content-m", "audio_f": "L01-content-f"},
-    {"id": "L01-curious", "fr_m": "curieux", "fr_f": "curieuse", "es": "curioso / curiosa", "en": "curious", "ipa_m": "kyʁjø", "ipa_f": "kyʁjøz", "pos": "adj", "cognate_type": "transparent", "rule": "oso_eux", "ex_m": "Il est curieux.", "ex_f": "Elle est curieuse.", "audio_m": "L01-curious-m", "audio_f": "L01-curious-f"},
-
-    {"id": "L01-possible", "fr": "possible", "es": "posible", "en": "possible", "ipa": "pɔsibl", "pos": "adj", "epicene": true, "cognate_type": "transparent", "ex": "C'est possible.", "voice": "oris", "audio": "L01-possible"},
-    {"id": "L01-necessaire", "fr": "nécessaire", "es": "necesario", "en": "necessary", "ipa": "nesesɛʁ", "pos": "adj", "epicene": true, "cognate_type": "transparent", "rule": "ario_aire", "ex": "C'est nécessaire.", "voice": "emilie", "audio": "L01-necessaire"},
-    {"id": "L01-difficile", "fr": "difficile", "es": "difícil", "en": "difficult", "ipa": "difisil", "pos": "adj", "epicene": true, "cognate_type": "transparent", "ex": "C'est difficile.", "voice": "oris", "audio": "L01-difficile"},
-
-    {"id": "L01-station", "fr": "la station", "es": "la estación", "en": "the station", "ipa": "la stasjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "cion_tion", "ex": "Voici la station.", "voice": "emilie", "audio": "L01-station"},
-    {"id": "L01-restaurant", "fr": "le restaurant", "es": "el restaurante", "en": "the restaurant", "ipa": "lə ʁɛstoʁɑ̃", "pos": "noun", "gender": "m", "cognate_type": "transparent", "rule": "ente_ent", "ex": "Le restaurant est excellent.", "voice": "oris", "audio": "L01-restaurant"},
-    {"id": "L01-situation", "fr": "la situation", "es": "la situación", "en": "the situation", "ipa": "la sitɥasjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "cion_tion", "ex": "La situation est difficile.", "voice": "emilie", "audio": "L01-situation"},
-    {"id": "L01-nation", "fr": "la nation", "es": "la nación", "en": "the nation", "ipa": "la nasjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "cion_tion", "ex": "C'est une grande nation.", "voice": "oris", "audio": "L01-nation"}
+    {
+      "id": "L01-etre",
+      "fr": "être",
+      "es": "ser / estar",
+      "en": "to be",
+      "ipa": "ɛtʁ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je veux être à l'heure.",
+      "voice": "emilie",
+      "audio": "L01-etre"
+    },
+    {
+      "id": "L01-cest",
+      "fr": "c'est",
+      "es": "es / esto es",
+      "en": "it is / that is",
+      "ipa": "sɛ",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "C'est très important.",
+      "voice": "oris",
+      "audio": "L01-cest"
+    },
+    {
+      "id": "L01-on",
+      "fr": "on",
+      "es": "nosotros (coloquial)",
+      "en": "we (spoken)",
+      "ipa": "ɔ̃",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "On est à Nice.",
+      "voice": "emilie",
+      "audio": "L01-on"
+    },
+    {
+      "id": "L01-et",
+      "fr": "et",
+      "es": "y",
+      "en": "and",
+      "ipa": "e",
+      "pos": "conj",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "C'est simple et rapide.",
+      "voice": "oris",
+      "audio": "L01-et"
+    },
+    {
+      "id": "L01-tres",
+      "fr": "très",
+      "es": "muy",
+      "en": "very",
+      "ipa": "tʁɛ",
+      "pos": "adv",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "C'est très facile.",
+      "voice": "emilie",
+      "audio": "L01-tres"
+    },
+    {
+      "id": "L01-a",
+      "fr": "à",
+      "es": "a / en",
+      "en": "at / to",
+      "ipa": "a",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "On est à la station.",
+      "voice": "oris",
+      "audio": "L01-a"
+    },
+    {
+      "id": "L01-important",
+      "fr_m": "important",
+      "fr_f": "importante",
+      "es": "importante",
+      "en": "important",
+      "ipa_m": "ɛ̃pɔʁtɑ̃",
+      "ipa_f": "ɛ̃pɔʁtɑ̃t",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "rule": "ente_ent",
+      "ex_m": "Le message est important.",
+      "ex_f": "La question est importante.",
+      "audio_m": "L01-important-m",
+      "audio_f": "L01-important-f"
+    },
+    {
+      "id": "L01-different",
+      "fr_m": "différent",
+      "fr_f": "différente",
+      "es": "diferente",
+      "en": "different",
+      "ipa_m": "difeʁɑ̃",
+      "ipa_f": "difeʁɑ̃t",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "rule": "ente_ent",
+      "ex_m": "C'est un cas différent.",
+      "ex_f": "C'est une situation différente.",
+      "audio_m": "L01-different-m",
+      "audio_f": "L01-different-f"
+    },
+    {
+      "id": "L01-intelligent",
+      "fr_m": "intelligent",
+      "fr_f": "intelligente",
+      "es": "inteligente",
+      "en": "intelligent",
+      "ipa_m": "ɛ̃teliʒɑ̃",
+      "ipa_f": "ɛ̃teliʒɑ̃t",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "rule": "ente_ent",
+      "ex_m": "Il est intelligent.",
+      "ex_f": "Elle est intelligente.",
+      "audio_m": "L01-intelligent-m",
+      "audio_f": "L01-intelligent-f"
+    },
+    {
+      "id": "L01-excellent",
+      "fr_m": "excellent",
+      "fr_f": "excellente",
+      "es": "excelente",
+      "en": "excellent",
+      "ipa_m": "ɛksɛlɑ̃",
+      "ipa_f": "ɛksɛlɑ̃t",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "rule": "ente_ent",
+      "ex_m": "Le café est excellent.",
+      "ex_f": "La pizza est excellente.",
+      "audio_m": "L01-excellent-m",
+      "audio_f": "L01-excellent-f"
+    },
+    {
+      "id": "L01-american",
+      "fr_m": "américain",
+      "fr_f": "américaine",
+      "es": "americano / americana",
+      "en": "American",
+      "ipa_m": "ameʁikɛ̃",
+      "ipa_f": "ameʁikɛn",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "ex_m": "Il est américain.",
+      "ex_f": "Elle est américaine.",
+      "audio_m": "L01-american-m",
+      "audio_f": "L01-american-f"
+    },
+    {
+      "id": "L01-french",
+      "fr_m": "français",
+      "fr_f": "française",
+      "es": "francés / francesa",
+      "en": "French",
+      "ipa_m": "fʁɑ̃sɛ",
+      "ipa_f": "fʁɑ̃sɛz",
+      "pos": "adj",
+      "cognate_type": "semi",
+      "ex_m": "Il est français.",
+      "ex_f": "Elle est française.",
+      "audio_m": "L01-french-m",
+      "audio_f": "L01-french-f"
+    },
+    {
+      "id": "L01-content",
+      "fr_m": "content",
+      "fr_f": "contente",
+      "es": "contento / contenta",
+      "en": "happy, content",
+      "ipa_m": "kɔ̃tɑ̃",
+      "ipa_f": "kɔ̃tɑ̃t",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "ex_m": "Il est content.",
+      "ex_f": "Elle est contente.",
+      "audio_m": "L01-content-m",
+      "audio_f": "L01-content-f"
+    },
+    {
+      "id": "L01-curious",
+      "fr_m": "curieux",
+      "fr_f": "curieuse",
+      "es": "curioso / curiosa",
+      "en": "curious",
+      "ipa_m": "kyʁjø",
+      "ipa_f": "kyʁjøz",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "rule": "oso_eux",
+      "ex_m": "Il est curieux.",
+      "ex_f": "Elle est curieuse.",
+      "audio_m": "L01-curious-m",
+      "audio_f": "L01-curious-f"
+    },
+    {
+      "id": "L01-possible",
+      "fr": "possible",
+      "es": "posible",
+      "en": "possible",
+      "ipa": "pɔsibl",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "transparent",
+      "ex": "C'est possible.",
+      "voice": "oris",
+      "audio": "L01-possible"
+    },
+    {
+      "id": "L01-necessaire",
+      "fr": "nécessaire",
+      "es": "necesario",
+      "en": "necessary",
+      "ipa": "nesesɛʁ",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "transparent",
+      "rule": "ario_aire",
+      "ex": "C'est nécessaire.",
+      "voice": "emilie",
+      "audio": "L01-necessaire"
+    },
+    {
+      "id": "L01-difficile",
+      "fr": "difficile",
+      "es": "difícil",
+      "en": "difficult",
+      "ipa": "difisil",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "transparent",
+      "ex": "C'est difficile.",
+      "voice": "oris",
+      "audio": "L01-difficile"
+    },
+    {
+      "id": "L01-station",
+      "fr": "la station",
+      "es": "la estación",
+      "en": "the station",
+      "ipa": "la stasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "rule": "cion_tion",
+      "ex": "Voici la station.",
+      "voice": "emilie",
+      "audio": "L01-station"
+    },
+    {
+      "id": "L01-restaurant",
+      "fr": "le restaurant",
+      "es": "el restaurante",
+      "en": "the restaurant",
+      "ipa": "lə ʁɛstoʁɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "rule": "ente_ent",
+      "ex": "Le restaurant est excellent.",
+      "voice": "oris",
+      "audio": "L01-restaurant"
+    },
+    {
+      "id": "L01-situation",
+      "fr": "la situation",
+      "es": "la situación",
+      "en": "the situation",
+      "ipa": "la sitɥasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "rule": "cion_tion",
+      "ex": "La situation est difficile.",
+      "voice": "emilie",
+      "audio": "L01-situation"
+    },
+    {
+      "id": "L01-nation",
+      "fr": "la nation",
+      "es": "la nación",
+      "en": "the nation",
+      "ipa": "la nasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "rule": "cion_tion",
+      "ex": "C'est une grande nation.",
+      "voice": "oris",
+      "audio": "L01-nation"
+    }
   ],
   "sentences": [
-    {"id": "L01-s01", "tense": "présent", "fr": "Elle est très intelligente.", "es": "Ella es muy inteligente.", "en": "She's very intelligent.", "voice": "emilie", "audio": "L01-s01"},
-    {"id": "L01-s02", "tense": "présent", "self": true, "fr_m": "Je suis américain, et je suis content.", "fr_f": "Je suis américaine, et je suis contente.", "es": "Soy americano/a, y estoy contento/a.", "en": "I'm American, and I'm happy.", "audio_m": "L01-s02-m", "audio_f": "L01-s02-f"},
-    {"id": "L01-s03", "tense": "passé composé", "self": true, "fr_m": "Hier, j'ai été très fatigué.", "fr_f": "Hier, j'ai été très fatiguée.", "es": "Ayer estuve muy cansado/a.", "en": "Yesterday I was very tired.", "audio_m": "L01-s03-m", "audio_f": "L01-s03-f"},
-    {"id": "L01-s04", "tense": "imparfait", "fr": "Avant, c'était différent, mais c'est parfait maintenant.", "es": "Antes era diferente, pero ahora es perfecto.", "en": "It used to be different, but it's perfect now.", "voice": "oris", "audio": "L01-s04"},
-    {"id": "L01-s05", "tense": "futur proche", "fr": "Ça va être génial à Nice !", "es": "¡Va a ser genial en Niza!", "en": "It's going to be great in Nice!", "voice": "emilie", "audio": "L01-s05"},
-    {"id": "L01-s06", "tense": "conditionnel", "fr": "Je voudrais réserver une table.", "es": "Quisiera reservar una mesa.", "en": "I'd like to reserve a table.", "voice": "oris", "audio": "L01-s06", "gloss": "polite conditional — replaces Spanish 'quisiera'"},
-    {"id": "L01-s07", "tense": "conditionnel", "fr": "Est-ce que vous pourriez m'aider ?", "es": "¿Podría ayudarme?", "en": "Could you help me?", "voice": "emilie", "audio": "L01-s07"},
-    {"id": "L01-s08", "tense": "subjonctif", "fr": "Il faut que tu sois à l'heure.", "es": "Tienes que estar a tiempo.", "en": "You have to be on time.", "voice": "oris", "audio": "L01-s08"},
-    {"id": "L01-s09", "tense": "subjonctif", "self": true, "fr_m": "Je suis content que tu sois là.", "fr_f": "Je suis contente que tu sois là.", "es": "Me alegra que estés aquí.", "en": "I'm glad you're here.", "audio_m": "L01-s09-m", "audio_f": "L01-s09-f"},
-    {"id": "L01-s10", "tense": "présent", "register": "parle", "fr": "Salut ! Ça va ?", "es": "¡Hola! ¿Qué tal?", "en": "Hi! How's it going?", "voice": "emilie", "audio": "L01-s10", "gloss": "saludo de calle — casual greeting"},
-    {"id": "L01-s11", "tense": "présent", "register": "parle", "fr": "La socca, c'est excellent !", "es": "¡La socca está buenísima!", "en": "The socca is excellent!", "voice": "oris", "audio": "L01-s11", "gloss": "la socca = especialidad de Nice 🫓"},
-    {"id": "L01-s12", "tense": "présent", "register": "parle", "fr": "On est en vacances à Nice, et c'est parfait.", "es": "Estamos de vacaciones en Niza, y es perfecto.", "en": "We're on vacation in Nice, and it's perfect.", "voice": "emilie", "audio": "L01-s12"}
+    {
+      "id": "L01-s01",
+      "tense": "présent",
+      "fr": "Elle est très intelligente.",
+      "es": "Ella es muy inteligente.",
+      "en": "She's very intelligent.",
+      "voice": "emilie",
+      "audio": "L01-s01"
+    },
+    {
+      "id": "L01-s02",
+      "tense": "présent",
+      "self": true,
+      "fr_m": "Je suis américain, et je suis content.",
+      "fr_f": "Je suis américaine, et je suis contente.",
+      "es": "Soy americano/a, y estoy contento/a.",
+      "en": "I'm American, and I'm happy.",
+      "audio_m": "L01-s02-m",
+      "audio_f": "L01-s02-f"
+    },
+    {
+      "id": "L01-s03",
+      "tense": "passé composé",
+      "self": true,
+      "fr_m": "Hier, j'ai été très fatigué.",
+      "fr_f": "Hier, j'ai été très fatiguée.",
+      "es": "Ayer estuve muy cansado/a.",
+      "en": "Yesterday I was very tired.",
+      "audio_m": "L01-s03-m",
+      "audio_f": "L01-s03-f"
+    },
+    {
+      "id": "L01-s04",
+      "tense": "imparfait",
+      "fr": "Avant, c'était différent, mais c'est parfait maintenant.",
+      "es": "Antes era diferente, pero ahora es perfecto.",
+      "en": "It used to be different, but it's perfect now.",
+      "voice": "oris",
+      "audio": "L01-s04"
+    },
+    {
+      "id": "L01-s05",
+      "tense": "futur proche",
+      "fr": "Ça va être génial à Nice !",
+      "es": "¡Va a ser genial en Niza!",
+      "en": "It's going to be great in Nice!",
+      "voice": "emilie",
+      "audio": "L01-s05"
+    },
+    {
+      "id": "L01-s06",
+      "tense": "conditionnel",
+      "fr": "Je voudrais réserver une table.",
+      "es": "Quisiera reservar una mesa.",
+      "en": "I'd like to reserve a table.",
+      "voice": "oris",
+      "audio": "L01-s06",
+      "gloss": "polite conditional — replaces Spanish 'quisiera'"
+    },
+    {
+      "id": "L01-s07",
+      "tense": "conditionnel",
+      "fr": "Est-ce que vous pourriez m'aider ?",
+      "es": "¿Podría ayudarme?",
+      "en": "Could you help me?",
+      "voice": "emilie",
+      "audio": "L01-s07"
+    },
+    {
+      "id": "L01-s08",
+      "tense": "subjonctif",
+      "fr": "Il faut que tu sois à l'heure.",
+      "es": "Tienes que estar a tiempo.",
+      "en": "You have to be on time.",
+      "voice": "oris",
+      "audio": "L01-s08"
+    },
+    {
+      "id": "L01-s09",
+      "tense": "subjonctif",
+      "self": true,
+      "fr_m": "Je suis content que tu sois là.",
+      "fr_f": "Je suis contente que tu sois là.",
+      "es": "Me alegra que estés aquí.",
+      "en": "I'm glad you're here.",
+      "audio_m": "L01-s09-m",
+      "audio_f": "L01-s09-f"
+    },
+    {
+      "id": "L01-s10",
+      "tense": "présent",
+      "register": "parle",
+      "fr": "Salut ! Ça va ?",
+      "es": "¡Hola! ¿Qué tal?",
+      "en": "Hi! How's it going?",
+      "voice": "emilie",
+      "audio": "L01-s10",
+      "gloss": "saludo de calle — casual greeting"
+    },
+    {
+      "id": "L01-s11",
+      "tense": "présent",
+      "register": "parle",
+      "fr": "La socca, c'est excellent !",
+      "es": "¡La socca está buenísima!",
+      "en": "The socca is excellent!",
+      "voice": "oris",
+      "audio": "L01-s11",
+      "gloss": "la socca = especialidad de Nice 🫓"
+    },
+    {
+      "id": "L01-s12",
+      "tense": "présent",
+      "register": "parle",
+      "fr": "On est en vacances à Nice, et c'est parfait.",
+      "es": "Estamos de vacaciones en Niza, y es perfecto.",
+      "en": "We're on vacation in Nice, and it's perfect.",
+      "voice": "emilie",
+      "audio": "L01-s12"
+    }
   ]
 }

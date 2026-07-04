@@ -13,25 +13,133 @@
   "grammar": {
     "intro_es": "« avoir » es tener (y el auxiliar « haber »). Otra vez: lo rodeamos de cognados y frases completas, así que lo único nuevo es el verbo. « il y a » = hay: oro puro para viajar.",
     "conjugation": {
-      "verb": "avoir", "en": "to have", "es": "tener / haber",
+      "verb": "avoir",
+      "en": "to have",
+      "es": "tener / haber",
       "present": [
-        {"pron": "j'",            "form": "ai",    "ipa": "ʒe",      "es": "tengo",   "ex": "J'ai une réservation.",     "audio": "L02-c-je"},
-        {"pron": "tu",            "form": "as",    "ipa": "ty a",    "es": "tienes",  "ex": "Tu as le menu ?",           "audio": "L02-c-tu"},
-        {"pron": "il / elle / on","form": "a",     "ipa": "il a",    "es": "tiene",   "ex": "On a une table.",           "audio": "L02-c-il"},
-        {"pron": "nous",          "form": "avons", "ipa": "nu zavɔ̃","es": "tenemos", "ex": "Nous avons une question.",  "audio": "L02-c-nous"},
-        {"pron": "vous",          "form": "avez",  "ipa": "vu zave", "es": "tienen",  "ex": "Vous avez une réservation ?","audio": "L02-c-vous"},
-        {"pron": "ils / elles",   "form": "ont",   "ipa": "il zɔ̃",  "es": "tienen",  "ex": "Ils ont un restaurant.",    "audio": "L02-c-ils"}
+        {
+          "pron": "j'",
+          "form": "ai",
+          "ipa": "ʒe",
+          "es": "tengo",
+          "ex": "J'ai une réservation.",
+          "audio": "L02-c-je"
+        },
+        {
+          "pron": "tu",
+          "form": "as",
+          "ipa": "ty a",
+          "es": "tienes",
+          "ex": "Tu as le menu ?",
+          "audio": "L02-c-tu"
+        },
+        {
+          "pron": "il / elle / on",
+          "form": "a",
+          "ipa": "il a",
+          "es": "tiene",
+          "ex": "On a une table.",
+          "audio": "L02-c-il"
+        },
+        {
+          "pron": "nous",
+          "form": "avons",
+          "ipa": "nu zavɔ̃",
+          "es": "tenemos",
+          "ex": "Nous avons une question.",
+          "audio": "L02-c-nous"
+        },
+        {
+          "pron": "vous",
+          "form": "avez",
+          "ipa": "vu zave",
+          "es": "tienen",
+          "ex": "Vous avez une réservation ?",
+          "audio": "L02-c-vous"
+        },
+        {
+          "pron": "ils / elles",
+          "form": "ont",
+          "ipa": "il zɔ̃",
+          "es": "tienen",
+          "ex": "Ils ont un restaurant.",
+          "audio": "L02-c-ils"
+        }
       ]
     },
     "tenses": [
-      {"tense": "présent", "status": "teach", "label_es": "presente", "ex": "J'ai une réservation.", "es": "Tengo una reservación.", "en": "I have a reservation.", "audio": "L02-t-pres"},
-      {"tense": "passé composé", "status": "teach", "label_es": "pretérito (evento)", "ex": "J'ai eu un petit problème.", "es": "Tuve un pequeño problema.", "en": "I had a little problem.", "audio": "L02-t-pc"},
-      {"tense": "imparfait", "status": "teach", "label_es": "imperfecto (fondo)", "ex": "Avant, il y avait un café ici.", "es": "Antes había un café aquí.", "en": "There used to be a café here.", "audio": "L02-t-imp"},
-      {"tense": "futur proche", "status": "teach", "label_es": "futuro (voy a…)", "ex": "Tu vas avoir une surprise.", "es": "Vas a tener una sorpresa.", "en": "You're going to have a surprise.", "audio": "L02-t-fp"},
-      {"tense": "futur simple", "status": "teach", "label_es": "futuro simple", "ex": "On aura une table.", "es": "Tendremos una mesa.", "en": "We'll have a table.", "audio": "L02-t-fs"},
-      {"tense": "conditionnel", "status": "teach", "label_es": "condicional (cortesía)", "ex": "J'aurais une question.", "es": "Tendría una pregunta.", "en": "I'd have a question.", "audio": "L02-t-cond"},
-      {"tense": "subjonctif présent", "status": "teach", "label_es": "subjuntivo presente", "ex": "Il faut que tu aies ton passeport.", "es": "Tienes que tener tu pasaporte.", "en": "You have to have your passport.", "audio": "L02-t-subjp"},
-      {"tense": "passé du subjonctif", "status": "teach", "label_es": "subjuntivo pasado (compuesto)", "ex": "C'est dommage qu'il ait eu un problème.", "es": "Es una pena que haya tenido un problema.", "en": "It's too bad he had a problem.", "audio": "L02-t-subjpast"}
+      {
+        "tense": "présent",
+        "status": "teach",
+        "label_es": "presente",
+        "ex": "J'ai une réservation.",
+        "es": "Tengo una reservación.",
+        "en": "I have a reservation.",
+        "audio": "L02-t-pres"
+      },
+      {
+        "tense": "passé composé",
+        "status": "teach",
+        "label_es": "pretérito (evento)",
+        "ex": "J'ai eu un petit problème.",
+        "es": "Tuve un pequeño problema.",
+        "en": "I had a little problem.",
+        "audio": "L02-t-pc"
+      },
+      {
+        "tense": "imparfait",
+        "status": "teach",
+        "label_es": "imperfecto (fondo)",
+        "ex": "Avant, il y avait un café ici.",
+        "es": "Antes había un café aquí.",
+        "en": "There used to be a café here.",
+        "audio": "L02-t-imp"
+      },
+      {
+        "tense": "futur proche",
+        "status": "teach",
+        "label_es": "futuro (voy a…)",
+        "ex": "Tu vas avoir une surprise.",
+        "es": "Vas a tener una sorpresa.",
+        "en": "You're going to have a surprise.",
+        "audio": "L02-t-fp"
+      },
+      {
+        "tense": "futur simple",
+        "status": "teach",
+        "label_es": "futuro simple",
+        "ex": "On aura une table.",
+        "es": "Tendremos una mesa.",
+        "en": "We'll have a table.",
+        "audio": "L02-t-fs"
+      },
+      {
+        "tense": "conditionnel",
+        "status": "teach",
+        "label_es": "condicional (cortesía)",
+        "ex": "J'aurais une question.",
+        "es": "Tendría una pregunta.",
+        "en": "I'd have a question.",
+        "audio": "L02-t-cond"
+      },
+      {
+        "tense": "subjonctif présent",
+        "status": "teach",
+        "label_es": "subjuntivo presente",
+        "ex": "Il faut que tu aies ton passeport.",
+        "es": "Tienes que tener tu pasaporte.",
+        "en": "You have to have your passport.",
+        "audio": "L02-t-subjp"
+      },
+      {
+        "tense": "passé du subjonctif",
+        "status": "teach",
+        "label_es": "subjuntivo pasado (compuesto)",
+        "ex": "C'est dommage qu'il ait eu un problème.",
+        "es": "Es una pena que haya tenido un problema.",
+        "en": "It's too bad he had a problem.",
+        "audio": "L02-t-subjpast"
+      }
     ],
     "spoken_notes": [
       "il y a = there is / there are (both!). Fast speech: « y a un resto ».",
@@ -41,30 +149,323 @@
     ]
   },
   "vocab": [
-    {"id": "L02-avoir", "fr": "avoir", "es": "tener / haber", "en": "to have", "ipa": "avwaʁ", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je voudrais avoir une table.", "voice": "oris", "audio": "L02-avoir"},
-    {"id": "L02-ilya", "fr": "il y a", "es": "hay", "en": "there is / there are", "ipa": "il i a", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Il y a un restaurant ici.", "voice": "emilie", "audio": "L02-ilya"},
-    {"id": "L02-un", "fr": "un", "es": "un", "en": "a (m)", "ipa": "ɛ̃", "pos": "art", "cognate_type": "semi", "star": true, "ex": "J'ai un problème.", "voice": "oris", "audio": "L02-un"},
-    {"id": "L02-une", "fr": "une", "es": "una", "en": "a (f)", "ipa": "yn", "pos": "art", "cognate_type": "semi", "star": true, "ex": "J'ai une question.", "voice": "emilie", "audio": "L02-une"},
-    {"id": "L02-ici", "fr": "ici", "es": "aquí", "en": "here", "ipa": "isi", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "Il y a une pharmacie ici.", "voice": "oris", "audio": "L02-ici"},
-    {"id": "L02-pour", "fr": "pour", "es": "para / por", "en": "for", "ipa": "puʁ", "pos": "prep", "cognate_type": "non_cognate", "star": true, "ex": "C'est une table pour deux.", "voice": "emilie", "audio": "L02-pour"},
-
-    {"id": "L02-reservation", "fr": "une réservation", "es": "una reservación / reserva", "en": "a reservation", "ipa": "yn ʁezɛʁvasjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "cion_tion", "ex": "J'ai une réservation.", "voice": "emilie", "audio": "L02-reservation"},
-    {"id": "L02-question", "fr": "une question", "es": "una cuestión / pregunta", "en": "a question", "ipa": "yn kɛstjɔ̃", "pos": "noun", "gender": "f", "cognate_type": "semi", "rule": "cion_tion", "ex": "J'ai une question.", "voice": "oris", "audio": "L02-question"},
-    {"id": "L02-probleme", "fr": "un problème", "es": "un problema", "en": "a problem", "ipa": "ɛ̃ pʁɔblɛm", "pos": "noun", "gender": "m", "cognate_type": "transparent", "ex": "Il y a un problème.", "voice": "emilie", "audio": "L02-probleme"},
-    {"id": "L02-moment", "fr": "un moment", "es": "un momento", "en": "a moment", "ipa": "ɛ̃ mɔmɑ̃", "pos": "noun", "gender": "m", "cognate_type": "transparent", "rule": "ente_ent", "ex": "Tu as un moment ?", "voice": "oris", "audio": "L02-moment"},
-    {"id": "L02-idee", "fr": "une idée", "es": "una idea", "en": "an idea", "ipa": "yn ide", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "ia_ie", "ex": "J'ai une idée.", "voice": "emilie", "audio": "L02-idee"},
-    {"id": "L02-menu", "fr": "un menu", "es": "un menú", "en": "a menu", "ipa": "ɛ̃ məny", "pos": "noun", "gender": "m", "cognate_type": "transparent", "ex": "Tu as le menu ?", "voice": "oris", "audio": "L02-menu"},
-    {"id": "L02-pharmacie", "fr": "une pharmacie", "es": "una farmacia", "en": "a pharmacy", "ipa": "yn faʁmasi", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "greek_ph_th", "ex": "Il y a une pharmacie ici.", "voice": "emilie", "audio": "L02-pharmacie"},
-    {"id": "L02-photo", "fr": "une photo", "es": "una foto", "en": "a photo", "ipa": "yn fɔto", "pos": "noun", "gender": "f", "cognate_type": "transparent", "rule": "greek_ph_th", "ex": "Je voudrais une photo.", "voice": "oris", "audio": "L02-photo"}
+    {
+      "id": "L02-avoir",
+      "fr": "avoir",
+      "es": "tener / haber",
+      "en": "to have",
+      "ipa": "avwaʁ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je voudrais avoir une table.",
+      "voice": "oris",
+      "audio": "L02-avoir"
+    },
+    {
+      "id": "L02-ilya",
+      "fr": "il y a",
+      "es": "hay",
+      "en": "there is / there are",
+      "ipa": "il i a",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Il y a un restaurant ici.",
+      "voice": "emilie",
+      "audio": "L02-ilya"
+    },
+    {
+      "id": "L02-un",
+      "fr": "un",
+      "es": "un",
+      "en": "a (m)",
+      "ipa": "ɛ̃",
+      "pos": "art",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "J'ai un problème.",
+      "voice": "oris",
+      "audio": "L02-un"
+    },
+    {
+      "id": "L02-une",
+      "fr": "une",
+      "es": "una",
+      "en": "a (f)",
+      "ipa": "yn",
+      "pos": "art",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "J'ai une question.",
+      "voice": "emilie",
+      "audio": "L02-une"
+    },
+    {
+      "id": "L02-ici",
+      "fr": "ici",
+      "es": "aquí",
+      "en": "here",
+      "ipa": "isi",
+      "pos": "adv",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Il y a une pharmacie ici.",
+      "voice": "oris",
+      "audio": "L02-ici"
+    },
+    {
+      "id": "L02-pour",
+      "fr": "pour",
+      "es": "para / por",
+      "en": "for",
+      "ipa": "puʁ",
+      "pos": "prep",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "C'est une table pour deux.",
+      "voice": "emilie",
+      "audio": "L02-pour"
+    },
+    {
+      "id": "L02-reservation",
+      "fr": "une réservation",
+      "es": "una reservación / reserva",
+      "en": "a reservation",
+      "ipa": "yn ʁezɛʁvasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "rule": "cion_tion",
+      "ex": "J'ai une réservation.",
+      "voice": "emilie",
+      "audio": "L02-reservation"
+    },
+    {
+      "id": "L02-question",
+      "fr": "une question",
+      "es": "una cuestión / pregunta",
+      "en": "a question",
+      "ipa": "yn kɛstjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "rule": "cion_tion",
+      "ex": "J'ai une question.",
+      "voice": "oris",
+      "audio": "L02-question"
+    },
+    {
+      "id": "L02-probleme",
+      "fr": "un problème",
+      "es": "un problema",
+      "en": "a problem",
+      "ipa": "ɛ̃ pʁɔblɛm",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "ex": "Il y a un problème.",
+      "voice": "emilie",
+      "audio": "L02-probleme"
+    },
+    {
+      "id": "L02-moment",
+      "fr": "un moment",
+      "es": "un momento",
+      "en": "a moment",
+      "ipa": "ɛ̃ mɔmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "rule": "ente_ent",
+      "ex": "Tu as un moment ?",
+      "voice": "oris",
+      "audio": "L02-moment"
+    },
+    {
+      "id": "L02-idee",
+      "fr": "une idée",
+      "es": "una idea",
+      "en": "an idea",
+      "ipa": "yn ide",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "rule": "ia_ie",
+      "ex": "J'ai une idée.",
+      "voice": "emilie",
+      "audio": "L02-idee"
+    },
+    {
+      "id": "L02-menu",
+      "fr": "un menu",
+      "es": "un menú",
+      "en": "a menu",
+      "ipa": "ɛ̃ məny",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "ex": "Tu as le menu ?",
+      "voice": "oris",
+      "audio": "L02-menu"
+    },
+    {
+      "id": "L02-pharmacie",
+      "fr": "une pharmacie",
+      "es": "una farmacia",
+      "en": "a pharmacy",
+      "ipa": "yn faʁmasi",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "rule": "greek_ph_th",
+      "ex": "Il y a une pharmacie ici.",
+      "voice": "emilie",
+      "audio": "L02-pharmacie"
+    },
+    {
+      "id": "L02-photo",
+      "fr": "une photo",
+      "es": "una foto",
+      "en": "a photo",
+      "ipa": "yn fɔto",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "rule": "greek_ph_th",
+      "ex": "Je voudrais une photo.",
+      "voice": "oris",
+      "audio": "L02-photo"
+    }
   ],
   "sentences": [
-    {"id": "L02-s01", "tense": "présent", "fr": "J'ai une réservation pour deux.", "es": "Tengo una reservación para dos.", "en": "I have a reservation for two.", "voice": "emilie", "audio": "L02-s01"},
-    {"id": "L02-s02", "tense": "présent", "fr": "Il y a un restaurant et une pharmacie ici.", "es": "Hay un restaurante y una farmacia aquí.", "en": "There's a restaurant and a pharmacy here.", "voice": "oris", "audio": "L02-s02"},
-    {"id": "L02-s03", "tense": "passé composé", "fr": "On a eu un petit problème avec la réservation.", "es": "Tuvimos un pequeño problema con la reservación.", "en": "We had a little problem with the reservation.", "voice": "oris", "audio": "L02-s03"},
-    {"id": "L02-s04", "tense": "imparfait", "fr": "Avant, il y avait un marché ici.", "es": "Antes había un mercado aquí.", "en": "There used to be a market here.", "voice": "emilie", "audio": "L02-s04", "gloss": "marché = market (Cours Saleya!)"},
-    {"id": "L02-s05", "tense": "futur proche", "fr": "Tu vas avoir une surprise.", "es": "Vas a tener una sorpresa.", "en": "You're going to have a surprise.", "voice": "oris", "audio": "L02-s05"},
-    {"id": "L02-s06", "tense": "conditionnel", "fr": "Est-ce que je pourrais avoir l'addition ?", "es": "¿Podría traerme la cuenta?", "en": "Could I have the check?", "voice": "emilie", "audio": "L02-s06", "gloss": "l'addition = the check (restaurant survival)"},
-    {"id": "L02-s07", "tense": "subjonctif", "fr": "Il faut que tu aies ton passeport.", "es": "Tienes que tener tu pasaporte.", "en": "You have to have your passport.", "voice": "oris", "audio": "L02-s07"},
-    {"id": "L02-s08", "tense": "subjonctif", "self": true, "fr_m": "Je suis content qu'on ait une réservation.", "fr_f": "Je suis contente qu'on ait une réservation.", "es": "Me alegra que tengamos una reservación.", "en": "I'm glad we have a reservation.", "audio_m": "L02-s08-m", "audio_f": "L02-s08-f"}
+    {
+      "id": "L02-s01",
+      "tense": "présent",
+      "fr": "J'ai une réservation pour deux.",
+      "es": "Tengo una reservación para dos.",
+      "en": "I have a reservation for two.",
+      "voice": "emilie",
+      "audio": "L02-s01"
+    },
+    {
+      "id": "L02-s02",
+      "tense": "présent",
+      "fr": "Il y a un restaurant et une pharmacie ici.",
+      "es": "Hay un restaurante y una farmacia aquí.",
+      "en": "There's a restaurant and a pharmacy here.",
+      "voice": "oris",
+      "audio": "L02-s02"
+    },
+    {
+      "id": "L02-s03",
+      "tense": "passé composé",
+      "fr": "On a eu un petit problème avec la réservation.",
+      "es": "Tuvimos un pequeño problema con la reservación.",
+      "en": "We had a little problem with the reservation.",
+      "voice": "oris",
+      "audio": "L02-s03"
+    },
+    {
+      "id": "L02-s04",
+      "tense": "imparfait",
+      "fr": "Avant, il y avait un marché ici.",
+      "es": "Antes había un mercado aquí.",
+      "en": "There used to be a market here.",
+      "voice": "emilie",
+      "audio": "L02-s04",
+      "gloss": "marché = market (Cours Saleya!)"
+    },
+    {
+      "id": "L02-s05",
+      "tense": "futur proche",
+      "fr": "Tu vas avoir une surprise.",
+      "es": "Vas a tener una sorpresa.",
+      "en": "You're going to have a surprise.",
+      "voice": "oris",
+      "audio": "L02-s05"
+    },
+    {
+      "id": "L02-s06",
+      "tense": "conditionnel",
+      "fr": "Est-ce que je pourrais avoir l'addition ?",
+      "es": "¿Podría traerme la cuenta?",
+      "en": "Could I have the check?",
+      "voice": "emilie",
+      "audio": "L02-s06",
+      "gloss": "l'addition = the check (restaurant survival)"
+    },
+    {
+      "id": "L02-s07",
+      "tense": "subjonctif",
+      "fr": "Il faut que tu aies ton passeport.",
+      "es": "Tienes que tener tu pasaporte.",
+      "en": "You have to have your passport.",
+      "voice": "oris",
+      "audio": "L02-s07"
+    },
+    {
+      "id": "L02-s08",
+      "tense": "subjonctif",
+      "self": true,
+      "fr_m": "Je suis content qu'on ait une réservation.",
+      "fr_f": "Je suis contente qu'on ait une réservation.",
+      "es": "Me alegra que tengamos una reservación.",
+      "en": "I'm glad we have a reservation.",
+      "audio_m": "L02-s08-m",
+      "audio_f": "L02-s08-f"
+    }
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Le verbe « avoir », un trésor"
+    },
+    {
+      "t": "pair",
+      "fr": "Le verbe « avoir » est un instrument essentiel : j'ai, tu as, elle a, nous avons.",
+      "es": "El verbo « avoir » es un instrumento esencial: yo tengo, tú tienes, ella tiene, nosotros tenemos."
+    },
+    {
+      "t": "h3",
+      "text": "J'ai, jamais « je ai »"
+    },
+    {
+      "t": "pair",
+      "fr": "Le « e » disparaît devant la voyelle : j'ai une idée, j'ai un plan, j'ai un talent secret.",
+      "es": "La « e » desaparece delante de la vocal: yo tengo una idea, yo tengo un plan, yo tengo un talento secreto."
+    },
+    {
+      "t": "h3",
+      "text": "L'âge, avec élégance"
+    },
+    {
+      "t": "pair",
+      "fr": "J'ai seize ans, tu as quinze ans, ma grand-mère a cent ans — et une énergie admirable.",
+      "es": "Yo tengo dieciséis años, tú tienes quince años, mi abuela tiene cien años — y una energía admirable."
+    },
+    {
+      "t": "h3",
+      "text": "La magie de « il y a »"
+    },
+    {
+      "t": "pair",
+      "fr": "À Nice, il y a une plage, il y a un port, il y a des touristes en quantité industrielle.",
+      "es": "En Niza, hay una playa, hay un puerto, hay turistas en cantidad industrial."
+    },
+    {
+      "t": "h3",
+      "text": "Demander avec confiance"
+    },
+    {
+      "t": "pair",
+      "fr": "Au restaurant, tu déclares avec autorité : j'ai une réservation, j'ai une question importante.",
+      "es": "En el restaurante, tú declaras con autoridad: yo tengo una reserva, yo tengo una pregunta importante."
+    },
+    {
+      "t": "pair",
+      "fr": "Et attention : « avoir » est aussi un auxiliaire — j'ai mangé une glace immense, sans regrets.",
+      "es": "Y atención: « avoir » es también un auxiliar — he comido un helado inmenso, sin remordimientos."
+    }
   ]
 }

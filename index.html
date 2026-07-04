@@ -83,7 +83,7 @@
       <div class="pill"><div class="i">🎧</div><div class="t">Audio + quiz</div><div class="d">Chaque phrase se parle, se teste</div></div>
     </div>
 
-    <h2 class="sec">Le parcours · 13 modules + Chapitre 0</h2>
+    <h2 class="sec">Le parcours · 15 modules + Chapitre 0</h2>
     <div id="map"></div>
 
     <footer>fait avec ❤️ par Papa · <span id="cnt"></span></footer>
@@ -104,10 +104,12 @@ const MODULES=[
   {n:11,t:"L'école — school",d:"materias · faux-amis (collège, librairie)",ready:1},
   {n:12,t:"Dehors ! — sport & rando",d:"nager, courir · la Colline du Château",ready:1},
   {n:13,t:"Nice & survie",d:"tram, direcciones, au secours",ready:1},
+  {n:14,t:"Small talk (ados)",d:"clase, edad, crush · « on se follow ? »",ready:1},
+  {n:15,t:"Vulgarité",d:"à comprendre, pas à dire · registro",ready:1},
 ];
 document.getElementById('map').innerHTML=MODULES.map(m=>{
   const tag=m.ready?'<span class="badge on">PRÊT</span>':'<span class="badge soon">bientôt</span>';
-  const open=m.ready?`href="app.html#lesson/L0${m.n}"`:'href="app.html"';
+  const open=m.ready?`href="app.html#lesson/L${String(m.n).padStart(2,'0')}"`:'href="app.html"';
   return `<a class="mod ${m.ready?'ready':''}" ${open}><div class="mn">${m.n}</div>
     <div class="mm"><div class="mt">${m.t}</div><div class="md">${m.d}</div></div>${tag}</a>`;
 }).join('');

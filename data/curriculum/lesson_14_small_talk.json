@@ -1,0 +1,48 @@
+{
+  "id": "L14",
+  "order": 14,
+  "slug": "small-talk",
+  "title": "Small talk (ados)",
+  "es_title": "Cómo hablan los adolescentes de verdad",
+  "focus": "El francés que de verdad usan los teens: la clase, la edad, el crush, y « on se follow ? ».",
+  "objectives": [
+    "Romper el hielo (classe, âge, d'où tu viens).",
+    "Hablar de gustos y crushes (kiffer, craquer sur).",
+    "Sonar teen: mec, meuf, pote, trop, grave, genre."
+  ],
+  "reader": [
+    {"t": "h3", "text": "Sur la plage de Nice"},
+    {"t": "pair", "fr": "L'été à Nice : une Américaine curieuse observe un groupe d'adolescents. La conversation commence en trois secondes, garanti.", "es": "El verano en Niza: una americana curiosa observa un grupo de adolescentes. La conversación comienza en tres segundos, garantizado."},
+    {"t": "h3", "text": "La classe et l'âge"},
+    {"t": "pair", "fr": "Un mec (un garçon) demande : « Tu es en quelle classe ? Tu as quel âge ? » Questions classiques, réponses obligatoires.", "es": "Un mec (un chico) pregunta: «¿Estás en qué clase? ¿Tienes qué edad?» Preguntas clásicas, respuestas obligatorias."},
+    {"t": "pair", "fr": "« Et tu viens d'où ? » Elle répond avec une confiance totale : « Je viens des États-Unis… et mon accent est adorable, non ? »", "es": "«¿Y tú de dónde vienes?» Ella responde con una confianza total: «Vengo de los Estados Unidos… ¿y mi acento es adorable, no?»"},
+    {"t": "h3", "text": "Tu kiffes quoi ?"},
+    {"t": "pair", "fr": "« Tu kiffes quoi ? » signifie « tu adores quoi ? ». Ici, tout est trop cool, grave intéressant, ou genre… spectaculaire.", "es": "«¿Tú kiffes qué?» significa «¿qué adoras?». Aquí, todo es demasiado cool, súper interesante, o tipo… espectacular."},
+    {"t": "h3", "text": "La question fatale"},
+    {"t": "pair", "fr": "Une meuf (une fille) pose la question fatale : « Tu as un crush ? Tu craques sur qui ? » Silence dramatique, puis la confession.", "es": "Una meuf (una chica) plantea la pregunta fatal: «¿Tienes un crush? ¿Por quién te derrites?» Silencio dramático, luego la confesión."},
+    {"t": "h3", "text": "On se follow ?"},
+    {"t": "pair", "fr": "Conclusion inévitable : « C'est quoi ton insta ? On se follow ? » Échanger les réseaux sociaux : le rituel final des ados.", "es": "Conclusión inevitable: «¿Cuál es tu insta? ¿Nos hacemos follow?» Intercambiar las redes sociales: el ritual final de los adolescentes."}
+  ],
+  "vocab": [
+    {"id": "L14-classe", "fr": "tu es en quelle classe ?", "es": "¿en qué año/grado estás?", "en": "what grade are you in?", "ipa": "ty ɛ ɑ̃ kɛl klas", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Tu es en quelle classe ?", "voice": "oris", "audio": "L14-classe"},
+    {"id": "L14-age", "fr": "tu as quel âge ?", "es": "¿cuántos años tienes?", "en": "how old are you?", "ipa": "ty a kɛl ɑʒ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Tu as quel âge ?", "voice": "emilie", "audio": "L14-age"},
+    {"id": "L14-dou", "fr": "tu viens d'où ?", "es": "¿de dónde eres/vienes?", "en": "where are you from?", "ipa": "ty vjɛ̃ du", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Tu viens d'où ?", "voice": "oris", "audio": "L14-dou"},
+    {"id": "L14-kiffer", "fr": "kiffer", "es": "molar / encantar (jerga)", "en": "to be into / love", "ipa": "kife", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je kiffe trop Nice !", "voice": "emilie", "audio": "L14-kiffer"},
+    {"id": "L14-crush", "fr": "un crush", "es": "un crush (te gusta alguien)", "en": "a crush", "ipa": "ɛ̃ kʁœʃ", "pos": "noun", "gender": "m", "cognate_type": "transparent", "star": true, "ex": "J'ai un petit crush.", "voice": "emilie", "audio": "L14-crush"},
+    {"id": "L14-craquer", "fr": "craquer sur", "es": "estar colado/a por", "en": "to have a crush on", "ipa": "kʁake syʁ", "pos": "verb", "cognate_type": "non_cognate", "ex": "Tu craques sur qui ?", "voice": "oris", "audio": "L14-craquer"},
+    {"id": "L14-mec", "fr": "un mec", "es": "un chico / tipo", "en": "a guy", "ipa": "ɛ̃ mɛk", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "star": true, "ex": "C'est un mec sympa.", "voice": "oris", "audio": "L14-mec"},
+    {"id": "L14-meuf", "fr": "une meuf", "es": "una chica / tipa", "en": "a girl", "ipa": "yn mœf", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "star": true, "ex": "C'est une meuf trop cool.", "voice": "emilie", "audio": "L14-meuf"},
+    {"id": "L14-pote", "fr": "un pote", "es": "un amigo / cuate", "en": "a buddy", "ipa": "ɛ̃ pɔt", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "star": true, "ex": "C'est mon pote.", "voice": "oris", "audio": "L14-pote"},
+    {"id": "L14-trop", "fr": "trop", "es": "demasiado / súper", "en": "so / too", "ipa": "tʁo", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "C'est trop bien !", "voice": "emilie", "audio": "L14-trop"},
+    {"id": "L14-grave", "fr": "grave", "es": "totalmente (jerga)", "en": "totally", "ipa": "ɡʁav", "pos": "adv", "cognate_type": "semi", "ex": "Ouais, grave !", "voice": "oris", "audio": "L14-grave"},
+    {"id": "L14-genre", "fr": "genre", "es": "tipo / o sea (muletilla)", "en": "like (filler)", "ipa": "ʒɑ̃ʁ", "pos": "adv", "cognate_type": "semi", "ex": "C'est genre… incroyable.", "voice": "emilie", "audio": "L14-genre"},
+    {"id": "L14-insta", "fr": "c'est quoi ton insta ?", "es": "¿cuál es tu insta?", "en": "what's your insta?", "ipa": "sɛ kwa tɔ̃ nɛ̃sta", "pos": "phrase", "cognate_type": "transparent", "star": true, "ex": "C'est quoi ton insta ?", "voice": "oris", "audio": "L14-insta"},
+    {"id": "L14-follow", "fr": "on se follow ?", "es": "¿nos seguimos?", "en": "shall we follow each other?", "ipa": "ɔ̃ sə fɔlo", "pos": "phrase", "cognate_type": "transparent", "star": true, "ex": "On se follow ?", "voice": "emilie", "audio": "L14-follow"}
+  ],
+  "sentences": [
+    {"id": "L14-s01", "register": "parle", "fr": "Salut ! Tu es en quelle classe ? — En seconde, et toi ?", "es": "¡Hola! ¿En qué año estás? — En segundo, ¿y tú?", "en": "Hi! What grade are you in? — Tenth grade, and you?", "voice": "oris", "audio": "L14-s01", "gloss": "la seconde ≈ 10º grado (primer año de lycée)"},
+    {"id": "L14-s02", "register": "parle", "fr": "Tu viens d'où ? — Des États-Unis. Mon accent est trop bizarre, non ?", "es": "¿De dónde vienes? — De Estados Unidos. Mi acento es súper raro, ¿no?", "en": "Where are you from? — The US. My accent is so weird, right?", "voice": "emilie", "audio": "L14-s02"},
+    {"id": "L14-s03", "register": "parle", "fr": "Tu as un crush ? — Peut-être… sur un pote de mon cousin.", "es": "¿Tienes un crush? — Quizás… por un amigo de mi primo.", "en": "Do you have a crush? — Maybe… on a friend of my cousin.", "voice": "oris", "audio": "L14-s03"},
+    {"id": "L14-s04", "register": "parle", "fr": "C'est quoi ton insta ? On se follow !", "es": "¿Cuál es tu insta? ¡Nos seguimos!", "en": "What's your insta? Let's follow each other!", "voice": "emilie", "audio": "L14-s04"}
+  ]
+}
