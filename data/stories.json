@@ -1,0 +1,75 @@
+{
+  "note": "Graded readings — cognate-maximized so a Spanish speaker can follow. Each has a vocab block (the few non-guessable words), the text, and a full-reading audio (voice gender matches narrator gender per the safeguard).",
+  "stories": [
+    {
+      "id": "ST1", "order": 1, "level": 1, "level_label": "1 · très facile",
+      "title": "Ma journée parfaite à Nice", "title_es": "Mi día perfecto en Niza",
+      "narrator": "f", "voice": "emilie", "audio": "ST1",
+      "vocab": [
+        {"fr": "une journée", "es": "un día", "en": "a day"},
+        {"fr": "le ciel", "es": "el cielo", "en": "the sky"},
+        {"fr": "les rues", "es": "las calles", "en": "the streets"},
+        {"fr": "pleines de", "es": "llenas de", "en": "full of"},
+        {"fr": "une glace", "es": "un helado", "en": "an ice cream"},
+        {"fr": "je nage", "es": "nado", "en": "I swim"},
+        {"fr": "l'eau", "es": "el agua", "en": "the water"},
+        {"fr": "la vue", "es": "la vista", "en": "the view"},
+        {"fr": "après", "es": "después", "en": "afterwards"},
+        {"fr": "j'adore", "es": "me encanta", "en": "I love"}
+      ],
+      "text": "J'arrive à Nice avec ma famille. Le climat est parfait et le ciel est bleu. Je visite le Vieux-Nice : les rues sont pittoresques et pleines de couleurs. Je mange une glace délicieuse au chocolat. Après, je nage dans la mer Méditerranée. L'eau est transparente et magnifique ! J'admire la vue splendide de la Promenade. Je suis très contente. C'est une journée absolument parfaite. J'adore Nice !"
+    },
+    {
+      "id": "ST2", "order": 2, "level": 1, "level_label": "1 · facile",
+      "title": "L'origine du nom « Nice »", "title_es": "El origen del nombre « Nice »",
+      "narrator": "none", "voice": "emilie", "audio": "ST2",
+      "vocab": [
+        {"fr": "une ville", "es": "una ciudad", "en": "a city"},
+        {"fr": "vers", "es": "hacia (aprox.)", "en": "around"},
+        {"fr": "avant", "es": "antes de", "en": "before"},
+        {"fr": "ont fondé", "es": "fundaron", "en": "founded"},
+        {"fr": "une déesse", "es": "una diosa", "en": "a goddess"},
+        {"fr": "plus tard", "es": "más tarde", "en": "later"},
+        {"fr": "une colline", "es": "una colina", "en": "a hill"},
+        {"fr": "aujourd'hui", "es": "hoy", "en": "today"},
+        {"fr": "un quartier", "es": "un barrio", "en": "a district"}
+      ],
+      "text": "Vers 350 avant Jésus-Christ, les Grecs ont fondé la ville de Nice. Ils ont donné à la ville le nom « Nikaia », en l'honneur de Niké, la déesse de la victoire. Donc, le nom « Nice » signifie « la victoire ». Plus tard, les Romains ont construit la ville de Cemenelum sur la colline de Cimiez. Aujourd'hui, Cimiez est un quartier de Nice, et les touristes visitent les ruines romaines. Nice est une ville très ancienne et très historique."
+    },
+    {
+      "id": "ST3", "order": 3, "level": 2, "level_label": "2 · une recette",
+      "title": "La socca, spécialité de Nice", "title_es": "La socca, especialidad de Niza",
+      "narrator": "none", "voice": "oris", "audio": "ST3",
+      "vocab": [
+        {"fr": "le pois chiche", "es": "el garbanzo", "en": "chickpea"},
+        {"fr": "la farine", "es": "la harina", "en": "flour"},
+        {"fr": "l'huile", "es": "el aceite", "en": "oil"},
+        {"fr": "l'eau", "es": "el agua", "en": "water"},
+        {"fr": "mélanger", "es": "mezclar", "en": "to mix"},
+        {"fr": "verser", "es": "verter", "en": "to pour"},
+        {"fr": "le four", "es": "el horno", "en": "oven"},
+        {"fr": "cuire", "es": "cocer", "en": "to bake"},
+        {"fr": "couper", "es": "cortar", "en": "to cut"},
+        {"fr": "chaud", "es": "caliente", "en": "hot"}
+      ],
+      "text": "La socca est la spécialité traditionnelle de Nice. La recette est très simple. Les ingrédients : de la farine de pois chiche, de l'huile d'olive, de l'eau et du sel. Préparation : dans un récipient, mélanger la farine avec l'eau, l'huile d'olive et le sel. La consistance doit être liquide, comme une crème. Verser la préparation sur une grande plaque. Cuire au four très chaud pendant dix minutes. La surface doit être dorée, presque caramélisée. Finalement, couper la socca en portions et manger immédiatement, très chaud. C'est délicieux, économique et cent pour cent traditionnel !"
+    },
+    {
+      "id": "ST4", "order": 4, "level": 3, "level_label": "3 · une aventure",
+      "title": "Le sommet du Mont Boron", "title_es": "La cima del Mont Boron",
+      "narrator": "m", "voice": "oris", "audio": "ST4",
+      "vocab": [
+        {"fr": "je cours", "es": "corro", "en": "I run"},
+        {"fr": "le sentier", "es": "el sendero", "en": "the trail"},
+        {"fr": "la pente", "es": "la cuesta", "en": "the slope"},
+        {"fr": "vite", "es": "rápido", "en": "quickly"},
+        {"fr": "les jambes", "es": "las piernas", "en": "the legs"},
+        {"fr": "fier", "es": "orgulloso", "en": "proud"},
+        {"fr": "la vue", "es": "la vista", "en": "the view"},
+        {"fr": "puis", "es": "luego", "en": "then"},
+        {"fr": "la matinée", "es": "la mañana", "en": "the morning"}
+      ],
+      "text": "Ce matin, à Nice, je décide une aventure : monter la colline du Mont Boron. Je commence sur la Promenade des Anglais. Je cours rapidement ; l'air est frais et la mer est d'un bleu intense. Ensuite, je monte le sentier. La pente est difficile et je suis vite fatigué. Mes jambes protestent, mais je continue avec détermination. Après trente minutes d'effort, j'arrive au sommet. Le panorama sur la Baie des Anges est magnifique : la mer immense, le port, les villas élégantes. J'admire la vue en silence, puis je prends une photo pour ma famille. Je suis content et très fier de mon effort. Finalement, je descends et, pour célébrer ma victoire, je mange une socca délicieuse. Quelle matinée fantastique !"
+    }
+  ]
+}

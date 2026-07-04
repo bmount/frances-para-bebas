@@ -118,9 +118,10 @@
   .maprow .frx{font-weight:700;color:#0a3d7a;flex:1;text-align:right}
   .callout{background:#fff7ec;border-left:4px solid var(--sun);border-radius:8px;padding:11px 13px;margin:0 0 12px;font-size:16.5px;line-height:1.55}
   .callout b{color:#a1560b}
-  .modetog{display:flex;gap:8px;margin:0 0 14px}
-  .modetog .mt{flex:1;border:0;border-radius:14px;padding:13px;font-size:16px;font-weight:800;cursor:pointer;background:#fff;color:var(--muted);box-shadow:0 6px 16px rgba(6,42,90,.07)}
+  .modetog{display:flex;gap:8px;margin:0 0 14px;flex-wrap:wrap}
+  .modetog .mt{flex:1 1 40%;min-width:120px;border:0;border-radius:14px;padding:13px;font-size:15.5px;font-weight:800;cursor:pointer;background:#fff;color:var(--muted);box-shadow:0 6px 16px rgba(6,42,90,.07)}
   .modetog .mt.on{background:linear-gradient(135deg,var(--sea),var(--deep));color:#fff}
+  .story{font-size:19px;line-height:1.7;color:#1c2f42;margin:0}
   /* bilingual reader pairs: French over its literal Spanish, visually grouped */
   .reader .pair{margin:0 0 13px;border-left:4px solid var(--sea);border-radius:0 12px 12px 0;overflow:hidden;box-shadow:0 2px 9px rgba(6,42,90,.06)}
   .reader .pair .fr{background:#e8f1fc;color:#0a3d7a;padding:11px 13px;font-size:17.5px;line-height:1.5;font-weight:600}
@@ -130,11 +131,11 @@
 </style>
 </head>
 <body>
-<div class="top"><button class="back" id="back">‹</button><h1 id="ttl">Français pour bébas</h1><span style="font-size:20px">🌞</span></div>
+<div class="top"><button class="back" id="back">‹</button><h1 id="ttl">Français pour bébas</h1><button class="back" style="display:block;font-size:17px" onclick="location.hash='settings'">⚙️</button></div>
 <div id="view" class="wrap"></div>
 <script>
 const AUDIO={base:"",clips:{},v:1};
-let LESSONS=[], GRAMMAR=null, ESS=null, CULTURE=null, cur=null;
+let LESSONS=[], GRAMMAR=null, ESS=null, CULTURE=null, STORIES=null, cur=null;
 const REGLBL={parle:'🗣️ parlé',standard:'standard',ecrit:'écrit',litteraire:'littéraire'};
 const esc=s=>(s||'').replace(/</g,'&lt;');
 
@@ -146,6 +147,7 @@ async function boot(){
   GRAMMAR=await fetch('data/spoken_grammar.json').then(r=>r.json()).catch(()=>null);
   ESS=await fetch('data/spoken_essentials.json').then(r=>r.json()).catch(()=>null);
   CULTURE=await fetch('data/quiz_culture.json').then(r=>r.json()).catch(()=>null);
+  STORIES=await fetch('data/stories.json').then(r=>r.json()).catch(()=>null);
   const files=['data/curriculum/lesson_00_sons.json','data/curriculum/lesson_01_etre.json','data/curriculum/lesson_02_avoir.json',
     'data/curriculum/lesson_03_salut.json','data/curriculum/lesson_04_chiffres.json','data/curriculum/lesson_05_cafe.json',
     'data/curriculum/lesson_06_couleurs.json','data/curriculum/lesson_07_verbes_er.json',
@@ -173,13 +175,42 @@ function chip(ct){return ct==='non_cognate'?'<span class="chip non">nuevo ⭐</s
 function reg(r){return r?`<span class="reg ${r}">${REGLBL[r]||r}</span>`:'';}
 function pbtn(id,cls){return id?`<button class="pbtn ${cls||''}" data-aud="${id}">▶︎</button>`:'';}
 
+/* ---------- progress store (localStorage, versioned) ---------- */
+const PROG_VER=1, PROG_KEY='fpb_progress';
+function loadProgress(){try{const p=JSON.parse(localStorage.getItem(PROG_KEY));if(!p||p.v!==PROG_VER)return{v:PROG_VER,lessons:{},quiz:{},cards:{}};return p;}catch(e){return{v:PROG_VER,lessons:{},quiz:{},cards:{}};}}
+function saveProgress(p){try{localStorage.setItem(PROG_KEY,JSON.stringify(p));}catch(e){}}
+function clearProgress(){localStorage.removeItem(PROG_KEY);}
+function markLessonSeen(id){const p=loadProgress();p.lessons[id]=Date.now();saveProgress(p);}
+function recordQuiz(cat,score,total){const p=loadProgress();const q=p.quiz[cat]||{best:0,plays:0};q.plays++;q.best=Math.max(q.best,Math.round(score/total*100));p.quiz[cat]=q;saveProgress(p);}
+function recordCard(id,known){const p=loadProgress();const c=p.cards[id]||{box:0,seen:0};c.seen++;c.box=known?Math.min((c.box||0)+1,4):0;c.ts=Date.now();p.cards[id]=c;saveProgress(p);}
+
+function renderSettings(){
+  document.getElementById('ttl').textContent='Réglages';
+  const p=loadProgress();
+  const totalL=LESSONS.length, seenL=Object.keys(p.lessons).length;
+  const cards=Object.values(p.cards), known=cards.filter(c=>c.box>=2).length, cseen=cards.length;
+  const qrows=Object.entries(p.quiz).map(([k,q])=>`<div class="v"><div class="vmain"><div class="vfr" style="font-size:15px">${k}</div><div class="ves">${q.plays} parties</div></div><div style="font-weight:800;color:var(--good)">${q.best}%</div></div>`).join('')||'<div class="ves">Aucun quiz encore.</div>';
+  document.getElementById('view').innerHTML=`
+    <div class="card"><h2>Ta progression</h2>
+      <div class="v"><div class="vmain"><div class="vfr">Leçons vues</div></div><div style="font-weight:800">${seenL} / ${totalL}</div></div>
+      <div class="v"><div class="vmain"><div class="vfr">Cartes sues</div><div class="ves">${cseen} vues</div></div><div style="font-weight:800;color:var(--good)">${known}</div></div>
+    </div>
+    <div class="card"><h2>Quiz — meilleurs scores</h2>${qrows}</div>
+    <div class="card"><h2>Données</h2>
+      <div class="ves" style="margin-bottom:10px">La progression est stockée sur ton téléphone (rien en ligne).</div>
+      <button class="big" style="background:linear-gradient(135deg,var(--bad),#b02020)" onclick="if(confirm('Effacer TOUTE la progression ?')){clearProgress();renderSettings();}">🗑️ Effacer toute la progression</button>
+    </div>`;
+}
+
 function route(){
   const h=location.hash.slice(1);
   document.getElementById('back').style.display=h?'block':'none';
   document.getElementById('back').onclick=()=>location.hash='';
   if(h.startsWith('lesson/'))renderLesson(h.split('/')[1]);
   else if(h==='parle')renderParle();
-  else if(h==='flash')renderFlash();
+  else if(h==='flash'||h==='cards')renderCards();
+  else if(h==='settings')renderSettings();
+  else if(h.startsWith('lecture'))renderLectures(h.split('/')[1]);
   else if(h.startsWith('quiz'))renderQuiz(h.split('/')[1]);
   else renderHome();
 }
@@ -187,32 +218,50 @@ function setMode(m){localStorage.setItem('fpb_mode',m);renderHome();}
 function renderHome(){
   document.getElementById('ttl').textContent='Français pour bébas';
   const mode=localStorage.getItem('fpb_mode')||'lessons';
-  const lc=L=>`<div class="card lcard" onclick="location.hash='lesson/${L.id}'">
+  const P=loadProgress();
+  const lc=L=>{const seen=P.lessons&&P.lessons[L.id];
+    return `<div class="card lcard" onclick="location.hash='lesson/${L.id}'">
     <div class="lnum ${L.order===0?'z':''}">${L.order===0?'0':L.order}</div>
-    <div class="vmain"><div class="t">${L.title}</div><div class="s">${L.es_title}</div></div>
-    <span style="color:var(--muted);font-size:22px">›</span></div>`;
+    <div class="vmain"><div class="t">${L.title} ${seen?'<span style="color:var(--good)">✓</span>':''}</div><div class="s">${L.es_title}</div></div>
+    <span style="color:var(--muted);font-size:22px">›</span></div>`;};
   const cat=(k,icon,t,d)=>`<div class="card lcard" onclick="location.hash='quiz/${k}'">
     <div class="lnum" style="background:linear-gradient(135deg,var(--good),#0b9)">${icon}</div>
     <div class="vmain"><div class="t">${t}</div><div class="s">${d}</div></div>
     <span style="color:var(--muted);font-size:22px">›</span></div>`;
-  const lessonsView=`${LESSONS.map(lc).join('')}
-    <a class="big purple" href="#parle">🗣️ Le français qu'on parle vraiment</a>
-    <a class="big coral" href="#flash">🎴 Flashcards — 3:2</a>`;
-  const quizView=`
-    ${cat('mix','🎲','Quiz mixte','un poco de todo')}
-    ${cat('ecoute','🎧','Écoute','oye y elige: el sentido o la transcripción')}
-    ${cat('trad','🔤','Traduction','🇪🇸 ↔ 🇫🇷')}
-    ${cat('gram','✍️','Grammaire','conjugación y género')}
-    ${cat('culture','🧠','Culture','¿qué sabes de Nice y del curso?')}
-    ${cat('pieges','⚖️','Pièges','trampas español → francés')}`;
+  const st=s=>`<div class="card lcard" onclick="location.hash='lecture/${s.id}'">
+    <div class="lnum" style="background:linear-gradient(135deg,#ff9f43,#ee8130)">${s.level}</div>
+    <div class="vmain"><div class="t">${s.title}</div><div class="s">${s.level_label} · ${s.voice==='oris'?'♂':'♀'}</div></div>
+    <span style="color:var(--muted);font-size:22px">›</span></div>`;
+  const lessonsView=`${LESSONS.map(lc).join('')}<a class="big purple" href="#parle">🗣️ Le français qu'on parle vraiment</a>`;
+  const quizView=`${cat('mix','🎲','Quiz mixte','un poco de todo')}${cat('ecoute','🎧','Écoute','oye y elige')}${cat('trad','🔤','Traduction','🇪🇸 ↔ 🇫🇷')}${cat('gram','✍️','Grammaire','conjugación y género')}${cat('culture','🧠','Culture','sur Nice et le cours')}${cat('pieges','⚖️','Pièges','español → francés')}`;
+  const cartesView=`<div class="card" style="text-align:center"><div style="font-size:15px;line-height:1.5">🎴 Apprends le vocabulaire.<br><span style="color:var(--muted);font-size:13px">Écoute, devine, puis appuie pour révéler (🇬🇧 + 🇪🇸).</span></div></div><a class="big coral" href="#flash">Commencer les cartes →</a>`;
+  const lecturesView=`<div class="card" style="text-align:center"><div style="font-size:14px;line-height:1.5;color:#2a3f56">📖 Des histoires simples, du plus facile au plus difficile.<br><span style="color:var(--muted);font-size:13px">Lis, écoute — et découvre que tu comprends déjà !</span></div></div>${((STORIES&&STORIES.stories)||[]).map(st).join('')}`;
+  const views={lessons:lessonsView,quiz:quizView,cartes:cartesView,lectures:lecturesView};
   document.getElementById('view').innerHTML=`
     <div class="card" style="text-align:center;padding:14px"><div style="font-size:15px;line-height:1.5">Bienvenue, ma belle 🌊<br>
     <span style="color:var(--muted);font-size:13px">Le français à partir de ton espagnol · cap sur Nice</span></div></div>
     <div class="modetog">
       <button class="mt ${mode==='lessons'?'on':''}" onclick="setMode('lessons')">📚 Leçons</button>
       <button class="mt ${mode==='quiz'?'on':''}" onclick="setMode('quiz')">✅ Quiz</button>
+      <button class="mt ${mode==='cartes'?'on':''}" onclick="setMode('cartes')">🎴 Cartes</button>
+      <button class="mt ${mode==='lectures'?'on':''}" onclick="setMode('lectures')">📖 Lectures</button>
     </div>
-    ${mode==='lessons'?lessonsView:quizView}`;
+    ${views[mode]||lessonsView}`;
+}
+function renderLectures(id){
+  const S=(STORIES&&STORIES.stories)||[];
+  const s=S.find(x=>x.id===id);
+  if(!s){document.getElementById('ttl').textContent='Lectures';
+    document.getElementById('view').innerHTML=S.map(x=>`<div class="card lcard" onclick="location.hash='lecture/${x.id}'"><div class="lnum" style="background:linear-gradient(135deg,#ff9f43,#ee8130)">${x.level}</div><div class="vmain"><div class="t">${x.title}</div><div class="s">${x.level_label}</div></div><span style="color:var(--muted);font-size:22px">›</span></div>`).join('');return;}
+  document.getElementById('ttl').textContent=s.title;
+  const vocab=s.vocab.map(v=>`<div class="v"><div class="vmain"><div class="vfr" style="font-size:16px">${v.fr}</div><div class="ves">🇪🇸 ${v.es} &nbsp;·&nbsp; 🇬🇧 ${v.en}</div></div></div>`).join('');
+  document.getElementById('view').innerHTML=`
+    <div class="card"><div style="font-size:13px;color:var(--muted)">${s.level_label} · ${s.voice==='oris'?'voix ♂':'voix ♀'}</div>
+      <div style="font-weight:800;font-size:21px;margin:4px 0 2px">${s.title}</div><div class="ves">${s.title_es}</div></div>
+    <div class="card"><h2>Vocabulaire — avant de lire</h2>${vocab}</div>
+    <div class="card"><h2>Écoute &amp; lis</h2>
+      <button class="pbtn" data-aud="${s.audio}" style="width:100%;border-radius:14px;height:48px;font-size:15px;font-weight:700;margin-bottom:12px">🔊 Écouter l'histoire</button>
+      <p class="story">${esc(s.text)}</p></div>`;
 }
 /* ---------- phonology (Chapter 0) ---------- */
 function soundCard(s){
@@ -265,6 +314,7 @@ function sentRow(it){
 }
 function renderLesson(id){
   const L=LESSONS.find(x=>x.id===id);if(!L){location.hash='';return;}
+  markLessonSeen(id);
   if(L.sounds)return renderSounds(L);
   document.getElementById('ttl').textContent=L.title;
   const hasG=!!L.grammar, c=hasG?L.grammar.conjugation:null, T=hasG?(L.grammar.tenses||[]):[];
@@ -314,31 +364,46 @@ function renderParle(){
 }
 /* ---------- Flashcards ---------- */
 const shuffle=a=>a.map(x=>[Math.random(),x]).sort((p,q)=>p[0]-q[0]).map(p=>p[1]);
-function buildDeck(){
+function buildCardDeck(){
   const all=LESSONS.filter(L=>L.vocab).flatMap(L=>L.vocab);
-  const hard=shuffle(all.filter(v=>v.cognate_type==='non_cognate'||v.star)),cog=shuffle(all.filter(v=>!(v.cognate_type==='non_cognate'||v.star)));
-  const d=[];let hi=0,ci=0;while(hi<hard.length||ci<cog.length){for(let k=0;k<3&&hi<hard.length;k++)d.push({...hard[hi++],_k:'hard'});for(let k=0;k<2&&ci<cog.length;k++)d.push({...cog[ci++],_k:'cog'});}
+  const P=loadProgress().cards;
+  const box=v=>(P[v.id]&&P[v.id].box)||0, cog=v=>v.cognate_type==='transparent';
+  const scored=all.map(v=>({v,b:box(v),c:cog(v),r:Math.random()}));
+  scored.sort((a,b)=> a.b-b.b || (a.c-b.c) || a.r-b.r);  // low box first; hard before cognate
+  const hard=scored.filter(s=>!s.c).map(s=>s.v), cg=scored.filter(s=>s.c).map(s=>s.v);
+  const d=[];let hi=0,ci=0;
+  while(d.length<22 && (hi<hard.length||ci<cg.length)){
+    for(let k=0;k<3&&hi<hard.length;k++)d.push(hard[hi++]);  // 3 harder words
+    if(ci<cg.length)d.push(cg[ci++]);                         // + 1 cognate sprinkle (confidence)
+  }
   return d;
 }
-let deck=[],di=0;
-function renderFlash(){document.getElementById('ttl').textContent='Flashcards';if(!deck.length){deck=buildDeck();di=0;}drawCard();}
-function drawCard(){
+let cdeck=[],ck=0,cflip=false,cx0=0;
+function renderCards(){document.getElementById('ttl').textContent='Cartes';if(!cdeck.length){cdeck=buildCardDeck();ck=0;}drawCardN();}
+function drawCardN(){
   const host=document.getElementById('view');
-  if(di>=deck.length){host.innerHTML=`<div class="stage"><div class="empty">🎉 Deck terminé !<br><br><button class="big coral" style="max-width:240px" onclick="deck=[];renderFlash()">Recommencer</button></div></div>`;return;}
-  const it=deck[di],fr=it.fr_m?`${it.fr_m} / ${it.fr_f}`:it.fr,ipa=it.ipa||it.ipa_m||'',aud=it.audio||it.audio_m;
-  const mix=it._k==='hard'?'<span class="hard">● nuevo / difícil</span>':'<span class="cog">● cognado</span>';
-  host.innerHTML=`<div class="prog"><i style="width:${di/deck.length*100}%"></i></div>
-    <div class="stage"><div class="mix">${mix} · ${di+1}/${deck.length} · mezcla 3:2</div>
-      <div class="prompt">🇪🇸 ¿cómo se dice…?</div><div class="big2">${it.es}</div>
-      <div class="rev" id="rev"><button class="pbtn" data-aud="${aud}" style="width:52px;height:52px;font-size:19px">▶︎</button></div></div>
-    <div class="btns" id="b"><button class="reveal" id="rb">Voir 🇫🇷</button></div>`;
-  document.getElementById('rb').onclick=()=>{
-    document.getElementById('rev').innerHTML=`<div class="fr">${fr}</div>${ipa?`<div class="ipa2">/${ipa}/</div>`:''}<div style="font-size:13px">${it.en}</div>
-      <div style="font-size:12px;color:var(--muted);font-style:italic">« ${esc(it.ex||it.ex_m)} »</div><button class="pbtn" data-aud="${aud}" style="margin-top:4px">🔊</button>`;
-    play(aud);document.getElementById('b').innerHTML=`<button class="again" onclick="grade(0)">Encore</button><button class="gd" onclick="grade(1)">Je sais ✓</button>`;
-  };
+  if(ck>=cdeck.length){host.innerHTML=`<div class="stage"><div class="empty">🎉 Session finie !<br><br><button class="big coral" style="max-width:240px" onclick="cdeck=[];renderCards()">Encore</button></div></div>`;return;}
+  const it=cdeck[ck],fr=it.fr_m?`${it.fr_m} / ${it.fr_f}`:it.fr,ipa=it.ipa||it.ipa_m||'',aud=it.audio||it.audio_m;
+  const cog=it.cognate_type==='transparent'?'<span class="chip cog">cognat</span>':'';
+  cflip=false;
+  host.innerHTML=`<div class="prog"><i style="width:${ck/cdeck.length*100}%"></i></div>
+    <div class="stage" id="cst" style="cursor:pointer;user-select:none">
+      <div style="font-size:12px;color:var(--muted)">${ck+1}/${cdeck.length} ${cog}</div>
+      <div class="big2">${fr}</div>${ipa?`<div class="ipa2" style="font-size:17px;color:var(--sea)">/${ipa}/</div>`:''}
+      <button class="pbtn" data-aud="${aud}" style="width:56px;height:56px;font-size:22px;margin-top:10px">🔊</button>
+      <div id="cbk" class="rev" style="margin-top:12px"><span style="color:var(--muted);font-size:14px">appuie pour révéler 👆</span></div>
+    </div><div class="btns" id="cbt"></div>`;
+  play(aud);
+  const st=document.getElementById('cst');
+  st.onclick=e=>{if(e.target.closest('[data-aud]'))return;if(!cflip)flipCardN(it);};
+  st.ontouchstart=e=>{cx0=e.changedTouches[0].clientX;};
+  st.ontouchend=e=>{const dx=e.changedTouches[0].clientX-cx0;if(cflip&&Math.abs(dx)>60)nextCardN(dx>0?1:0);};
 }
-function grade(k){if(!k)deck.push(deck[di]);di++;drawCard();}
+function flipCardN(it){cflip=true;const aud=it.audio||it.audio_m;
+  document.getElementById('cbk').innerHTML=`<div style="font-size:17px;color:var(--ink)">🇬🇧 ${it.en||''}</div><div style="font-size:16px;color:#7a5a2e">🇪🇸 ${it.es||''}</div>${(it.ex||it.ex_m)?`<div style="font-size:13px;color:var(--muted);font-style:italic;margin-top:4px">« ${esc(it.ex||it.ex_m)} »</div>`:''}<div style="font-size:11px;color:#aab;margin-top:6px">↺ balaie à gauche · ✓ à droite</div>`;
+  document.getElementById('cbt').innerHTML=`<button class="again" onclick="nextCardN(0)">↺ à revoir</button><button class="gd" onclick="nextCardN(1)">✓ je sais</button>`;
+}
+function nextCardN(known){const it=cdeck[ck];recordCard(it.id,known);ck++;drawCardN();}
 /* ---------- Quiz (categories + listening + culture) ---------- */
 function itemAV(it){
   if(it.fr_m) return {fr:it.fr_m+' / '+it.fr_f, es:it.es, aud:it.audio_m};
@@ -376,7 +441,7 @@ function renderQuiz(cat){quizCat=cat||'mix';document.getElementById('ttl').textC
 function drawQ(){
   const host=document.getElementById('view');
   if(!quiz.length){host.innerHTML=`<div class="stage"><div class="empty">Rien ici pour l'instant.<br><br><button class="big coral" style="max-width:240px" onclick="location.hash=''">Retour</button></div></div>`;return;}
-  if(qi>=quiz.length){const p=Math.round(qs/quiz.length*100);
+  if(qi>=quiz.length){const p=Math.round(qs/quiz.length*100);recordQuiz(quizCat,qs,quiz.length);
     host.innerHTML=`<div class="stage"><div class="empty"><div style="font-size:40px">${p>=80?'🎉':p>=50?'👍':'💪'}</div><div style="font-size:22px;font-weight:800;margin:8px 0">${qs}/${quiz.length}</div><button class="big coral" style="max-width:240px" onclick="renderQuiz(quizCat)">Encore</button></div></div>`;return;}
   const q=quiz[qi];host.dataset.done='';
   const audBtn=q.aud?`<div style="text-align:center;margin:4px 0 10px"><button class="pbtn" data-aud="${q.aud}" style="width:58px;height:58px;font-size:23px">🔊</button></div>`:'';

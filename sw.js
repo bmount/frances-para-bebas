@@ -1,5 +1,5 @@
 /* Français pour bébas — service worker (offline for the trip) */
-const VER = 'fpb-v11';
+const VER = 'fpb-v12';
 const SHELL = VER + '-shell';
 const AUDIO = 'fpb-audio';   // audio is versioned via ?v= query, so keep across releases
 const CORE = [
@@ -27,7 +27,8 @@ const CORE = [
   'data/curriculum/lesson_19_cuisine.json',
   'data/curriculum/lesson_20_mythes_religions.json',
   'data/curriculum/lesson_21_prepositions.json',
-  'data/quiz_culture.json'
+  'data/quiz_culture.json',
+  'data/stories.json'
 ];
 
 self.addEventListener('install', e => {

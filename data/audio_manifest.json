@@ -14,7 +14,7 @@
       "engine": "elevenlabs"
     }
   },
-  "count": 611,
+  "count": 615,
   "clips": {
     "L01-a": 1,
     "L01-american-f": 1,
@@ -626,6 +626,10 @@
     "SP-red-sais": 1,
     "SP-red-tas": 1,
     "SP-red-tes": 1,
-    "SP-red-ya": 1
+    "SP-red-ya": 1,
+    "ST1": 1,
+    "ST2": 1,
+    "ST3": 1,
+    "ST4": 1
   }
 }

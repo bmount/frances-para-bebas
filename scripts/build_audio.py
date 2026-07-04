@@ -91,6 +91,12 @@ def collect():
                 for r in lad.get("rungs", []):
                     if r.get("audio") and not r.get("obsolescent"):
                         jobs.append((r["audio"], r["fr"], r.get("voice", "emilie")))
+    # graded readings — one clip per story (voice gender matches the narrator)
+    st_path = os.path.join(ROOT, "data", "stories.json")
+    if os.path.exists(st_path):
+        with open(st_path, encoding="utf-8") as f:
+            for s in json.load(f)["stories"]:
+                jobs.append((s["audio"], s["text"], s["voice"]))
     return jobs
 
 

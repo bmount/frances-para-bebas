@@ -126,33 +126,38 @@ def assert_gender_ok(text, voice_gender):
     if voice_gender not in ("m", "f"):
         raise ValueError(f"voice_gender must be 'm' or 'f', got {voice_gender!r}")
 
-    if not FIRST_PERSON.search(text):
-        return  # no first-person self-description -> any voice is fine
-
-    toks = _tokens(text)
-    tokset = set(toks)
+    # Only enforce agreement on adjectives in FIRST-PERSON PREDICATE position
+    # (right after « je suis / je me sens / j'étais / j'ai été / … »). This avoids
+    # false positives on adjectives that agree with OTHER nouns in the same
+    # sentence — e.g. « je mange une socca délicieuse » (délicieuse ↔ socca).
+    s = _norm(text)
+    cand = []
+    for m in re.finditer(
+        r"(je\s+suis|je\s+me\s+sens|je\s+me\s+sentais|j['’]?étais|j['’]?ai\s+été"
+        r"|je\s+serai|je\s+serais|je\s+deviens|je\s+reste)\b", s):
+        tail = s[m.end():m.end() + 45]
+        cand += re.findall(r"[a-zà-öø-ÿ'’]+", tail)[:4]
+    if not cand:
+        return True  # no first-person self-description -> any voice is fine
 
     # L2: curated lexicon (ground truth, both directions)
-    for tok in toks:
+    for tok in cand:
         g = GENDERED_FORMS.get(tok)
         if g in ("m", "f") and g != voice_gender:
             raise GenderAgreementError(
                 f"[gender] voice={voice_gender} but self-description uses "
-                f"{g!r}-form {tok!r} in: {text!r}"
-            )
+                f"{g!r}-form {tok!r} in: {text!r}")
 
-    # L3: morphology net — unlisted feminine forms spoken by a male voice.
+    # L3: morphology net — unlisted feminine forms after a male « je suis ».
     if voice_gender == "m":
-        for tok in toks:
+        for tok in cand:
             if not tok.endswith(FEMININE_SUFFIXES):
                 continue
             if tok in EPICENE or tok in MORPH_SAFE or GENDERED_FORMS.get(tok) == "m":
                 continue
             raise GenderAgreementError(
                 f"[gender-morph] male voice, likely feminine self-form "
-                f"{tok!r} (unlisted) in: {text!r}. Add it to GENDERED_FORMS "
-                f"or fix the sentence."
-            )
+                f"{tok!r} (unlisted) in: {text!r}. Add to GENDERED_FORMS or fix.")
     return True
 
 
