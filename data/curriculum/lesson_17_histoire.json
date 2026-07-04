@@ -1,0 +1,286 @@
+{
+  "id": "L17",
+  "order": 17,
+  "slug": "histoire",
+  "title": "L'histoire de Nice",
+  "es_title": "De Terra Amata a Francia — el vocabulario de las épocas",
+  "focus": "Un recorrido rápido por las épocas de Nice, para quedarte con los términos. De los primeros fuegos a « Nikaia », la victoria.",
+  "objectives": [
+    "Nombrar las grandes épocas (préhistoire, Antiquité, Moyen Âge…).",
+    "Saber por qué Nice se llama así (Niké, la victoria).",
+    "Reconocer el vocabulario histórico."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "La préhistoire : le feu avant tout"
+    },
+    {
+      "t": "pair",
+      "fr": "La préhistoire de Nice est spectaculaire : le site de Terra Amata révèle une habitation humaine de quatre cent mille ans. Ses vestiges de feu figurent parmi les plus anciens d'Europe !",
+      "es": "La prehistoria de Niza es espectacular: el sitio de Terra Amata revela una habitación humana de cuatrocientos mil años. ¡Sus vestigios de fuego figuran entre los más antiguos de Europa!"
+    },
+    {
+      "t": "h3",
+      "text": "L'Antiquité : Niké, déesse de la victoire"
+    },
+    {
+      "t": "pair",
+      "fr": "Vers 350 avant Jésus-Christ, les Grecs fondent la cité et la nomment Nikaia, en l'honneur de Niké, déesse de la victoire. Voilà l'origine du nom « Nice » : la victoire pure !",
+      "es": "Hacia 350 antes de Jesucristo, los griegos fundan la ciudad y la nombran Nikaia, en honor de Niké, diosa de la victoria. ¡He aquí el origen del nombre «Nice»: la victoria pura!"
+    },
+    {
+      "t": "h3",
+      "text": "Les Romains à Cimiez"
+    },
+    {
+      "t": "pair",
+      "fr": "Durant l'Antiquité romaine, les Romains construisent Cemenelum sur la colline de Cimiez, avec des arènes et des thermes.",
+      "es": "Durante la Antigüedad romana, los romanos construyen Cemenelum sobre la colina de Cimiez, con un anfiteatro y unas termas."
+    },
+    {
+      "t": "h3",
+      "text": "Le Moyen Âge et la Renaissance : la Savoie"
+    },
+    {
+      "t": "pair",
+      "fr": "Pendant le Moyen Âge et la Renaissance, Nice appartient au comté de Nice, sous la Maison de Savoie — pas au royaume de France !",
+      "es": "Durante la Edad Media y el Renacimiento, Niza pertenece al condado de Niza, bajo la Casa de Saboya — ¡no al reino de Francia!"
+    },
+    {
+      "t": "h3",
+      "text": "1860 : le rattachement à la France"
+    },
+    {
+      "t": "pair",
+      "fr": "En 1860, après un plébiscite, le rattachement à la France est officiel : Nice est finalement française.",
+      "es": "En 1860, después de un plebiscito, la unión a Francia es oficial: Niza es finalmente francesa."
+    },
+    {
+      "t": "h3",
+      "text": "Toutes les époques, une seule ville"
+    },
+    {
+      "t": "pair",
+      "fr": "Grecs, Romains, comtes et plébiscites : chaque époque a laissé sa marque. Nice, quelle histoire fabuleuse !",
+      "es": "Griegos, romanos, condes y plebiscitos: cada época ha dejado su marca. ¡Niza, qué historia fabulosa!"
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L17-histoire",
+      "fr": "l'histoire",
+      "es": "la historia",
+      "en": "history",
+      "ipa": "listwaʁ",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "J'adore l'histoire de Nice.",
+      "voice": "emilie",
+      "audio": "L17-histoire"
+    },
+    {
+      "id": "L17-prehistoire",
+      "fr": "la préhistoire",
+      "es": "la prehistoria",
+      "en": "prehistory",
+      "ipa": "la pʁeistwaʁ",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "ex": "Terra Amata, c'est la préhistoire.",
+      "voice": "oris",
+      "audio": "L17-prehistoire"
+    },
+    {
+      "id": "L17-antiquite",
+      "fr": "l'Antiquité",
+      "es": "la Antigüedad",
+      "en": "Antiquity",
+      "ipa": "lɑ̃tikite",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Les Grecs sont de l'Antiquité.",
+      "voice": "emilie",
+      "audio": "L17-antiquite"
+    },
+    {
+      "id": "L17-siecle",
+      "fr": "un siècle",
+      "es": "un siglo",
+      "en": "a century",
+      "ipa": "ɛ̃ sjɛkl",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Ça a duré des siècles.",
+      "voice": "oris",
+      "audio": "L17-siecle"
+    },
+    {
+      "id": "L17-epoque",
+      "fr": "une époque",
+      "es": "una época",
+      "en": "an era",
+      "ipa": "yn epɔk",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "À chaque époque, une culture.",
+      "voice": "emilie",
+      "audio": "L17-epoque"
+    },
+    {
+      "id": "L17-grecs",
+      "fr": "les Grecs",
+      "es": "los griegos",
+      "en": "the Greeks",
+      "ipa": "le ɡʁɛk",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Les Grecs ont fondé Nice.",
+      "voice": "oris",
+      "audio": "L17-grecs"
+    },
+    {
+      "id": "L17-romains",
+      "fr": "les Romains",
+      "es": "los romanos",
+      "en": "the Romans",
+      "ipa": "le ʁɔmɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Les Romains sont venus à Cimiez.",
+      "voice": "emilie",
+      "audio": "L17-romains"
+    },
+    {
+      "id": "L17-moyenage",
+      "fr": "le Moyen Âge",
+      "es": "la Edad Media",
+      "en": "the Middle Ages",
+      "ipa": "lə mwajɛ̃ ɑʒ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Le château est du Moyen Âge.",
+      "voice": "oris",
+      "audio": "L17-moyenage"
+    },
+    {
+      "id": "L17-renaissance",
+      "fr": "la Renaissance",
+      "es": "el Renacimiento",
+      "en": "the Renaissance",
+      "ipa": "la ʁənɛsɑ̃s",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "ex": "La Renaissance après le Moyen Âge.",
+      "voice": "emilie",
+      "audio": "L17-renaissance"
+    },
+    {
+      "id": "L17-comte",
+      "fr": "un comté",
+      "es": "un condado",
+      "en": "a county",
+      "ipa": "ɛ̃ kɔ̃te",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "semi",
+      "ex": "Le comté de Nice.",
+      "voice": "oris",
+      "audio": "L17-comte"
+    },
+    {
+      "id": "L17-savoie",
+      "fr": "la Savoie",
+      "es": "Saboya",
+      "en": "Savoy",
+      "ipa": "la savwa",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "ex": "Nice était à la Savoie, pas à la France.",
+      "voice": "emilie",
+      "audio": "L17-savoie"
+    },
+    {
+      "id": "L17-rattachement",
+      "fr": "le rattachement",
+      "es": "la unión / anexión",
+      "en": "the union",
+      "ipa": "lə ʁataʃmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Le rattachement à la France, en 1860.",
+      "voice": "oris",
+      "audio": "L17-rattachement"
+    },
+    {
+      "id": "L17-cathedrale",
+      "fr": "une cathédrale",
+      "es": "una catedral",
+      "en": "a cathedral",
+      "ipa": "yn katedʁal",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "ex": "La cathédrale de la vieille ville.",
+      "voice": "emilie",
+      "audio": "L17-cathedrale"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L17-s01",
+      "register": "parle",
+      "fr": "Nice s'appelait Nikaia, en l'honneur de Niké, la victoire.",
+      "es": "Niza se llamaba Nikaia, en honor de Niké, la victoria.",
+      "en": "Nice was called Nikaia, in honor of Niké, victory.",
+      "voice": "emilie",
+      "audio": "L17-s01"
+    },
+    {
+      "id": "L17-s02",
+      "register": "parle",
+      "fr": "Les Grecs ont fondé la cité vers 350 avant Jésus-Christ.",
+      "es": "Los griegos fundaron la ciudad hacia 350 antes de Jesucristo.",
+      "en": "The Greeks founded the city around 350 BC.",
+      "voice": "oris",
+      "audio": "L17-s02"
+    },
+    {
+      "id": "L17-s03",
+      "register": "parle",
+      "fr": "Pendant des siècles, Nice était à la Savoie, pas à la France.",
+      "es": "Durante siglos, Niza era de Saboya, no de Francia.",
+      "en": "For centuries, Nice belonged to Savoy, not France.",
+      "voice": "emilie",
+      "audio": "L17-s03"
+    },
+    {
+      "id": "L17-s04",
+      "register": "parle",
+      "fr": "En 1860, le rattachement à la France est officiel.",
+      "es": "En 1860, la unión a Francia es oficial.",
+      "en": "In 1860, the union with France becomes official.",
+      "voice": "oris",
+      "audio": "L17-s04"
+    }
+  ]
+}

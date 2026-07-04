@@ -1,0 +1,366 @@
+{
+  "id": "L16",
+  "order": 16,
+  "slug": "verbes-ir-oir",
+  "title": "Verbes en -ir / -oir",
+  "es_title": "Las otras familias de verbos (finir, pouvoir, vouloir…)",
+  "focus": "Las otras dos familias: los -ir (finir) y los pequeños -oir todopoderosos (pouvoir, vouloir, devoir). Cortos pero por todas partes.",
+  "objectives": [
+    "Conjugar los -ir regulares (finir, choisir).",
+    "Dominar los modales -oir: je peux, je veux, je dois.",
+    "Reconocer partir, sortir, dormir, venir, voir, savoir."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Les verbes en -ir : la famille régulière"
+    },
+    {
+      "t": "pair",
+      "fr": "Je finis ma leçon et je choisis mon dessert : la logique parfaite. Nous finissons vite et nous choisissons bien.",
+      "es": "Yo termino mi lección y yo escojo mi postre: la lógica perfecta. Nosotros terminamos rápido y nosotros escogemos bien."
+    },
+    {
+      "t": "h3",
+      "text": "Partir, sortir, dormir, venir : les rebelles adorables"
+    },
+    {
+      "t": "pair",
+      "fr": "Je pars à la plage, je sors avec mes amies, je dors peu et je viens toujours avec des croissants.",
+      "es": "Yo parto a la playa, yo salgo con mis amigas, yo duermo poco y yo vengo siempre con cruasanes."
+    },
+    {
+      "t": "h3",
+      "text": "Pouvoir et vouloir : le duo essentiel"
+    },
+    {
+      "t": "pair",
+      "fr": "Je veux une glace et je peux nager dans la mer ; ici, tout est possible.",
+      "es": "Yo quiero un helado y yo puedo nadar en el mar; aquí, todo es posible."
+    },
+    {
+      "t": "h3",
+      "text": "Devoir et savoir"
+    },
+    {
+      "t": "pair",
+      "fr": "Je dois partir, je dois étudier, mais je sais une chose importante : je sais nager.",
+      "es": "Yo debo partir, yo debo estudiar, pero yo sé una cosa importante: yo sé nadar."
+    },
+    {
+      "t": "h3",
+      "text": "Voir la vie en bleu"
+    },
+    {
+      "t": "pair",
+      "fr": "Je vois la mer, tu vois la Promenade, nous voyons la vie en bleu.",
+      "es": "Yo veo el mar, tú ves el Paseo, nosotros vemos la vida en azul."
+    },
+    {
+      "t": "h3",
+      "text": "Minuscules mais partout"
+    },
+    {
+      "t": "pair",
+      "fr": "Peux, veux, dois, sais, vois : ces verbes sont minuscules, mais ils sont présents dans chaque conversation.",
+      "es": "Puedo, quiero, debo, sé, veo: estos verbos son minúsculos, pero ellos están presentes en cada conversación."
+    }
+  ],
+  "grammar": {
+    "intro_es": "« finir » es el modelo de los -ir regulares (con el infijo -iss- en plural). Los -oir son irregulares pero cortísimos y esenciales.",
+    "conjugation": {
+      "verb": "finir",
+      "en": "to finish",
+      "es": "terminar / acabar",
+      "present": [
+        {
+          "pron": "je",
+          "form": "finis",
+          "ipa": "ʒə fini",
+          "es": "termino",
+          "ex": "Je finis mes devoirs.",
+          "audio": "L16-c-je"
+        },
+        {
+          "pron": "tu",
+          "form": "finis",
+          "ipa": "ty fini",
+          "es": "terminas",
+          "ex": "Tu finis quand ?",
+          "audio": "L16-c-tu"
+        },
+        {
+          "pron": "il / elle / on",
+          "form": "finit",
+          "ipa": "il fini",
+          "es": "termina",
+          "ex": "On finit à midi.",
+          "audio": "L16-c-il"
+        },
+        {
+          "pron": "nous",
+          "form": "finissons",
+          "ipa": "nu finisɔ̃",
+          "es": "terminamos",
+          "ex": "—",
+          "audio": "L16-c-nous"
+        },
+        {
+          "pron": "vous",
+          "form": "finissez",
+          "ipa": "vu finise",
+          "es": "terminan",
+          "ex": "Vous finissez à quelle heure ?",
+          "audio": "L16-c-vous"
+        },
+        {
+          "pron": "ils / elles",
+          "form": "finissent",
+          "ipa": "il finis",
+          "es": "terminan",
+          "ex": "Ils finissent tard.",
+          "audio": "L16-c-ils"
+        }
+      ]
+    },
+    "tenses": [
+      {
+        "tense": "pouvoir",
+        "status": "teach",
+        "label_es": "poder → je peux",
+        "ex": "Je peux nager toute la journée.",
+        "es": "Puedo nadar todo el día.",
+        "en": "I can swim all day.",
+        "audio": "L16-t-pouvoir"
+      },
+      {
+        "tense": "vouloir",
+        "status": "teach",
+        "label_es": "querer → je veux",
+        "ex": "Je veux une glace au chocolat.",
+        "es": "Quiero un helado de chocolate.",
+        "en": "I want a chocolate ice cream.",
+        "audio": "L16-t-vouloir"
+      },
+      {
+        "tense": "devoir",
+        "status": "teach",
+        "label_es": "deber → je dois",
+        "ex": "Je dois partir à six heures.",
+        "es": "Debo irme a las seis.",
+        "en": "I have to leave at six.",
+        "audio": "L16-t-devoir"
+      },
+      {
+        "tense": "savoir",
+        "status": "teach",
+        "label_es": "saber → je sais",
+        "ex": "Je sais parler espagnol.",
+        "es": "Sé hablar español.",
+        "en": "I know how to speak Spanish.",
+        "audio": "L16-t-savoir"
+      },
+      {
+        "tense": "voir",
+        "status": "teach",
+        "label_es": "ver → je vois",
+        "ex": "Je vois la mer depuis ma fenêtre.",
+        "es": "Veo el mar desde mi ventana.",
+        "en": "I see the sea from my window.",
+        "audio": "L16-t-voir"
+      }
+    ],
+    "spoken_notes": [
+      "-ir regulares (finir, choisir): plural con -iss- (nous finissons, ils finissent).",
+      "Modales -oir: je peux (puedo), je veux (quiero), je dois (debo) — cortísimos, úsalos siempre.",
+      "-ir irregulares de movimiento: je pars, je sors, je dors, je viens.",
+      "« je veux » (quiero) es directo; para cortesía usa « je voudrais » (quisiera)."
+    ]
+  },
+  "vocab": [
+    {
+      "id": "L16-finir",
+      "fr": "finir",
+      "es": "terminar",
+      "en": "to finish",
+      "ipa": "finiʁ",
+      "pos": "verb",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Je finis mes devoirs.",
+      "voice": "emilie",
+      "audio": "L16-finir"
+    },
+    {
+      "id": "L16-choisir",
+      "fr": "choisir",
+      "es": "elegir / escoger",
+      "en": "to choose",
+      "ipa": "ʃwaziʁ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "ex": "Je choisis une glace.",
+      "voice": "oris",
+      "audio": "L16-choisir"
+    },
+    {
+      "id": "L16-partir",
+      "fr": "partir",
+      "es": "irse / salir",
+      "en": "to leave",
+      "ipa": "paʁtiʁ",
+      "pos": "verb",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Je pars demain matin.",
+      "voice": "emilie",
+      "audio": "L16-partir"
+    },
+    {
+      "id": "L16-sortir",
+      "fr": "sortir",
+      "es": "salir",
+      "en": "to go out",
+      "ipa": "sɔʁtiʁ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "On sort ce soir ?",
+      "voice": "oris",
+      "audio": "L16-sortir"
+    },
+    {
+      "id": "L16-dormir",
+      "fr": "dormir",
+      "es": "dormir",
+      "en": "to sleep",
+      "ipa": "dɔʁmiʁ",
+      "pos": "verb",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Je dors très bien à Nice.",
+      "voice": "emilie",
+      "audio": "L16-dormir"
+    },
+    {
+      "id": "L16-venir",
+      "fr": "venir",
+      "es": "venir",
+      "en": "to come",
+      "ipa": "vəniʁ",
+      "pos": "verb",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Je viens de Nice.",
+      "voice": "oris",
+      "audio": "L16-venir"
+    },
+    {
+      "id": "L16-pouvoir",
+      "fr": "pouvoir",
+      "es": "poder",
+      "en": "to be able to",
+      "ipa": "puvwaʁ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je peux venir avec toi.",
+      "voice": "emilie",
+      "audio": "L16-pouvoir"
+    },
+    {
+      "id": "L16-vouloir",
+      "fr": "vouloir",
+      "es": "querer",
+      "en": "to want",
+      "ipa": "vulwaʁ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je veux une glace.",
+      "voice": "oris",
+      "audio": "L16-vouloir"
+    },
+    {
+      "id": "L16-devoir",
+      "fr": "devoir",
+      "es": "deber / tener que",
+      "en": "to have to",
+      "ipa": "dəvwaʁ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je dois partir.",
+      "voice": "emilie",
+      "audio": "L16-devoir"
+    },
+    {
+      "id": "L16-savoir",
+      "fr": "savoir",
+      "es": "saber",
+      "en": "to know",
+      "ipa": "savwaʁ",
+      "pos": "verb",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Je sais nager.",
+      "voice": "oris",
+      "audio": "L16-savoir"
+    },
+    {
+      "id": "L16-voir",
+      "fr": "voir",
+      "es": "ver",
+      "en": "to see",
+      "ipa": "vwaʁ",
+      "pos": "verb",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Je vois la mer.",
+      "voice": "emilie",
+      "audio": "L16-voir"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L16-s01",
+      "tense": "présent",
+      "register": "parle",
+      "fr": "Je veux nager, mais je dois finir mes devoirs.",
+      "es": "Quiero nadar, pero debo terminar mi tarea.",
+      "en": "I want to swim, but I have to finish my homework.",
+      "voice": "emilie",
+      "audio": "L16-s01"
+    },
+    {
+      "id": "L16-s02",
+      "tense": "présent",
+      "register": "parle",
+      "fr": "Tu peux venir ? — Oui, mais je pars à six heures.",
+      "es": "¿Puedes venir? — Sí, pero me voy a las seis.",
+      "en": "Can you come? — Yes, but I leave at six.",
+      "voice": "oris",
+      "audio": "L16-s02"
+    },
+    {
+      "id": "L16-s03",
+      "tense": "présent",
+      "register": "parle",
+      "fr": "Je sais nager et je vois la mer d'ici.",
+      "es": "Sé nadar y veo el mar desde aquí.",
+      "en": "I know how to swim and I see the sea from here.",
+      "voice": "emilie",
+      "audio": "L16-s03"
+    },
+    {
+      "id": "L16-s04",
+      "tense": "présent",
+      "register": "parle",
+      "fr": "On sort ce soir ? — Je veux bien, mais je dois dormir tôt.",
+      "es": "¿Salimos esta noche? — Me encantaría, pero debo dormir temprano.",
+      "en": "Are we going out tonight? — I'd love to, but I have to sleep early.",
+      "voice": "oris",
+      "audio": "L16-s04"
+    }
+  ]
+}

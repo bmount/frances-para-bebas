@@ -83,7 +83,7 @@
       <div class="pill"><div class="i">🎧</div><div class="t">Audio + quiz</div><div class="d">Chaque phrase se parle, se teste</div></div>
     </div>
 
-    <h2 class="sec">Le parcours · 15 modules + Chapitre 0</h2>
+    <h2 class="sec">Le parcours · 20 modules + Chapitre 0</h2>
     <div id="map"></div>
 
     <footer>fait avec ❤️ par Papa · <span id="cnt"></span></footer>
@@ -106,6 +106,11 @@ const MODULES=[
   {n:13,t:"Nice & survie",d:"tram, direcciones, au secours",ready:1},
   {n:14,t:"Small talk (ados)",d:"clase, edad, crush · « on se follow ? »",ready:1},
   {n:15,t:"Vulgarité",d:"à comprendre, pas à dire · registro",ready:1},
+  {n:16,t:"Verbes en -ir / -oir",d:"finir · pouvoir, vouloir, devoir",ready:1},
+  {n:17,t:"L'histoire de Nice",d:"Terra Amata → Niké → 1860",ready:1},
+  {n:18,t:"La mode",d:"porter · la ropa · à la mode",ready:1},
+  {n:19,t:"La cuisine",d:"socca, fromage, rosé · bon appétit",ready:1},
+  {n:20,t:"Mythes & religions",d:"Niké, Sainte-Réparate, la synagogue",ready:1},
 ];
 document.getElementById('map').innerHTML=MODULES.map(m=>{
   const tag=m.ready?'<span class="badge on">PRÊT</span>':'<span class="badge soon">bientôt</span>';

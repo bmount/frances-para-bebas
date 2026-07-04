@@ -1,0 +1,301 @@
+{
+  "id": "L20",
+  "order": 20,
+  "slug": "mythes-religions",
+  "title": "Mythes & religions",
+  "es_title": "Las capas sagradas de Nice (Niké, los santos, las iglesias)",
+  "focus": "Las capas sagradas de la ciudad — de Niké (la victoria que le da el nombre) a Sainte Réparate, el monasterio y la sinagoga.",
+  "objectives": [
+    "Vocabulario de la mitología (dieu, déesse, mythe, temple).",
+    "Vocabulario religioso (église, cathédrale, saint, messe).",
+    "Reconocer las capas de Nice: griega, católica, judía."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "La déesse de la victoire"
+    },
+    {
+      "t": "pair",
+      "fr": "Nice porte le nom de la déesse grecque Niké, la déesse de la victoire. La ville antique s'appelait Nikaia.",
+      "es": "Niza lleva el nombre de la diosa griega Niké, la diosa de la victoria. La ciudad antigua se llamaba Nikaia."
+    },
+    {
+      "t": "h3",
+      "text": "Dieux, mythes et temples"
+    },
+    {
+      "t": "pair",
+      "fr": "Dans la mythologie gréco-romaine, un dieu ou une déesse habite un temple. Chaque mythe est une histoire sacrée.",
+      "es": "En la mitología grecorromana, un dios o una diosa habita un templo. Cada mito es una historia sagrada."
+    },
+    {
+      "t": "h3",
+      "text": "La sainte patronne"
+    },
+    {
+      "t": "pair",
+      "fr": "Sainte Réparate est la sainte patronne de Nice. La cathédrale de la vieille ville est dédiée à cette sainte.",
+      "es": "Santa Reparata es la santa patrona de Niza. La catedral de la ciudad vieja está dedicada a esta santa."
+    },
+    {
+      "t": "h3",
+      "text": "Églises et chapelles"
+    },
+    {
+      "t": "pair",
+      "fr": "Une église, une chapelle, une cathédrale : ici les catholiques célèbrent la messe et honorent un saint ou une sainte.",
+      "es": "Una iglesia, una capilla, una catedral: aquí los católicos celebran la misa y honran a un santo o a una santa."
+    },
+    {
+      "t": "h3",
+      "text": "Le monastère de Cimiez"
+    },
+    {
+      "t": "pair",
+      "fr": "Sur la colline de Cimiez, il y a un monastère franciscain. C'est un lieu tranquille pour prier.",
+      "es": "Sobre la colina de Cimiez, hay un monasterio franciscano. Es un lugar tranquilo para orar."
+    },
+    {
+      "t": "h3",
+      "text": "La synagogue et la communauté juive"
+    },
+    {
+      "t": "pair",
+      "fr": "Nice a une communauté juive historique et une synagogue. Là aussi, la foi invite les personnes à prier.",
+      "es": "Niza tiene una comunidad judía histórica y una sinagoga. Allí también, la fe invita a las personas a orar."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L20-dieu",
+      "fr": "un dieu",
+      "es": "un dios",
+      "en": "a god",
+      "ipa": "ɛ̃ djø",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Un dieu de la mythologie grecque.",
+      "voice": "oris",
+      "audio": "L20-dieu"
+    },
+    {
+      "id": "L20-deesse",
+      "fr": "une déesse",
+      "es": "una diosa",
+      "en": "a goddess",
+      "ipa": "yn deɛs",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Niké est la déesse de la victoire.",
+      "voice": "emilie",
+      "audio": "L20-deesse"
+    },
+    {
+      "id": "L20-mythe",
+      "fr": "un mythe",
+      "es": "un mito",
+      "en": "a myth",
+      "ipa": "ɛ̃ mit",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Chaque mythe est une histoire sacrée.",
+      "voice": "oris",
+      "audio": "L20-mythe"
+    },
+    {
+      "id": "L20-temple",
+      "fr": "un temple",
+      "es": "un templo",
+      "en": "a temple",
+      "ipa": "ɛ̃ tɑ̃pl",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "ex": "Un dieu habite un temple.",
+      "voice": "emilie",
+      "audio": "L20-temple"
+    },
+    {
+      "id": "L20-eglise",
+      "fr": "une église",
+      "es": "una iglesia",
+      "en": "a church",
+      "ipa": "yn eɡliz",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Il y a une église dans le Vieux-Nice.",
+      "voice": "oris",
+      "audio": "L20-eglise"
+    },
+    {
+      "id": "L20-cathedrale",
+      "fr": "une cathédrale",
+      "es": "una catedral",
+      "en": "a cathedral",
+      "ipa": "yn katedʁal",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "La cathédrale Sainte-Réparate.",
+      "voice": "emilie",
+      "audio": "L20-cathedrale"
+    },
+    {
+      "id": "L20-chapelle",
+      "fr": "une chapelle",
+      "es": "una capilla",
+      "en": "a chapel",
+      "ipa": "yn ʃapɛl",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "ex": "Une petite chapelle baroque.",
+      "voice": "oris",
+      "audio": "L20-chapelle"
+    },
+    {
+      "id": "L20-saint",
+      "fr_m": "un saint",
+      "fr_f": "une sainte",
+      "es": "un santo / una santa",
+      "en": "a saint",
+      "ipa_m": "ɛ̃ sɛ̃",
+      "ipa_f": "yn sɛ̃t",
+      "pos": "noun",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex_m": "Un saint protège la ville.",
+      "ex_f": "Sainte Réparate est la patronne de Nice.",
+      "audio_m": "L20-saint-m",
+      "audio_f": "L20-saint-f"
+    },
+    {
+      "id": "L20-monastere",
+      "fr": "un monastère",
+      "es": "un monasterio",
+      "en": "a monastery",
+      "ipa": "ɛ̃ mɔnastɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Le monastère de Cimiez.",
+      "voice": "emilie",
+      "audio": "L20-monastere"
+    },
+    {
+      "id": "L20-synagogue",
+      "fr": "une synagogue",
+      "es": "una sinagoga",
+      "en": "a synagogue",
+      "ipa": "yn sinaɡɔɡ",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Nice a une synagogue historique.",
+      "voice": "oris",
+      "audio": "L20-synagogue"
+    },
+    {
+      "id": "L20-communaute",
+      "fr": "la communauté juive",
+      "es": "la comunidad judía",
+      "en": "the Jewish community",
+      "ipa": "la kɔmynote ʒɥiv",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "ex": "La communauté juive de Nice est ancienne.",
+      "voice": "emilie",
+      "audio": "L20-communaute"
+    },
+    {
+      "id": "L20-foi",
+      "fr": "la foi",
+      "es": "la fe",
+      "en": "faith",
+      "ipa": "la fwa",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "non_cognate",
+      "ex": "La foi invite à prier.",
+      "voice": "oris",
+      "audio": "L20-foi"
+    },
+    {
+      "id": "L20-prier",
+      "fr": "prier",
+      "es": "rezar / orar",
+      "en": "to pray",
+      "ipa": "pʁije",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Un lieu tranquille pour prier.",
+      "voice": "emilie",
+      "audio": "L20-prier"
+    },
+    {
+      "id": "L20-messe",
+      "fr": "la messe",
+      "es": "la misa",
+      "en": "mass",
+      "ipa": "la mɛs",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "ex": "On célèbre la messe à la cathédrale.",
+      "voice": "oris",
+      "audio": "L20-messe"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L20-s01",
+      "register": "parle",
+      "fr": "Nice porte le nom de Niké, la déesse grecque de la victoire.",
+      "es": "Niza lleva el nombre de Niké, la diosa griega de la victoria.",
+      "en": "Nice bears the name of Niké, the Greek goddess of victory.",
+      "voice": "emilie",
+      "audio": "L20-s01"
+    },
+    {
+      "id": "L20-s02",
+      "register": "parle",
+      "fr": "Sainte Réparate est la sainte patronne de la ville.",
+      "es": "Santa Reparata es la santa patrona de la ciudad.",
+      "en": "Saint Reparata is the patron saint of the city.",
+      "voice": "oris",
+      "audio": "L20-s02"
+    },
+    {
+      "id": "L20-s03",
+      "register": "parle",
+      "fr": "Il y a une cathédrale, un monastère et une synagogue.",
+      "es": "Hay una catedral, un monasterio y una sinagoga.",
+      "en": "There's a cathedral, a monastery and a synagogue.",
+      "voice": "emilie",
+      "audio": "L20-s03"
+    },
+    {
+      "id": "L20-s04",
+      "register": "parle",
+      "fr": "Chaque religion a laissé sa marque sur la ville.",
+      "es": "Cada religión ha dejado su marca en la ciudad.",
+      "en": "Each religion has left its mark on the city.",
+      "voice": "oris",
+      "audio": "L20-s04"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "id": "L19",
+  "order": 19,
+  "slug": "cuisine",
+  "title": "La cuisine",
+  "es_title": "La gloria de la comida francesa y nizarda (y el rosé)",
+  "focus": "La comida francesa y las especialidades de Nice — de la socca al rosé de Provence. Prepárate para tener hambre.",
+  "objectives": [
+    "Nombrar las comidas y los platos (entrée, plat, dessert).",
+    "Reconocer las joyas de Nice (socca, salade niçoise, pan bagnat).",
+    "Brindar: « bon appétit » y « santé »."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Les trois repas"
+    },
+    {
+      "t": "pair",
+      "fr": "En France, le petit-déjeuner est simple, le déjeuner est sacré, et le dîner est une célébration.",
+      "es": "En Francia, el desayuno es simple, el almuerzo es sagrado, y la cena es una celebración."
+    },
+    {
+      "t": "h3",
+      "text": "Le pain, une religion nationale"
+    },
+    {
+      "t": "pair",
+      "fr": "Le pain est une religion nationale : la baguette croustillante, le croissant au beurre, et la pâtisserie, une œuvre d'art comestible.",
+      "es": "El pan es una religión nacional: la baguette crujiente, el croissant con mantequilla, y la pastelería, una obra de arte comestible."
+    },
+    {
+      "t": "h3",
+      "text": "Le fromage magnifique"
+    },
+    {
+      "t": "pair",
+      "fr": "Le fromage mérite son propre paragraphe : la France produit plus de trois cents variétés, du camembert crémeux au roquefort intense.",
+      "es": "El queso merece su propio párrafo: Francia produce más de trescientas variedades, del camembert cremoso al roquefort intenso."
+    },
+    {
+      "t": "h3",
+      "text": "Les trois actes du dîner"
+    },
+    {
+      "t": "pair",
+      "fr": "Un dîner complet a trois actes : une entrée délicate, un plat principal glorieux, et un dessert absolument irrésistible.",
+      "es": "Una cena completa tiene tres actos: una entrada delicada, un plato principal glorioso, y un postre absolutamente irresistible."
+    },
+    {
+      "t": "h3",
+      "text": "Les trésors de Nice"
+    },
+    {
+      "t": "pair",
+      "fr": "À Nice, la socca — une galette dorée de pois chiches — est une merveille locale, et la salade niçoise est une institution intouchable.",
+      "es": "En Niza, la socca — una torta dorada de garbanzos — es una maravilla local, y la ensalada nizarda es una institución intocable."
+    },
+    {
+      "t": "h3",
+      "text": "L'or liquide de la Provence"
+    },
+    {
+      "t": "pair",
+      "fr": "Le pan bagnat, la pissaladière et la ratatouille célèbrent tous l'huile d'olive, l'or liquide de la Provence.",
+      "es": "El pan bagnat, la pissaladière y la ratatouille celebran todos el aceite de oliva, el oro líquido de la Provenza."
+    },
+    {
+      "t": "h3",
+      "text": "Le rosé, l'été en bouteille"
+    },
+    {
+      "t": "pair",
+      "fr": "Le vin est une conversation : le vin rouge est profond, le vin blanc est élégant, mais le rosé de Provence est l'été en bouteille.",
+      "es": "El vino es una conversación: el vino tinto es profundo, el vino blanco es elegante, pero el rosado de Provenza es el verano en botella."
+    },
+    {
+      "t": "h3",
+      "text": "Deux formules magiques"
+    },
+    {
+      "t": "pair",
+      "fr": "Avant de manger, on déclare « bon appétit » ; avant de boire, on proclame « santé ». Deux formules magiques, une gastronomie immortelle.",
+      "es": "Antes de comer, se declara «bon appétit»; antes de beber, se proclama «santé». Dos fórmulas mágicas, una gastronomía inmortal."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L19-cuisine",
+      "fr": "la cuisine",
+      "es": "la cocina / gastronomía",
+      "en": "cuisine",
+      "ipa": "la kɥizin",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "J'adore la cuisine niçoise.",
+      "voice": "emilie",
+      "audio": "L19-cuisine"
+    },
+    {
+      "id": "L19-dejeuner",
+      "fr": "le déjeuner",
+      "es": "el almuerzo / la comida",
+      "en": "lunch",
+      "ipa": "lə deʒøne",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Le déjeuner est sacré en France.",
+      "voice": "oris",
+      "audio": "L19-dejeuner"
+    },
+    {
+      "id": "L19-diner",
+      "fr": "le dîner",
+      "es": "la cena",
+      "en": "dinner",
+      "ipa": "lə dine",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Le dîner est une célébration.",
+      "voice": "emilie",
+      "audio": "L19-diner"
+    },
+    {
+      "id": "L19-pain",
+      "fr": "le pain",
+      "es": "el pan",
+      "en": "bread",
+      "ipa": "lə pɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Le pain, une religion nationale.",
+      "voice": "oris",
+      "audio": "L19-pain"
+    },
+    {
+      "id": "L19-fromage",
+      "fr": "le fromage",
+      "es": "el queso",
+      "en": "cheese",
+      "ipa": "lə fʁɔmaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "La France a plus de 300 fromages.",
+      "voice": "emilie",
+      "audio": "L19-fromage"
+    },
+    {
+      "id": "L19-entree",
+      "fr": "une entrée",
+      "es": "una entrada",
+      "en": "a starter",
+      "ipa": "yn ɑ̃tʁe",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "ex": "Une entrée, un plat, un dessert.",
+      "voice": "oris",
+      "audio": "L19-entree"
+    },
+    {
+      "id": "L19-plat",
+      "fr": "un plat",
+      "es": "un plato (principal)",
+      "en": "a dish / main",
+      "ipa": "ɛ̃ pla",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Le plat principal est glorieux.",
+      "voice": "emilie",
+      "audio": "L19-plat"
+    },
+    {
+      "id": "L19-dessert",
+      "fr": "un dessert",
+      "es": "un postre",
+      "en": "a dessert",
+      "ipa": "ɛ̃ desɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Un dessert irrésistible.",
+      "voice": "oris",
+      "audio": "L19-dessert"
+    },
+    {
+      "id": "L19-socca",
+      "fr": "la socca",
+      "es": "la socca (torta de garbanzo)",
+      "en": "socca",
+      "ipa": "la sɔka",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "La socca est une merveille de Nice.",
+      "voice": "emilie",
+      "audio": "L19-socca"
+    },
+    {
+      "id": "L19-salade",
+      "fr": "la salade niçoise",
+      "es": "la ensalada nizarda",
+      "en": "niçoise salad",
+      "ipa": "la salad niswaz",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "ex": "La salade niçoise, une institution.",
+      "voice": "oris",
+      "audio": "L19-salade"
+    },
+    {
+      "id": "L19-panbagnat",
+      "fr": "le pan bagnat",
+      "es": "el pan bagnat (sándwich nizardo)",
+      "en": "pan bagnat",
+      "ipa": "lə pan baɲa",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "ex": "Un pan bagnat pour la plage.",
+      "voice": "emilie",
+      "audio": "L19-panbagnat"
+    },
+    {
+      "id": "L19-ratatouille",
+      "fr": "la ratatouille",
+      "es": "el pisto / ratatouille",
+      "en": "ratatouille",
+      "ipa": "la ʁatatuj",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "non_cognate",
+      "ex": "La ratatouille, pleine de légumes.",
+      "voice": "oris",
+      "audio": "L19-ratatouille"
+    },
+    {
+      "id": "L19-huile",
+      "fr": "l'huile d'olive",
+      "es": "el aceite de oliva",
+      "en": "olive oil",
+      "ipa": "lɥil dɔliv",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "ex": "L'huile d'olive, l'or de la Provence.",
+      "voice": "emilie",
+      "audio": "L19-huile"
+    },
+    {
+      "id": "L19-vin",
+      "fr": "le vin",
+      "es": "el vino",
+      "en": "wine",
+      "ipa": "lə vɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Le vin rouge, le vin blanc.",
+      "voice": "oris",
+      "audio": "L19-vin"
+    },
+    {
+      "id": "L19-rose",
+      "fr": "le rosé",
+      "es": "el rosado",
+      "en": "rosé",
+      "ipa": "lə ʁoze",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Le rosé de Provence, l'été en bouteille.",
+      "voice": "emilie",
+      "audio": "L19-rose"
+    },
+    {
+      "id": "L19-bonappetit",
+      "fr": "bon appétit",
+      "es": "buen provecho",
+      "en": "enjoy your meal",
+      "ipa": "bɔ̃ napeti",
+      "pos": "phrase",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Bon appétit !",
+      "voice": "oris",
+      "audio": "L19-bonappetit"
+    },
+    {
+      "id": "L19-sante",
+      "fr": "santé !",
+      "es": "¡salud!",
+      "en": "cheers!",
+      "ipa": "sɑ̃te",
+      "pos": "phrase",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Santé ! À la tienne !",
+      "voice": "emilie",
+      "audio": "L19-sante"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L19-s01",
+      "register": "parle",
+      "fr": "Une socca, une salade niçoise et un rosé, s'il vous plaît.",
+      "es": "Una socca, una ensalada nizarda y un rosado, por favor.",
+      "en": "A socca, a niçoise salad and a rosé, please.",
+      "voice": "emilie",
+      "audio": "L19-s01"
+    },
+    {
+      "id": "L19-s02",
+      "register": "parle",
+      "fr": "En France, le pain et le fromage sont sacrés.",
+      "es": "En Francia, el pan y el queso son sagrados.",
+      "en": "In France, bread and cheese are sacred.",
+      "voice": "oris",
+      "audio": "L19-s02"
+    },
+    {
+      "id": "L19-s03",
+      "register": "parle",
+      "fr": "Bon appétit ! — Merci, à toi aussi !",
+      "es": "¡Buen provecho! — ¡Gracias, igualmente!",
+      "en": "Enjoy your meal! — Thanks, you too!",
+      "voice": "emilie",
+      "audio": "L19-s03"
+    },
+    {
+      "id": "L19-s04",
+      "register": "parle",
+      "fr": "Le dessert est irrésistible : je le veux absolument.",
+      "es": "El postre es irresistible: lo quiero absolutamente.",
+      "en": "The dessert is irresistible: I absolutely want it.",
+      "voice": "oris",
+      "audio": "L19-s04"
+    }
+  ]
+}

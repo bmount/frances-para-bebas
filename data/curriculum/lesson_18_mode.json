@@ -1,0 +1,302 @@
+{
+  "id": "L18",
+  "order": 18,
+  "slug": "mode",
+  "title": "La mode",
+  "es_title": "La ropa y el estilo (porter, à la mode)",
+  "focus": "Qué te pones — para la plage y para un dîner chic en la Promenade. En Nice, estar à la mode no es opción.",
+  "objectives": [
+    "Usar « porter » (llevar puesto).",
+    "Nombrar la ropa (robe, pantalon, chaussures…).",
+    "El kit de playa de la Riviera (maillot, lunettes, chapeau)."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Le verbe « porter »"
+    },
+    {
+      "t": "pair",
+      "fr": "En France, on porte le style comme une seconde personnalité. Je porte, tu portes, elle porte : c'est le verbe essentiel de la mode.",
+      "es": "En Francia, se lleva el estilo como una segunda personalidad. Yo llevo, tú llevas, ella lleva: es el verbo esencial de la moda."
+    },
+    {
+      "t": "h3",
+      "text": "Les vêtements de la semaine"
+    },
+    {
+      "t": "pair",
+      "fr": "Dans ton armoire, il y a une robe, une jupe, un pantalon et un t-shirt. Pour les jours frais, un pull et une veste : simple, pratique, parfait.",
+      "es": "En tu armario, hay un vestido, una falda, un pantalón y una camiseta. Para los días frescos, un suéter y una chaqueta: simple, práctico, perfecto."
+    },
+    {
+      "t": "h3",
+      "text": "Les chaussures, décision capitale"
+    },
+    {
+      "t": "pair",
+      "fr": "Des chaussures élégantes pour les occasions importantes, des baskets pour le reste de ton existence.",
+      "es": "Unos zapatos elegantes para las ocasiones importantes, unas zapatillas para el resto de tu existencia."
+    },
+    {
+      "t": "h3",
+      "text": "L'uniforme de la plage"
+    },
+    {
+      "t": "pair",
+      "fr": "Pour la plage, l'uniforme officiel : un maillot de bain, des lunettes de soleil, un chapeau et un grand sac. Le soleil de Nice ne pardonne pas.",
+      "es": "Para la playa, el uniforme oficial: un traje de baño, unas gafas de sol, un sombrero y un bolso grande. El sol de Niza no perdona."
+    },
+    {
+      "t": "h3",
+      "text": "Chic sur la Promenade"
+    },
+    {
+      "t": "pair",
+      "fr": "Pour un dîner élégant sur la Promenade, tu portes ta robe la plus chic. À Nice, être à la mode n'est pas une option, c'est une obligation.",
+      "es": "Para una cena elegante en el Paseo, llevas tu vestido más chic. En Niza, estar a la moda no es una opción, es una obligación."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L18-porter",
+      "fr": "porter",
+      "es": "llevar puesto / usar",
+      "en": "to wear",
+      "ipa": "pɔʁte",
+      "pos": "verb",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Je porte une robe bleue.",
+      "voice": "emilie",
+      "audio": "L18-porter"
+    },
+    {
+      "id": "L18-vetements",
+      "fr": "les vêtements",
+      "es": "la ropa",
+      "en": "clothes",
+      "ipa": "le vɛtmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "J'adore les vêtements d'été.",
+      "voice": "oris",
+      "audio": "L18-vetements"
+    },
+    {
+      "id": "L18-robe",
+      "fr": "une robe",
+      "es": "un vestido",
+      "en": "a dress",
+      "ipa": "yn ʁɔb",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Une robe pour le dîner.",
+      "voice": "emilie",
+      "audio": "L18-robe"
+    },
+    {
+      "id": "L18-pantalon",
+      "fr": "un pantalon",
+      "es": "un pantalón",
+      "en": "pants",
+      "ipa": "ɛ̃ pɑ̃talɔ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "ex": "Un pantalon et un t-shirt.",
+      "voice": "oris",
+      "audio": "L18-pantalon"
+    },
+    {
+      "id": "L18-jupe",
+      "fr": "une jupe",
+      "es": "una falda",
+      "en": "a skirt",
+      "ipa": "yn ʒyp",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "non_cognate",
+      "ex": "Une jupe blanche.",
+      "voice": "emilie",
+      "audio": "L18-jupe"
+    },
+    {
+      "id": "L18-tshirt",
+      "fr": "un t-shirt",
+      "es": "una camiseta",
+      "en": "a t-shirt",
+      "ipa": "ɛ̃ tiʃœʁt",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Un t-shirt et un short.",
+      "voice": "oris",
+      "audio": "L18-tshirt"
+    },
+    {
+      "id": "L18-pull",
+      "fr": "un pull",
+      "es": "un suéter",
+      "en": "a sweater",
+      "ipa": "ɛ̃ pyl",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "ex": "Un pull pour le soir.",
+      "voice": "emilie",
+      "audio": "L18-pull"
+    },
+    {
+      "id": "L18-chaussures",
+      "fr": "des chaussures",
+      "es": "zapatos",
+      "en": "shoes",
+      "ipa": "de ʃosyʁ",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Des chaussures élégantes.",
+      "voice": "oris",
+      "audio": "L18-chaussures"
+    },
+    {
+      "id": "L18-baskets",
+      "fr": "des baskets",
+      "es": "tenis / zapatillas",
+      "en": "sneakers",
+      "ipa": "de baskɛt",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Des baskets pour courir.",
+      "voice": "emilie",
+      "audio": "L18-baskets"
+    },
+    {
+      "id": "L18-maillot",
+      "fr": "un maillot de bain",
+      "es": "un traje de baño",
+      "en": "a swimsuit",
+      "ipa": "ɛ̃ majo də bɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Un maillot de bain pour la plage.",
+      "voice": "oris",
+      "audio": "L18-maillot"
+    },
+    {
+      "id": "L18-lunettes",
+      "fr": "des lunettes de soleil",
+      "es": "gafas de sol",
+      "en": "sunglasses",
+      "ipa": "de lynɛt də sɔlɛj",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Des lunettes de soleil, indispensables.",
+      "voice": "emilie",
+      "audio": "L18-lunettes"
+    },
+    {
+      "id": "L18-chapeau",
+      "fr": "un chapeau",
+      "es": "un sombrero",
+      "en": "a hat",
+      "ipa": "ɛ̃ ʃapo",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "ex": "Un chapeau contre le soleil.",
+      "voice": "oris",
+      "audio": "L18-chapeau"
+    },
+    {
+      "id": "L18-sac",
+      "fr": "un sac",
+      "es": "un bolso / una bolsa",
+      "en": "a bag",
+      "ipa": "ɛ̃ sak",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "ex": "Un grand sac de plage.",
+      "voice": "emilie",
+      "audio": "L18-sac"
+    },
+    {
+      "id": "L18-mode",
+      "fr": "à la mode",
+      "es": "de moda",
+      "en": "in style",
+      "ipa": "a la mɔd",
+      "pos": "phrase",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Cette robe est très à la mode.",
+      "voice": "oris",
+      "audio": "L18-mode"
+    },
+    {
+      "id": "L18-chic",
+      "fr": "chic",
+      "es": "elegante / chic",
+      "en": "chic",
+      "ipa": "ʃik",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "transparent",
+      "ex": "C'est très chic !",
+      "voice": "emilie",
+      "audio": "L18-chic"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L18-s01",
+      "register": "parle",
+      "fr": "Pour la plage : un maillot, des lunettes et un chapeau.",
+      "es": "Para la playa: un traje de baño, gafas y un sombrero.",
+      "en": "For the beach: a swimsuit, sunglasses and a hat.",
+      "voice": "emilie",
+      "audio": "L18-s01"
+    },
+    {
+      "id": "L18-s02",
+      "register": "parle",
+      "fr": "Ce soir, je porte ma robe la plus chic.",
+      "es": "Esta noche, llevo mi vestido más chic.",
+      "en": "Tonight, I'm wearing my chicest dress.",
+      "voice": "oris",
+      "audio": "L18-s02"
+    },
+    {
+      "id": "L18-s03",
+      "register": "parle",
+      "fr": "Des baskets pour courir, des chaussures pour le dîner.",
+      "es": "Tenis para correr, zapatos para la cena.",
+      "en": "Sneakers for running, dress shoes for dinner.",
+      "voice": "emilie",
+      "audio": "L18-s03"
+    },
+    {
+      "id": "L18-s04",
+      "register": "parle",
+      "fr": "Elle est très à la mode, cette veste !",
+      "es": "¡Está muy de moda, esta chaqueta!",
+      "en": "This jacket is very in style!",
+      "voice": "oris",
+      "audio": "L18-s04"
+    }
+  ]
+}
