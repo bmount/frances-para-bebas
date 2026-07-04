@@ -1,153 +1,194 @@
 # Teaching Charter — *Français pour bébas*
 
-The governing principles for every lesson, sentence, and audio clip. If a choice
-conflicts with this document, this document wins. Audience: one fluent Spanish +
-English speaker heading to Nice. Bridge language = **Spanish**.
+> **Master principle: teach the French people *speak* first.**
+>
+> For an advanced Romance-language speaker, teach French as a **spoken control
+> system**: high-frequency verbs, pronouns, sound reductions, `on`, `ça`, `il y a`,
+> passé composé/imparfait, the living subjunctive, conditional politeness, and
+> **register awareness**. Defer literary tenses, rare inversions, full written
+> negation, and ornate agreement until she can already function in conversation.
+
+This document governs every lesson, sentence, and audio clip. If a choice conflicts
+with it, it wins. Audience: one fluent Spanish + English speaker heading to Nice.
+Bridge language = **Spanish**.
 
 ---
 
-## 0. Prime directive: contemporary *spoken* French only
+## 0. Prime directive: spoken French is its own register
 
-Everything we teach must be what a real person actually says in France today. The
-curriculum should cover all major aspects of the spoken language and **answer every
-question a Spanish speaker would naturally ask**. Literary / archaic forms are
-**recognition-only**, always explicitly flagged as "you'll read this, you won't say
-it."
+The target is **not** "textbook French pronounced aloud." *Nous ne savons pas ce que
+nous allons faire* is correct and **wrong for us**. The target is:
 
-Register defaults (apply everywhere unless a lesson says otherwise):
-- **`on` = we** (`On y va`, not `Nous allons` in casual speech — teach `nous` as the
-  slightly more formal option).
-- Contractions are the norm: `j'ai`, `c'est`, `y a` (for `il y a`), `qu'est-ce que`.
-- Questions by **intonation** or **est-ce que**, not inversion, in speech.
-- Teach full `ne … pas`, but tell her that in fast speech the **`ne` is dropped**
-  (`j'sais pas`) — she must *recognize* this even if she produces the full form.
-- Politeness via conditional: `je voudrais`, `j'aimerais` (not the blunt `je veux`).
+> **On sait pas ce qu'on va faire.** — We don't know what we're going to do.
+
+**Start from the grammar of educated conversation, not the grammar of formal prose.**
+
+### The register ladder (principle 15) — tag *everything*
+
+Her real risk isn't error, it's **over-formality** — impressive French that sounds
+like a document. So every structure is tagged with one of four registers:
+
+| tag | meaning | example (same idea) |
+|---|---|---|
+| 🗣️ **parlé** | everyday spoken — **produce this** | On a pas le temps. |
+| **standard** | careful/correct spoken | Nous n'avons pas le temps. |
+| **écrit** | formal written | Nous ne disposons pas du temps nécessaire. |
+| **littéraire** | literary/archaic — **recognize only** | Encore eût-il fallu que nous eussions le temps. |
+
+She should know not just whether a sentence is *correct*, but whether **a person would
+actually say it**.
 
 ---
 
 ## 1. Use Spanish as leverage — and name the traps
 
-Her Spanish is the engine, but some Spanish habits **misfire** in French. Every
-grammar lesson has two jobs: **leverage** what transfers, **flag** what doesn't.
+Her Spanish is the engine; some habits misfire. Every grammar point does two jobs:
+**leverage** what transfers, **flag** what doesn't.
 
-**Leverage (free wins):**
-- **Aspect already lives in her head.** Spanish *pretérito vs. imperfecto* maps almost
-  one-to-one onto **passé composé vs. imparfait**. She already feels the difference —
-  we just attach French forms to an instinct she owns.
-- The **subjunctive exists** and fires on the same emotional triggers (necesidad,
-  deseo, emoción, duda). She won't find it alien like an English speaker does.
-- Cognate vocabulary (the rest of the project).
-
-**Traps (grammar faux-amis) — see §4 table.**
+- **Aspect is free:** Spanish *pretérito/imperfecto* ≈ **passé composé/imparfait**.
+- **The subjunctive exists** and fires on the same triggers.
+- **Clitic pronouns** are conceptually familiar (le/la/lui…).
+- **Traps:** past-subjunctive agreement, `ser/estar`→one `être`, `quisiera`→conditional,
+  future preference. See the trap table in `data/spoken_grammar.json`.
 
 ---
 
-## 2. The past: a **two-tense** system
+## 2. `on`, not `nous`, for spoken "we" (principle 2)
 
-Teach the spoken past as exactly two tenses working together:
+Produce **`on`** by default.
+> On est arrivés. · On va voir. · On a réservé une table.
 
-- **Passé composé** — completed, bounded events. *Hier, j'ai vu Marie.*
-- **Imparfait** — background, description, habit, ongoing states. *Il faisait beau,
-  j'étais fatigué, on parlait.*
-
-Sequence of completed events → all passé composé:
-> *On est arrivés, on a mangé, puis on est partis.* — We arrived, ate, then left.
-
-**Passé simple = recognition-only.** She'll meet it in books and signs; she will
-never speak it. Flag and move on.
-
-Spanish anchor: *vi a María* (PC) vs *hacía sol / estaba cansada* (imparfait).
+**`nous` as a verb subject is obsolescent in speech** — think *vosotros* in Mexico:
+grammatically real, but unused and of another era. So the **`nous` conjugation is
+recognition-only**: keep the text for learning, **gray it out with a visual
+obsolescence cue, and give it no audio / no spoken example.** (`nous` as an **object
+pronoun / possessive base** — nous, notre/nos — stays fully current and is taught
+normally.)
 
 ---
 
-## 3. The living subjunctive — teach it **early**, as chunks
+## 3. The spoken past = passé composé + imparfait (principle 3)
 
-Modern spoken French absolutely still uses the **present subjunctive** after triggers
-of necessity, desire, emotion, doubt, judgment, and certain conjunctions. Don't teach
-a theory of "subjunctiveness" — teach a **list of high-frequency spoken frames** and
-drill them as fixed chunks:
+- **passé composé** — completed events: *J'ai vu, on est allé, elle a dit, ils ont pris.*
+- **imparfait** — background, habit, description, ongoing state: *Il faisait beau,
+  j'étais fatigué, on allait souvent là-bas.*
 
-```
-il faut que + SUBJ            Il faut que tu viennes.
-je veux que + SUBJ            Je veux que tu sois là.
-j'aimerais que + SUBJ         J'aimerais qu'on parte tôt.
-c'est important que + SUBJ    C'est important qu'on parte tôt.
-je suis content/triste/désolé que + SUBJ   Je suis content qu'elle soit venue.
-avant que + SUBJ              Avant qu'on parte, il faut acheter de l'eau.
-pour que + SUBJ               Je t'appelle pour que tu saches.
-bien que + SUBJ               Bien qu'il soit fatigué, il vient.
-```
-
-Contrast conjunction pair: **`bien que` + subjunctive** vs **`même si` + indicative**
-(*même s'il est fatigué, il vient*).
-
-The one beginner heuristic: **main clause = pressure / wish / feeling / doubt /
-purpose → subordinate verb goes subjunctive.**
+Narrate with passé composé, paint the scene with imparfait. Anchor to her
+pretérito/imperfecto instinct. **Passé simple = recognition-only** (littéraire).
 
 ---
 
-## 4. The critical Spanish trap: **French simplified its tense agreement**
+## 4. The living subjunctive — mood, not the old tense system (principle 4)
 
-Classical French had subjunctive tense agreement (like Spanish). **Spoken French
-dropped it.** Even when the main verb is **past**, everyday French keeps the
-**present subjunctive** in the subordinate clause when the event is simultaneous or
-future relative to that past point.
+Present subjunctive is alive; teach it as **spoken trigger-chunks**:
+> Il faut qu'on parte. · Je veux que tu sois là. · C'est important qu'elle comprenne.
 
-This is the single most important thing to un-teach a Spanish speaker, because Spanish
-*requires* the past subjunctive here and she will over-produce it:
+Past subjunctive exists as a **compound** (passé du subjonctif):
+> Je suis content que tu sois venu. · C'est dommage qu'on ait raté le train.
 
-| | Spanish (her instinct) | ❌ Naïve/literary French | ✅ Spoken French |
-|---|---|---|---|
-| "I wanted you to come" | Quería que **vinieras** | Je voulais que tu **vinsses** | Je voulais que tu **viennes** |
-| "It was necessary that he come" | Era necesario que **viniera** | Il fallait qu'il **vînt** | Il fallait qu'il **vienne** |
-| "I feared he'd leave" | Temía que **se fuera** | Je craignais qu'il **partît** | Je craignais qu'il **parte** |
-
-The **imparfait du subjonctif** (*vinsses, vînt, partît, fût*) is **recognition-only**
-— using it in speech sounds wildly literary/comical. **Rule for her: after a past
-main verb, still use the *present* subjunctive.**
-
-(Note the *ne explétif*: literary/careful French writes *Je craignais qu'il **ne**
-parte* after `craindre` / `avant que`. In speech the `ne` is usually dropped. Teach
-recognition, not production.)
+**Imperfect/pluperfect subjunctive** (*qu'il vînt, qu'elle fût, que nous eussions*) are
+**literary fossils** — recognize, never produce.
 
 ---
 
-## 5. The spoken past subjunctive **does** exist — and it's compound
+## 5. The conditional is the politeness engine (principle 5)
 
-When the trigger refers to something genuinely **past**, French uses the
-**passé du subjonctif** — a *compound* form (`avoir`/`être` in present subjunctive +
-past participle). It is **not** the imperfect subjunctive.
-
-```
-que j'aie vu          that I saw / have seen
-qu'il soit parti      that he left / has left
-qu'on ait fini        that we finished / have finished
-```
-
-Useful, everyday:
-> *Je suis content que tu **sois venu**.* — I'm glad you came.
-> *C'est dommage qu'on **ait raté** le train.* — Too bad we missed the train.
-> *Je ne crois pas qu'il **ait compris**.* — I don't think he understood.
-
-So the whole spoken subjunctive she needs is just **two tenses**: present subjunctive
-(default) and passé du subjonctif (when the trigger points at the past). No imperfect
-subjunctive, ever, in production.
+French has **no `quisiera`**. Polite = conditional, taught as chunks *before* any exotic
+subjunctive:
+> Je voudrais un café. · J'aimerais réserver une table. · Est-ce que je pourrais avoir
+> l'addition ? · Vous pourriez m'aider ?
 
 ---
 
-## 6. How this maps into the curriculum sequence
+## 6. Negation as spoken rhythm (principle 6)
 
-Principles above are locked now so we never author the wrong (literary) form later.
-Placement in the lesson order:
+Teach `ne… pas` for recognition and careful speech, but the everyday pattern **drops
+`ne`**:
+> Je ne sais pas → **Je sais pas**. · On n'a pas le temps → **On a pas le temps**.
 
-- **Present + être/avoir** (L1–L2, done) → the base.
-- **-er verbs + core non-cognates** → present mastery.
-- **Futur proche** (`je vais` + inf) as the everyday future, *before* the simple future.
-- **Passé composé** then **imparfait**, taught as the two-tense pair (§2), anchored to
-  her pretérito/imperfecto instinct.
-- **Subjunctive frames** (§3) introduced as chunks early — even before full past
-  mastery — because `il faut que tu viennes` is everyday survival French.
-- **Passé du subjonctif** (§5) and the agreement trap (§4) once passé composé exists
-  (it reuses the same auxiliary + participle machinery).
-- Everywhere: the Spanish-contrast trap table (§4-style) as its own drill category —
-  her strength is also her risk.
+She must *hear* and eventually *produce* the ne-less form.
+
+---
+
+## 7. Questions through spoken formulas (principle 7)
+
+Prioritize **intonation**, **est-ce que**, and **in-situ** question words. Teach
+inversion as formal/written.
+> Où allez-vous ? (formal) → **Vous allez où ?** · Que voulez-vous ? → **Vous voulez
+> quoi ?** · **Est-ce que vous avez une table ?**
+
+---
+
+## 8. Object pronouns are a core spoken system (principle 8)
+
+Make **le/la/les, lui/leur** central *early* — French fluency needs them even in simple
+speech:
+> Je le vois. · Je lui ai parlé. · Je l'ai vu.
+
+---
+
+## 9. Teach `y` and `en` aggressively (principle 9)
+
+Survival words, not advanced topics:
+> J'y vais. · Tu y penses ? · J'en ai besoin. · J'en prends un. · On en parle ?
+
+---
+
+## 10. Future = `aller` + infinitive first (principle 10)
+
+Default spoken future is **futur proche**:
+> Je vais partir demain. · On va manger. · Tu vas voir.
+
+Simple future (*je partirai*) = formal/predictive/later refinement.
+
+---
+
+## 11. Sound reduction is grammar-relevant (principle 11)
+
+Listening fluency **requires** teaching reduced forms explicitly — don't pretend she'll
+hear the full written form:
+> je ne sais pas → je sais pas → **chais pas** · tu es → **t'es** · tu as → **t'as** ·
+> il y a → **y a** · qu'est-ce que → **keske** · je suis → j'suis → **chuis**
+
+---
+
+## 12. Liaison & elision as speech rhythm (principle 12)
+
+Teach **high-frequency** liaison as memorized rhythm, not rules:
+> vous avez → vou-**z**-avez · on est → on-**n**-est · ils ont → il-**z**-ont ·
+> petit ami → peti-**t**-ami
+
+Don't bury her in rare liaison rules before she can speak.
+
+---
+
+## 13. `il y a`, `c'est`, `ça` are structural pillars (principle 13)
+
+Everyday French leans on these — build early fluency around them:
+> Il y a beaucoup de monde. · C'est pas grave. · Ça marche. · Ça me plaît.
+
+---
+
+## 14. `faire` and `prendre` are high-value light verbs (principle 14)
+
+They unlock huge amounts of natural speech:
+> faire une promenade · faire attention · faire la queue · prendre un café ·
+> prendre le train · prendre une photo
+
+---
+
+## Register defaults (apply everywhere)
+
+`on` = we · contractions (`j'ai`, `c'est`, `y a`) · est-ce que / intonation questions ·
+drop `ne` in fast speech · `je voudrais/j'aimerais` for politeness · futur proche for
+the future · `il y a / c'est / ça` as pillars.
+
+---
+
+## Curriculum sequence (see `curriculum-map.md`)
+
+Because pronouns and light verbs are *spoken survival*, they move **early**, not late.
+Present + être/avoir → -er verbs + `il y a`/`c'est`/`ça` → **passé composé** → imparfait
+→ irregulars (`faire`, `prendre`, `aller`) + futur proche → questions/negation as spoken
+rhythm → **object pronouns + y/en** → gender/agreement → subjunctive frames →
+conditional politeness → Nice survival. **Register is tagged in every module.**

@@ -1,0 +1,15 @@
+{
+  "name": "Français pour bébas",
+  "short_name": "FR pour bébas",
+  "description": "Le français à partir de ton espagnol — cap sur Nice.",
+  "start_url": "./app.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a6ee8",
+  "theme_color": "#0a6ee8",
+  "lang": "fr",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -36,6 +36,16 @@ def collect():
     for path in LESSONS:
         with open(path, encoding="utf-8") as f:
             L = json.load(f)
+        # phonology chapter (L00): sounds -> examples + minimal pairs
+        if "sounds" in L:
+            for si, s in enumerate(L["sounds"]):
+                for k, ex in enumerate(s["examples"]):
+                    jobs.append((ex["audio"], ex["fr"], ALT[(si + k) % 2]))
+                if s.get("pair"):
+                    for side in ("a", "b"):
+                        p = s["pair"][side]
+                        jobs.append((p["audio"], p["fr"], ALT[si % 2]))
+            continue
         # conjugation — speak the example sentence for each form
         for j, row in enumerate(L["grammar"]["conjugation"]["present"]):
             jobs.append((row["audio"], row["ex"], ALT[j % 2]))
@@ -56,6 +66,19 @@ def collect():
                 jobs.append((it["audio_f"], it["fr_f"], "emilie"))
             else:
                 jobs.append((it["audio"], it["fr"], it.get("voice", "emilie")))
+    # spoken-French essentials reference (obsolescent/null-audio items are skipped)
+    ess_path = os.path.join(ROOT, "data", "spoken_essentials.json")
+    if os.path.exists(ess_path):
+        with open(ess_path, encoding="utf-8") as f:
+            ESS = json.load(f)
+        for sec in ESS["sections"]:
+            for it in sec.get("items", []):
+                if it.get("audio"):
+                    jobs.append((it["audio"], it["fr"], it.get("voice", "emilie")))
+            for lad in sec.get("ladders", []):
+                for r in lad.get("rungs", []):
+                    if r.get("audio") and not r.get("obsolescent"):
+                        jobs.append((r["audio"], r["fr"], r.get("voice", "emilie")))
     return jobs
 
 

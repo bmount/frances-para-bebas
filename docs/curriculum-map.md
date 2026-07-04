@@ -9,6 +9,7 @@ appear **from the very beginning**, not deferred. Target ≈ 1000 words across t
 
 | # | Module | Grammar spine | Cognate leverage | New vocab (~) |
 |---|--------|---------------|------------------|:---:|
+| **0** | **Les sons** (phonology) | vowels /y/ /ø/, nasals /ɑ̃ ɔ̃ ɛ̃/, the R, semi-vowels, silent letters | **~80 cognate example words** so attention is on the *sound*, not the meaning | 0* |
 | 1 | **Être** — to be | all tenses of être (présent focus); c'est, on | cognate adjectives (important, possible, différent…) | 90 |
 | 2 | **Avoir** — to have | avoir all tenses; il y a | travel cognate nouns (réservation, pharmacie, menu) | 85 |
 | 3 | **-er verbs** | the big regular class, présent; polite je voudrais/j'aimerais | -ar→-er cognate verbs (préparer, visiter, réserver) | 95 |
@@ -21,6 +22,13 @@ appear **from the very beginning**, not deferred. Target ≈ 1000 words across t
 | 10 | **The living subjunctive** | present subj as chunks (il faut que, je veux que, avant que, pour que, bien que); **the Spanish tense-agreement trap** | emotion/necessity cognate triggers | 70 |
 | 11 | **Conditional & politeness** | je voudrais/j'aimerais/pourrais; si + imparfait → conditionnel; passé du subjonctif; **quisiera → voudrais** | polite request frames | 70 |
 | 12 | **Nice & survival (capstone)** | register consolidation (tu/vous), everything in use | directions, café, shopping, transport, numbers/time/money, emergencies | 95 |
+
+\* Chapter 0 teaches sounds via cognate words she already knows — recognition, not new vocab load.
+
+**Always-available reference: "Le français qu'on parle vraiment"** (`data/spoken_essentials.json`)
+— reductions (chais pas, t'es, y a…), the register ladder, `il y a`/`c'est`/`ça`, `faire`/`prendre`,
+spoken questions/negation, and early `y`/`en` pronouns. Register is tagged everywhere; `nous` +
+verb is shown greyed as **obsolescent** (recognition-only).
 
 **Cross-cutting drill tracks (every module feeds them):**
 - **Flashcards** — Spanish→French recall, 3 hard : 2 cognate mix, spaced repetition.

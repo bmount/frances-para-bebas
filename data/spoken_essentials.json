@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "Le français qu'on parle vraiment",
+    "note": "Spoken-French survival reference embodying the charter. Every item is what people actually SAY. `full` = the careful/written form for contrast; `say`/audio = the spoken target she must hear and produce.",
+    "registers": {
+      "parle": "🗣️ parlé — everyday, produce this",
+      "standard": "standard — careful/correct spoken",
+      "ecrit": "écrit — formal written",
+      "litteraire": "littéraire — recognize only, never say"
+    }
+  },
+  "sections": [
+    {
+      "id": "reductions",
+      "title": "Réductions — comment ça sonne vraiment",
+      "es_intro": "Lo que vas a OÍR. El francés hablado se come sílabas. Reconoce estas formas o no entenderás nada.",
+      "items": [
+        {"fr": "Je sais pas.", "reduced": "chais pas", "full": "Je ne sais pas.", "es": "No sé.", "en": "I dunno.", "register": "parle", "voice": "oris", "audio": "SP-red-sais"},
+        {"fr": "T'es prêt ?", "reduced": "t'es", "full": "Tu es prêt ?", "es": "¿Estás listo?", "en": "You ready?", "register": "parle", "voice": "emilie", "audio": "SP-red-tes"},
+        {"fr": "T'as le menu ?", "reduced": "t'as", "full": "Tu as le menu ?", "es": "¿Tienes el menú?", "en": "You got the menu?", "register": "parle", "voice": "oris", "audio": "SP-red-tas"},
+        {"fr": "Y a un problème.", "reduced": "y a", "full": "Il y a un problème.", "es": "Hay un problema.", "en": "There's a problem.", "register": "parle", "voice": "emilie", "audio": "SP-red-ya"},
+        {"fr": "J'suis là.", "reduced": "chuis", "full": "Je suis là.", "es": "Estoy aquí.", "en": "I'm here.", "register": "parle", "voice": "oris", "audio": "SP-red-jsuis"},
+        {"fr": "Qu'est-ce que c'est ?", "reduced": "keske c'est", "full": "Qu'est-ce que c'est ?", "es": "¿Qué es?", "en": "What is it?", "register": "parle", "voice": "emilie", "audio": "SP-red-keske"}
+      ]
+    },
+    {
+      "id": "ladders",
+      "title": "L'échelle des registres — même idée, 4 niveaux",
+      "es_intro": "El mismo mensaje, del más hablado al más literario. Tu meta: el nivel 🗣️. El literario, solo reconocerlo.",
+      "ladders": [
+        {
+          "es": "No tenemos tiempo.", "en": "We don't have time.",
+          "rungs": [
+            {"register": "parle", "fr": "On a pas le temps.", "voice": "oris", "audio": "SP-lad1-p"},
+            {"register": "standard", "fr": "Nous n'avons pas le temps.", "obsolescent": true, "audio": null},
+            {"register": "ecrit", "fr": "Nous ne disposons pas du temps nécessaire.", "audio": null},
+            {"register": "litteraire", "fr": "Encore eût-il fallu que nous eussions le temps.", "audio": null}
+          ]
+        },
+        {
+          "es": "Vamos a comer.", "en": "We're going to eat.",
+          "rungs": [
+            {"register": "parle", "fr": "On va manger.", "voice": "emilie", "audio": "SP-lad2-p"},
+            {"register": "standard", "fr": "Nous allons manger.", "obsolescent": true, "audio": null},
+            {"register": "ecrit", "fr": "Nous allons prendre notre repas.", "audio": null}
+          ]
+        },
+        {
+          "es": "¿Adónde vas?", "en": "Where are you going?",
+          "rungs": [
+            {"register": "parle", "fr": "Tu vas où ?", "voice": "oris", "audio": "SP-lad3-p"},
+            {"register": "standard", "fr": "Où est-ce que tu vas ?", "voice": "emilie", "audio": "SP-lad3-s"},
+            {"register": "litteraire", "fr": "Où vas-tu ?", "audio": null}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pillars",
+      "title": "Les piliers — il y a · c'est · ça",
+      "es_intro": "Tres estructuras que cargan la mitad del francés cotidiano.",
+      "items": [
+        {"fr": "Il y a beaucoup de monde.", "es": "Hay mucha gente.", "en": "There are lots of people.", "register": "parle", "voice": "emilie", "audio": "SP-pil-ilya"},
+        {"fr": "C'est pas grave.", "es": "No pasa nada.", "en": "It's no big deal.", "register": "parle", "voice": "oris", "audio": "SP-pil-cest"},
+        {"fr": "Ça marche !", "es": "¡Vale! / ¡Funciona!", "en": "That works / okay!", "register": "parle", "voice": "emilie", "audio": "SP-pil-ca1"},
+        {"fr": "Ça me plaît.", "es": "Me gusta.", "en": "I like it.", "register": "parle", "voice": "oris", "audio": "SP-pil-ca2"},
+        {"fr": "Ça va ?", "es": "¿Qué tal?", "en": "How's it going?", "register": "parle", "voice": "emilie", "audio": "SP-pil-cava"}
+      ]
+    },
+    {
+      "id": "light_verbs",
+      "title": "Verbes-clés — faire & prendre",
+      "es_intro": "Dos verbos que abren muchísimas frases naturales.",
+      "items": [
+        {"fr": "On prend un café ?", "es": "¿Tomamos un café?", "en": "Shall we grab a coffee?", "register": "parle", "voice": "oris", "audio": "SP-lv-cafe"},
+        {"fr": "On prend le train.", "es": "Tomamos el tren.", "en": "We're taking the train.", "register": "parle", "voice": "emilie", "audio": "SP-lv-train"},
+        {"fr": "Je peux prendre une photo ?", "es": "¿Puedo sacar una foto?", "en": "Can I take a photo?", "register": "parle", "voice": "oris", "audio": "SP-lv-photo"},
+        {"fr": "On fait une promenade ?", "es": "¿Damos un paseo?", "en": "Shall we take a walk?", "register": "parle", "voice": "emilie", "audio": "SP-lv-prom"},
+        {"fr": "Fais attention !", "es": "¡Ten cuidado!", "en": "Be careful!", "register": "parle", "voice": "oris", "audio": "SP-lv-attn"},
+        {"fr": "Il faut faire la queue.", "es": "Hay que hacer cola.", "en": "You have to wait in line.", "register": "parle", "voice": "emilie", "audio": "SP-lv-queue"}
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Questions — comme on parle",
+      "es_intro": "Nada de inversión. Entonación, est-ce que, y la palabra interrogativa al final.",
+      "items": [
+        {"fr": "Vous allez où ?", "full": "Où allez-vous ?", "es": "¿Adónde van?", "en": "Where are you going?", "register": "parle", "voice": "oris", "audio": "SP-q-ou"},
+        {"fr": "Vous voulez quoi ?", "full": "Que voulez-vous ?", "es": "¿Qué quieren?", "en": "What do you want?", "register": "parle", "voice": "emilie", "audio": "SP-q-quoi"},
+        {"fr": "Est-ce que vous avez une table ?", "es": "¿Tienen mesa?", "en": "Do you have a table?", "register": "standard", "voice": "oris", "audio": "SP-q-table"},
+        {"fr": "C'est combien ?", "es": "¿Cuánto es?", "en": "How much is it?", "register": "parle", "voice": "emilie", "audio": "SP-q-combien"}
+      ]
+    },
+    {
+      "id": "negation",
+      "title": "Négation — le ne qui disparaît",
+      "es_intro": "En la calle, el « ne » desaparece. Óyelo así.",
+      "items": [
+        {"fr": "On a pas le temps.", "full": "On n'a pas le temps.", "es": "No tenemos tiempo.", "en": "We don't have time.", "register": "parle", "voice": "oris", "audio": "SP-neg-temps"},
+        {"fr": "Y a pas de problème.", "full": "Il n'y a pas de problème.", "es": "No hay problema.", "en": "No problem.", "register": "parle", "voice": "emilie", "audio": "SP-neg-pb"},
+        {"fr": "Je comprends pas.", "full": "Je ne comprends pas.", "es": "No entiendo.", "en": "I don't understand.", "register": "parle", "voice": "oris", "audio": "SP-neg-comp"}
+      ]
+    },
+    {
+      "id": "pronouns",
+      "title": "Pronoms — le / lui / y / en (dès le début)",
+      "es_intro": "Ya conoces los clíticos del español. En francés son constantes, incluso en frases simples.",
+      "items": [
+        {"fr": "Je le vois.", "es": "Lo veo.", "en": "I see him/it.", "register": "parle", "voice": "emilie", "audio": "SP-pr-le"},
+        {"fr": "Je lui ai parlé.", "es": "Le hablé.", "en": "I spoke to him/her.", "register": "parle", "voice": "oris", "audio": "SP-pr-lui"},
+        {"fr": "On y va !", "es": "¡Vamos!", "en": "Let's go!", "register": "parle", "voice": "emilie", "audio": "SP-pr-onyva"},
+        {"fr": "J'en veux deux.", "es": "Quiero dos.", "en": "I want two (of them).", "register": "parle", "voice": "oris", "audio": "SP-pr-en"},
+        {"fr": "J'en ai besoin.", "es": "Lo necesito.", "en": "I need it.", "register": "parle", "voice": "emilie", "audio": "SP-pr-besoin"}
+      ]
+    }
+  ]
+}

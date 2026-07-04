@@ -1,0 +1,179 @@
+{
+  "id": "L00",
+  "order": 0,
+  "slug": "sons",
+  "title": "Les sons — vowels & sounds",
+  "es_title": "Chapitre 0 · Los sonidos del francés",
+  "focus": "The one absolute essential: the sounds. Almost every example is a word you ALREADY know from Spanish or English — so your whole attention goes to the sound, not the meaning. Reconoce la palabra, aprende el sonido.",
+  "type": "phonology",
+  "intro_es": "El francés se escribe casi como el español pero SUENA muy distinto: vocales nuevas (u, eu), vocales nasales, y una R de garganta. Domina esto primero y todo lo demás encaja. Cada ejemplo es un cognado — la palabra ya la conoces.",
+  "sounds": [
+    {"id":"y","ipa":"y","label":"le U français","spelling":"u","new":true,
+     "es_note":"NO existe en español. Truco: di « i » y redondea los labios como para « u ». No es la « u » española.",
+     "examples":[
+       {"fr":"la nature","ipa":"la natyʁ","es":"la naturaleza","en":"nature","audio":"S0-y-1"},
+       {"fr":"la musique","ipa":"la myzik","es":"la música","en":"music","audio":"S0-y-2"},
+       {"fr":"la culture","ipa":"la kyltyʁ","es":"la cultura","en":"culture","audio":"S0-y-3"},
+       {"fr":"le menu","ipa":"lə məny","es":"el menú","en":"menu","audio":"S0-y-4"}],
+     "pair":{"a":{"fr":"tu","ipa":"ty","audio":"S0-y-pa"},"b":{"fr":"tout","ipa":"tu","audio":"S0-y-pb"},
+       "note_es":"/y/ (tu) vs /u/ (tout). Confundirlos cambia la palabra. También: vu / vous, su / sous."}},
+
+    {"id":"ou","ipa":"u","label":"OU (comme la u española)","spelling":"ou",
+     "es_note":"Este SÍ es como tu « u » española. Sirve de ancla contra el /y/.",
+     "examples":[
+       {"fr":"le tour","ipa":"lə tuʁ","es":"el tour / la vuelta","en":"tour","audio":"S0-ou-1"},
+       {"fr":"le groupe","ipa":"lə ɡʁup","es":"el grupo","en":"group","audio":"S0-ou-2"},
+       {"fr":"rouge","ipa":"ʁuʒ","es":"rojo","en":"red","audio":"S0-ou-3"},
+       {"fr":"beaucoup","ipa":"boku","es":"mucho","en":"a lot","audio":"S0-ou-4"}]},
+
+    {"id":"eu","ipa":"ø / œ","label":"EU","spelling":"eu, œu","new":true,
+     "es_note":"Tampoco existe en español. Boca de « e », labios redondos de « o ».",
+     "examples":[
+       {"fr":"un euro","ipa":"ɛ̃ nøʁo","es":"un euro","en":"a euro","audio":"S0-eu-1"},
+       {"fr":"l'Europe","ipa":"løʁɔp","es":"Europa","en":"Europe","audio":"S0-eu-2"},
+       {"fr":"le professeur","ipa":"lə pʁɔfesœʁ","es":"el profesor","en":"professor","audio":"S0-eu-3"},
+       {"fr":"la couleur","ipa":"la kulœʁ","es":"el color","en":"color","audio":"S0-eu-4"}]},
+
+    {"id":"schwa","ipa":"ə","label":"le E muet","spelling":"e","new":true,
+     "es_note":"La « e » debilísima (o muda). En « le, je, de » casi desaparece.",
+     "examples":[
+       {"fr":"le menu","ipa":"lə məny","es":"el menú","en":"the menu","audio":"S0-schwa-1"},
+       {"fr":"je regarde","ipa":"ʒə ʁəɡaʁd","es":"miro","en":"I look","audio":"S0-schwa-2"},
+       {"fr":"petit","ipa":"pəti","es":"pequeño","en":"small","audio":"S0-schwa-3"},
+       {"fr":"de la musique","ipa":"də la myzik","es":"algo de música","en":"some music","audio":"S0-schwa-4"}]},
+
+    {"id":"e_ferme","ipa":"e","label":"É fermé","spelling":"é, -er, -ez",
+     "es_note":"Como la « e » española cerrada. El español tiene UNA « e »; el francés dos (é / è).",
+     "examples":[
+       {"fr":"le café","ipa":"lə kafe","es":"el café","en":"coffee","audio":"S0-ef-1"},
+       {"fr":"l'université","ipa":"lynivɛʁsite","es":"la universidad","en":"university","audio":"S0-ef-2"},
+       {"fr":"l'idée","ipa":"lide","es":"la idea","en":"idea","audio":"S0-ef-3"},
+       {"fr":"la télé","ipa":"la tele","es":"la tele","en":"TV","audio":"S0-ef-4"}]},
+
+    {"id":"e_ouvert","ipa":"ɛ","label":"È ouvert","spelling":"è, ê, ai, ei",
+     "es_note":"« e » abierta, más como la « e » de « perro ». Contrasta con é.",
+     "examples":[
+       {"fr":"très","ipa":"tʁɛ","es":"muy","en":"very","audio":"S0-eo-1"},
+       {"fr":"la fête","ipa":"la fɛt","es":"la fiesta","en":"party","audio":"S0-eo-2"},
+       {"fr":"la mère","ipa":"la mɛʁ","es":"la madre","en":"mother","audio":"S0-eo-3"},
+       {"fr":"français","ipa":"fʁɑ̃sɛ","es":"francés","en":"French","audio":"S0-eo-4"}]},
+
+    {"id":"o_ferme","ipa":"o","label":"O fermé","spelling":"o, ô, au, eau",
+     "es_note":"« o » cerrada, tensa. El español tiene una « o »; el francés dos (o / ɔ).",
+     "examples":[
+       {"fr":"l'eau","ipa":"lo","es":"el agua","en":"water","audio":"S0-of-1"},
+       {"fr":"beau","ipa":"bo","es":"bello","en":"beautiful","audio":"S0-of-2"},
+       {"fr":"le mot","ipa":"lə mo","es":"la palabra","en":"word","audio":"S0-of-3"},
+       {"fr":"bientôt","ipa":"bjɛ̃to","es":"pronto","en":"soon","audio":"S0-of-4"}]},
+
+    {"id":"o_ouvert","ipa":"ɔ","label":"O ouvert","spelling":"o",
+     "es_note":"« o » abierta, relajada, como en « porte ».",
+     "examples":[
+       {"fr":"le sport","ipa":"lə spɔʁ","es":"el deporte","en":"sport","audio":"S0-oo-1"},
+       {"fr":"la porte","ipa":"la pɔʁt","es":"la puerta","en":"door","audio":"S0-oo-2"},
+       {"fr":"l'école","ipa":"lekɔl","es":"la escuela","en":"school","audio":"S0-oo-3"},
+       {"fr":"la mode","ipa":"la mɔd","es":"la moda","en":"fashion","audio":"S0-oo-4"}]},
+
+    {"id":"an","ipa":"ɑ̃","label":"voyelle nasale AN / EN","spelling":"an, en, am, em","new":true,
+     "es_note":"NASAL. El aire sale por la nariz. No existe en español. « an » no es « a-n ».",
+     "examples":[
+       {"fr":"la France","ipa":"la fʁɑ̃s","es":"Francia","en":"France","audio":"S0-an-1"},
+       {"fr":"le restaurant","ipa":"lə ʁɛstoʁɑ̃","es":"el restaurante","en":"restaurant","audio":"S0-an-2"},
+       {"fr":"important","ipa":"ɛ̃pɔʁtɑ̃","es":"importante","en":"important","audio":"S0-an-3"},
+       {"fr":"content","ipa":"kɔ̃tɑ̃","es":"contento","en":"content","audio":"S0-an-4"}],
+     "pair":{"a":{"fr":"an","ipa":"ɑ̃","audio":"S0-nas-an"},"b":{"fr":"on","ipa":"ɔ̃","audio":"S0-nas-on"},
+       "note_es":"Las tres nasales que hay que distinguir: an /ɑ̃/ · on /ɔ̃/ · in /ɛ̃/."}},
+
+    {"id":"on","ipa":"ɔ̃","label":"voyelle nasale ON","spelling":"on, om","new":true,
+     "es_note":"NASAL, labios redondos. « nation » termina en este sonido, no en « -sion » inglés.",
+     "examples":[
+       {"fr":"la nation","ipa":"la nasjɔ̃","es":"la nación","en":"nation","audio":"S0-on-1"},
+       {"fr":"l'action","ipa":"laksjɔ̃","es":"la acción","en":"action","audio":"S0-on-2"},
+       {"fr":"la maison","ipa":"la mɛzɔ̃","es":"la casa","en":"house","audio":"S0-on-3"},
+       {"fr":"bon","ipa":"bɔ̃","es":"bueno","en":"good","audio":"S0-on-4"}]},
+
+    {"id":"in","ipa":"ɛ̃","label":"voyelle nasale IN / AIN","spelling":"in, ain, ein, un","new":true,
+     "es_note":"NASAL, boca abierta. « américain » termina así. (« un » /œ̃/ se fusiona con este en muchas regiones.)",
+     "examples":[
+       {"fr":"le vin","ipa":"lə vɛ̃","es":"el vino","en":"wine","audio":"S0-in-1"},
+       {"fr":"le pain","ipa":"lə pɛ̃","es":"el pan","en":"bread","audio":"S0-in-2"},
+       {"fr":"américain","ipa":"ameʁikɛ̃","es":"americano","en":"American","audio":"S0-in-3"},
+       {"fr":"le jardin","ipa":"lə ʒaʁdɛ̃","es":"el jardín","en":"garden","audio":"S0-in-4"}]},
+
+    {"id":"r","ipa":"ʁ","label":"le R français","spelling":"r","new":true,
+     "es_note":"La estrella. NO es la « r » española. Viene de la garganta (como al hacer gárgaras suave), atrás.",
+     "examples":[
+       {"fr":"Paris","ipa":"paʁi","es":"París","en":"Paris","audio":"S0-r-1"},
+       {"fr":"le restaurant","ipa":"lə ʁɛstoʁɑ̃","es":"el restaurante","en":"restaurant","audio":"S0-r-2"},
+       {"fr":"rouge","ipa":"ʁuʒ","es":"rojo","en":"red","audio":"S0-r-3"},
+       {"fr":"merci","ipa":"mɛʁsi","es":"gracias","en":"thank you","audio":"S0-r-4"}]},
+
+    {"id":"j","ipa":"ʒ","label":"le J / GE","spelling":"j, ge, gi","new":true,
+     "es_note":"Como la « ll » argentina o la « j » de « jour ». NO es la jota española (que no existe en francés).",
+     "examples":[
+       {"fr":"l'orange","ipa":"lɔʁɑ̃ʒ","es":"la naranja","en":"orange","audio":"S0-j-1"},
+       {"fr":"le garage","ipa":"lə ɡaʁaʒ","es":"el garaje","en":"garage","audio":"S0-j-2"},
+       {"fr":"joli","ipa":"ʒɔli","es":"bonito","en":"pretty","audio":"S0-j-3"},
+       {"fr":"bonjour","ipa":"bɔ̃ʒuʁ","es":"buenos días","en":"hello","audio":"S0-j-4"}]},
+
+    {"id":"ch","ipa":"ʃ","label":"le CH","spelling":"ch",
+     "es_note":"Como « sh » en inglés (show). El español no lo tiene puro. « chocolat » lo lleva.",
+     "examples":[
+       {"fr":"le chocolat","ipa":"lə ʃɔkɔla","es":"el chocolate","en":"chocolate","audio":"S0-ch-1"},
+       {"fr":"la machine","ipa":"la maʃin","es":"la máquina","en":"machine","audio":"S0-ch-2"},
+       {"fr":"la chance","ipa":"la ʃɑ̃s","es":"la suerte","en":"luck","audio":"S0-ch-3"},
+       {"fr":"riche","ipa":"ʁiʃ","es":"rico","en":"rich","audio":"S0-ch-4"}]},
+
+    {"id":"z","ipa":"z","label":"le Z (s sonora)","spelling":"s entre voyelles, z",
+     "es_note":"« s » sonora, vibra la garganta. El español no la tiene. Ojo: s entre vocales = /z/.",
+     "examples":[
+       {"fr":"la rose","ipa":"la ʁoz","es":"la rosa","en":"rose","audio":"S0-z-1"},
+       {"fr":"la maison","ipa":"la mɛzɔ̃","es":"la casa","en":"house","audio":"S0-z-2"},
+       {"fr":"la musique","ipa":"la myzik","es":"la música","en":"music","audio":"S0-z-3"},
+       {"fr":"zéro","ipa":"zeʁo","es":"cero","en":"zero","audio":"S0-z-4"}],
+     "pair":{"a":{"fr":"le désert","ipa":"lə dezɛʁ","audio":"S0-z-pa"},"b":{"fr":"le dessert","ipa":"lə desɛʁ","audio":"S0-z-pb"},
+       "note_es":"désert /z/ (una s) vs dessert /s/ (dos s). También: poison /z/ vs poisson /s/."}},
+
+    {"id":"v","ipa":"v","label":"le V (≠ B)","spelling":"v","new":true,
+     "es_note":"¡CLAVE! En español b = v. En francés NO. La v se hace con los dientes sobre el labio.",
+     "examples":[
+       {"fr":"le vin","ipa":"lə vɛ̃","es":"el vino","en":"wine","audio":"S0-v-1"},
+       {"fr":"la ville","ipa":"la vil","es":"la ciudad","en":"city","audio":"S0-v-2"},
+       {"fr":"la voiture","ipa":"la vwatyʁ","es":"el coche","en":"car","audio":"S0-v-3"},
+       {"fr":"avec","ipa":"avɛk","es":"con","en":"with","audio":"S0-v-4"}]},
+
+    {"id":"oi","ipa":"wa","label":"OI = /wa/","spelling":"oi",
+     "es_note":"« oi » suena « ua ». No se lee « oi ». « moi » = mua.",
+     "examples":[
+       {"fr":"moi","ipa":"mwa","es":"yo / mí","en":"me","audio":"S0-oi-1"},
+       {"fr":"la voiture","ipa":"la vwatyʁ","es":"el coche","en":"car","audio":"S0-oi-2"},
+       {"fr":"trois","ipa":"tʁwa","es":"tres","en":"three","audio":"S0-oi-3"},
+       {"fr":"voir","ipa":"vwaʁ","es":"ver","en":"to see","audio":"S0-oi-4"}]},
+
+    {"id":"ui","ipa":"ɥi","label":"UI = /ɥi/","spelling":"ui","new":true,
+     "es_note":"« u » francesa + « i », muy rápido. « oui » = ui = « sí ».",
+     "examples":[
+       {"fr":"oui","ipa":"wi","es":"sí","en":"yes","audio":"S0-ui-1"},
+       {"fr":"lui","ipa":"lɥi","es":"él / le","en":"him","audio":"S0-ui-2"},
+       {"fr":"la nuit","ipa":"la nɥi","es":"la noche","en":"night","audio":"S0-ui-3"},
+       {"fr":"huit","ipa":"ɥit","es":"ocho","en":"eight","audio":"S0-ui-4"}]},
+
+    {"id":"ill","ipa":"j","label":"ILL = /j/","spelling":"ill, il, y",
+     "es_note":"« ill » suena como « y » española (yo). « fille » = fiy.",
+     "examples":[
+       {"fr":"la famille","ipa":"la famij","es":"la familia","en":"family","audio":"S0-ill-1"},
+       {"fr":"la fille","ipa":"la fij","es":"la hija / chica","en":"girl","audio":"S0-ill-2"},
+       {"fr":"travailler","ipa":"tʁavaje","es":"trabajar","en":"to work","audio":"S0-ill-3"},
+       {"fr":"juillet","ipa":"ʒɥijɛ","es":"julio","en":"July","audio":"S0-ill-4"}]},
+
+    {"id":"muet","ipa":"—","label":"lettres muettes","spelling":"consonnes finales, e final, h",
+     "es_note":"El francés NO pronuncia muchas letras finales. Y la « e » final es muda pero hace sonar la consonante de antes (¡clave para el género!).",
+     "examples":[
+       {"fr":"Paris","ipa":"paʁi","es":"París (la « s » muda)","en":"Paris","audio":"S0-muet-1"},
+       {"fr":"beaucoup","ipa":"boku","es":"mucho (la « p » muda)","en":"a lot","audio":"S0-muet-2"},
+       {"fr":"grand","ipa":"ɡʁɑ̃","es":"grande masc. (la « d » muda)","en":"big (m)","audio":"S0-muet-3"},
+       {"fr":"grande","ipa":"ɡʁɑ̃d","es":"grande fem. (¡la « d » suena!)","en":"big (f)","audio":"S0-muet-4"}],
+     "pair":{"a":{"fr":"grand","ipa":"ɡʁɑ̃","audio":"S0-muet-pa"},"b":{"fr":"grande","ipa":"ɡʁɑ̃d","audio":"S0-muet-pb"},
+       "note_es":"La « e » final revela la consonante: grand (mudo) → grande (suena la d). Así oyes el género."}}
+  ]
+}

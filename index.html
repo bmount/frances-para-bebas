@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0a6ee8">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="FR pour bébas">
 <title>Français pour bébas</title>
 <style>
   :root{--sea:#0a6ee8;--deep:#064b9e;--sun:#ffc93c;--coral:#ff6b6b;--good:#12b886;
@@ -53,6 +57,15 @@
   <div class="wrap">
     <a class="cta" href="app.html">Commencer les leçons →</a>
 
+    <a class="mod ready" href="app.html#lesson/L00" style="margin-bottom:8px">
+      <div class="mn" style="background:linear-gradient(135deg,#6a5cff,#4534d6)">0</div>
+      <div class="mm"><div class="mt">Chapitre 0 · Les sons 🔊</div><div class="md">vocales, nasales, la R — lo esencial primero</div></div>
+      <span class="badge on">PRÊT</span></a>
+    <a class="mod ready" href="app.html#parle" style="margin-bottom:8px">
+      <div class="mn" style="background:linear-gradient(135deg,#12b886,#0b9)">🗣️</div>
+      <div class="mm"><div class="mt">Le français qu'on parle vraiment</div><div class="md">réductions, registres, il y a / c'est / ça, faire / prendre</div></div>
+      <span class="badge on">PRÊT</span></a>
+
     <div class="pillars">
       <div class="pill"><div class="i">🧬</div><div class="t">Cognados</div><div class="d">Ton espagnol te donne des milliers de mots</div></div>
       <div class="pill"><div class="i">🗣️</div><div class="t">Français parlé</div><div class="d">Ce qu'on dit vraiment, pas les livres</div></div>
@@ -95,6 +108,7 @@ pb.addEventListener('click',()=>{
   a.addEventListener('ended',()=>{pb.classList.remove('playing');a=null;});
   a.play().catch(()=>{pb.classList.remove('playing');a=null;});
 });
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{});}
 </script>
 </body>
 </html>
