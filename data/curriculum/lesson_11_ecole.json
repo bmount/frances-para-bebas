@@ -2,7 +2,7 @@
   "id": "L11",
   "order": 11,
   "slug": "ecole",
-  "title": "L'école — school",
+  "title": "L'école",
   "es_title": "El cole (materias, devoirs, y faux-amis traidores)",
   "focus": "Tu mundo — clases, profes, devoirs, exámenes — pero en francés. Casi autobiografía.",
   "objectives": [
@@ -11,39 +11,250 @@
     "Quejarte de los devoirs como una francesa."
   ],
   "reader": [
-    {"t": "lead", "html": "Tu vida entera —clases, profes, <span class='fr'>devoirs</span>, exámenes que te arruinan el finde— existe igualita en Francia, solo que en francés. Como ya vives ese drama, este módulo es básicamente autobiografía. Le lycée te espera, reina."},
-    {"t": "h3", "text": "Las materias son regalo"},
-    {"t": "p", "html": "Casi puro cognado: <span class='fr'>les maths, l'histoire, la géo, les sciences, la musique, l'art</span>. Si lo sabes en español, ya casi lo dices en francés — solo ponle acento de niña fresa de Nice."},
-    {"t": "h3", "text": "⚠️ Faux-amis traidores"},
-    {"t": "p", "html": "¡Cuidado, trampas!"},
-    {"t": "maps", "rows": [
-      {"es": "collège = SECUNDARIA (no universidad)", "fr": "≠ université"},
-      {"es": "lecture = LECTURA (no conferencia)", "fr": "≠ conférence"},
-      {"es": "librairie = LIBRERÍA (no biblioteca)", "fr": "≠ bibliothèque"}
-    ]},
-    {"t": "h3", "text": "El sistema"},
-    {"t": "p", "html": "Va así: <span class='fr'>le collège</span> (secundaria) → <span class='fr'>le lycée</span> (prepa) → <span class='fr'>le bac</span>, el examen final gigante del que hablan como si fuera el fin del mundo. Con tu edad estarías <b>au lycée</b> — donde estás ahora, pero con mejores croissants en la récré."},
-    {"t": "h3", "text": "En la calle"},
-    {"t": "p", "html": "Una teen no dice «tengo mucha tarea», dice <span class='fr'>«&nbsp;j'ai trop de devoirs&nbsp;»</span> con suspiro nivel Oscar. Y tras un examen brutal: <span class='fr'>«&nbsp;l'examen de maths, c'était l'horreur.&nbsp;»</span>"}
+    {
+      "t": "h3",
+      "text": "Les matières du lycée"
+    },
+    {
+      "t": "pair",
+      "fr": "Au lycée, les matières sont presque toutes identiques : les maths, l'histoire, la géo, les sciences, la musique. Tu étudies déjà la moitié du programme !",
+      "es": "En el liceo, las materias son casi todas idénticas: las mates, la historia, la geo, las ciencias, la música. ¡Ya estudias la mitad del programa!"
+    },
+    {
+      "t": "h3",
+      "text": "Le système scolaire"
+    },
+    {
+      "t": "pair",
+      "fr": "Le système est simple : le collège, puis le lycée, et finalement le bac, le grand examen national. Toute la France tremble en juin.",
+      "es": "El sistema es simple: el «collège», luego el liceo, y finalmente el «bac», el gran examen nacional. Toda Francia tiembla en junio."
+    },
+    {
+      "t": "h3",
+      "text": "Attention, faux amis !"
+    },
+    {
+      "t": "pair",
+      "fr": "Attention : en France, le « collège » est l'école des ados de onze à quatorze ans — pas l'université !",
+      "es": "Atención: en Francia, el «collège» es la escuela de los adolescentes de once a catorce años — ¡no la universidad!"
+    },
+    {
+      "t": "pair",
+      "fr": "La « librairie » vend des livres, la « bibliothèque » prête des livres, et une « lecture » est simplement l'acte de lire. Exactement comme en espagnol !",
+      "es": "La «librería» vende libros, la «biblioteca» presta libros, y una «lectura» es simplemente el acto de leer. ¡Exactamente como en español!"
+    },
+    {
+      "t": "h3",
+      "text": "La vie d'ado"
+    },
+    {
+      "t": "pair",
+      "fr": "Les devoirs sont éternels, les examens sont inévitables, mais la récré est sacrée. Patience : les vacances arrivent en juillet !",
+      "es": "Los deberes son eternos, los exámenes son inevitables, pero el recreo es sagrado. Paciencia: ¡las vacaciones llegan en julio!"
+    }
   ],
   "vocab": [
-    {"id": "L11-lycee", "fr": "le lycée", "es": "la prepa / el instituto", "en": "high school", "ipa": "lə lise", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "star": true, "ex": "Je suis au lycée.", "voice": "emilie", "audio": "L11-lycee"},
-    {"id": "L11-devoirs", "fr": "les devoirs", "es": "la tarea", "en": "homework", "ipa": "le dəvwaʁ", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "star": true, "ex": "J'ai trop de devoirs !", "voice": "oris", "audio": "L11-devoirs"},
-    {"id": "L11-examen", "fr": "un examen", "es": "un examen", "en": "an exam", "ipa": "ɛ̃ ɛɡzamɛ̃", "pos": "noun", "gender": "m", "cognate_type": "transparent", "star": true, "ex": "L'examen de maths, c'était l'horreur.", "voice": "emilie", "audio": "L11-examen"},
-    {"id": "L11-bac", "fr": "le bac", "es": "el bachillerato (examen final)", "en": "the final exam", "ipa": "lə bak", "pos": "noun", "gender": "m", "cognate_type": "semi", "ex": "Le bac, c'est stressant.", "voice": "oris", "audio": "L11-bac"},
-    {"id": "L11-recre", "fr": "la récré", "es": "el recreo", "en": "recess", "ipa": "la ʁekʁe", "pos": "noun", "gender": "f", "cognate_type": "semi", "ex": "On mange à la récré.", "voice": "emilie", "audio": "L11-recre"},
-    {"id": "L11-maths", "fr": "les maths", "es": "las mates", "en": "math", "ipa": "le mat", "pos": "noun", "gender": "f", "cognate_type": "transparent", "star": true, "ex": "J'adore les maths.", "voice": "oris", "audio": "L11-maths"},
-    {"id": "L11-histoire", "fr": "l'histoire", "es": "la historia", "en": "history", "ipa": "listwaʁ", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "J'aime l'histoire.", "voice": "emilie", "audio": "L11-histoire"},
-    {"id": "L11-sciences", "fr": "les sciences", "es": "las ciencias", "en": "science", "ipa": "le sjɑ̃s", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "Les sciences, c'est difficile.", "voice": "oris", "audio": "L11-sciences"},
-    {"id": "L11-prof", "fr": "le prof", "es": "el profe", "en": "the teacher", "ipa": "lə pʁɔf", "pos": "noun", "gender": "m", "cognate_type": "transparent", "ex": "Le prof de français est sympa.", "voice": "emilie", "audio": "L11-prof"},
-    {"id": "L11-college", "fr": "le collège", "es": "la SECUNDARIA (¡no universidad!)", "en": "middle school", "ipa": "lə kɔlɛʒ", "pos": "noun", "gender": "m", "cognate_type": "faux_ami", "star": true, "ex": "Le collège, c'est avant le lycée.", "voice": "oris", "audio": "L11-college"},
-    {"id": "L11-bibliotheque", "fr": "la bibliothèque", "es": "la biblioteca", "en": "library", "ipa": "la biblijɔtɛk", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "J'étudie à la bibliothèque.", "voice": "emilie", "audio": "L11-bibliotheque"},
-    {"id": "L11-librairie", "fr": "la librairie", "es": "la LIBRERÍA (¡no biblioteca!)", "en": "bookstore", "ipa": "la libʁɛʁi", "pos": "noun", "gender": "f", "cognate_type": "faux_ami", "star": true, "ex": "J'achète un livre à la librairie.", "voice": "oris", "audio": "L11-librairie"}
+    {
+      "id": "L11-lycee",
+      "fr": "le lycée",
+      "es": "la prepa / el instituto",
+      "en": "high school",
+      "ipa": "lə lise",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je suis au lycée.",
+      "voice": "emilie",
+      "audio": "L11-lycee"
+    },
+    {
+      "id": "L11-devoirs",
+      "fr": "les devoirs",
+      "es": "la tarea",
+      "en": "homework",
+      "ipa": "le dəvwaʁ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "J'ai trop de devoirs !",
+      "voice": "oris",
+      "audio": "L11-devoirs"
+    },
+    {
+      "id": "L11-examen",
+      "fr": "un examen",
+      "es": "un examen",
+      "en": "an exam",
+      "ipa": "ɛ̃ ɛɡzamɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "L'examen de maths, c'était l'horreur.",
+      "voice": "emilie",
+      "audio": "L11-examen"
+    },
+    {
+      "id": "L11-bac",
+      "fr": "le bac",
+      "es": "el bachillerato (examen final)",
+      "en": "the final exam",
+      "ipa": "lə bak",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "semi",
+      "ex": "Le bac, c'est stressant.",
+      "voice": "oris",
+      "audio": "L11-bac"
+    },
+    {
+      "id": "L11-recre",
+      "fr": "la récré",
+      "es": "el recreo",
+      "en": "recess",
+      "ipa": "la ʁekʁe",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "ex": "On mange à la récré.",
+      "voice": "emilie",
+      "audio": "L11-recre"
+    },
+    {
+      "id": "L11-maths",
+      "fr": "les maths",
+      "es": "las mates",
+      "en": "math",
+      "ipa": "le mat",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "J'adore les maths.",
+      "voice": "oris",
+      "audio": "L11-maths"
+    },
+    {
+      "id": "L11-histoire",
+      "fr": "l'histoire",
+      "es": "la historia",
+      "en": "history",
+      "ipa": "listwaʁ",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "ex": "J'aime l'histoire.",
+      "voice": "emilie",
+      "audio": "L11-histoire"
+    },
+    {
+      "id": "L11-sciences",
+      "fr": "les sciences",
+      "es": "las ciencias",
+      "en": "science",
+      "ipa": "le sjɑ̃s",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "ex": "Les sciences, c'est difficile.",
+      "voice": "oris",
+      "audio": "L11-sciences"
+    },
+    {
+      "id": "L11-prof",
+      "fr": "le prof",
+      "es": "el profe",
+      "en": "the teacher",
+      "ipa": "lə pʁɔf",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "ex": "Le prof de français est sympa.",
+      "voice": "emilie",
+      "audio": "L11-prof"
+    },
+    {
+      "id": "L11-college",
+      "fr": "le collège",
+      "es": "la SECUNDARIA (¡no universidad!)",
+      "en": "middle school",
+      "ipa": "lə kɔlɛʒ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "faux_ami",
+      "star": true,
+      "ex": "Le collège, c'est avant le lycée.",
+      "voice": "oris",
+      "audio": "L11-college"
+    },
+    {
+      "id": "L11-bibliotheque",
+      "fr": "la bibliothèque",
+      "es": "la biblioteca",
+      "en": "library",
+      "ipa": "la biblijɔtɛk",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "ex": "J'étudie à la bibliothèque.",
+      "voice": "emilie",
+      "audio": "L11-bibliotheque"
+    },
+    {
+      "id": "L11-librairie",
+      "fr": "la librairie",
+      "es": "la LIBRERÍA (¡no biblioteca!)",
+      "en": "bookstore",
+      "ipa": "la libʁɛʁi",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "faux_ami",
+      "star": true,
+      "ex": "J'achète un livre à la librairie.",
+      "voice": "oris",
+      "audio": "L11-librairie"
+    }
   ],
   "sentences": [
-    {"id": "L11-s01", "register": "parle", "fr": "J'ai trop de devoirs ce week-end !", "es": "¡Tengo demasiada tarea este finde!", "en": "I have too much homework this weekend!", "voice": "emilie", "audio": "L11-s01"},
-    {"id": "L11-s02", "tense": "imparfait", "register": "parle", "fr": "L'examen de maths, c'était l'horreur.", "es": "El examen de mates fue un horror.", "en": "The math exam was a nightmare.", "voice": "oris", "audio": "L11-s02"},
-    {"id": "L11-s03", "register": "parle", "fr": "Au lycée, j'étudie le français et l'anglais.", "es": "En la prepa estudio francés e inglés.", "en": "At school I study French and English.", "voice": "emilie", "audio": "L11-s03"},
-    {"id": "L11-s04", "register": "parle", "fr": "Attention : « collège » = secundaria, pas l'université !", "es": "¡Ojo: collège = secundaria, no universidad!", "en": "Careful: collège = middle school, not college!", "voice": "oris", "audio": "L11-s04", "gloss": "faux-ami clásico"}
+    {
+      "id": "L11-s01",
+      "register": "parle",
+      "fr": "J'ai trop de devoirs ce week-end !",
+      "es": "¡Tengo demasiada tarea este finde!",
+      "en": "I have too much homework this weekend!",
+      "voice": "emilie",
+      "audio": "L11-s01"
+    },
+    {
+      "id": "L11-s02",
+      "tense": "imparfait",
+      "register": "parle",
+      "fr": "L'examen de maths, c'était l'horreur.",
+      "es": "El examen de mates fue un horror.",
+      "en": "The math exam was a nightmare.",
+      "voice": "oris",
+      "audio": "L11-s02"
+    },
+    {
+      "id": "L11-s03",
+      "register": "parle",
+      "fr": "Au lycée, j'étudie le français et l'anglais.",
+      "es": "En la prepa estudio francés e inglés.",
+      "en": "At school I study French and English.",
+      "voice": "emilie",
+      "audio": "L11-s03"
+    },
+    {
+      "id": "L11-s04",
+      "register": "parle",
+      "fr": "Attention : « collège » = secundaria, pas l'université !",
+      "es": "¡Ojo: collège = secundaria, no universidad!",
+      "en": "Careful: collège = middle school, not college!",
+      "voice": "oris",
+      "audio": "L11-s04",
+      "gloss": "faux-ami clásico"
+    }
   ]
 }

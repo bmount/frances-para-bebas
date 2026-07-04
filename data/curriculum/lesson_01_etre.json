@@ -2,13 +2,13 @@
   "id": "L01",
   "order": 1,
   "slug": "etre",
-  "title": "Être — to be",
+  "title": "Être",
   "es_title": "El verbo « être » (ser / estar)",
-  "focus": "Your first French verb — across every spoken tense — wrapped in words you already own from Spanish. Every sample is a full sentence.",
+  "focus": "Tu primer verbo francés — en todos los tiempos que se hablan de verdad — rodeado de palabras que ya posees del español. Cada ejemplo es una frase completa.",
   "objectives": [
-    "Conjugate être in the present (spoken forms).",
-    "Recognize être in all the tenses you'll actually hear in Nice.",
-    "Describe yourself and things with cognate adjectives — and ask politely (je voudrais…)."
+    "Conjugar « être » en presente (formas habladas).",
+    "Reconocer « être » en todos los tiempos que oirás en Nice.",
+    "Describirte a ti y a las cosas con adjetivos cognados — y pedir con cortesía (je voudrais…)."
   ],
   "reader": [
     {
@@ -194,10 +194,10 @@
       }
     ],
     "spoken_notes": [
-      "On = we, in everyday speech: « On est à Nice » (nous sommes = a bit more formal).",
-      "C'est = it is / that is — the most useful phrase in French.",
-      "Polite requests use the conditional, not a 'quisiera': « Je voudrais un café. »",
-      "Final consonants silent: es, est → /ɛ/. Liaison: vous êtes → « vou-ZETT »."
+      "« on » = nosotros, en el habla diaria: « On est à Nice » (nous sommes = un poco más formal).",
+      "« c'est » = es / eso es — la frase más útil del francés.",
+      "Para pedir con cortesía se usa el condicional, no un « quisiera » francés: « Je voudrais un café ».",
+      "Consonantes finales mudas: es, est → /ɛ/. Liaison: vous êtes → « vu-ZET »."
     ]
   },
   "vocab": [

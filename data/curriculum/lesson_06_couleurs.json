@@ -2,7 +2,7 @@
   "id": "L06",
   "order": 6,
   "slug": "couleurs",
-  "title": "Les couleurs — colors",
+  "title": "Les couleurs",
   "es_title": "Los colores (y el acuerdo)",
   "focus": "Once palabritas para describir todo Nice — el mar, tu glace, el drapeau. Y dos reglas: van DESPUÉS del nombre y CONCUERDAN.",
   "objectives": [
@@ -11,38 +11,248 @@
     "Hacerlos concordar: bleu/bleue, vert/verte."
   ],
   "reader": [
-    {"t": "lead", "html": "En Niza todo tiene color: el mar es escandalosamente <span class='fr'>bleu</span>, tu glace es <span class='fr'>rose</span>, y el drapeau français es <span class='fr'>bleu, blanc, rouge</span>. Once palabritas y describes toda la ciudad."},
-    {"t": "h3", "text": "Después del nombre"},
-    {"t": "p", "html": "En francés el color va <b>DESPUÉS</b> del sustantivo: <span class='fr'>la mer bleue</span>, nunca «bleue mer». Es lo contrario del inglés — pero es exactamente como tu español: el mar azul, <span class='fr'>la mer bleue</span>. Tu cerebro ya sabe hacer esto; solo cámbiale el idioma."},
-    {"t": "h3", "text": "Concuerdan (como en español)"},
-    {"t": "p", "html": "Y como en español, el color concuerda con el género:"},
-    {"t": "maps", "rows": [
-      {"es": "un vélo verde", "fr": "un vélo vert"},
-      {"es": "una glace verde", "fr": "une glace verte"},
-      {"es": "el mar azul", "fr": "la mer bleue"}
-    ]},
-    {"t": "h3", "text": "Regalos gratis 🎁"},
-    {"t": "p", "html": "Gratis del español/inglés: <span class='fr'>orange</span>, <span class='fr'>violet</span>, <span class='fr'>rose</span>, y <span class='fr'>bleu</span> se adivina solo. Los tramposos que sí memorizas: <span class='fr'>jaune</span> (amarillo), <span class='fr'>noir</span> (negro), <span class='fr'>marron</span> (café/marrón)."},
-    {"t": "h3", "text": "En la calle"},
-    {"t": "p", "html": "Camina por la Prom y narra bajito: <span class='fr'>la mer bleue</span>, <span class='fr'>une glace rose</span>, <span class='fr'>le drapeau bleu, blanc, rouge</span>. Estudiar con vista al mar — de nada."}
+    {
+      "t": "h3",
+      "text": "La mer bleue de Nice"
+    },
+    {
+      "t": "pair",
+      "fr": "À Nice, la mer est bleue, absolument bleue, scandaleusement bleue.",
+      "es": "En Niza, el mar es azul, absolutamente azul, escandalosamente azul."
+    },
+    {
+      "t": "h3",
+      "text": "La couleur va après le nom"
+    },
+    {
+      "t": "pair",
+      "fr": "Exactement comme en espagnol, la couleur va après le nom : la mer bleue, le ciel gris, la maison blanche.",
+      "es": "Exactamente como en español, el color va después del nombre: el mar azul, el cielo gris, la casa blanca."
+    },
+    {
+      "t": "h3",
+      "text": "L'adjectif respecte le genre"
+    },
+    {
+      "t": "pair",
+      "fr": "L'adjectif change avec le genre : le chat noir, la nuit noire ; le vin blanc, la neige blanche.",
+      "es": "El adjetivo cambia con el género: el gato negro, la noche negra; el vino blanco, la nieve blanca."
+    },
+    {
+      "t": "h3",
+      "text": "Des cognats transparents"
+    },
+    {
+      "t": "pair",
+      "fr": "Orange, violet, rose, bleu : des cognats pratiquement transparents ; tu adores déjà la moitié des couleurs françaises.",
+      "es": "Naranja, violeta, rosa, azul: cognados prácticamente transparentes; ya adoras la mitad de los colores franceses."
+    },
+    {
+      "t": "h3",
+      "text": "Une glace sous le drapeau"
+    },
+    {
+      "t": "pair",
+      "fr": "Sur la Promenade, tu manges une glace rose et une glace violette sous le drapeau bleu-blanc-rouge.",
+      "es": "En la Promenade, comes un helado rosa y un helado violeta bajo la bandera azul-blanca-roja."
+    }
   ],
   "vocab": [
-    {"id": "L06-bleu", "fr_m": "bleu", "fr_f": "bleue", "es": "azul", "en": "blue", "ipa_m": "blø", "ipa_f": "blø", "pos": "adj", "cognate_type": "semi", "star": true, "ex_m": "le ciel bleu", "ex_f": "la mer bleue", "audio_m": "L06-bleu-m", "audio_f": "L06-bleu-f"},
-    {"id": "L06-vert", "fr_m": "vert", "fr_f": "verte", "es": "verde", "en": "green", "ipa_m": "vɛʁ", "ipa_f": "vɛʁt", "pos": "adj", "cognate_type": "transparent", "ex_m": "un vélo vert", "ex_f": "une pomme verte", "audio_m": "L06-vert-m", "audio_f": "L06-vert-f"},
-    {"id": "L06-blanc", "fr_m": "blanc", "fr_f": "blanche", "es": "blanco / blanca", "en": "white", "ipa_m": "blɑ̃", "ipa_f": "blɑ̃ʃ", "pos": "adj", "cognate_type": "non_cognate", "ex_m": "un chapeau blanc", "ex_f": "une maison blanche", "audio_m": "L06-blanc-m", "audio_f": "L06-blanc-f"},
-    {"id": "L06-noir", "fr_m": "noir", "fr_f": "noire", "es": "negro / negra", "en": "black", "ipa_m": "nwaʁ", "ipa_f": "nwaʁ", "pos": "adj", "cognate_type": "non_cognate", "ex_m": "un café noir", "ex_f": "une voiture noire", "audio_m": "L06-noir-m", "audio_f": "L06-noir-f"},
-    {"id": "L06-gris", "fr_m": "gris", "fr_f": "grise", "es": "gris", "en": "gray", "ipa_m": "ɡʁi", "ipa_f": "ɡʁiz", "pos": "adj", "cognate_type": "non_cognate", "ex_m": "le ciel gris", "ex_f": "une journée grise", "audio_m": "L06-gris-m", "audio_f": "L06-gris-f"},
-    {"id": "L06-violet", "fr_m": "violet", "fr_f": "violette", "es": "violeta / morado", "en": "purple", "ipa_m": "vjɔlɛ", "ipa_f": "vjɔlɛt", "pos": "adj", "cognate_type": "transparent", "ex_m": "un sac violet", "ex_f": "une fleur violette", "audio_m": "L06-violet-m", "audio_f": "L06-violet-f"},
-    {"id": "L06-rouge", "fr": "rouge", "es": "rojo / roja", "en": "red", "ipa": "ʁuʒ", "pos": "adj", "epicene": true, "cognate_type": "non_cognate", "star": true, "ex": "une pomme rouge", "voice": "emilie", "audio": "L06-rouge"},
-    {"id": "L06-jaune", "fr": "jaune", "es": "amarillo / amarilla", "en": "yellow", "ipa": "ʒon", "pos": "adj", "epicene": true, "cognate_type": "non_cognate", "ex": "le soleil jaune", "voice": "oris", "audio": "L06-jaune"},
-    {"id": "L06-orange", "fr": "orange", "es": "naranja", "en": "orange", "ipa": "ɔʁɑ̃ʒ", "pos": "adj", "epicene": true, "cognate_type": "transparent", "ex": "une glace orange", "voice": "emilie", "audio": "L06-orange"},
-    {"id": "L06-rose", "fr": "rose", "es": "rosa / rosado", "en": "pink", "ipa": "ʁoz", "pos": "adj", "epicene": true, "cognate_type": "transparent", "star": true, "ex": "une glace rose", "voice": "oris", "audio": "L06-rose"},
-    {"id": "L06-marron", "fr": "marron", "es": "marrón / café", "en": "brown", "ipa": "maʁɔ̃", "pos": "adj", "epicene": true, "cognate_type": "semi", "ex": "des yeux marron", "voice": "emilie", "audio": "L06-marron"}
+    {
+      "id": "L06-bleu",
+      "fr_m": "bleu",
+      "fr_f": "bleue",
+      "es": "azul",
+      "en": "blue",
+      "ipa_m": "blø",
+      "ipa_f": "blø",
+      "pos": "adj",
+      "cognate_type": "semi",
+      "star": true,
+      "ex_m": "le ciel bleu",
+      "ex_f": "la mer bleue",
+      "audio_m": "L06-bleu-m",
+      "audio_f": "L06-bleu-f"
+    },
+    {
+      "id": "L06-vert",
+      "fr_m": "vert",
+      "fr_f": "verte",
+      "es": "verde",
+      "en": "green",
+      "ipa_m": "vɛʁ",
+      "ipa_f": "vɛʁt",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "ex_m": "un vélo vert",
+      "ex_f": "une pomme verte",
+      "audio_m": "L06-vert-m",
+      "audio_f": "L06-vert-f"
+    },
+    {
+      "id": "L06-blanc",
+      "fr_m": "blanc",
+      "fr_f": "blanche",
+      "es": "blanco / blanca",
+      "en": "white",
+      "ipa_m": "blɑ̃",
+      "ipa_f": "blɑ̃ʃ",
+      "pos": "adj",
+      "cognate_type": "non_cognate",
+      "ex_m": "un chapeau blanc",
+      "ex_f": "une maison blanche",
+      "audio_m": "L06-blanc-m",
+      "audio_f": "L06-blanc-f"
+    },
+    {
+      "id": "L06-noir",
+      "fr_m": "noir",
+      "fr_f": "noire",
+      "es": "negro / negra",
+      "en": "black",
+      "ipa_m": "nwaʁ",
+      "ipa_f": "nwaʁ",
+      "pos": "adj",
+      "cognate_type": "non_cognate",
+      "ex_m": "un café noir",
+      "ex_f": "une voiture noire",
+      "audio_m": "L06-noir-m",
+      "audio_f": "L06-noir-f"
+    },
+    {
+      "id": "L06-gris",
+      "fr_m": "gris",
+      "fr_f": "grise",
+      "es": "gris",
+      "en": "gray",
+      "ipa_m": "ɡʁi",
+      "ipa_f": "ɡʁiz",
+      "pos": "adj",
+      "cognate_type": "non_cognate",
+      "ex_m": "le ciel gris",
+      "ex_f": "une journée grise",
+      "audio_m": "L06-gris-m",
+      "audio_f": "L06-gris-f"
+    },
+    {
+      "id": "L06-violet",
+      "fr_m": "violet",
+      "fr_f": "violette",
+      "es": "violeta / morado",
+      "en": "purple",
+      "ipa_m": "vjɔlɛ",
+      "ipa_f": "vjɔlɛt",
+      "pos": "adj",
+      "cognate_type": "transparent",
+      "ex_m": "un sac violet",
+      "ex_f": "une fleur violette",
+      "audio_m": "L06-violet-m",
+      "audio_f": "L06-violet-f"
+    },
+    {
+      "id": "L06-rouge",
+      "fr": "rouge",
+      "es": "rojo / roja",
+      "en": "red",
+      "ipa": "ʁuʒ",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "une pomme rouge",
+      "voice": "emilie",
+      "audio": "L06-rouge"
+    },
+    {
+      "id": "L06-jaune",
+      "fr": "jaune",
+      "es": "amarillo / amarilla",
+      "en": "yellow",
+      "ipa": "ʒon",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "non_cognate",
+      "ex": "le soleil jaune",
+      "voice": "oris",
+      "audio": "L06-jaune"
+    },
+    {
+      "id": "L06-orange",
+      "fr": "orange",
+      "es": "naranja",
+      "en": "orange",
+      "ipa": "ɔʁɑ̃ʒ",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "transparent",
+      "ex": "une glace orange",
+      "voice": "emilie",
+      "audio": "L06-orange"
+    },
+    {
+      "id": "L06-rose",
+      "fr": "rose",
+      "es": "rosa / rosado",
+      "en": "pink",
+      "ipa": "ʁoz",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "une glace rose",
+      "voice": "oris",
+      "audio": "L06-rose"
+    },
+    {
+      "id": "L06-marron",
+      "fr": "marron",
+      "es": "marrón / café",
+      "en": "brown",
+      "ipa": "maʁɔ̃",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "semi",
+      "ex": "des yeux marron",
+      "voice": "emilie",
+      "audio": "L06-marron"
+    }
   ],
   "sentences": [
-    {"id": "L06-s01", "register": "parle", "fr": "La mer est bleue et le ciel est bleu.", "es": "El mar es azul y el cielo es azul.", "en": "The sea is blue and the sky is blue.", "voice": "emilie", "audio": "L06-s01"},
-    {"id": "L06-s02", "register": "parle", "fr": "Je voudrais une glace rose, s'il vous plaît.", "es": "Quisiera un helado rosa, por favor.", "en": "I'd like a pink ice cream, please.", "voice": "oris", "audio": "L06-s02"},
-    {"id": "L06-s03", "register": "parle", "fr": "Le drapeau français est bleu, blanc, rouge.", "es": "La bandera francesa es azul, blanca, roja.", "en": "The French flag is blue, white, red.", "voice": "emilie", "audio": "L06-s03"},
-    {"id": "L06-s04", "register": "parle", "fr": "Un café noir et une limonade, s'il vous plaît.", "es": "Un café negro y una limonada, por favor.", "en": "A black coffee and a lemonade, please.", "voice": "oris", "audio": "L06-s04"}
+    {
+      "id": "L06-s01",
+      "register": "parle",
+      "fr": "La mer est bleue et le ciel est bleu.",
+      "es": "El mar es azul y el cielo es azul.",
+      "en": "The sea is blue and the sky is blue.",
+      "voice": "emilie",
+      "audio": "L06-s01"
+    },
+    {
+      "id": "L06-s02",
+      "register": "parle",
+      "fr": "Je voudrais une glace rose, s'il vous plaît.",
+      "es": "Quisiera un helado rosa, por favor.",
+      "en": "I'd like a pink ice cream, please.",
+      "voice": "oris",
+      "audio": "L06-s02"
+    },
+    {
+      "id": "L06-s03",
+      "register": "parle",
+      "fr": "Le drapeau français est bleu, blanc, rouge.",
+      "es": "La bandera francesa es azul, blanca, roja.",
+      "en": "The French flag is blue, white, red.",
+      "voice": "emilie",
+      "audio": "L06-s03"
+    },
+    {
+      "id": "L06-s04",
+      "register": "parle",
+      "fr": "Un café noir et une limonade, s'il vous plaît.",
+      "es": "Un café negro y una limonada, por favor.",
+      "en": "A black coffee and a lemonade, please.",
+      "voice": "oris",
+      "audio": "L06-s04"
+    }
   ]
 }

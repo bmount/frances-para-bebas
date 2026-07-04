@@ -2,7 +2,7 @@
   "id": "L04",
   "order": 4,
   "slug": "chiffres",
-  "title": "Les chiffres — numbers",
+  "title": "Les chiffres",
   "es_title": "Los números y los precios",
   "focus": "Precios, horas, edades. Y el caos famoso: 70 = 60+10, 80 = 4×20. Nadie se salva, ni tú.",
   "objectives": [
@@ -11,48 +11,342 @@
     "Preguntar y cazar precios: « c'est combien ? »."
   ],
   "reader": [
-    {"t": "lead", "html": "Sin números no sobrevives ni un día: precios, horas, edades, el número de tu bus. Es lo primero que te lanzan a la cara — y lo que necesitas para no pagar de más por un croissant."},
-    {"t": "h3", "text": "0 a 20: casi regalo"},
-    {"t": "p", "html": "La buena noticia primero: del 0 al 20 es fácil. <span class='fr'>trois, six, sept, huit</span>… si entrecierras los ojos, varios se parecen al español. Aprende estos bien y ya tienes media batalla."},
-    {"t": "h3", "text": "El caos: 70 · 80 · 90 🤯"},
-    {"t": "p", "html": "Respira: el francés te obliga a hacer matemáticas EN VIVO."},
-    {"t": "maps", "rows": [
-      {"es": "70 = 60 + 10", "fr": "soixante-dix"},
-      {"es": "80 = 4 × 20", "fr": "quatre-vingts"},
-      {"es": "90 = 4×20 + 10", "fr": "quatre-vingt-dix"}
-    ]},
-    {"t": "p", "html": "Es una locura, y TODO el mundo se tropieza aquí. Tú también. No pasa nada."},
-    {"t": "h3", "text": "Precios"},
-    {"t": "p", "html": "Tu frase mágica: <span class='fr'>c'est combien ?</span> — «¿cuánto es?». Te contestan <span class='fr'>huit euros</span> o <span class='fr'>douze euros cinquante</span>, y en el menú lo ves <b>8 €</b> o <b>12,50 €</b>. Ojo: la coma es el punto decimal."},
-    {"t": "h3", "text": "En la calle"},
-    {"t": "p", "html": "Pides una glace en la Promenade y la señora dispara <span class='fr'>«&nbsp;trois euros cinquante&nbsp;»</span> a velocidad de misil. Tu misión: cazar el número al vuelo. ¿Perdida? <span class='fr'>c'est combien&nbsp;?</span> otra vez — sin vergüenza, bebé."}
+    {
+      "t": "h3",
+      "text": "De zéro à vingt : facile !"
+    },
+    {
+      "t": "pair",
+      "fr": "Les nombres de zéro à vingt sont faciles : un, deux, trois, six, sept… pratiquement identiques à l'espagnol !",
+      "es": "Los números de cero a veinte son fáciles: uno, dos, tres, seis, siete… ¡prácticamente idénticos al español!"
+    },
+    {
+      "t": "pair",
+      "fr": "Compare la trinité latine : « trois » et « tres », « sept » et « siete », « vingt » et « veinte ». Le latin est notre mère commune.",
+      "es": "Compara la trinidad latina: «trois» y «tres», «sept» y «siete», «vingt» y «veinte». El latín es nuestra madre común."
+    },
+    {
+      "t": "h3",
+      "text": "Le chaos commence à soixante-dix"
+    },
+    {
+      "t": "pair",
+      "fr": "Attention : soixante-dix signifie « soixante plus dix », et quatre-vingts signifie « quatre fois vingt ». Oui, les Français calculent leurs nombres comme un examen de mathématiques.",
+      "es": "Atención: soixante-dix significa «sesenta más diez», y quatre-vingts significa «cuatro veces veinte». Sí, los franceses calculan sus números como un examen de matemáticas."
+    },
+    {
+      "t": "pair",
+      "fr": "Et quatre-vingt-dix ? C'est « quatre fois vingt, plus dix ». Absurde ? Probablement. Élégant ? Totalement. C'est la logique française : compliquée mais adorable.",
+      "es": "¿Y quatre-vingt-dix? Es «cuatro veces veinte, más diez». ¿Absurdo? Probablemente. ¿Elegante? Totalmente. Es la lógica francesa: complicada pero adorable."
+    },
+    {
+      "t": "h3",
+      "text": "C'est combien ?"
+    },
+    {
+      "t": "pair",
+      "fr": "Pour demander le prix, la formule magique est « C'est combien ? ». Trois syllabes sont suffisantes — la simplicité totale après le chaos numérique.",
+      "es": "Para preguntar el precio, la fórmula mágica es «C'est combien?». Tres sílabas son suficientes — la simplicidad total después del caos numérico."
+    },
+    {
+      "t": "h3",
+      "text": "Une glace sur la Promenade"
+    },
+    {
+      "t": "pair",
+      "fr": "Grande finale à Nice : une glace au citron sur la Promenade des Anglais coûte quatre euros cinquante. Le soleil ? Zéro euro. La vue ? Gratuite.",
+      "es": "Gran final en Niza: un helado de limón en la Promenade des Anglais cuesta cuatro euros cincuenta. ¿El sol? Cero euros. ¿La vista? Gratuita."
+    }
   ],
   "vocab": [
-    {"id": "L04-combien", "fr": "c'est combien ?", "es": "¿cuánto es?", "en": "how much is it?", "ipa": "sɛ kɔ̃bjɛ̃", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "C'est combien, la glace ?", "voice": "emilie", "audio": "L04-combien"},
-    {"id": "L04-euros", "fr": "euros", "es": "euros", "en": "euros", "ipa": "øʁo", "pos": "noun", "cognate_type": "transparent", "star": true, "ex": "C'est huit euros.", "voice": "oris", "audio": "L04-euros"},
-    {"id": "L04-un", "fr": "un", "es": "uno", "en": "one", "ipa": "ɛ̃", "pos": "num", "cognate_type": "semi", "ex": "un café", "voice": "oris", "audio": "L04-num-un"},
-    {"id": "L04-deux", "fr": "deux", "es": "dos", "en": "two", "ipa": "dø", "pos": "num", "cognate_type": "semi", "ex": "deux glaces, s'il vous plaît", "voice": "emilie", "audio": "L04-deux"},
-    {"id": "L04-trois", "fr": "trois", "es": "tres", "en": "three", "ipa": "tʁwa", "pos": "num", "cognate_type": "semi", "ex": "trois euros", "voice": "oris", "audio": "L04-trois"},
-    {"id": "L04-quatre", "fr": "quatre", "es": "cuatro", "en": "four", "ipa": "katʁ", "pos": "num", "cognate_type": "semi", "ex": "quatre euros", "voice": "emilie", "audio": "L04-quatre"},
-    {"id": "L04-cinq", "fr": "cinq", "es": "cinco", "en": "five", "ipa": "sɛ̃k", "pos": "num", "cognate_type": "semi", "ex": "cinq euros", "voice": "oris", "audio": "L04-cinq"},
-    {"id": "L04-six", "fr": "six", "es": "seis", "en": "six", "ipa": "sis", "pos": "num", "cognate_type": "semi", "ex": "six heures", "voice": "emilie", "audio": "L04-six"},
-    {"id": "L04-sept", "fr": "sept", "es": "siete", "en": "seven", "ipa": "sɛt", "pos": "num", "cognate_type": "semi", "ex": "sept euros", "voice": "oris", "audio": "L04-sept"},
-    {"id": "L04-huit", "fr": "huit", "es": "ocho", "en": "eight", "ipa": "ɥit", "pos": "num", "cognate_type": "semi", "ex": "huit euros", "voice": "emilie", "audio": "L04-huit"},
-    {"id": "L04-neuf", "fr": "neuf", "es": "nueve", "en": "nine", "ipa": "nœf", "pos": "num", "cognate_type": "semi", "ex": "neuf euros", "voice": "oris", "audio": "L04-neuf"},
-    {"id": "L04-dix", "fr": "dix", "es": "diez", "en": "ten", "ipa": "dis", "pos": "num", "cognate_type": "semi", "ex": "dix euros", "voice": "emilie", "audio": "L04-dix"},
-    {"id": "L04-vingt", "fr": "vingt", "es": "veinte", "en": "twenty", "ipa": "vɛ̃", "pos": "num", "cognate_type": "semi", "ex": "vingt euros", "voice": "oris", "audio": "L04-vingt"},
-    {"id": "L04-trente", "fr": "trente", "es": "treinta", "en": "thirty", "ipa": "tʁɑ̃t", "pos": "num", "cognate_type": "semi", "ex": "trente euros", "voice": "emilie", "audio": "L04-trente"},
-    {"id": "L04-cinquante", "fr": "cinquante", "es": "cincuenta", "en": "fifty", "ipa": "sɛ̃kɑ̃t", "pos": "num", "cognate_type": "semi", "ex": "cinquante euros", "voice": "oris", "audio": "L04-cinquante"},
-    {"id": "L04-soixante", "fr": "soixante", "es": "sesenta", "en": "sixty", "ipa": "swasɑ̃t", "pos": "num", "cognate_type": "non_cognate", "ex": "soixante euros", "voice": "emilie", "audio": "L04-soixante"},
-    {"id": "L04-soixantedix", "fr": "soixante-dix", "es": "setenta (60+10)", "en": "seventy", "ipa": "swasɑ̃t dis", "pos": "num", "cognate_type": "non_cognate", "star": true, "ex": "soixante-dix euros", "voice": "oris", "audio": "L04-soixantedix"},
-    {"id": "L04-quatrevingts", "fr": "quatre-vingts", "es": "ochenta (4×20)", "en": "eighty", "ipa": "katʁə vɛ̃", "pos": "num", "cognate_type": "non_cognate", "star": true, "ex": "quatre-vingts euros", "voice": "emilie", "audio": "L04-quatrevingts"},
-    {"id": "L04-quatrevingtdix", "fr": "quatre-vingt-dix", "es": "noventa (4×20+10)", "en": "ninety", "ipa": "katʁə vɛ̃ dis", "pos": "num", "cognate_type": "non_cognate", "star": true, "ex": "quatre-vingt-dix euros", "voice": "oris", "audio": "L04-quatrevingtdix"},
-    {"id": "L04-cent", "fr": "cent", "es": "cien", "en": "one hundred", "ipa": "sɑ̃", "pos": "num", "cognate_type": "semi", "ex": "cent euros", "voice": "emilie", "audio": "L04-cent", "ex2": "cent personnes", "audio2": "L04-cent2", "voice2": "oris", "note_es": "la « t » de cent SE OYE ante vocal (cent euros = « cent-t-euros ») pero DESAPARECE ante consonante (cent personnes)."}
+    {
+      "id": "L04-combien",
+      "fr": "c'est combien ?",
+      "es": "¿cuánto es?",
+      "en": "how much is it?",
+      "ipa": "sɛ kɔ̃bjɛ̃",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "C'est combien, la glace ?",
+      "voice": "emilie",
+      "audio": "L04-combien"
+    },
+    {
+      "id": "L04-euros",
+      "fr": "euros",
+      "es": "euros",
+      "en": "euros",
+      "ipa": "øʁo",
+      "pos": "noun",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "C'est huit euros.",
+      "voice": "oris",
+      "audio": "L04-euros"
+    },
+    {
+      "id": "L04-un",
+      "fr": "un",
+      "es": "uno",
+      "en": "one",
+      "ipa": "ɛ̃",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "un café",
+      "voice": "oris",
+      "audio": "L04-num-un"
+    },
+    {
+      "id": "L04-deux",
+      "fr": "deux",
+      "es": "dos",
+      "en": "two",
+      "ipa": "dø",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "deux glaces, s'il vous plaît",
+      "voice": "emilie",
+      "audio": "L04-deux"
+    },
+    {
+      "id": "L04-trois",
+      "fr": "trois",
+      "es": "tres",
+      "en": "three",
+      "ipa": "tʁwa",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "trois euros",
+      "voice": "oris",
+      "audio": "L04-trois"
+    },
+    {
+      "id": "L04-quatre",
+      "fr": "quatre",
+      "es": "cuatro",
+      "en": "four",
+      "ipa": "katʁ",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "quatre euros",
+      "voice": "emilie",
+      "audio": "L04-quatre"
+    },
+    {
+      "id": "L04-cinq",
+      "fr": "cinq",
+      "es": "cinco",
+      "en": "five",
+      "ipa": "sɛ̃k",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "cinq euros",
+      "voice": "oris",
+      "audio": "L04-cinq"
+    },
+    {
+      "id": "L04-six",
+      "fr": "six",
+      "es": "seis",
+      "en": "six",
+      "ipa": "sis",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "six heures",
+      "voice": "emilie",
+      "audio": "L04-six"
+    },
+    {
+      "id": "L04-sept",
+      "fr": "sept",
+      "es": "siete",
+      "en": "seven",
+      "ipa": "sɛt",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "sept euros",
+      "voice": "oris",
+      "audio": "L04-sept"
+    },
+    {
+      "id": "L04-huit",
+      "fr": "huit",
+      "es": "ocho",
+      "en": "eight",
+      "ipa": "ɥit",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "huit euros",
+      "voice": "emilie",
+      "audio": "L04-huit"
+    },
+    {
+      "id": "L04-neuf",
+      "fr": "neuf",
+      "es": "nueve",
+      "en": "nine",
+      "ipa": "nœf",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "neuf euros",
+      "voice": "oris",
+      "audio": "L04-neuf"
+    },
+    {
+      "id": "L04-dix",
+      "fr": "dix",
+      "es": "diez",
+      "en": "ten",
+      "ipa": "dis",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "dix euros",
+      "voice": "emilie",
+      "audio": "L04-dix"
+    },
+    {
+      "id": "L04-vingt",
+      "fr": "vingt",
+      "es": "veinte",
+      "en": "twenty",
+      "ipa": "vɛ̃",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "vingt euros",
+      "voice": "oris",
+      "audio": "L04-vingt"
+    },
+    {
+      "id": "L04-trente",
+      "fr": "trente",
+      "es": "treinta",
+      "en": "thirty",
+      "ipa": "tʁɑ̃t",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "trente euros",
+      "voice": "emilie",
+      "audio": "L04-trente"
+    },
+    {
+      "id": "L04-cinquante",
+      "fr": "cinquante",
+      "es": "cincuenta",
+      "en": "fifty",
+      "ipa": "sɛ̃kɑ̃t",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "cinquante euros",
+      "voice": "oris",
+      "audio": "L04-cinquante"
+    },
+    {
+      "id": "L04-soixante",
+      "fr": "soixante",
+      "es": "sesenta",
+      "en": "sixty",
+      "ipa": "swasɑ̃t",
+      "pos": "num",
+      "cognate_type": "non_cognate",
+      "ex": "soixante euros",
+      "voice": "emilie",
+      "audio": "L04-soixante"
+    },
+    {
+      "id": "L04-soixantedix",
+      "fr": "soixante-dix",
+      "es": "setenta (60+10)",
+      "en": "seventy",
+      "ipa": "swasɑ̃t dis",
+      "pos": "num",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "soixante-dix euros",
+      "voice": "oris",
+      "audio": "L04-soixantedix"
+    },
+    {
+      "id": "L04-quatrevingts",
+      "fr": "quatre-vingts",
+      "es": "ochenta (4×20)",
+      "en": "eighty",
+      "ipa": "katʁə vɛ̃",
+      "pos": "num",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "quatre-vingts euros",
+      "voice": "emilie",
+      "audio": "L04-quatrevingts"
+    },
+    {
+      "id": "L04-quatrevingtdix",
+      "fr": "quatre-vingt-dix",
+      "es": "noventa (4×20+10)",
+      "en": "ninety",
+      "ipa": "katʁə vɛ̃ dis",
+      "pos": "num",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "quatre-vingt-dix euros",
+      "voice": "oris",
+      "audio": "L04-quatrevingtdix"
+    },
+    {
+      "id": "L04-cent",
+      "fr": "cent",
+      "es": "cien",
+      "en": "one hundred",
+      "ipa": "sɑ̃",
+      "pos": "num",
+      "cognate_type": "semi",
+      "ex": "cent euros",
+      "voice": "emilie",
+      "audio": "L04-cent",
+      "ex2": "cent personnes",
+      "audio2": "L04-cent2",
+      "voice2": "oris",
+      "note_es": "la « t » de cent SE OYE ante vocal (cent euros = « cent-t-euros ») pero DESAPARECE ante consonante (cent personnes)."
+    }
   ],
   "sentences": [
-    {"id": "L04-s01", "register": "parle", "fr": "C'est combien, la socca ?", "es": "¿Cuánto es la socca?", "en": "How much is the socca?", "voice": "emilie", "audio": "L04-s01"},
-    {"id": "L04-s02", "register": "parle", "fr": "Deux glaces, s'il vous plaît. C'est six euros.", "es": "Dos helados, por favor. Son seis euros.", "en": "Two ice creams, please. That's six euros.", "voice": "oris", "audio": "L04-s02"},
-    {"id": "L04-s03", "register": "parle", "fr": "Ça fait trois euros cinquante.", "es": "Son tres euros con cincuenta.", "en": "That comes to three fifty.", "voice": "emilie", "audio": "L04-s03", "gloss": "ça fait… = eso hace/da… (para totales)"},
-    {"id": "L04-s04", "register": "parle", "fr": "J'ai seize ans.", "es": "Tengo dieciséis años.", "en": "I'm sixteen.", "voice": "emilie", "audio": "L04-s04", "gloss": "la edad se dice con avoir: j'ai … ans"}
+    {
+      "id": "L04-s01",
+      "register": "parle",
+      "fr": "C'est combien, la socca ?",
+      "es": "¿Cuánto es la socca?",
+      "en": "How much is the socca?",
+      "voice": "emilie",
+      "audio": "L04-s01"
+    },
+    {
+      "id": "L04-s02",
+      "register": "parle",
+      "fr": "Deux glaces, s'il vous plaît. C'est six euros.",
+      "es": "Dos helados, por favor. Son seis euros.",
+      "en": "Two ice creams, please. That's six euros.",
+      "voice": "oris",
+      "audio": "L04-s02"
+    },
+    {
+      "id": "L04-s03",
+      "register": "parle",
+      "fr": "Ça fait trois euros cinquante.",
+      "es": "Son tres euros con cincuenta.",
+      "en": "That comes to three fifty.",
+      "voice": "emilie",
+      "audio": "L04-s03",
+      "gloss": "ça fait… = eso hace/da… (para totales)"
+    },
+    {
+      "id": "L04-s04",
+      "register": "parle",
+      "fr": "J'ai seize ans.",
+      "es": "Tengo dieciséis años.",
+      "en": "I'm sixteen.",
+      "voice": "emilie",
+      "audio": "L04-s04",
+      "gloss": "la edad se dice con avoir: j'ai … ans"
+    }
   ]
 }

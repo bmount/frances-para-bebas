@@ -2,13 +2,13 @@
   "id": "L02",
   "order": 2,
   "slug": "avoir",
-  "title": "Avoir — to have",
+  "title": "Avoir",
   "es_title": "El verbo « avoir » (tener / haber)",
-  "focus": "Your second verb across every spoken tense — plus « il y a », the phrase you'll use twenty times a day in Nice. Every sample is a full sentence.",
+  "focus": "Tu segundo verbo en todos los tiempos hablados — más « il y a », la frase que usarás veinte veces al día en Nice. Cada ejemplo es una frase completa.",
   "objectives": [
-    "Conjugate avoir in the present (spoken forms).",
-    "Use « il y a » = there is / there are.",
-    "Recognize avoir across the tenses, and ask for things politely."
+    "Conjugar « avoir » en presente (formas habladas).",
+    "Usar « il y a » = hay.",
+    "Reconocer « avoir » en los distintos tiempos, y pedir cosas con cortesía."
   ],
   "grammar": {
     "intro_es": "« avoir » es tener (y el auxiliar « haber »). Otra vez: lo rodeamos de cognados y frases completas, así que lo único nuevo es el verbo. « il y a » = hay: oro puro para viajar.",
@@ -142,10 +142,10 @@
       }
     ],
     "spoken_notes": [
-      "il y a = there is / there are (both!). Fast speech: « y a un resto ».",
-      "j'ai (never « je ai ») — je drops its e before a vowel: j'ai, j'aime.",
-      "Liaison: nous avons → « nou-ZAVON », ils ont → « il-ZON » (vs ils sont → « il-SON »!).",
-      "Possession = avoir; existence = il y a, not « est »."
+      "« il y a » = hay (¡singular y plural!). Habla rápida: « y a un resto ».",
+      "« j'ai » (nunca « je ai ») — je pierde su e ante vocal: j'ai, j'aime.",
+      "Liaison: nous avons → « nu-ZAVON », ils ont → « il-ZON » (¡vs ils sont → « il-SON »!).",
+      "Posesión = avoir; existencia = il y a, no « est »."
     ]
   },
   "vocab": [

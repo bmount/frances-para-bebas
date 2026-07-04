@@ -11,38 +11,147 @@
     "Anclarlo a tu imperfecto español."
   ],
   "reader": [
-    {"t": "lead", "html": "El imparfait es tu <b>brocha para pintar el fondo</b>: cómo era la vida, qué solías hacer, qué clima hacía mientras todo lo demás pasaba. Sin él, tus historias son esqueleto sin ambiente."},
-    {"t": "h3", "text": "¿Cuándo?"},
-    {"t": "p", "html": "Para <b>costumbre, descripción y estado</b>: <span class='fr'>il faisait beau</span> (hacía buen tiempo), <span class='fr'>j'étais fatiguée</span> (estaba cansada), <span class='fr'>on allait souvent à la plage</span>. Y las terminaciones <span class='fr'>-ais, -ait, -aient</span> suenan TODAS igual: /ɛ/ — regalo."},
-    {"t": "h3", "text": "El dúo con passé composé"},
-    {"t": "p", "html": "El truco pro: imparfait pinta el fondo, passé composé es lo que pasó de golpe."},
-    {"t": "maps", "rows": [
-      {"es": "fondo: yo comía tranquila…", "fr": "Je mangeais une glace…"},
-      {"es": "…¡pum! evento", "fr": "…quand j'ai vu Marie."}
-    ]},
-    {"t": "h3", "text": "Tu ancla"},
-    {"t": "p", "html": "Esto ES tu <b>imperfecto</b> español: hablaba, era, hacía. Ya lo sientes en el cuerpo — solo cámbiale el disfraz: hablaba → <span class='fr'>je parlais</span>, era → <span class='fr'>j'étais</span>, hacía → <span class='fr'>il faisait</span>."},
-    {"t": "h3", "text": "En la calle"},
-    {"t": "p", "html": "<span class='fr'>«&nbsp;Le matin à Nice, il faisait déjà chaud, la mer était calme, et on achetait des croissants.&nbsp;»</span> Así eran las mañanas — y sí, ya las extrañas."}
+    {
+      "t": "h3",
+      "text": "La vie comme elle était"
+    },
+    {
+      "t": "pair",
+      "fr": "L'imparfait décrit comment la vie était : le décor, l'ambiance, la routine.",
+      "es": "El imperfecto describe cómo la vida era: el decorado, el ambiente, la rutina."
+    },
+    {
+      "t": "pair",
+      "fr": "Il faisait beau à Nice, la mer brillait, et moi, j'étais fatiguée mais contente.",
+      "es": "Hacía buen tiempo en Niza, el mar brillaba, y yo, estaba cansada pero contenta."
+    },
+    {
+      "t": "h3",
+      "text": "Les habitudes, la douce répétition"
+    },
+    {
+      "t": "pair",
+      "fr": "On allait souvent à la plage, on mangeait une glace, on observait les touristes.",
+      "es": "Íbamos a menudo a la playa, comíamos un helado, observábamos a los turistas."
+    },
+    {
+      "t": "h3",
+      "text": "Le duo dramatique"
+    },
+    {
+      "t": "pair",
+      "fr": "L'imparfait prépare la scène ; le passé composé arrive comme l'événement soudain.",
+      "es": "El imperfecto prepara la escena; el passé composé llega como el evento súbito."
+    },
+    {
+      "t": "pair",
+      "fr": "Je marchais tranquillement sur la Promenade… et une mouette a attaqué ma socca !",
+      "es": "Caminaba tranquilamente por la Promenade… ¡y una gaviota atacó mi socca!"
+    },
+    {
+      "t": "h3",
+      "text": "Ton ancre secrète"
+    },
+    {
+      "t": "pair",
+      "fr": "C'est exactement ton imperfecto espagnol : hablaba, era, hacía — je parlais, j'étais, il faisait.",
+      "es": "Es exactamente tu imperfecto español: hablaba, era, hacía — yo hablaba, yo era, hacía."
+    }
   ],
   "grammar": {
     "intro_es": "« être » en imparfait — el rey de la descripción (j'étais, c'était…). Todos los imparfait usan -ais/-ait/-aient.",
     "conjugation": {
-      "verb": "être (imparfait)", "en": "to be (past-descriptive)", "es": "ser/estar (imperfecto)",
+      "verb": "être (imparfait)",
+      "en": "to be (past-descriptive)",
+      "es": "ser/estar (imperfecto)",
       "present": [
-        {"pron": "j'",            "form": "étais",   "ipa": "ʒetɛ",   "es": "era / estaba",  "ex": "J'étais à la plage.",     "audio": "L09-c-je"},
-        {"pron": "tu",            "form": "étais",   "ipa": "ty etɛ", "es": "eras / estabas","ex": "Tu étais où ?",           "audio": "L09-c-tu"},
-        {"pron": "il / elle / on","form": "était",   "ipa": "il etɛ", "es": "era / estaba",  "ex": "C'était magnifique !",    "audio": "L09-c-il"},
-        {"pron": "nous",          "form": "étions",  "ipa": "nu zetjɔ̃","es": "éramos",       "ex": "—",                       "audio": "L09-c-nous"},
-        {"pron": "vous",          "form": "étiez",   "ipa": "vu zetje","es": "eran",          "ex": "Vous étiez à Nice ?",     "audio": "L09-c-vous"},
-        {"pron": "ils / elles",   "form": "étaient", "ipa": "il zetɛ","es": "eran / estaban","ex": "Ils étaient contents.",   "audio": "L09-c-ils"}
+        {
+          "pron": "j'",
+          "form": "étais",
+          "ipa": "ʒetɛ",
+          "es": "era / estaba",
+          "ex": "J'étais à la plage.",
+          "audio": "L09-c-je"
+        },
+        {
+          "pron": "tu",
+          "form": "étais",
+          "ipa": "ty etɛ",
+          "es": "eras / estabas",
+          "ex": "Tu étais où ?",
+          "audio": "L09-c-tu"
+        },
+        {
+          "pron": "il / elle / on",
+          "form": "était",
+          "ipa": "il etɛ",
+          "es": "era / estaba",
+          "ex": "C'était magnifique !",
+          "audio": "L09-c-il"
+        },
+        {
+          "pron": "nous",
+          "form": "étions",
+          "ipa": "nu zetjɔ̃",
+          "es": "éramos",
+          "ex": "—",
+          "audio": "L09-c-nous"
+        },
+        {
+          "pron": "vous",
+          "form": "étiez",
+          "ipa": "vu zetje",
+          "es": "eran",
+          "ex": "Vous étiez à Nice ?",
+          "audio": "L09-c-vous"
+        },
+        {
+          "pron": "ils / elles",
+          "form": "étaient",
+          "ipa": "il zetɛ",
+          "es": "eran / estaban",
+          "ex": "Ils étaient contents.",
+          "audio": "L09-c-ils"
+        }
       ]
     },
     "tenses": [
-      {"tense": "uso: clima", "status": "teach", "label_es": "el tiempo/clima", "ex": "Il faisait beau et chaud.", "es": "Hacía sol y calor.", "en": "It was sunny and warm.", "audio": "L09-t-meteo"},
-      {"tense": "uso: costumbre", "status": "teach", "label_es": "lo que solías hacer", "ex": "On allait souvent à la plage.", "es": "Íbamos seguido a la playa.", "en": "We often went to the beach.", "audio": "L09-t-habit"},
-      {"tense": "uso: descripción", "status": "teach", "label_es": "cómo era todo", "ex": "La mer était calme.", "es": "El mar estaba tranquilo.", "en": "The sea was calm.", "audio": "L09-t-descr"},
-      {"tense": "el dúo", "status": "teach", "label_es": "fondo (imp) + evento (PC)", "ex": "Je mangeais une glace quand j'ai vu Marie.", "es": "Comía un helado cuando vi a María.", "en": "I was eating an ice cream when I saw Marie.", "audio": "L09-t-duo"}
+      {
+        "tense": "uso: clima",
+        "status": "teach",
+        "label_es": "el tiempo/clima",
+        "ex": "Il faisait beau et chaud.",
+        "es": "Hacía sol y calor.",
+        "en": "It was sunny and warm.",
+        "audio": "L09-t-meteo"
+      },
+      {
+        "tense": "uso: costumbre",
+        "status": "teach",
+        "label_es": "lo que solías hacer",
+        "ex": "On allait souvent à la plage.",
+        "es": "Íbamos seguido a la playa.",
+        "en": "We often went to the beach.",
+        "audio": "L09-t-habit"
+      },
+      {
+        "tense": "uso: descripción",
+        "status": "teach",
+        "label_es": "cómo era todo",
+        "ex": "La mer était calme.",
+        "es": "El mar estaba tranquilo.",
+        "en": "The sea was calm.",
+        "audio": "L09-t-descr"
+      },
+      {
+        "tense": "el dúo",
+        "status": "teach",
+        "label_es": "fondo (imp) + evento (PC)",
+        "ex": "Je mangeais une glace quand j'ai vu Marie.",
+        "es": "Comía un helado cuando vi a María.",
+        "en": "I was eating an ice cream when I saw Marie.",
+        "audio": "L09-t-duo"
+      }
     ],
     "spoken_notes": [
       "-ais, -ais, -ait, -aient suenan todos /ɛ/. Solo -ions/-iez cambian.",
@@ -52,21 +161,174 @@
     ]
   },
   "vocab": [
-    {"id": "L09-avant", "fr": "avant", "es": "antes", "en": "before", "ipa": "avɑ̃", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "Avant, c'était différent.", "voice": "emilie", "audio": "L09-avant"},
-    {"id": "L09-souvent", "fr": "souvent", "es": "a menudo / seguido", "en": "often", "ipa": "suvɑ̃", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "On allait souvent à la plage.", "voice": "oris", "audio": "L09-souvent"},
-    {"id": "L09-cetait", "fr": "c'était", "es": "era / estaba / fue", "en": "it was", "ipa": "setɛ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "C'était magnifique !", "voice": "emilie", "audio": "L09-cetait"},
-    {"id": "L09-ilyavait", "fr": "il y avait", "es": "había", "en": "there was/were", "ipa": "il i avɛ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Il y avait beaucoup de monde.", "voice": "oris", "audio": "L09-ilyavait"},
-    {"id": "L09-ilfaisait", "fr": "il faisait beau", "es": "hacía buen tiempo", "en": "the weather was nice", "ipa": "il fəzɛ bo", "pos": "phrase", "cognate_type": "non_cognate", "ex": "Il faisait beau à Nice.", "voice": "emilie", "audio": "L09-ilfaisait"},
-    {"id": "L09-javais", "fr": "j'avais", "es": "yo tenía", "en": "I had", "ipa": "ʒavɛ", "pos": "verb", "cognate_type": "non_cognate", "ex": "J'avais faim.", "voice": "oris", "audio": "L09-javais"},
-    {"id": "L09-jallais", "fr": "j'allais", "es": "yo iba / solía ir", "en": "I used to go", "ipa": "ʒalɛ", "pos": "verb", "cognate_type": "non_cognate", "ex": "J'allais à la plage tous les jours.", "voice": "emilie", "audio": "L09-jallais"},
-    {"id": "L09-quand", "fr": "quand", "es": "cuando", "en": "when", "ipa": "kɑ̃", "pos": "conj", "cognate_type": "non_cognate", "star": true, "ex": "Quand j'étais à Nice…", "voice": "oris", "audio": "L09-quand"},
-    {"id": "L09-toujours", "fr": "toujours", "es": "siempre", "en": "always", "ipa": "tuʒuʁ", "pos": "adv", "cognate_type": "non_cognate", "ex": "Il faisait toujours beau.", "voice": "emilie", "audio": "L09-toujours"},
-    {"id": "L09-calme", "fr": "calme", "es": "tranquilo / calmado", "en": "calm", "ipa": "kalm", "pos": "adj", "epicene": true, "cognate_type": "transparent", "ex": "La mer était calme.", "voice": "oris", "audio": "L09-calme"}
+    {
+      "id": "L09-avant",
+      "fr": "avant",
+      "es": "antes",
+      "en": "before",
+      "ipa": "avɑ̃",
+      "pos": "adv",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Avant, c'était différent.",
+      "voice": "emilie",
+      "audio": "L09-avant"
+    },
+    {
+      "id": "L09-souvent",
+      "fr": "souvent",
+      "es": "a menudo / seguido",
+      "en": "often",
+      "ipa": "suvɑ̃",
+      "pos": "adv",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "On allait souvent à la plage.",
+      "voice": "oris",
+      "audio": "L09-souvent"
+    },
+    {
+      "id": "L09-cetait",
+      "fr": "c'était",
+      "es": "era / estaba / fue",
+      "en": "it was",
+      "ipa": "setɛ",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "C'était magnifique !",
+      "voice": "emilie",
+      "audio": "L09-cetait"
+    },
+    {
+      "id": "L09-ilyavait",
+      "fr": "il y avait",
+      "es": "había",
+      "en": "there was/were",
+      "ipa": "il i avɛ",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Il y avait beaucoup de monde.",
+      "voice": "oris",
+      "audio": "L09-ilyavait"
+    },
+    {
+      "id": "L09-ilfaisait",
+      "fr": "il faisait beau",
+      "es": "hacía buen tiempo",
+      "en": "the weather was nice",
+      "ipa": "il fəzɛ bo",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "ex": "Il faisait beau à Nice.",
+      "voice": "emilie",
+      "audio": "L09-ilfaisait"
+    },
+    {
+      "id": "L09-javais",
+      "fr": "j'avais",
+      "es": "yo tenía",
+      "en": "I had",
+      "ipa": "ʒavɛ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "ex": "J'avais faim.",
+      "voice": "oris",
+      "audio": "L09-javais"
+    },
+    {
+      "id": "L09-jallais",
+      "fr": "j'allais",
+      "es": "yo iba / solía ir",
+      "en": "I used to go",
+      "ipa": "ʒalɛ",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "ex": "J'allais à la plage tous les jours.",
+      "voice": "emilie",
+      "audio": "L09-jallais"
+    },
+    {
+      "id": "L09-quand",
+      "fr": "quand",
+      "es": "cuando",
+      "en": "when",
+      "ipa": "kɑ̃",
+      "pos": "conj",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Quand j'étais à Nice…",
+      "voice": "oris",
+      "audio": "L09-quand"
+    },
+    {
+      "id": "L09-toujours",
+      "fr": "toujours",
+      "es": "siempre",
+      "en": "always",
+      "ipa": "tuʒuʁ",
+      "pos": "adv",
+      "cognate_type": "non_cognate",
+      "ex": "Il faisait toujours beau.",
+      "voice": "emilie",
+      "audio": "L09-toujours"
+    },
+    {
+      "id": "L09-calme",
+      "fr": "calme",
+      "es": "tranquilo / calmado",
+      "en": "calm",
+      "ipa": "kalm",
+      "pos": "adj",
+      "epicene": true,
+      "cognate_type": "transparent",
+      "ex": "La mer était calme.",
+      "voice": "oris",
+      "audio": "L09-calme"
+    }
   ],
   "sentences": [
-    {"id": "L09-s01", "tense": "imparfait + PC", "register": "parle", "fr": "Je mangeais une glace quand j'ai vu Marie.", "es": "Comía un helado cuando vi a María.", "en": "I was eating an ice cream when I saw Marie.", "voice": "emilie", "audio": "L09-s01", "gloss": "fondo (imparfait) + evento (passé composé)"},
-    {"id": "L09-s02", "tense": "imparfait", "register": "parle", "fr": "Le matin, il faisait déjà chaud et la mer était calme.", "es": "Por la mañana ya hacía calor y el mar estaba tranquilo.", "en": "In the morning it was already hot and the sea was calm.", "voice": "oris", "audio": "L09-s02"},
-    {"id": "L09-s03", "tense": "imparfait", "register": "parle", "fr": "Avant, il y avait un marché ici. Maintenant, c'est un café.", "es": "Antes había un mercado aquí. Ahora es un café.", "en": "There used to be a market here. Now it's a café.", "voice": "emilie", "audio": "L09-s03"},
-    {"id": "L09-s04", "tense": "imparfait", "register": "parle", "fr": "Quand j'étais à Nice, j'allais souvent à la plage.", "es": "Cuando estaba en Niza, iba seguido a la playa.", "en": "When I was in Nice, I often went to the beach.", "voice": "oris", "audio": "L09-s04"}
+    {
+      "id": "L09-s01",
+      "tense": "imparfait + PC",
+      "register": "parle",
+      "fr": "Je mangeais une glace quand j'ai vu Marie.",
+      "es": "Comía un helado cuando vi a María.",
+      "en": "I was eating an ice cream when I saw Marie.",
+      "voice": "emilie",
+      "audio": "L09-s01",
+      "gloss": "fondo (imparfait) + evento (passé composé)"
+    },
+    {
+      "id": "L09-s02",
+      "tense": "imparfait",
+      "register": "parle",
+      "fr": "Le matin, il faisait déjà chaud et la mer était calme.",
+      "es": "Por la mañana ya hacía calor y el mar estaba tranquilo.",
+      "en": "In the morning it was already hot and the sea was calm.",
+      "voice": "oris",
+      "audio": "L09-s02"
+    },
+    {
+      "id": "L09-s03",
+      "tense": "imparfait",
+      "register": "parle",
+      "fr": "Avant, il y avait un marché ici. Maintenant, c'est un café.",
+      "es": "Antes había un mercado aquí. Ahora es un café.",
+      "en": "There used to be a market here. Now it's a café.",
+      "voice": "emilie",
+      "audio": "L09-s03"
+    },
+    {
+      "id": "L09-s04",
+      "tense": "imparfait",
+      "register": "parle",
+      "fr": "Quand j'étais à Nice, j'allais souvent à la plage.",
+      "es": "Cuando estaba en Niza, iba seguido a la playa.",
+      "en": "When I was in Nice, I often went to the beach.",
+      "voice": "oris",
+      "audio": "L09-s04"
+    }
   ]
 }
