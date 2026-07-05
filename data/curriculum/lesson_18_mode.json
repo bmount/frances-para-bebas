@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "En France, on porte le style comme une seconde personnalité. Je porte, tu portes, elle porte : c'est le verbe essentiel de la mode.",
-      "es": "En Francia, se lleva el estilo como una segunda personalidad. Yo llevo, tú llevas, ella lleva: es el verbo esencial de la moda."
+      "es": "En Francia, se lleva el estilo como una segunda personalidad. Yo llevo, tú llevas, ella lleva: es el verbo esencial de la moda.",
+      "en": "In France, you wear your style like a second personality. I wear, you wear, she wears: it's the essential verb of fashion."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Dans ton armoire, il y a une robe, une jupe, un pantalon et un t-shirt. Pour les jours frais, un pull et une veste : simple, pratique, parfait.",
-      "es": "En tu armario, hay un vestido, una falda, un pantalón y una camiseta. Para los días frescos, un suéter y una chaqueta: simple, práctico, perfecto."
+      "es": "En tu armario, hay un vestido, una falda, un pantalón y una camiseta. Para los días frescos, un suéter y una chaqueta: simple, práctico, perfecto.",
+      "en": "In your closet, there's a dress, a skirt, a pair of pants and a t-shirt. For cool days, a sweater and a jacket: simple, practical, perfect."
     },
     {
       "t": "h3",
@@ -36,7 +38,8 @@
     {
       "t": "pair",
       "fr": "Des chaussures élégantes pour les occasions importantes, des baskets pour le reste de ton existence.",
-      "es": "Unos zapatos elegantes para las ocasiones importantes, unas zapatillas para el resto de tu existencia."
+      "es": "Unos zapatos elegantes para las ocasiones importantes, unas zapatillas para el resto de tu existencia.",
+      "en": "Elegant shoes for the important occasions, sneakers for the rest of your existence."
     },
     {
       "t": "h3",
@@ -45,7 +48,8 @@
     {
       "t": "pair",
       "fr": "Pour la plage, l'uniforme officiel : un maillot de bain, des lunettes de soleil, un chapeau et un grand sac. Le soleil de Nice ne pardonne pas.",
-      "es": "Para la playa, el uniforme oficial: un traje de baño, unas gafas de sol, un sombrero y un bolso grande. El sol de Niza no perdona."
+      "es": "Para la playa, el uniforme oficial: un traje de baño, unas gafas de sol, un sombrero y un bolso grande. El sol de Niza no perdona.",
+      "en": "For the beach, the official uniform: a swimsuit, sunglasses, a hat and a big bag. The Nice sun does not forgive."
     },
     {
       "t": "h3",
@@ -54,7 +58,8 @@
     {
       "t": "pair",
       "fr": "Pour un dîner élégant sur la Promenade, tu portes ta robe la plus chic. À Nice, être à la mode n'est pas une option, c'est une obligation.",
-      "es": "Para una cena elegante en el Paseo, llevas tu vestido más chic. En Niza, estar a la moda no es una opción, es una obligación."
+      "es": "Para una cena elegante en el Paseo, llevas tu vestido más chic. En Niza, estar a la moda no es una opción, es una obligación.",
+      "en": "For an elegant dinner on the Promenade, you wear your chicest dress. In Nice, being fashionable isn't an option, it's an obligation."
     }
   ],
   "vocab": [

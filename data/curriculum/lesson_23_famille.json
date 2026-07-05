@@ -1,0 +1,39 @@
+{
+  "id": "L23", "order": 23, "slug": "famille",
+  "title": "La famille", "es_title": "La familia (y mon/ma/mes)",
+  "focus": "La familia — mère, père, frère, sœur… y los posesivos mon/ma/mes, que funcionan como mi/mis.",
+  "objectives": ["Nombrar a la familia.", "Usar mon / ma / mes (como mi/mis).", "Presentar a los tuyos."],
+  "reader": [
+    {"t": "h3", "text": "Bonjour, ma famille !"},
+    {"t": "pair", "fr": "Ma famille adore la ville de Nice. Mes parents préparent un grand dîner sur la terrasse.", "es": "Mi familia adora la ciudad de Niza. Mis padres preparan una gran cena en la terraza.", "en": "My family loves the city of Nice. My parents are making a big dinner on the terrace."},
+    {"t": "h3", "text": "Ma mère et mon père"},
+    {"t": "pair", "fr": "Ma mère prépare une salade et mon père prépare la limonade. Mes parents sont adorables !", "es": "Mi madre prepara una ensalada y mi padre prepara la limonada. ¡Mis padres son adorables!", "en": "My mom is making a salad and my dad is making lemonade. My parents are adorable!"},
+    {"t": "h3", "text": "Mon frère et ma sœur"},
+    {"t": "pair", "fr": "Mon frère prépare la table et ma sœur décore avec des fleurs.", "es": "Mi hermano prepara la mesa y mi hermana decora con flores.", "en": "My brother sets the table and my sister decorates with flowers."},
+    {"t": "h3", "text": "Grand-mère et grand-père"},
+    {"t": "pair", "fr": "Ma grand-mère arrive avec une tarte délicieuse. Mon grand-père raconte une histoire de la famille.", "es": "Mi abuela llega con una tarta deliciosa. Mi abuelo cuenta una historia de la familia.", "en": "My grandma arrives with a delicious tart. My grandpa tells a family story."},
+    {"t": "h3", "text": "Oncle, tante et cousins"},
+    {"t": "pair", "fr": "Mon oncle et ma tante arrivent avec mon cousin et ma cousine. Toute la famille est ensemble !", "es": "Mi tío y mi tía llegan con mi primo y mi prima. ¡Toda la familia está junta!", "en": "My uncle and aunt arrive with my (boy) cousin and my (girl) cousin. The whole family is together!"}
+  ],
+  "vocab": [
+    {"id": "L23-mere", "fr": "la mère", "es": "la madre", "en": "the mother", "ipa": "la mɛʁ", "pos": "noun", "gender": "f", "cognate_type": "semi", "star": true, "ex": "Ma mère est médecin.", "voice": "emilie", "audio": "L23-mere"},
+    {"id": "L23-pere", "fr": "le père", "es": "el padre", "en": "the father", "ipa": "lə pɛʁ", "pos": "noun", "gender": "m", "cognate_type": "semi", "star": true, "ex": "Mon père est cuisinier.", "voice": "oris", "audio": "L23-pere"},
+    {"id": "L23-parents", "fr": "les parents", "es": "los padres", "en": "the parents", "ipa": "le paʁɑ̃", "pos": "noun", "gender": "m", "cognate_type": "transparent", "star": true, "ex": "Mes parents sont à Nice.", "voice": "emilie", "audio": "L23-parents"},
+    {"id": "L23-frere", "fr": "le frère", "es": "el hermano", "en": "the brother", "ipa": "lə fʁɛʁ", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "star": true, "ex": "Mon frère a quinze ans.", "voice": "oris", "audio": "L23-frere"},
+    {"id": "L23-soeur", "fr": "la sœur", "es": "la hermana", "en": "the sister", "ipa": "la sœʁ", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "star": true, "ex": "Ma sœur adore la plage.", "voice": "emilie", "audio": "L23-soeur"},
+    {"id": "L23-grandmere", "fr": "la grand-mère", "es": "la abuela", "en": "the grandmother", "ipa": "la ɡʁɑ̃ mɛʁ", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "ex": "Ma grand-mère a cent ans.", "voice": "oris", "audio": "L23-grandmere"},
+    {"id": "L23-grandpere", "fr": "le grand-père", "es": "el abuelo", "en": "the grandfather", "ipa": "lə ɡʁɑ̃ pɛʁ", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "Mon grand-père raconte des histoires.", "voice": "emilie", "audio": "L23-grandpere"},
+    {"id": "L23-oncle", "fr": "l'oncle", "es": "el tío", "en": "the uncle", "ipa": "lɔ̃kl", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "Mon oncle habite à Paris.", "voice": "oris", "audio": "L23-oncle"},
+    {"id": "L23-tante", "fr": "la tante", "es": "la tía", "en": "the aunt", "ipa": "la tɑ̃t", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "ex": "Ma tante est très drôle.", "voice": "emilie", "audio": "L23-tante"},
+    {"id": "L23-cousin", "fr_m": "un cousin", "fr_f": "une cousine", "es": "un primo / una prima", "en": "a cousin", "ipa_m": "ɛ̃ kuzɛ̃", "ipa_f": "yn kuzin", "pos": "noun", "cognate_type": "transparent", "star": true, "ex_m": "Mon cousin arrive demain.", "ex_f": "Ma cousine arrive demain.", "audio_m": "L23-cousin-m", "audio_f": "L23-cousin-f"},
+    {"id": "L23-fils", "fr": "le fils", "es": "el hijo", "en": "the son", "ipa": "lə fis", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "C'est le fils de ma tante.", "voice": "oris", "audio": "L23-fils"},
+    {"id": "L23-fille", "fr": "la fille", "es": "la hija / la chica", "en": "the daughter / girl", "ipa": "la fij", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "star": true, "ex": "C'est la fille de mon oncle.", "voice": "emilie", "audio": "L23-fille"},
+    {"id": "L23-mon", "fr": "mon / ma / mes", "es": "mi / mis", "en": "my", "ipa": "mɔ̃ ma me", "pos": "adj", "cognate_type": "non_cognate", "star": true, "ex": "mon père, ma mère, mes parents", "voice": "oris", "audio": "L23-mon"}
+  ],
+  "sentences": [
+    {"id": "L23-s01", "register": "parle", "fr": "Je te présente ma famille : ma mère, mon père et ma sœur.", "es": "Te presento a mi familia: mi madre, mi padre y mi hermana.", "en": "This is my family: my mom, my dad and my sister.", "voice": "emilie", "audio": "L23-s01"},
+    {"id": "L23-s02", "register": "parle", "fr": "Mon frère et ma sœur sont plus jeunes que moi.", "es": "Mi hermano y mi hermana son más jóvenes que yo.", "en": "My brother and sister are younger than me.", "voice": "oris", "audio": "L23-s02"},
+    {"id": "L23-s03", "register": "parle", "fr": "Toute la famille dîne ensemble sur la terrasse.", "es": "Toda la familia cena junta en la terraza.", "en": "The whole family has dinner together on the terrace.", "voice": "emilie", "audio": "L23-s03"},
+    {"id": "L23-s04", "register": "parle", "fr": "Mes grands-parents habitent près de la mer.", "es": "Mis abuelos viven cerca del mar.", "en": "My grandparents live near the sea.", "voice": "oris", "audio": "L23-s04"}
+  ]
+}

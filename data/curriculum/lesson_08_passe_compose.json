@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Le passé composé est le passé de la conversation : il annonce une action complète, terminée, absolument finie.",
-      "es": "El pasado compuesto es el pasado de la conversación: anuncia una acción completa, terminada, absolutamente acabada."
+      "es": "El pasado compuesto es el pasado de la conversación: anuncia una acción completa, terminada, absolutamente acabada.",
+      "en": "The passé composé is the past tense of conversation: it announces a complete action, finished, absolutely done."
     },
     {
       "t": "h3",
@@ -27,12 +28,14 @@
     {
       "t": "pair",
       "fr": "La formule est simple : tu utilises « avoir » et tu ajoutes le participe passé.",
-      "es": "La fórmula es simple: tú utilizas «haber» y tú añades el participio pasado."
+      "es": "La fórmula es simple: tú utilizas «haber» y tú añades el participio pasado.",
+      "en": "The formula is simple: you use « avoir » and you add the past participle."
     },
     {
       "t": "pair",
       "fr": "Les verbes en -er forment le participe en -é : danser → dansé, visiter → visité, adorer → adoré.",
-      "es": "Los verbos en -er forman el participio en -é: danzar → danzado, visitar → visitado, adorar → adorado."
+      "es": "Los verbos en -er forman el participio en -é: danzar → danzado, visitar → visitado, adorar → adorado.",
+      "en": "The -er verbs form their participle in -é: danser → dansé, visiter → visité, adorer → adoré."
     },
     {
       "t": "h3",
@@ -41,7 +44,8 @@
     {
       "t": "pair",
       "fr": "Hier, j'ai mangé une glace immense sur la Promenade, et j'ai adoré chaque seconde.",
-      "es": "Ayer, he comido un helado inmenso en el Paseo, y he adorado cada segundo."
+      "es": "Ayer, he comido un helado inmenso en el Paseo, y he adorado cada segundo.",
+      "en": "Yesterday, I ate a huge ice cream on the Promenade, and I loved every second."
     },
     {
       "t": "h3",
@@ -50,7 +54,8 @@
     {
       "t": "pair",
       "fr": "Attention : certains verbes de mouvement préfèrent « être », et le participe s'accorde : je suis allé, je suis allée.",
-      "es": "Atención: ciertos verbos de movimiento prefieren «ser», y el participio concuerda: yo he ido, yo he ido (fem.)."
+      "es": "Atención: ciertos verbos de movimiento prefieren «ser», y el participio concuerda: yo he ido, yo he ido (fem.).",
+      "en": "Careful: some verbs of motion prefer « être », and the participle agrees: I went (masc.), I went (fem.)."
     },
     {
       "t": "h3",
@@ -59,7 +64,8 @@
     {
       "t": "pair",
       "fr": "Voilà ton grand secret : le passé composé fonctionne comme ton prétérit espagnol — « j'ai parlé » équivaut à « hablé », « j'ai mangé » équivaut à « comí ».",
-      "es": "He aquí tu gran secreto: el pasado compuesto funciona como tu pretérito español — «j'ai parlé» equivale a «hablé», «j'ai mangé» equivale a «comí»."
+      "es": "He aquí tu gran secreto: el pasado compuesto funciona como tu pretérito español — «j'ai parlé» equivale a «hablé», «j'ai mangé» equivale a «comí».",
+      "en": "Here's your big secret: the passé composé works like your Spanish preterite — « j'ai parlé » is the equivalent of « hablé », « j'ai mangé » is the equivalent of « comí »."
     }
   ],
   "grammar": {

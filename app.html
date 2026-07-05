@@ -122,6 +122,9 @@
   .modetog .mt{flex:1 1 40%;min-width:120px;border:0;border-radius:14px;padding:13px;font-size:15.5px;font-weight:800;cursor:pointer;background:#fff;color:var(--muted);box-shadow:0 6px 16px rgba(6,42,90,.07)}
   .modetog .mt.on{background:linear-gradient(135deg,var(--sea),var(--deep));color:#fff}
   .story{font-size:19px;line-height:1.7;color:#1c2f42;margin:0}
+  .langtog{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 10px}
+  .langb{border:2px solid var(--line);background:#fff;color:var(--muted);border-radius:16px;padding:5px 11px;font-size:12px;font-weight:800;cursor:pointer}
+  .langb.on{border-color:var(--sea);background:var(--sea);color:#fff}
   /* bilingual reader pairs: French over its literal Spanish, visually grouped */
   .reader .pair{margin:0 0 13px;border-left:4px solid var(--sea);border-radius:0 12px 12px 0;overflow:hidden;box-shadow:0 2px 9px rgba(6,42,90,.06)}
   .reader .pair .fr{background:#e8f1fc;color:#0a3d7a;padding:11px 13px;font-size:17.5px;line-height:1.5;font-weight:600}
@@ -157,7 +160,10 @@ async function boot(){
     'data/curriculum/lesson_14_small_talk.json','data/curriculum/lesson_15_vulgarite.json',
     'data/curriculum/lesson_16_verbes_ir_oir.json','data/curriculum/lesson_17_histoire.json',
     'data/curriculum/lesson_18_mode.json','data/curriculum/lesson_19_cuisine.json',
-    'data/curriculum/lesson_20_mythes_religions.json','data/curriculum/lesson_21_prepositions.json'];
+    'data/curriculum/lesson_20_mythes_religions.json','data/curriculum/lesson_21_prepositions.json',
+    'data/curriculum/lesson_22_temps.json','data/curriculum/lesson_23_famille.json',
+    'data/curriculum/lesson_24_meteo.json','data/curriculum/lesson_25_sante.json',
+    'data/curriculum/lesson_26_tech.json'];
   LESSONS=await Promise.all(files.map(f=>fetch(f).then(r=>r.json())));
   route();
 }
@@ -283,9 +289,16 @@ function renderSounds(L){
     <div class="card"><h2>${L.sounds.length} sons · muchos ejemplos</h2>${L.sounds.map(soundCard).join('')}</div>`;
 }
 /* ---------- reading material (connective tissue) ---------- */
+function getLang(){return localStorage.getItem('fpb_lang')||'es';}
+function setLang(l){localStorage.setItem('fpb_lang',l);route();}
 function renderReader(blocks){
-  return blocks.map(b=>{
-    if(b.t==='pair') return `<div class="pair"><div class="fr"><span class="flag">🇫🇷 FR</span>${b.fr}</div><div class="es"><span class="flag">🇪🇸 ES</span>${b.es}</div></div>`;
+  const lang=getLang();
+  const toggle=`<div class="langtog"><span style="color:var(--muted);font-size:12px">traduction :</span>
+    <button class="langb ${lang==='es'?'on':''}" onclick="setLang('es')">🇪🇸 ES</button>
+    <button class="langb ${lang==='en'?'on':''}" onclick="setLang('en')">🇬🇧 EN</button></div>`;
+  const body=blocks.map(b=>{
+    if(b.t==='pair'){const useEn=lang==='en'&&b.en;const tr=useEn?b.en:b.es;
+      return `<div class="pair"><div class="fr"><span class="flag">🇫🇷 FR</span>${b.fr}</div><div class="es"><span class="flag">${useEn?'🇬🇧 EN':'🇪🇸 ES'}</span>${tr}</div></div>`;}
     if(b.t==='lead') return `<p class="lead-in">${b.html}</p>`;
     if(b.t==='h3') return `<h3>${b.text}</h3>`;
     if(b.t==='p') return `<p>${b.html}</p>`;
@@ -293,6 +306,7 @@ function renderReader(blocks){
     if(b.t==='maps') return `<div class="maps">${b.rows.map(r=>`<div class="maprow"><span class="esx">🇪🇸 ${r.es}</span><span class="arw">→</span><span class="frx">${r.fr}</span></div>`).join('')}</div>`;
     return '';
   }).join('');
+  return toggle+body;
 }
 /* ---------- verb lessons ---------- */
 function vocabRow(it){

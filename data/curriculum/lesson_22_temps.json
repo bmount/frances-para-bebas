@@ -1,0 +1,41 @@
+{
+  "id": "L22", "order": 22, "slug": "temps",
+  "title": "Le temps (l'heure)", "es_title": "La hora, los días, los meses",
+  "focus": "La hora, los días y los meses — para trenes, citas y planes. Los meses y varios días son casi idénticos al español.",
+  "objectives": ["Preguntar y decir la hora.", "Los días (lundi/mardi ≈ lunes/martes).", "Los meses (casi cognados) y hier/aujourd'hui/demain."],
+  "reader": [
+    {"t": "h3", "text": "Quelle heure est-il ?"},
+    {"t": "pair", "fr": "« Quelle heure est-il ? » À Nice, la réponse correcte est toujours : l'heure d'un café sur la Promenade.", "es": "«¿Qué hora es?» En Niza, la respuesta correcta es siempre: la hora de un café en la Promenade.", "en": "\"What time is it?\" In Nice, the correct answer is always: time for a coffee on the Promenade."},
+    {"t": "h3", "text": "Midi et minuit"},
+    {"t": "pair", "fr": "À midi, tout le monde mange ; à minuit, tout le monde danse.", "es": "A mediodía, todo el mundo come; a medianoche, todo el mundo baila.", "en": "At noon, everybody eats; at midnight, everybody dances."},
+    {"t": "h3", "text": "Les jours de la semaine"},
+    {"t": "pair", "fr": "Les jours : lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche — en minuscules. Lundi et mardi sont les cousins évidents de lunes et martes.", "es": "Los días: lunes, martes, miércoles, jueves, viernes, sábado, domingo — en minúsculas. Lundi y mardi son los primos evidentes de lunes y martes.", "en": "The days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday — lowercase. Lundi and mardi are obvious cousins of lunes and martes."},
+    {"t": "h3", "text": "Les mois de l'année"},
+    {"t": "pair", "fr": "Les mois sont presque identiques : janvier, février, mars, avril, mai, juin, juillet, août.", "es": "Los meses son casi idénticos: enero, febrero, marzo, abril, mayo, junio, julio, agosto.", "en": "The months are almost identical: January, February, March, April, May, June, July, August."},
+    {"t": "h3", "text": "Hier, aujourd'hui, demain"},
+    {"t": "pair", "fr": "Hier, j'ai étudié ; aujourd'hui, je profite ; demain… on verra.", "es": "Ayer, estudié; hoy, disfruto; mañana… veremos.", "en": "Yesterday I studied; today I'm enjoying myself; tomorrow… we'll see."}
+  ],
+  "vocab": [
+    {"id": "L22-heure", "fr": "quelle heure est-il ?", "es": "¿qué hora es?", "en": "what time is it?", "ipa": "kɛl œʁ ɛ til", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Quelle heure est-il ?", "voice": "emilie", "audio": "L22-heure"},
+    {"id": "L22-midi", "fr": "midi", "es": "mediodía", "en": "noon", "ipa": "midi", "pos": "noun", "cognate_type": "semi", "star": true, "ex": "On mange à midi.", "voice": "oris", "audio": "L22-midi"},
+    {"id": "L22-minuit", "fr": "minuit", "es": "medianoche", "en": "midnight", "ipa": "minɥi", "pos": "noun", "cognate_type": "semi", "ex": "Le film finit à minuit.", "voice": "emilie", "audio": "L22-minuit"},
+    {"id": "L22-jour", "fr": "un jour", "es": "un día", "en": "a day", "ipa": "ɛ̃ ʒuʁ", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "star": true, "ex": "C'est un beau jour.", "voice": "oris", "audio": "L22-jour"},
+    {"id": "L22-semaine", "fr": "une semaine", "es": "una semana", "en": "a week", "ipa": "yn səmɛn", "pos": "noun", "gender": "f", "cognate_type": "transparent", "star": true, "ex": "On reste une semaine à Nice.", "voice": "emilie", "audio": "L22-semaine"},
+    {"id": "L22-lundi", "fr": "lundi", "es": "lunes", "en": "Monday", "ipa": "lœ̃di", "pos": "noun", "cognate_type": "transparent", "star": true, "ex": "Je pars lundi.", "voice": "oris", "audio": "L22-lundi"},
+    {"id": "L22-mardi", "fr": "mardi", "es": "martes", "en": "Tuesday", "ipa": "maʁdi", "pos": "noun", "cognate_type": "transparent", "ex": "Le marché, c'est mardi.", "voice": "emilie", "audio": "L22-mardi"},
+    {"id": "L22-samedi", "fr": "samedi", "es": "sábado", "en": "Saturday", "ipa": "samdi", "pos": "noun", "cognate_type": "semi", "star": true, "ex": "Samedi, on va à la plage.", "voice": "oris", "audio": "L22-samedi"},
+    {"id": "L22-dimanche", "fr": "dimanche", "es": "domingo", "en": "Sunday", "ipa": "dimɑ̃ʃ", "pos": "noun", "cognate_type": "semi", "ex": "Dimanche, je me repose.", "voice": "emilie", "audio": "L22-dimanche"},
+    {"id": "L22-mois", "fr": "un mois", "es": "un mes", "en": "a month", "ipa": "ɛ̃ mwa", "pos": "noun", "gender": "m", "cognate_type": "transparent", "star": true, "ex": "Le mois de juillet est chaud.", "voice": "oris", "audio": "L22-mois"},
+    {"id": "L22-hier", "fr": "hier", "es": "ayer", "en": "yesterday", "ipa": "jɛʁ", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "Hier, il a plu.", "voice": "emilie", "audio": "L22-hier"},
+    {"id": "L22-aujourdhui", "fr": "aujourd'hui", "es": "hoy", "en": "today", "ipa": "oʒuʁdɥi", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "Aujourd'hui, il fait beau.", "voice": "oris", "audio": "L22-aujourdhui"},
+    {"id": "L22-demain", "fr": "demain", "es": "mañana", "en": "tomorrow", "ipa": "dəmɛ̃", "pos": "adv", "cognate_type": "non_cognate", "star": true, "ex": "Demain, on visite Monaco.", "voice": "emilie", "audio": "L22-demain"},
+    {"id": "L22-matin", "fr": "le matin", "es": "la mañana", "en": "the morning", "ipa": "lə matɛ̃", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "Le matin, je cours.", "voice": "oris", "audio": "L22-matin"},
+    {"id": "L22-soir", "fr": "le soir", "es": "la tarde/noche", "en": "the evening", "ipa": "lə swaʁ", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "star": true, "ex": "Le soir, on dîne tard.", "voice": "emilie", "audio": "L22-soir"}
+  ],
+  "sentences": [
+    {"id": "L22-s01", "register": "parle", "fr": "Quelle heure est-il ? — Il est midi.", "es": "¿Qué hora es? — Es mediodía.", "en": "What time is it? — It's noon.", "voice": "oris", "audio": "L22-s01"},
+    {"id": "L22-s02", "register": "parle", "fr": "Le train pour Monaco part à quelle heure ?", "es": "¿A qué hora sale el tren para Mónaco?", "en": "What time does the train to Monaco leave?", "voice": "emilie", "audio": "L22-s02"},
+    {"id": "L22-s03", "register": "parle", "fr": "Aujourd'hui, c'est samedi ; demain, c'est dimanche.", "es": "Hoy es sábado; mañana es domingo.", "en": "Today is Saturday; tomorrow is Sunday.", "voice": "oris", "audio": "L22-s03"},
+    {"id": "L22-s04", "register": "parle", "fr": "On se voit lundi matin, d'accord ?", "es": "Nos vemos el lunes por la mañana, ¿vale?", "en": "See you Monday morning, okay?", "voice": "emilie", "audio": "L22-s04"}
+  ]
+}

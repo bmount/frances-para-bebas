@@ -83,7 +83,7 @@
       <div class="pill"><div class="i">🎧</div><div class="t">Audio + quiz</div><div class="d">Chaque phrase se parle, se teste</div></div>
     </div>
 
-    <h2 class="sec">Le parcours · 21 modules + Chapitre 0</h2>
+    <h2 class="sec">Le parcours · 26 modules + Chapitre 0</h2>
     <div id="map"></div>
 
     <footer>fait avec ❤️ par Papa · <span id="cnt"></span></footer>
@@ -112,6 +112,11 @@ const MODULES=[
   {n:19,t:"La cuisine",d:"socca, fromage, rosé · bon appétit",ready:1},
   {n:20,t:"Mythes & religions",d:"Niké, Sainte-Réparate, la synagogue",ready:1},
   {n:21,t:"Prépositions · y / en",d:"à, de, pour/par · el reflejo y/en",ready:1},
+  {n:22,t:"Le temps — la hora & fechas",d:"quelle heure · jours, mois · demain",ready:1},
+  {n:23,t:"La famille",d:"mère, père, frère · mon/ma/mes",ready:1},
+  {n:24,t:"La météo",d:"il fait beau · il pleut · le mistral",ready:1},
+  {n:25,t:"Le corps & la santé",d:"j'ai mal à… · alergias · végétarienne",ready:1},
+  {n:26,t:"Téléphone & tech",d:"wifi, batterie, chargeur · le code wifi",ready:1},
 ];
 document.getElementById('map').innerHTML=MODULES.map(m=>{
   const tag=m.ready?'<span class="badge on">PRÊT</span>':'<span class="badge soon">bientôt</span>';

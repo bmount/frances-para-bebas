@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "À Nice, la mer est bleue, absolument bleue, scandaleusement bleue.",
-      "es": "En Niza, el mar es azul, absolutamente azul, escandalosamente azul."
+      "es": "En Niza, el mar es azul, absolutamente azul, escandalosamente azul.",
+      "en": "In Nice, the sea is blue, absolutely blue, scandalously blue."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Exactement comme en espagnol, la couleur va après le nom : la mer bleue, le ciel gris, la maison blanche.",
-      "es": "Exactamente como en español, el color va después del nombre: el mar azul, el cielo gris, la casa blanca."
+      "es": "Exactamente como en español, el color va después del nombre: el mar azul, el cielo gris, la casa blanca.",
+      "en": "Exactly like in Spanish, the color goes after the noun: the blue sea, the gray sky, the white house."
     },
     {
       "t": "h3",
@@ -36,7 +38,8 @@
     {
       "t": "pair",
       "fr": "L'adjectif change avec le genre : le chat noir, la nuit noire ; le vin blanc, la neige blanche.",
-      "es": "El adjetivo cambia con el género: el gato negro, la noche negra; el vino blanco, la nieve blanca."
+      "es": "El adjetivo cambia con el género: el gato negro, la noche negra; el vino blanco, la nieve blanca.",
+      "en": "The adjective changes with gender: the black cat, the black night; the white wine, the white snow."
     },
     {
       "t": "h3",
@@ -45,7 +48,8 @@
     {
       "t": "pair",
       "fr": "Orange, violet, rose, bleu : des cognats pratiquement transparents ; tu adores déjà la moitié des couleurs françaises.",
-      "es": "Naranja, violeta, rosa, azul: cognados prácticamente transparentes; ya adoras la mitad de los colores franceses."
+      "es": "Naranja, violeta, rosa, azul: cognados prácticamente transparentes; ya adoras la mitad de los colores franceses.",
+      "en": "Orange, purple, pink, blue: practically transparent cognates; you already adore half of the French colors."
     },
     {
       "t": "h3",
@@ -54,7 +58,8 @@
     {
       "t": "pair",
       "fr": "Sur la Promenade, tu manges une glace rose et une glace violette sous le drapeau bleu-blanc-rouge.",
-      "es": "En la Promenade, comes un helado rosa y un helado violeta bajo la bandera azul-blanca-roja."
+      "es": "En la Promenade, comes un helado rosa y un helado violeta bajo la bandera azul-blanca-roja.",
+      "en": "On the Promenade, you eat a pink ice cream and a purple ice cream under the blue-white-red flag."
     }
   ],
   "vocab": [

@@ -18,12 +18,14 @@
     {
       "t": "pair",
       "fr": "L'imparfait décrit comment la vie était : le décor, l'ambiance, la routine.",
-      "es": "El imperfecto describe cómo la vida era: el decorado, el ambiente, la rutina."
+      "es": "El imperfecto describe cómo la vida era: el decorado, el ambiente, la rutina.",
+      "en": "The imparfait describes how life was: the setting, the atmosphere, the routine."
     },
     {
       "t": "pair",
       "fr": "Il faisait beau à Nice, la mer brillait, et moi, j'étais fatiguée mais contente.",
-      "es": "Hacía buen tiempo en Niza, el mar brillaba, y yo, estaba cansada pero contenta."
+      "es": "Hacía buen tiempo en Niza, el mar brillaba, y yo, estaba cansada pero contenta.",
+      "en": "The weather was nice in Nice, the sea was shining, and me, I was tired but happy."
     },
     {
       "t": "h3",
@@ -32,7 +34,8 @@
     {
       "t": "pair",
       "fr": "On allait souvent à la plage, on mangeait une glace, on observait les touristes.",
-      "es": "Íbamos a menudo a la playa, comíamos un helado, observábamos a los turistas."
+      "es": "Íbamos a menudo a la playa, comíamos un helado, observábamos a los turistas.",
+      "en": "We often went to the beach, we ate an ice cream, we watched the tourists."
     },
     {
       "t": "h3",
@@ -41,12 +44,14 @@
     {
       "t": "pair",
       "fr": "L'imparfait prépare la scène ; le passé composé arrive comme l'événement soudain.",
-      "es": "El imperfecto prepara la escena; el passé composé llega como el evento súbito."
+      "es": "El imperfecto prepara la escena; el passé composé llega como el evento súbito.",
+      "en": "The imparfait sets the scene; the passé composé arrives like the sudden event."
     },
     {
       "t": "pair",
       "fr": "Je marchais tranquillement sur la Promenade… et une mouette a attaqué ma socca !",
-      "es": "Caminaba tranquilamente por la Promenade… ¡y una gaviota atacó mi socca!"
+      "es": "Caminaba tranquilamente por la Promenade… ¡y una gaviota atacó mi socca!",
+      "en": "I was walking peacefully on the Promenade… and a seagull attacked my socca!"
     },
     {
       "t": "h3",
@@ -55,7 +60,8 @@
     {
       "t": "pair",
       "fr": "C'est exactement ton imperfecto espagnol : hablaba, era, hacía — je parlais, j'étais, il faisait.",
-      "es": "Es exactamente tu imperfecto español: hablaba, era, hacía — yo hablaba, yo era, hacía."
+      "es": "Es exactamente tu imperfecto español: hablaba, era, hacía — yo hablaba, yo era, hacía.",
+      "en": "It's exactly your Spanish imperfect: hablaba, era, hacía — I was speaking, I was, it was."
     }
   ],
   "grammar": {

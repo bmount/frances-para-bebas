@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Nice porte le nom de la déesse grecque Niké, la déesse de la victoire. La ville antique s'appelait Nikaia.",
-      "es": "Niza lleva el nombre de la diosa griega Niké, la diosa de la victoria. La ciudad antigua se llamaba Nikaia."
+      "es": "Niza lleva el nombre de la diosa griega Niké, la diosa de la victoria. La ciudad antigua se llamaba Nikaia.",
+      "en": "Nice bears the name of the Greek goddess Niké, the goddess of victory. The ancient city was called Nikaia."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Dans la mythologie gréco-romaine, un dieu ou une déesse habite un temple. Chaque mythe est une histoire sacrée.",
-      "es": "En la mitología grecorromana, un dios o una diosa habita un templo. Cada mito es una historia sagrada."
+      "es": "En la mitología grecorromana, un dios o una diosa habita un templo. Cada mito es una historia sagrada.",
+      "en": "In Greco-Roman mythology, a god or a goddess inhabits a temple. Each myth is a sacred story."
     },
     {
       "t": "h3",
@@ -36,7 +38,8 @@
     {
       "t": "pair",
       "fr": "Sainte Réparate est la sainte patronne de Nice. La cathédrale de la vieille ville est dédiée à cette sainte.",
-      "es": "Santa Reparata es la santa patrona de Niza. La catedral de la ciudad vieja está dedicada a esta santa."
+      "es": "Santa Reparata es la santa patrona de Niza. La catedral de la ciudad vieja está dedicada a esta santa.",
+      "en": "Saint Réparate is the patron saint of Nice. The cathedral in the old town is dedicated to this saint."
     },
     {
       "t": "h3",
@@ -45,7 +48,8 @@
     {
       "t": "pair",
       "fr": "Une église, une chapelle, une cathédrale : ici les catholiques célèbrent la messe et honorent un saint ou une sainte.",
-      "es": "Una iglesia, una capilla, una catedral: aquí los católicos celebran la misa y honran a un santo o a una santa."
+      "es": "Una iglesia, una capilla, una catedral: aquí los católicos celebran la misa y honran a un santo o a una santa.",
+      "en": "A church, a chapel, a cathedral: here Catholics celebrate mass and honor a saint (male or female)."
     },
     {
       "t": "h3",
@@ -54,7 +58,8 @@
     {
       "t": "pair",
       "fr": "Sur la colline de Cimiez, il y a un monastère franciscain. C'est un lieu tranquille pour prier.",
-      "es": "Sobre la colina de Cimiez, hay un monasterio franciscano. Es un lugar tranquilo para orar."
+      "es": "Sobre la colina de Cimiez, hay un monasterio franciscano. Es un lugar tranquilo para orar.",
+      "en": "On the hill of Cimiez, there's a Franciscan monastery. It's a peaceful place to pray."
     },
     {
       "t": "h3",
@@ -63,7 +68,8 @@
     {
       "t": "pair",
       "fr": "Nice a une communauté juive historique et une synagogue. Là aussi, la foi invite les personnes à prier.",
-      "es": "Niza tiene una comunidad judía histórica y una sinagoga. Allí también, la fe invita a las personas a orar."
+      "es": "Niza tiene una comunidad judía histórica y una sinagoga. Allí también, la fe invita a las personas a orar.",
+      "en": "Nice has a historic Jewish community and a synagogue. There too, faith invites people to pray."
     }
   ],
   "vocab": [

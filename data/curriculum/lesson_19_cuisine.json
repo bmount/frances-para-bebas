@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "En France, le petit-déjeuner est simple, le déjeuner est sacré, et le dîner est une célébration.",
-      "es": "En Francia, el desayuno es simple, el almuerzo es sagrado, y la cena es una celebración."
+      "es": "En Francia, el desayuno es simple, el almuerzo es sagrado, y la cena es una celebración.",
+      "en": "In France, breakfast is simple, lunch is sacred, and dinner is a celebration."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Le pain est une religion nationale : la baguette croustillante, le croissant au beurre, et la pâtisserie, une œuvre d'art comestible.",
-      "es": "El pan es una religión nacional: la baguette crujiente, el croissant con mantequilla, y la pastelería, una obra de arte comestible."
+      "es": "El pan es una religión nacional: la baguette crujiente, el croissant con mantequilla, y la pastelería, una obra de arte comestible.",
+      "en": "Bread is a national religion: the crusty baguette, the buttery croissant, and the pastry, an edible work of art."
     },
     {
       "t": "h3",
@@ -36,7 +38,8 @@
     {
       "t": "pair",
       "fr": "Le fromage mérite son propre paragraphe : la France produit plus de trois cents variétés, du camembert crémeux au roquefort intense.",
-      "es": "El queso merece su propio párrafo: Francia produce más de trescientas variedades, del camembert cremoso al roquefort intenso."
+      "es": "El queso merece su propio párrafo: Francia produce más de trescientas variedades, del camembert cremoso al roquefort intenso.",
+      "en": "Cheese deserves its own paragraph: France produces more than three hundred varieties, from creamy camembert to intense roquefort."
     },
     {
       "t": "h3",
@@ -45,7 +48,8 @@
     {
       "t": "pair",
       "fr": "Un dîner complet a trois actes : une entrée délicate, un plat principal glorieux, et un dessert absolument irrésistible.",
-      "es": "Una cena completa tiene tres actos: una entrada delicada, un plato principal glorioso, y un postre absolutamente irresistible."
+      "es": "Una cena completa tiene tres actos: una entrada delicada, un plato principal glorioso, y un postre absolutamente irresistible.",
+      "en": "A complete dinner has three acts: a delicate starter, a glorious main course, and an absolutely irresistible dessert."
     },
     {
       "t": "h3",
@@ -54,7 +58,8 @@
     {
       "t": "pair",
       "fr": "À Nice, la socca — une galette dorée de pois chiches — est une merveille locale, et la salade niçoise est une institution intouchable.",
-      "es": "En Niza, la socca — una torta dorada de garbanzos — es una maravilla local, y la ensalada nizarda es una institución intocable."
+      "es": "En Niza, la socca — una torta dorada de garbanzos — es una maravilla local, y la ensalada nizarda es una institución intocable.",
+      "en": "In Nice, socca — a golden chickpea pancake — is a local marvel, and the salade niçoise is an untouchable institution."
     },
     {
       "t": "h3",
@@ -63,7 +68,8 @@
     {
       "t": "pair",
       "fr": "Le pan bagnat, la pissaladière et la ratatouille célèbrent tous l'huile d'olive, l'or liquide de la Provence.",
-      "es": "El pan bagnat, la pissaladière y la ratatouille celebran todos el aceite de oliva, el oro líquido de la Provenza."
+      "es": "El pan bagnat, la pissaladière y la ratatouille celebran todos el aceite de oliva, el oro líquido de la Provenza.",
+      "en": "Pan bagnat, pissaladière and ratatouille all celebrate olive oil, the liquid gold of Provence."
     },
     {
       "t": "h3",
@@ -72,7 +78,8 @@
     {
       "t": "pair",
       "fr": "Le vin est une conversation : le vin rouge est profond, le vin blanc est élégant, mais le rosé de Provence est l'été en bouteille.",
-      "es": "El vino es una conversación: el vino tinto es profundo, el vino blanco es elegante, pero el rosado de Provenza es el verano en botella."
+      "es": "El vino es una conversación: el vino tinto es profundo, el vino blanco es elegante, pero el rosado de Provenza es el verano en botella.",
+      "en": "Wine is a conversation: red wine is deep, white wine is elegant, but Provence rosé is summer in a bottle."
     },
     {
       "t": "h3",
@@ -81,7 +88,8 @@
     {
       "t": "pair",
       "fr": "Avant de manger, on déclare « bon appétit » ; avant de boire, on proclame « santé ». Deux formules magiques, une gastronomie immortelle.",
-      "es": "Antes de comer, se declara «bon appétit»; antes de beber, se proclama «santé». Dos fórmulas mágicas, una gastronomía inmortal."
+      "es": "Antes de comer, se declara «bon appétit»; antes de beber, se proclama «santé». Dos fórmulas mágicas, una gastronomía inmortal.",
+      "en": "Before eating, you say « bon appétit »; before drinking, you proclaim « santé ». Two magic phrases, an immortal gastronomy."
     }
   ],
   "vocab": [

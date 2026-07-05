@@ -424,7 +424,8 @@
     {
       "t": "pair",
       "fr": "Le verbe « avoir » est un instrument essentiel : j'ai, tu as, elle a, nous avons.",
-      "es": "El verbo « avoir » es un instrumento esencial: yo tengo, tú tienes, ella tiene, nosotros tenemos."
+      "es": "El verbo « avoir » es un instrumento esencial: yo tengo, tú tienes, ella tiene, nosotros tenemos.",
+      "en": "The verb « avoir » is an essential tool: I have, you have, she has, we have."
     },
     {
       "t": "h3",
@@ -433,7 +434,8 @@
     {
       "t": "pair",
       "fr": "Le « e » disparaît devant la voyelle : j'ai une idée, j'ai un plan, j'ai un talent secret.",
-      "es": "La « e » desaparece delante de la vocal: yo tengo una idea, yo tengo un plan, yo tengo un talento secreto."
+      "es": "La « e » desaparece delante de la vocal: yo tengo una idea, yo tengo un plan, yo tengo un talento secreto.",
+      "en": "The « e » disappears before a vowel: I have an idea, I have a plan, I have a secret talent."
     },
     {
       "t": "h3",
@@ -442,7 +444,8 @@
     {
       "t": "pair",
       "fr": "J'ai seize ans, tu as quinze ans, ma grand-mère a cent ans — et une énergie admirable.",
-      "es": "Yo tengo dieciséis años, tú tienes quince años, mi abuela tiene cien años — y una energía admirable."
+      "es": "Yo tengo dieciséis años, tú tienes quince años, mi abuela tiene cien años — y una energía admirable.",
+      "en": "I'm sixteen, you're fifteen, my grandmother is a hundred — and has admirable energy."
     },
     {
       "t": "h3",
@@ -451,7 +454,8 @@
     {
       "t": "pair",
       "fr": "À Nice, il y a une plage, il y a un port, il y a des touristes en quantité industrielle.",
-      "es": "En Niza, hay una playa, hay un puerto, hay turistas en cantidad industrial."
+      "es": "En Niza, hay una playa, hay un puerto, hay turistas en cantidad industrial.",
+      "en": "In Nice, there's a beach, there's a harbor, there are tourists in industrial quantities."
     },
     {
       "t": "h3",
@@ -460,12 +464,14 @@
     {
       "t": "pair",
       "fr": "Au restaurant, tu déclares avec autorité : j'ai une réservation, j'ai une question importante.",
-      "es": "En el restaurante, tú declaras con autoridad: yo tengo una reserva, yo tengo una pregunta importante."
+      "es": "En el restaurante, tú declaras con autoridad: yo tengo una reserva, yo tengo una pregunta importante.",
+      "en": "At the restaurant, you declare with authority: I have a reservation, I have an important question."
     },
     {
       "t": "pair",
       "fr": "Et attention : « avoir » est aussi un auxiliaire — j'ai mangé une glace immense, sans regrets.",
-      "es": "Y atención: « avoir » es también un auxiliar — he comido un helado inmenso, sin remordimientos."
+      "es": "Y atención: « avoir » es también un auxiliar — he comido un helado inmenso, sin remordimientos.",
+      "en": "And careful: « avoir » is also an auxiliary — I ate a huge ice cream, no regrets."
     }
   ]
 }

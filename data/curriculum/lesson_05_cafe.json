@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Tu arrives à un café de Nice avec une faim monumentale. La mission : commander comme une personne élégante, pas comme une touriste paniquée.",
-      "es": "Llegas a un café de Niza con un hambre monumental. La misión: pedir como una persona elegante, no como una turista en pánico."
+      "es": "Llegas a un café de Niza con un hambre monumental. La misión: pedir como una persona elegante, no como una turista en pánico.",
+      "en": "You arrive at a café in Nice with a monumental hunger. The mission: to order like an elegant person, not like a panicked tourist."
     },
     {
       "t": "h3",
@@ -27,12 +28,14 @@
     {
       "t": "pair",
       "fr": "La formule essentielle : « je voudrais… s'il vous plaît ». Le conditionnel indique la politesse, exactement comme « quisiera » en espagnol.",
-      "es": "La fórmula esencial: « quisiera… por favor ». El condicional indica la cortesía, exactamente como « quisiera » en español."
+      "es": "La fórmula esencial: « quisiera… por favor ». El condicional indica la cortesía, exactamente como « quisiera » en español.",
+      "en": "The essential phrase: « je voudrais… s'il vous plaît ». The conditional signals politeness, exactly like « quisiera » in Spanish."
     },
     {
       "t": "pair",
       "fr": "Attention : « je veux » sonne comme un caprice de bébé. « Je voudrais une socca, s'il vous plaît » — et le serveur t'adore instantanément.",
-      "es": "Atención: « quiero » suena como un capricho de bebé. « Quisiera una socca, por favor » — y el camarero te adora instantáneamente."
+      "es": "Atención: « quiero » suena como un capricho de bebé. « Quisiera una socca, por favor » — y el camarero te adora instantáneamente.",
+      "en": "Careful: « je veux » sounds like a baby's tantrum. « Je voudrais une socca, s'il vous plaît » — and the waiter adores you instantly."
     },
     {
       "t": "h3",
@@ -41,7 +44,8 @@
     {
       "t": "pair",
       "fr": "Pour demander si une chose existe, tu utilises « vous avez… ? » : « Vous avez une glace à la lavande ? » Question simple, résultat délicieux.",
-      "es": "Para preguntar si una cosa existe, utilizas « ¿usted tiene… ? »: « ¿Usted tiene un helado de lavanda? » Pregunta simple, resultado delicioso."
+      "es": "Para preguntar si una cosa existe, utilizas « ¿usted tiene… ? »: « ¿Usted tiene un helado de lavanda? » Pregunta simple, resultado delicioso.",
+      "en": "To ask whether something exists, you use « vous avez…? »: « Vous avez une glace à la lavande? » Simple question, delicious result."
     },
     {
       "t": "h3",
@@ -50,7 +54,8 @@
     {
       "t": "pair",
       "fr": "Détail important : « une carafe d'eau » est gratuite. Tu la demandes, elle arrive, et tu ne payes pas un centime.",
-      "es": "Detalle importante: « una jarra de agua » es gratuita. La pides, llega, y no pagas ni un céntimo."
+      "es": "Detalle importante: « una jarra de agua » es gratuita. La pides, llega, y no pagas ni un céntimo.",
+      "en": "Important detail: « une carafe d'eau » (a jug of water) is free. You ask for it, it arrives, and you don't pay a cent."
     },
     {
       "t": "h3",
@@ -59,7 +64,8 @@
     {
       "t": "pair",
       "fr": "Le serveur demande « sur place ou à emporter ? ». Et à la fin, tu déclares avec triomphe : « l'addition, s'il vous plaît ! »",
-      "es": "El camarero pregunta « ¿en el sitio o para llevar? ». Y al final, declaras con triunfo: « ¡la cuenta, por favor! »"
+      "es": "El camarero pregunta « ¿en el sitio o para llevar? ». Y al final, declaras con triunfo: « ¡la cuenta, por favor! »",
+      "en": "The waiter asks « sur place ou à emporter? » (here or to go?). And at the end, you triumphantly declare: « l'addition, s'il vous plaît! »"
     }
   ],
   "vocab": [

@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Au lycée, les matières sont presque toutes identiques : les maths, l'histoire, la géo, les sciences, la musique. Tu étudies déjà la moitié du programme !",
-      "es": "En el liceo, las materias son casi todas idénticas: las mates, la historia, la geo, las ciencias, la música. ¡Ya estudias la mitad del programa!"
+      "es": "En el liceo, las materias son casi todas idénticas: las mates, la historia, la geo, las ciencias, la música. ¡Ya estudias la mitad del programa!",
+      "en": "In high school, the subjects are almost all identical: math, history, geography, science, music. You're already studying half the program!"
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Le système est simple : le collège, puis le lycée, et finalement le bac, le grand examen national. Toute la France tremble en juin.",
-      "es": "El sistema es simple: el «collège», luego el liceo, y finalmente el «bac», el gran examen nacional. Toda Francia tiembla en junio."
+      "es": "El sistema es simple: el «collège», luego el liceo, y finalmente el «bac», el gran examen nacional. Toda Francia tiembla en junio.",
+      "en": "The system is simple: the collège, then the lycée, and finally the bac, the great national exam. All of France trembles in June."
     },
     {
       "t": "h3",
@@ -36,12 +38,14 @@
     {
       "t": "pair",
       "fr": "Attention : en France, le « collège » est l'école des ados de onze à quatorze ans — pas l'université !",
-      "es": "Atención: en Francia, el «collège» es la escuela de los adolescentes de once a catorce años — ¡no la universidad!"
+      "es": "Atención: en Francia, el «collège» es la escuela de los adolescentes de once a catorce años — ¡no la universidad!",
+      "en": "Careful: in France, the « collège » is the school for teens aged eleven to fourteen — not the university!"
     },
     {
       "t": "pair",
       "fr": "La « librairie » vend des livres, la « bibliothèque » prête des livres, et une « lecture » est simplement l'acte de lire. Exactement comme en espagnol !",
-      "es": "La «librería» vende libros, la «biblioteca» presta libros, y una «lectura» es simplemente el acto de leer. ¡Exactamente como en español!"
+      "es": "La «librería» vende libros, la «biblioteca» presta libros, y una «lectura» es simplemente el acto de leer. ¡Exactamente como en español!",
+      "en": "The « librairie » sells books, the « bibliothèque » lends books, and a « lecture » is simply the act of reading. Exactly like in Spanish!"
     },
     {
       "t": "h3",
@@ -50,7 +54,8 @@
     {
       "t": "pair",
       "fr": "Les devoirs sont éternels, les examens sont inévitables, mais la récré est sacrée. Patience : les vacances arrivent en juillet !",
-      "es": "Los deberes son eternos, los exámenes son inevitables, pero el recreo es sagrado. Paciencia: ¡las vacaciones llegan en julio!"
+      "es": "Los deberes son eternos, los exámenes son inevitables, pero el recreo es sagrado. Paciencia: ¡las vacaciones llegan en julio!",
+      "en": "Homework is eternal, exams are inevitable, but recess is sacred. Patience: vacation arrives in July!"
     }
   ],
   "vocab": [

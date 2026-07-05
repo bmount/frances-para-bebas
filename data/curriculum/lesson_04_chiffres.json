@@ -18,12 +18,14 @@
     {
       "t": "pair",
       "fr": "Les nombres de zéro à vingt sont faciles : un, deux, trois, six, sept… pratiquement identiques à l'espagnol !",
-      "es": "Los números de cero a veinte son fáciles: uno, dos, tres, seis, siete… ¡prácticamente idénticos al español!"
+      "es": "Los números de cero a veinte son fáciles: uno, dos, tres, seis, siete… ¡prácticamente idénticos al español!",
+      "en": "The numbers from zero to twenty are easy: one, two, three, six, seven… practically identical to Spanish!"
     },
     {
       "t": "pair",
       "fr": "Compare la trinité latine : « trois » et « tres », « sept » et « siete », « vingt » et « veinte ». Le latin est notre mère commune.",
-      "es": "Compara la trinidad latina: «trois» y «tres», «sept» y «siete», «vingt» y «veinte». El latín es nuestra madre común."
+      "es": "Compara la trinidad latina: «trois» y «tres», «sept» y «siete», «vingt» y «veinte». El latín es nuestra madre común.",
+      "en": "Compare the Latin trinity: « trois » and « tres », « sept » and « siete », « vingt » and « veinte ». Latin is our common mother."
     },
     {
       "t": "h3",
@@ -32,12 +34,14 @@
     {
       "t": "pair",
       "fr": "Attention : soixante-dix signifie « soixante plus dix », et quatre-vingts signifie « quatre fois vingt ». Oui, les Français calculent leurs nombres comme un examen de mathématiques.",
-      "es": "Atención: soixante-dix significa «sesenta más diez», y quatre-vingts significa «cuatro veces veinte». Sí, los franceses calculan sus números como un examen de matemáticas."
+      "es": "Atención: soixante-dix significa «sesenta más diez», y quatre-vingts significa «cuatro veces veinte». Sí, los franceses calculan sus números como un examen de matemáticas.",
+      "en": "Careful: soixante-dix means « sixty plus ten », and quatre-vingts means « four times twenty ». Yes, the French calculate their numbers like a math exam."
     },
     {
       "t": "pair",
       "fr": "Et quatre-vingt-dix ? C'est « quatre fois vingt, plus dix ». Absurde ? Probablement. Élégant ? Totalement. C'est la logique française : compliquée mais adorable.",
-      "es": "¿Y quatre-vingt-dix? Es «cuatro veces veinte, más diez». ¿Absurdo? Probablemente. ¿Elegante? Totalmente. Es la lógica francesa: complicada pero adorable."
+      "es": "¿Y quatre-vingt-dix? Es «cuatro veces veinte, más diez». ¿Absurdo? Probablemente. ¿Elegante? Totalmente. Es la lógica francesa: complicada pero adorable.",
+      "en": "And quatre-vingt-dix? It's « four times twenty, plus ten ». Absurd? Probably. Elegant? Totally. That's French logic: complicated but adorable."
     },
     {
       "t": "h3",
@@ -46,7 +50,8 @@
     {
       "t": "pair",
       "fr": "Pour demander le prix, la formule magique est « C'est combien ? ». Trois syllabes sont suffisantes — la simplicité totale après le chaos numérique.",
-      "es": "Para preguntar el precio, la fórmula mágica es «C'est combien?». Tres sílabas son suficientes — la simplicidad total después del caos numérico."
+      "es": "Para preguntar el precio, la fórmula mágica es «C'est combien?». Tres sílabas son suficientes — la simplicidad total después del caos numérico.",
+      "en": "To ask the price, the magic phrase is « C'est combien? ». Three syllables are enough — total simplicity after the numerical chaos."
     },
     {
       "t": "h3",
@@ -55,7 +60,8 @@
     {
       "t": "pair",
       "fr": "Grande finale à Nice : une glace au citron sur la Promenade des Anglais coûte quatre euros cinquante. Le soleil ? Zéro euro. La vue ? Gratuite.",
-      "es": "Gran final en Niza: un helado de limón en la Promenade des Anglais cuesta cuatro euros cincuenta. ¿El sol? Cero euros. ¿La vista? Gratuita."
+      "es": "Gran final en Niza: un helado de limón en la Promenade des Anglais cuesta cuatro euros cincuenta. ¿El sol? Cero euros. ¿La vista? Gratuita.",
+      "en": "Grand finale in Nice: a lemon ice cream on the Promenade des Anglais costs four euros fifty. The sun? Zero euros. The view? Free."
     }
   ],
   "vocab": [

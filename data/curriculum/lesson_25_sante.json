@@ -1,0 +1,37 @@
+{
+  "id": "L25", "order": 25, "slug": "sante",
+  "title": "Le corps & la santé", "es_title": "El cuerpo y la salud (¡y las alergias!)",
+  "focus": "Salud práctica de viaje: « j'ai mal à… », la pharmacie, y lo crucial para comer: alergias y « je suis végétarienne ».",
+  "objectives": ["Decir qué te duele (« j'ai mal à… »).", "Pedir ayuda: pharmacie, médecin, 112.", "En el restaurante: alergias y « végétarien/ne »."],
+  "reader": [
+    {"t": "h3", "text": "J'ai mal…"},
+    {"t": "pair", "fr": "Si tu as mal, c'est simple : « J'ai mal à la tête, j'ai mal au ventre, j'ai mal à la gorge. »", "es": "Si tienes dolor, es simple: « Me duele la cabeza, me duele el vientre, me duele la garganta. »", "en": "If something hurts, it's simple: \"My head hurts, my stomach hurts, my throat hurts.\""},
+    {"t": "h3", "text": "Je suis malade"},
+    {"t": "pair", "fr": "Tu peux dire : « Je suis malade » ou « Je suis fatiguée. » Pas de panique : tout le monde te comprend.", "es": "Puedes decir: « Estoy enferma » o « Estoy cansada. » Sin pánico: todo el mundo te comprende.", "en": "You can say: \"I'm sick\" or \"I'm tired.\" Don't panic: everyone will understand you."},
+    {"t": "h3", "text": "La pharmacie"},
+    {"t": "pair", "fr": "En France, la pharmacie a une croix verte, et le pharmacien peut te donner un médicament simple.", "es": "En Francia, la farmacia tiene una cruz verde, y el farmacéutico puede darte un medicamento simple.", "en": "In France, the pharmacy has a green cross, and the pharmacist can give you a simple medicine."},
+    {"t": "h3", "text": "Un médecin"},
+    {"t": "pair", "fr": "Si c'est plus sérieux : « Je voudrais voir un médecin, s'il vous plaît. » Pour une urgence, le numéro en Europe est le 112.", "es": "Si es más serio: « Querría ver a un médico, por favor. » Para una emergencia, el número en Europa es el 112.", "en": "If it's more serious: \"I'd like to see a doctor, please.\" For an emergency, the number in Europe is 112."},
+    {"t": "h3", "text": "Au restaurant"},
+    {"t": "pair", "fr": "Deux phrases essentielles : « Je suis allergique aux fruits de mer » et « Je suis végétarienne. »", "es": "Dos frases esenciales: « Soy alérgica a los mariscos » y « Soy vegetariana. »", "en": "Two essential sentences: \"I'm allergic to seafood\" and \"I'm vegetarian.\""}
+  ],
+  "vocab": [
+    {"id": "L25-mal", "fr": "j'ai mal à…", "es": "me duele…", "en": "my ___ hurts", "ipa": "ʒe mal a", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "J'ai mal à la tête.", "voice": "emilie", "audio": "L25-mal"},
+    {"id": "L25-tete", "fr": "la tête", "es": "la cabeza", "en": "the head", "ipa": "la tɛt", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "star": true, "ex": "J'ai mal à la tête.", "voice": "oris", "audio": "L25-tete"},
+    {"id": "L25-ventre", "fr": "le ventre", "es": "el vientre / la barriga", "en": "the stomach", "ipa": "lə vɑ̃tʁ", "pos": "noun", "gender": "m", "cognate_type": "semi", "ex": "J'ai mal au ventre.", "voice": "emilie", "audio": "L25-ventre"},
+    {"id": "L25-gorge", "fr": "la gorge", "es": "la garganta", "en": "the throat", "ipa": "la ɡɔʁʒ", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "ex": "J'ai mal à la gorge.", "voice": "oris", "audio": "L25-gorge"},
+    {"id": "L25-malade", "fr": "malade", "es": "enfermo/a", "en": "sick", "ipa": "malad", "pos": "adj", "epicene": true, "cognate_type": "non_cognate", "star": true, "ex": "Je suis un peu malade.", "voice": "emilie", "audio": "L25-malade"},
+    {"id": "L25-fatigue", "fr_m": "fatigué", "fr_f": "fatiguée", "es": "cansado/a", "en": "tired", "ipa_m": "fatiɡe", "ipa_f": "fatiɡe", "pos": "adj", "cognate_type": "non_cognate", "star": true, "ex_m": "Je suis fatigué.", "ex_f": "Je suis fatiguée.", "audio_m": "L25-fatigue-m", "audio_f": "L25-fatigue-f"},
+    {"id": "L25-pharmacie", "fr": "la pharmacie", "es": "la farmacia", "en": "the pharmacy", "ipa": "la faʁmasi", "pos": "noun", "gender": "f", "cognate_type": "transparent", "star": true, "ex": "Où est la pharmacie ?", "voice": "oris", "audio": "L25-pharmacie"},
+    {"id": "L25-medecin", "fr": "un médecin", "es": "un médico", "en": "a doctor", "ipa": "ɛ̃ medsɛ̃", "pos": "noun", "gender": "m", "cognate_type": "semi", "star": true, "ex": "Je voudrais voir un médecin.", "voice": "emilie", "audio": "L25-medecin"},
+    {"id": "L25-medicament", "fr": "un médicament", "es": "un medicamento", "en": "a medicine", "ipa": "ɛ̃ medikamɑ̃", "pos": "noun", "gender": "m", "cognate_type": "transparent", "ex": "J'ai besoin d'un médicament.", "voice": "oris", "audio": "L25-medicament"},
+    {"id": "L25-allergique", "fr": "allergique à", "es": "alérgico/a a", "en": "allergic to", "ipa": "alɛʁʒik a", "pos": "adj", "epicene": true, "cognate_type": "transparent", "star": true, "ex": "Je suis allergique aux fruits de mer.", "voice": "emilie", "audio": "L25-allergique"},
+    {"id": "L25-vegetarien", "fr_m": "végétarien", "fr_f": "végétarienne", "es": "vegetariano/a", "en": "vegetarian", "ipa_m": "veʒetaʁjɛ̃", "ipa_f": "veʒetaʁjɛn", "pos": "adj", "cognate_type": "transparent", "star": true, "ex_m": "Je suis végétarien.", "ex_f": "Je suis végétarienne.", "audio_m": "L25-vegetarien-m", "audio_f": "L25-vegetarien-f"}
+  ],
+  "sentences": [
+    {"id": "L25-s01", "register": "parle", "self": true, "fr_m": "Excusez-moi, je suis un peu malade et fatigué.", "fr_f": "Excusez-moi, je suis un peu malade et fatiguée.", "es": "Disculpe, estoy un poco enfermo/a y cansado/a.", "en": "Excuse me, I'm a bit sick and tired.", "audio_m": "L25-s01-m", "audio_f": "L25-s01-f"},
+    {"id": "L25-s02", "register": "parle", "fr": "J'ai mal à la tête. Où est la pharmacie ?", "es": "Me duele la cabeza. ¿Dónde está la farmacia?", "en": "My head hurts. Where's the pharmacy?", "voice": "oris", "audio": "L25-s02"},
+    {"id": "L25-s03", "register": "parle", "self": true, "fr_m": "Je suis végétarien et allergique aux fruits de mer.", "fr_f": "Je suis végétarienne et allergique aux fruits de mer.", "es": "Soy vegetariano/a y alérgico/a a los mariscos.", "en": "I'm vegetarian and allergic to seafood.", "audio_m": "L25-s03-m", "audio_f": "L25-s03-f"},
+    {"id": "L25-s04", "register": "parle", "fr": "Je voudrais voir un médecin, s'il vous plaît.", "es": "Querría ver a un médico, por favor.", "en": "I'd like to see a doctor, please.", "voice": "emilie", "audio": "L25-s04"}
+  ]
+}

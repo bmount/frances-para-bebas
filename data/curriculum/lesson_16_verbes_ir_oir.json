@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Je finis ma leçon et je choisis mon dessert : la logique parfaite. Nous finissons vite et nous choisissons bien.",
-      "es": "Yo termino mi lección y yo escojo mi postre: la lógica perfecta. Nosotros terminamos rápido y nosotros escogemos bien."
+      "es": "Yo termino mi lección y yo escojo mi postre: la lógica perfecta. Nosotros terminamos rápido y nosotros escogemos bien.",
+      "en": "I finish my lesson and I choose my dessert: perfect logic. We finish quickly and we choose well."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Je pars à la plage, je sors avec mes amies, je dors peu et je viens toujours avec des croissants.",
-      "es": "Yo parto a la playa, yo salgo con mis amigas, yo duermo poco y yo vengo siempre con cruasanes."
+      "es": "Yo parto a la playa, yo salgo con mis amigas, yo duermo poco y yo vengo siempre con cruasanes.",
+      "en": "I leave for the beach, I go out with my friends, I sleep little and I always come with croissants."
     },
     {
       "t": "h3",
@@ -36,7 +38,8 @@
     {
       "t": "pair",
       "fr": "Je veux une glace et je peux nager dans la mer ; ici, tout est possible.",
-      "es": "Yo quiero un helado y yo puedo nadar en el mar; aquí, todo es posible."
+      "es": "Yo quiero un helado y yo puedo nadar en el mar; aquí, todo es posible.",
+      "en": "I want an ice cream and I can swim in the sea; here, everything is possible."
     },
     {
       "t": "h3",
@@ -45,7 +48,8 @@
     {
       "t": "pair",
       "fr": "Je dois partir, je dois étudier, mais je sais une chose importante : je sais nager.",
-      "es": "Yo debo partir, yo debo estudiar, pero yo sé una cosa importante: yo sé nadar."
+      "es": "Yo debo partir, yo debo estudiar, pero yo sé una cosa importante: yo sé nadar.",
+      "en": "I must leave, I must study, but I know one important thing: I know how to swim."
     },
     {
       "t": "h3",
@@ -54,7 +58,8 @@
     {
       "t": "pair",
       "fr": "Je vois la mer, tu vois la Promenade, nous voyons la vie en bleu.",
-      "es": "Yo veo el mar, tú ves el Paseo, nosotros vemos la vida en azul."
+      "es": "Yo veo el mar, tú ves el Paseo, nosotros vemos la vida en azul.",
+      "en": "I see the sea, you see the Promenade, we see life in blue."
     },
     {
       "t": "h3",
@@ -63,7 +68,8 @@
     {
       "t": "pair",
       "fr": "Peux, veux, dois, sais, vois : ces verbes sont minuscules, mais ils sont présents dans chaque conversation.",
-      "es": "Puedo, quiero, debo, sé, veo: estos verbos son minúsculos, pero ellos están presentes en cada conversación."
+      "es": "Puedo, quiero, debo, sé, veo: estos verbos son minúsculos, pero ellos están presentes en cada conversación.",
+      "en": "Peux, veux, dois, sais, vois: these verbs are tiny, but they're present in every conversation."
     }
   ],
   "grammar": {

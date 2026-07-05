@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "À Nice, le tram est ton ami : rapide, simple, économique. Tu dis « un billet, s'il vous plaît » et toute la ville t'attend.",
-      "es": "En Niza, el tranvía es tu amigo: rápido, simple, económico. Dices «un billete, por favor» y toda la ciudad te espera."
+      "es": "En Niza, el tranvía es tu amigo: rápido, simple, económico. Dices «un billete, por favor» y toda la ciudad te espera.",
+      "en": "In Nice, the tram is your friend: fast, simple, cheap. You say « un billet, s'il vous plaît » and the whole city awaits you."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Tu ne sais pas où descendre ? Demande avec confiance : « Excusez-moi, c'est quel arrêt pour la cathédrale ? »",
-      "es": "¿No sabes dónde bajar? Pregunta con confianza: «Disculpe, ¿cuál es la parada para la catedral?»"
+      "es": "¿No sabes dónde bajar? Pregunta con confianza: «Disculpe, ¿cuál es la parada para la catedral?»",
+      "en": "Don't know where to get off? Ask with confidence: « Excusez-moi, c'est quel arrêt pour la cathédrale? »"
     },
     {
       "t": "h3",
@@ -36,7 +38,8 @@
     {
       "t": "pair",
       "fr": "Pour une excursion, le train est parfait : Èze, Antibes, la côte entière en trente minutes.",
-      "es": "Para una excursión, el tren es perfecto: Èze, Antibes, la costa entera en treinta minutos."
+      "es": "Para una excursión, el tren es perfecto: Èze, Antibes, la costa entera en treinta minutos.",
+      "en": "For a day trip, the train is perfect: Èze, Antibes, the entire coast in thirty minutes."
     },
     {
       "t": "h3",
@@ -45,7 +48,8 @@
     {
       "t": "pair",
       "fr": "Mémorise trois expressions magiques : à gauche, à droite, tout droit. Avec « où est la gare, s'il vous plaît ? », tu es pratiquement invincible.",
-      "es": "Memoriza tres expresiones mágicas: a la izquierda, a la derecha, todo recto. Con «¿dónde está la estación, por favor?», eres prácticamente invencible."
+      "es": "Memoriza tres expresiones mágicas: a la izquierda, a la derecha, todo recto. Con «¿dónde está la estación, por favor?», eres prácticamente invencible.",
+      "en": "Memorize three magic expressions: to the left, to the right, straight ahead. With « où est la gare, s'il vous plaît? », you're practically invincible."
     },
     {
       "t": "h3",
@@ -54,7 +58,8 @@
     {
       "t": "pair",
       "fr": "Si tu es perdue, pas de panique : « Excusez-moi, je suis perdue, je cherche la pharmacie. » Et en cas de drame total : « Au secours ! »",
-      "es": "Si estás perdida, nada de pánico: «Disculpe, estoy perdida, busco la farmacia.» Y en caso de drama total: «¡Socorro!»"
+      "es": "Si estás perdida, nada de pánico: «Disculpe, estoy perdida, busco la farmacia.» Y en caso de drama total: «¡Socorro!»",
+      "en": "If you're lost, don't panic: « Excusez-moi, je suis perdue, je cherche la pharmacie. » And in case of total disaster: « Au secours! »"
     }
   ],
   "vocab": [

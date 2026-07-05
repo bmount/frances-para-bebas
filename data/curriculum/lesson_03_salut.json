@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Bienvenue à Nice, capitale du soleil, de la mer et de la courtoisie ! Ici, la première leçon est simple : saluer est un art essentiel.",
-      "es": "¡Bienvenida a Niza, capital del sol, del mar y de la cortesía! Aquí, la primera lección es simple: saludar es un arte esencial."
+      "es": "¡Bienvenida a Niza, capital del sol, del mar y de la cortesía! Aquí, la primera lección es simple: saludar es un arte esencial.",
+      "en": "Welcome to Nice, capital of sun, sea and courtesy! Here, the first lesson is simple: greeting people is an essential art."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "En France, « bonjour » est le péage pour entrer dans une boutique, un café, un bus. Si tu entres en silence, tu commets un crime social impardonnable.",
-      "es": "En Francia, «bonjour» es el peaje para entrar en una boutique, un café, un bus. Si tú entras en silencio, tú cometes un crimen social imperdonable."
+      "es": "En Francia, «bonjour» es el peaje para entrar en una boutique, un café, un bus. Si tú entras en silencio, tú cometes un crimen social imperdonable.",
+      "en": "In France, « bonjour » is the toll you pay to enter a shop, a café, a bus. If you walk in in silence, you commit an unforgivable social crime."
     },
     {
       "t": "h3",
@@ -36,12 +38,14 @@
     {
       "t": "pair",
       "fr": "« Salut » est la version informelle, réservée aux amis et à la famille. Avec ton professeur ? Non. Avec ta bande au lycée ? Absolument.",
-      "es": "«Salut» es la versión informal, reservada a los amigos y a la familia. ¿Con tu profesor? No. ¿Con tu banda en el liceo? Absolutamente."
+      "es": "«Salut» es la versión informal, reservada a los amigos y a la familia. ¿Con tu profesor? No. ¿Con tu banda en el liceo? Absolutamente.",
+      "en": "« Salut » is the informal version, reserved for friends and family. With your teacher? No. With your crew at school? Absolutely."
     },
     {
       "t": "pair",
       "fr": "« Tu » correspond à « tú » et « vous » correspond à « usted » : respect pour les professeurs, les adultes, la police. En cas de doute, utilise « vous » : la prudence est élégante.",
-      "es": "«Tu» corresponde a «tú» y «vous» corresponde a «usted»: respeto para los profesores, los adultos, la policía. En caso de duda, utiliza «vous»: la prudencia es elegante."
+      "es": "«Tu» corresponde a «tú» y «vous» corresponde a «usted»: respeto para los profesores, los adultos, la policía. En caso de duda, utiliza «vous»: la prudencia es elegante.",
+      "en": "« Tu » corresponds to « tú » and « vous » corresponds to « usted »: respect for teachers, adults, the police. When in doubt, use « vous »: prudence is elegant."
     },
     {
       "t": "h3",
@@ -50,7 +54,8 @@
     {
       "t": "pair",
       "fr": "« Ça va ? » fonctionne comme salutation et comme question sincère : une expression, mille usages. La réponse est automatique : « Ça va, et toi ? »",
-      "es": "«¿Ça va?» funciona como saludo y como pregunta sincera: una expresión, mil usos. La respuesta es automática: «Ça va, ¿y tú?»"
+      "es": "«¿Ça va?» funciona como saludo y como pregunta sincera: una expresión, mil usos. La respuesta es automática: «Ça va, ¿y tú?»",
+      "en": "« Ça va? » works as both a greeting and a sincere question: one expression, a thousand uses. The reply is automatic: « Ça va, et toi? »"
     },
     {
       "t": "h3",
@@ -59,7 +64,8 @@
     {
       "t": "pair",
       "fr": "La bise est le rituel de saluer avec un contact rapide, joue contre joue. Ici dans le sud, normalement deux bises : pas de panique, c'est la coutume.",
-      "es": "La bise es el ritual de saludar con un contacto rápido, mejilla contra mejilla. Aquí en el sur, normalmente dos besos: nada de pánico, es la costumbre."
+      "es": "La bise es el ritual de saludar con un contacto rápido, mejilla contra mejilla. Aquí en el sur, normalmente dos besos: nada de pánico, es la costumbre.",
+      "en": "The bise is the ritual of greeting with a quick touch, cheek against cheek. Here in the south, usually two kisses: don't panic, it's the custom."
     }
   ],
   "vocab": [

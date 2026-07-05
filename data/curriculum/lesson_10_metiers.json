@@ -18,12 +18,14 @@
     {
       "t": "pair",
       "fr": "Je suis étudiante, tu es étudiant, et ma mère est professeure.",
-      "es": "Yo soy estudiante, tú eres estudiante, y mi madre es profesora."
+      "es": "Yo soy estudiante, tú eres estudiante, y mi madre es profesora.",
+      "en": "I'm a student (fem.), you're a student (masc.), and my mother is a teacher."
     },
     {
       "t": "pair",
       "fr": "En français, comme en espagnol, après le verbe « être » : zéro article. Simple, élégant, magnifique.",
-      "es": "En francés, como en español, después del verbo «ser»: cero artículo. Simple, elegante, magnífico."
+      "es": "En francés, como en español, después del verbo «ser»: cero artículo. Simple, elegante, magnífico.",
+      "en": "In French, as in Spanish, after the verb « être »: zero article. Simple, elegant, magnificent."
     },
     {
       "t": "h3",
@@ -32,7 +34,8 @@
     {
       "t": "pair",
       "fr": "Il est prof, elle est médecin, et mon oncle est pilote — pas « un » pilote, juste pilote.",
-      "es": "Él es profe, ella es médica, y mi tío es piloto — no «un» piloto, solo piloto."
+      "es": "Él es profe, ella es médica, y mi tío es piloto — no «un» piloto, solo piloto.",
+      "en": "He's a teacher, she's a doctor, and my uncle is a pilot — not « a » pilot, just pilot."
     },
     {
       "t": "h3",
@@ -41,7 +44,8 @@
     {
       "t": "pair",
       "fr": "Docteur, artiste, ingénieur, dentiste, architecte, vétérinaire : tu comprends déjà tout, non ?",
-      "es": "Doctor, artista, ingeniero, dentista, arquitecto, veterinario: ¿tú comprendes ya todo, no?"
+      "es": "Doctor, artista, ingeniero, dentista, arquitecto, veterinario: ¿tú comprendes ya todo, no?",
+      "en": "Doctor, artist, engineer, dentist, architect, veterinarian: you already understand it all, don't you?"
     },
     {
       "t": "h3",
@@ -50,7 +54,8 @@
     {
       "t": "pair",
       "fr": "Attention, certains métiers changent avec le genre : acteur, actrice ; serveur, serveuse ; chanteur, chanteuse.",
-      "es": "Atención, ciertos oficios cambian con el género: actor, actriz; camarero, camarera; cantor, cantora."
+      "es": "Atención, ciertos oficios cambian con el género: actor, actriz; camarero, camarera; cantor, cantora.",
+      "en": "Careful, some professions change with gender: acteur, actrice; serveur, serveuse; chanteur, chanteuse."
     },
     {
       "t": "h3",
@@ -59,7 +64,8 @@
     {
       "t": "pair",
       "fr": "Moi ? Je veux être actrice, ou médecin, ou influenceuse à Nice — avec un croissant à la main, évidemment.",
-      "es": "¿Yo? Yo quiero ser actriz, o médica, o influencer en Niza — con un cruasán en la mano, evidentemente."
+      "es": "¿Yo? Yo quiero ser actriz, o médica, o influencer en Niza — con un cruasán en la mano, evidentemente.",
+      "en": "Me? I want to be an actress, or a doctor, or an influencer in Nice — with a croissant in hand, obviously."
     }
   ],
   "vocab": [

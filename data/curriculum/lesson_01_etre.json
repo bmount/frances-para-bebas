@@ -18,12 +18,14 @@
     {
       "t": "pair",
       "fr": "Le verbe « être » est le verbe le plus important du français. Il correspond à deux verbes espagnols : ser et estar.",
-      "es": "El verbo « être » es el verbo más importante del francés. Corresponde a dos verbos españoles: ser y estar."
+      "es": "El verbo « être » es el verbo más importante del francés. Corresponde a dos verbos españoles: ser y estar.",
+      "en": "The verb « être » is the most important verb in French. It corresponds to two Spanish verbs: ser and estar."
     },
     {
       "t": "pair",
       "fr": "« Je suis américaine » et « je suis à Nice » utilisent le même verbe. Un seul verbe, zéro drame.",
-      "es": "« Je suis américaine » y « je suis à Nice » usan el mismo verbo. Un solo verbo, cero drama."
+      "es": "« Je suis américaine » y « je suis à Nice » usan el mismo verbo. Un solo verbo, cero drama.",
+      "en": "« Je suis américaine » and « je suis à Nice » use the same verb. One single verb, zero drama."
     },
     {
       "t": "h3",
@@ -32,7 +34,8 @@
     {
       "t": "pair",
       "fr": "À l'oral, on utilise « on » pour dire « nous ». « On est à la plage » signifie : estamos en la playa.",
-      "es": "Al hablar, se utiliza « on » para decir « nosotros ». « On est à la plage » significa: estamos en la playa."
+      "es": "Al hablar, se utiliza « on » para decir « nosotros ». « On est à la plage » significa: estamos en la playa.",
+      "en": "In speech, people use « on » to say « we ». « On est à la plage » means: we're at the beach."
     },
     {
       "t": "h3",
@@ -41,7 +44,8 @@
     {
       "t": "pair",
       "fr": "« C'est » signifie « es » ou « esto es ». Tu goûtes la socca et tu déclares : « c'est bon ! »",
-      "es": "« C'est » significa « es » o « esto es ». Pruebas la socca y declaras: « ¡c'est bon! »"
+      "es": "« C'est » significa « es » o « esto es ». Pruebas la socca y declaras: « ¡c'est bon! »",
+      "en": "« C'est » means « it is » or « this is ». You taste the socca and you declare: « c'est bon! »"
     },
     {
       "t": "h3",
@@ -50,7 +54,8 @@
     {
       "t": "pair",
       "fr": "« suis », « es » et « est » se prononcent presque pareil : les consonnes finales sont muettes.",
-      "es": "« suis », « es » y « est » se pronuncian casi igual: las consonantes finales son mudas."
+      "es": "« suis », « es » y « est » se pronuncian casi igual: las consonantes finales son mudas.",
+      "en": "« suis », « es » and « est » are pronounced almost the same: the final consonants are silent."
     }
   ],
   "grammar": {

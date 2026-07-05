@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Les prépositions sont les petits mots qui connectent toute la phrase. Sans elles, tes phrases élégantes tombent en morceaux.",
-      "es": "Las preposiciones son las pequeñas palabras que conectan toda la frase. Sin ellas, tus frases elegantes caen en pedazos."
+      "es": "Las preposiciones son las pequeñas palabras que conectan toda la frase. Sin ellas, tus frases elegantes caen en pedazos.",
+      "en": "Prepositions are the little words that connect the whole sentence. Without them, your elegant sentences fall to pieces."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Je vais à la plage et je reviens de la plage : à indique la destination, de indique l'origine ou la possession.",
-      "es": "Voy a la playa y vuelvo de la playa: a indica la destinación, de indica el origen o la posesión."
+      "es": "Voy a la playa y vuelvo de la playa: a indica la destinación, de indica el origen o la posesión.",
+      "en": "I go to the beach and I come back from the beach: à indicates the destination, de indicates the origin or possession."
     },
     {
       "t": "h3",
@@ -36,7 +38,8 @@
     {
       "t": "pair",
       "fr": "Le portable est dans le sac, le sac est sur la table, et moi je danse avec mes amies. Simple, non ?",
-      "es": "El móvil está dentro del bolso, el bolso está sobre la mesa, y yo bailo con mis amigas. Simple, ¿no?"
+      "es": "El móvil está dentro del bolso, el bolso está sobre la mesa, y yo bailo con mis amigas. Simple, ¿no?",
+      "en": "The cell phone is in the bag, the bag is on the table, and me, I dance with my friends. Simple, right?"
     },
     {
       "t": "h3",
@@ -45,7 +48,8 @@
     {
       "t": "pair",
       "fr": "Le mot chez n'existe pas en espagnol : je dîne chez moi, je dors chez ma tante, j'achète le pain chez le boulanger.",
-      "es": "La palabra chez no existe en español: ceno en mi casa, duermo en casa de mi tía, compro el pan donde el panadero."
+      "es": "La palabra chez no existe en español: ceno en mi casa, duermo en casa de mi tía, compro el pan donde el panadero.",
+      "en": "The word chez doesn't exist in Spanish: I dine at home, I sleep at my aunt's, I buy bread at the baker's."
     },
     {
       "t": "h3",
@@ -54,7 +58,8 @@
     {
       "t": "pair",
       "fr": "En principe, pour indique le but et par le passage : le bus pour Monaco passe par le port. Mais attention, la correspondance est traîtresse — on dit merci pour l'invitation !",
-      "es": "En principio, pour indica el propósito y par el paso: el bus para Mónaco pasa por el puerto. Pero atención, la correspondencia es traicionera — ¡se dice gracias por la invitación!"
+      "es": "En principio, pour indica el propósito y par el paso: el bus para Mónaco pasa por el puerto. Pero atención, la correspondencia es traicionera — ¡se dice gracias por la invitación!",
+      "en": "In principle, pour indicates the purpose and par the passage: the bus for Monaco passes by the harbor. But careful, the correspondence is treacherous — you say merci pour l'invitation (thanks for the invitation)!"
     },
     {
       "t": "h3",
@@ -63,7 +68,8 @@
     {
       "t": "pair",
       "fr": "Le petit y remplace un lieu ou une idée : j'y vais (à la plage !), tu y penses (à cette idée). L'espagnol n'a pas d'équivalent — c'est un pur réflexe français.",
-      "es": "La pequeña y reemplaza un lugar o una idea: j'y vais = voy allá (¡a la playa!), tu y penses = piensas en ello. El español no tiene equivalente — es un puro reflejo francés."
+      "es": "La pequeña y reemplaza un lugar o una idea: j'y vais = voy allá (¡a la playa!), tu y penses = piensas en ello. El español no tiene equivalente — es un puro reflejo francés.",
+      "en": "The little y replaces a place or an idea: j'y vais (to the beach!), tu y penses (about that idea). Spanish has no equivalent — it's a pure French reflex."
     },
     {
       "t": "h3",
@@ -72,7 +78,8 @@
     {
       "t": "pair",
       "fr": "Et en remplace une quantité ou une origine : j'en veux (de cette glace), j'en viens (du Vieux-Nice). Tu en entends partout à Nice.",
-      "es": "Y en reemplaza una cantidad o un origen: j'en veux = quiero de eso, j'en viens = vengo de allá. Lo oyes por todas partes en Niza."
+      "es": "Y en reemplaza una cantidad o un origen: j'en veux = quiero de eso, j'en viens = vengo de allá. Lo oyes por todas partes en Niza.",
+      "en": "And en replaces a quantity or an origin: j'en veux (some of that ice cream), j'en viens (from Old Nice). You hear it everywhere in Nice."
     }
   ],
   "vocab": [

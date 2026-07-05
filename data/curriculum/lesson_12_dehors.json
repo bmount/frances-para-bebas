@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Nice est une ville parfaite pour une personne active comme toi. Ici, le sport n'est pas une option : c'est une religion.",
-      "es": "Niza es una ciudad perfecta para una persona activa como tú. Aquí, el deporte no es una opción: es una religión."
+      "es": "Niza es una ciudad perfecta para una persona activa como tú. Aquí, el deporte no es una opción: es una religión.",
+      "en": "Nice is a perfect city for an active person like you. Here, sport isn't an option: it's a religion."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Tu nages dans la mer, tu cours sur la promenade, tu marches dans les rues. L'inactivité ? Impossible !",
-      "es": "Nadas en el mar, corres en el paseo, caminas por las calles. ¿La inactividad? ¡Imposible!"
+      "es": "Nadas en el mar, corres en el paseo, caminas por las calles. ¿La inactividad? ¡Imposible!",
+      "en": "You swim in the sea, you run on the promenade, you walk in the streets. Inactivity? Impossible!"
     },
     {
       "t": "h3",
@@ -36,7 +38,8 @@
     {
       "t": "pair",
       "fr": "Attention, athlète : la plage de Nice est une plage de galets, pas de sable. Porte des sandales, ou tes pauvres pieds vont protester.",
-      "es": "Atención, atleta: la playa de Niza es una playa de guijarros, no de arena. Lleva sandalias, o tus pobres pies van a protestar."
+      "es": "Atención, atleta: la playa de Niza es una playa de guijarros, no de arena. Lleva sandalias, o tus pobres pies van a protestar.",
+      "en": "Careful, athlete: the beach in Nice is a pebble beach, not sand. Wear sandals, or your poor feet will protest."
     },
     {
       "t": "h3",
@@ -45,7 +48,8 @@
     {
       "t": "pair",
       "fr": "Tu grimpes la Colline du Château pour le panorama spectaculaire sur la Baie des Anges. Au sommet, il y a les ruines d'un château médiéval, démoli en 1706.",
-      "es": "Trepas la Colina del Castillo por el panorama espectacular sobre la Bahía de los Ángeles. En la cima, hay las ruinas de un castillo medieval, demolido en 1706."
+      "es": "Trepas la Colina del Castillo por el panorama espectacular sobre la Bahía de los Ángeles. En la cima, hay las ruinas de un castillo medieval, demolido en 1706.",
+      "en": "You climb the Colline du Château for the spectacular panorama over the Baie des Anges. At the top, there are the ruins of a medieval castle, demolished in 1706."
     },
     {
       "t": "h3",
@@ -54,7 +58,8 @@
     {
       "t": "pair",
       "fr": "À Cimiez, tu trouves des ruines romaines authentiques : des arènes et des thermes. Faire de la randonnée entre des monuments antiques ? Totalement normal à Nice.",
-      "es": "En Cimiez, encuentras ruinas romanas auténticas: unas arenas (anfiteatro) y unas termas. ¿Hacer senderismo entre monumentos antiguos? Totalmente normal en Niza."
+      "es": "En Cimiez, encuentras ruinas romanas auténticas: unas arenas (anfiteatro) y unas termas. ¿Hacer senderismo entre monumentos antiguos? Totalmente normal en Niza.",
+      "en": "In Cimiez, you find authentic Roman ruins: an amphitheater and baths. Hiking among ancient monuments? Totally normal in Nice."
     }
   ],
   "vocab": [

@@ -18,7 +18,8 @@
     {
       "t": "pair",
       "fr": "Tu mémorises un seul modèle et tu utilises des centaines de verbes. La famille en -er est immense, régulière et très généreuse.",
-      "es": "Memorizas un solo modelo y utilizas centenares de verbos. La familia en -er es inmensa, regular y muy generosa."
+      "es": "Memorizas un solo modelo y utilizas centenares de verbos. La familia en -er es inmensa, regular y muy generosa.",
+      "en": "You memorize one single model and you use hundreds of verbs. The -er family is immense, regular and very generous."
     },
     {
       "t": "h3",
@@ -27,7 +28,8 @@
     {
       "t": "pair",
       "fr": "Je visite, tu visites, elle visite, nous visitons, vous visitez, ils visitent. Un verbe, six formes, zéro drame.",
-      "es": "Yo visito, tú visitas, ella visita, nosotros visitamos, vosotros visitáis, ellos visitan. Un verbo, seis formas, cero drama."
+      "es": "Yo visito, tú visitas, ella visita, nosotros visitamos, vosotros visitáis, ellos visitan. Un verbo, seis formas, cero drama.",
+      "en": "I visit, you visit, she visits, we visit, you visit, they visit. One verb, six forms, zero drama."
     },
     {
       "t": "h3",
@@ -36,12 +38,14 @@
     {
       "t": "pair",
       "fr": "Les terminaisons -e, -es et -ent sont totalement silencieuses : « je parle », « tu parles », « ils parlent » — trois formes, une seule prononciation, /paʁl/ !",
-      "es": "Las terminaciones -e, -es y -ent son totalmente silenciosas: «je parle», «tu parles», «ils parlent» — tres formas, ¡una sola pronunciación, /paʁl/!"
+      "es": "Las terminaciones -e, -es y -ent son totalmente silenciosas: «je parle», «tu parles», «ils parlent» — tres formas, ¡una sola pronunciación, /paʁl/!",
+      "en": "The endings -e, -es and -ent are totally silent: « je parle », « tu parles », « ils parlent » — three forms, one single pronunciation, /paʁl/!"
     },
     {
       "t": "pair",
       "fr": "Seule la forme « vous parlez » est différente : ici la terminaison -ez se prononce clairement.",
-      "es": "Solo la forma «vous parlez» es diferente: aquí la terminación -ez se pronuncia claramente."
+      "es": "Solo la forma «vous parlez» es diferente: aquí la terminación -ez se pronuncia claramente.",
+      "en": "Only the form « vous parlez » is different: here the ending -ez is pronounced clearly."
     },
     {
       "t": "h3",
@@ -50,7 +54,8 @@
     {
       "t": "pair",
       "fr": "Tes verbes espagnols en -ar se transforment en verbes français en -er : visitar → visiter, adorar → adorer, invitar → inviter, preparar → préparer.",
-      "es": "Tus verbos españoles en -ar se transforman en verbos franceses en -er: visitar → visiter, adorar → adorer, invitar → inviter, preparar → préparer."
+      "es": "Tus verbos españoles en -ar se transforman en verbos franceses en -er: visitar → visiter, adorar → adorer, invitar → inviter, preparar → préparer.",
+      "en": "Your Spanish verbs in -ar turn into French verbs in -er: visitar → visiter, adorar → adorer, invitar → inviter, preparar → préparer."
     },
     {
       "t": "h3",
@@ -59,7 +64,8 @@
     {
       "t": "pair",
       "fr": "Alors on pratique : j'adore Nice, on visite le Vieux-Nice, on admire la mer et on célèbre la vie sur la Promenade.",
-      "es": "Entonces practicamos: adoro Niza, visitamos el Viejo Niza, admiramos el mar y celebramos la vida en la Promenade."
+      "es": "Entonces practicamos: adoro Niza, visitamos el Viejo Niza, admiramos el mar y celebramos la vida en la Promenade.",
+      "en": "So let's practice: I love Nice, we visit Old Nice, we admire the sea and we celebrate life on the Promenade."
     }
   ],
   "grammar": {

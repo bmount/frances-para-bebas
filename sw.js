@@ -1,5 +1,5 @@
 /* Français pour bébas — service worker (offline for the trip) */
-const VER = 'fpb-v12';
+const VER = 'fpb-v13';
 const SHELL = VER + '-shell';
 const AUDIO = 'fpb-audio';   // audio is versioned via ?v= query, so keep across releases
 const CORE = [
@@ -27,6 +27,11 @@ const CORE = [
   'data/curriculum/lesson_19_cuisine.json',
   'data/curriculum/lesson_20_mythes_religions.json',
   'data/curriculum/lesson_21_prepositions.json',
+  'data/curriculum/lesson_22_temps.json',
+  'data/curriculum/lesson_23_famille.json',
+  'data/curriculum/lesson_24_meteo.json',
+  'data/curriculum/lesson_25_sante.json',
+  'data/curriculum/lesson_26_tech.json',
   'data/quiz_culture.json',
   'data/stories.json'
 ];

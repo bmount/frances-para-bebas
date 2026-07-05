@@ -13,32 +13,212 @@
     "Regla de oro: écouter et comprendre, oui ; utiliser, non."
   ],
   "reader": [
-    {"t": "h3", "text": "Une leçon nécessaire"},
-    {"t": "pair", "fr": "Tu vas entendre ces mots : dans les films, dans la rue, entre amis. Comprendre le vocabulaire vulgaire est une protection, pas une provocation.", "es": "Vas a oír estas palabras: en las películas, en la calle, entre amigos. Comprender el vocabulario vulgar es una protección, no una provocación."},
-    {"t": "h3", "text": "Le registre est essentiel"},
-    {"t": "pair", "fr": "Certains mots sont une simple ponctuation, presque vides ; d'autres sont des insultes véritables. La différence est énorme, et la situation décide.", "es": "Ciertas palabras son una simple puntuación, casi vacías; otras son insultos verdaderos. La diferencia es enorme, y la situación decide."},
-    {"t": "h3", "text": "Un exemple universel"},
-    {"t": "pair", "fr": "« Putain », entre amis, fonctionne comme une exclamation banale, une virgule émotionnelle. Le même mot, dirigé contre une personne, est une agression.", "es": "«Putain», entre amigos, funciona como una exclamación banal, una coma emocional. La misma palabra, dirigida contra una persona, es una agresión."},
-    {"t": "h3", "text": "La règle simple"},
-    {"t": "pair", "fr": "Écouter et comprendre, oui ; utiliser, non. Ton oreille observe et analyse ; ta bouche, prudente, garde le silence.", "es": "Escuchar y comprender, sí; utilizar, no. Tu oído observa y analiza; tu boca, prudente, guarda el silencio."},
-    {"t": "h3", "text": "Comprendre n'est pas vulgaire"},
-    {"t": "pair", "fr": "Connaître ces mots ne te rend pas vulgaire : c'est une forme de fluidité et de défense personnelle. Une personne qui comprend tout est difficile à intimider.", "es": "Conocer estas palabras no te hace vulgar: es una forma de fluidez y de defensa personal. Una persona que comprende todo es difícil de intimidar."}
+    {
+      "t": "h3",
+      "text": "Une leçon nécessaire"
+    },
+    {
+      "t": "pair",
+      "fr": "Tu vas entendre ces mots : dans les films, dans la rue, entre amis. Comprendre le vocabulaire vulgaire est une protection, pas une provocation.",
+      "es": "Vas a oír estas palabras: en las películas, en la calle, entre amigos. Comprender el vocabulario vulgar es una protección, no una provocación.",
+      "en": "You're going to hear these words: in movies, on the street, among friends. Understanding vulgar vocabulary is a protection, not a provocation."
+    },
+    {
+      "t": "h3",
+      "text": "Le registre est essentiel"
+    },
+    {
+      "t": "pair",
+      "fr": "Certains mots sont une simple ponctuation, presque vides ; d'autres sont des insultes véritables. La différence est énorme, et la situation décide.",
+      "es": "Ciertas palabras son una simple puntuación, casi vacías; otras son insultos verdaderos. La diferencia es enorme, y la situación decide.",
+      "en": "Some words are mere punctuation, almost empty; others are genuine insults. The difference is enormous, and the situation decides."
+    },
+    {
+      "t": "h3",
+      "text": "Un exemple universel"
+    },
+    {
+      "t": "pair",
+      "fr": "« Putain », entre amis, fonctionne comme une exclamation banale, une virgule émotionnelle. Le même mot, dirigé contre une personne, est une agression.",
+      "es": "«Putain», entre amigos, funciona como una exclamación banal, una coma emocional. La misma palabra, dirigida contra una persona, es una agresión.",
+      "en": "« Putain », among friends, works as a banal exclamation, an emotional comma. The same word, aimed at a person, is an assault."
+    },
+    {
+      "t": "h3",
+      "text": "La règle simple"
+    },
+    {
+      "t": "pair",
+      "fr": "Écouter et comprendre, oui ; utiliser, non. Ton oreille observe et analyse ; ta bouche, prudente, garde le silence.",
+      "es": "Escuchar y comprender, sí; utilizar, no. Tu oído observa y analiza; tu boca, prudente, guarda el silencio.",
+      "en": "Listening and understanding, yes; using them, no. Your ear observes and analyzes; your mouth, cautious, stays silent."
+    },
+    {
+      "t": "h3",
+      "text": "Comprendre n'est pas vulgaire"
+    },
+    {
+      "t": "pair",
+      "fr": "Connaître ces mots ne te rend pas vulgaire : c'est une forme de fluidité et de défense personnelle. Une personne qui comprend tout est difficile à intimider.",
+      "es": "Conocer estas palabras no te hace vulgar: es una forma de fluidez y de defensa personal. Una persona que comprende todo es difícil de intimidar.",
+      "en": "Knowing these words doesn't make you vulgar: it's a form of fluency and self-defense. A person who understands everything is hard to intimidate."
+    }
   ],
   "vocab": [
-    {"id": "L15-putain", "fr": "putain", "es": "joder / mierda (muletilla) · 🟡 grosero", "en": "damn / f*** (filler)", "ipa": "pytɛ̃", "pos": "interj", "cognate_type": "non_cognate", "star": true, "ex": "Putain, il fait chaud !", "voice": "oris", "audio": "L15-putain"},
-    {"id": "L15-merde", "fr": "merde", "es": "mierda · 🟢 muy común", "en": "sh*t", "ipa": "mɛʁd", "pos": "interj", "cognate_type": "non_cognate", "star": true, "ex": "Oh, merde !", "voice": "emilie", "audio": "L15-merde"},
-    {"id": "L15-con", "fr": "con / conne", "es": "idiota / imbécil · 🟡 insulto", "en": "idiot / jerk", "ipa": "kɔ̃", "pos": "noun", "cognate_type": "non_cognate", "ex": "Quel con, ce mec !", "voice": "oris", "audio": "L15-con"},
-    {"id": "L15-bordel", "fr": "le bordel", "es": "el desmadre / caos · 🟡 grosero", "en": "mess / chaos", "ipa": "lə bɔʁdɛl", "pos": "noun", "cognate_type": "non_cognate", "ex": "Quel bordel ici !", "voice": "emilie", "audio": "L15-bordel"},
-    {"id": "L15-chiant", "fr": "chiant / chiante", "es": "pesadísimo / molesto · 🟡 grosero", "en": "annoying (crude)", "ipa": "ʃjɑ̃", "pos": "adj", "cognate_type": "non_cognate", "ex": "C'est trop chiant.", "voice": "oris", "audio": "L15-chiant"},
-    {"id": "L15-tagueule", "fr": "ta gueule", "es": "cállate · 🔴 agresivo", "en": "shut up (rude)", "ipa": "ta ɡœl", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Oh, ta gueule !", "voice": "emilie", "audio": "L15-tagueule"},
-    {"id": "L15-marre", "fr": "j'en ai marre", "es": "estoy harto/a · 🟢 común", "en": "I'm fed up", "ipa": "ʒɑ̃ ne maʁ", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "J'en ai marre !", "voice": "oris", "audio": "L15-marre"},
-    {"id": "L15-nul", "fr": "c'est nul", "es": "es malísimo / una porquería · 🟢 suave", "en": "it sucks", "ipa": "sɛ nyl", "pos": "phrase", "cognate_type": "non_cognate", "ex": "Ce film, c'est nul.", "voice": "emilie", "audio": "L15-nul"},
-    {"id": "L15-ouf", "fr": "ouf", "es": "de locos (jerga: fou al revés) · 🟢 jerga", "en": "crazy / wild", "ipa": "uf", "pos": "adj", "cognate_type": "non_cognate", "ex": "C'était ouf !", "voice": "oris", "audio": "L15-ouf"},
-    {"id": "L15-laisse", "fr": "laisse tomber", "es": "déjalo / olvídalo · 🟢 común", "en": "forget it / drop it", "ipa": "lɛs tɔ̃be", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Laisse tomber.", "voice": "emilie", "audio": "L15-laisse"}
+    {
+      "id": "L15-putain",
+      "fr": "putain",
+      "es": "joder / mierda (muletilla) · 🟡 grosero",
+      "en": "damn / f*** (filler)",
+      "ipa": "pytɛ̃",
+      "pos": "interj",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Putain, il fait chaud !",
+      "voice": "oris",
+      "audio": "L15-putain"
+    },
+    {
+      "id": "L15-merde",
+      "fr": "merde",
+      "es": "mierda · 🟢 muy común",
+      "en": "sh*t",
+      "ipa": "mɛʁd",
+      "pos": "interj",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Oh, merde !",
+      "voice": "emilie",
+      "audio": "L15-merde"
+    },
+    {
+      "id": "L15-con",
+      "fr": "con / conne",
+      "es": "idiota / imbécil · 🟡 insulto",
+      "en": "idiot / jerk",
+      "ipa": "kɔ̃",
+      "pos": "noun",
+      "cognate_type": "non_cognate",
+      "ex": "Quel con, ce mec !",
+      "voice": "oris",
+      "audio": "L15-con"
+    },
+    {
+      "id": "L15-bordel",
+      "fr": "le bordel",
+      "es": "el desmadre / caos · 🟡 grosero",
+      "en": "mess / chaos",
+      "ipa": "lə bɔʁdɛl",
+      "pos": "noun",
+      "cognate_type": "non_cognate",
+      "ex": "Quel bordel ici !",
+      "voice": "emilie",
+      "audio": "L15-bordel"
+    },
+    {
+      "id": "L15-chiant",
+      "fr": "chiant / chiante",
+      "es": "pesadísimo / molesto · 🟡 grosero",
+      "en": "annoying (crude)",
+      "ipa": "ʃjɑ̃",
+      "pos": "adj",
+      "cognate_type": "non_cognate",
+      "ex": "C'est trop chiant.",
+      "voice": "oris",
+      "audio": "L15-chiant"
+    },
+    {
+      "id": "L15-tagueule",
+      "fr": "ta gueule",
+      "es": "cállate · 🔴 agresivo",
+      "en": "shut up (rude)",
+      "ipa": "ta ɡœl",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Oh, ta gueule !",
+      "voice": "emilie",
+      "audio": "L15-tagueule"
+    },
+    {
+      "id": "L15-marre",
+      "fr": "j'en ai marre",
+      "es": "estoy harto/a · 🟢 común",
+      "en": "I'm fed up",
+      "ipa": "ʒɑ̃ ne maʁ",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "J'en ai marre !",
+      "voice": "oris",
+      "audio": "L15-marre"
+    },
+    {
+      "id": "L15-nul",
+      "fr": "c'est nul",
+      "es": "es malísimo / una porquería · 🟢 suave",
+      "en": "it sucks",
+      "ipa": "sɛ nyl",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "ex": "Ce film, c'est nul.",
+      "voice": "emilie",
+      "audio": "L15-nul"
+    },
+    {
+      "id": "L15-ouf",
+      "fr": "ouf",
+      "es": "de locos (jerga: fou al revés) · 🟢 jerga",
+      "en": "crazy / wild",
+      "ipa": "uf",
+      "pos": "adj",
+      "cognate_type": "non_cognate",
+      "ex": "C'était ouf !",
+      "voice": "oris",
+      "audio": "L15-ouf"
+    },
+    {
+      "id": "L15-laisse",
+      "fr": "laisse tomber",
+      "es": "déjalo / olvídalo · 🟢 común",
+      "en": "forget it / drop it",
+      "ipa": "lɛs tɔ̃be",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Laisse tomber.",
+      "voice": "emilie",
+      "audio": "L15-laisse"
+    }
   ],
   "sentences": [
-    {"id": "L15-s01", "register": "parle", "fr": "Putain, il fait trop chaud aujourd'hui !", "es": "¡Joder, hace demasiado calor hoy!", "en": "Damn, it's so hot today!", "voice": "oris", "audio": "L15-s01", "gloss": "putain como muletilla — casi puntuación"},
-    {"id": "L15-s02", "register": "parle", "fr": "J'en ai marre, ce bus est toujours en retard.", "es": "Estoy harta, este bus siempre llega tarde.", "en": "I'm fed up, this bus is always late.", "voice": "emilie", "audio": "L15-s02"},
-    {"id": "L15-s03", "register": "parle", "fr": "Laisse tomber, c'est pas grave.", "es": "Déjalo, no es grave.", "en": "Forget it, it's no big deal.", "voice": "oris", "audio": "L15-s03"}
+    {
+      "id": "L15-s01",
+      "register": "parle",
+      "fr": "Putain, il fait trop chaud aujourd'hui !",
+      "es": "¡Joder, hace demasiado calor hoy!",
+      "en": "Damn, it's so hot today!",
+      "voice": "oris",
+      "audio": "L15-s01",
+      "gloss": "putain como muletilla — casi puntuación"
+    },
+    {
+      "id": "L15-s02",
+      "register": "parle",
+      "fr": "J'en ai marre, ce bus est toujours en retard.",
+      "es": "Estoy harta, este bus siempre llega tarde.",
+      "en": "I'm fed up, this bus is always late.",
+      "voice": "emilie",
+      "audio": "L15-s02"
+    },
+    {
+      "id": "L15-s03",
+      "register": "parle",
+      "fr": "Laisse tomber, c'est pas grave.",
+      "es": "Déjalo, no es grave.",
+      "en": "Forget it, it's no big deal.",
+      "voice": "oris",
+      "audio": "L15-s03"
+    }
   ]
 }
