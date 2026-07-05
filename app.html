@@ -187,7 +187,7 @@ async function boot(){
   LESSONS=await Promise.all(files.map(f=>fetch(f).then(r=>r.json())));
   route();
 }
-window.addEventListener('hashchange',route);
+window.addEventListener('hashchange',()=>{route();window.scrollTo(0,0);});
 function aurl(id){const p=(AUDIO.backends[AUDIO.backend]||{}).prefix||'el';return AUDIO.base+p+'/'+id+'.mp3?v='+AUDIO.v;}
 function play(id,btn){
   if(!id||!AUDIO.clips[id])return;
