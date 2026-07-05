@@ -122,6 +122,11 @@
   .modetog .mt{flex:1 1 40%;min-width:120px;border:0;border-radius:14px;padding:13px;font-size:15.5px;font-weight:800;cursor:pointer;background:#fff;color:var(--muted);box-shadow:0 6px 16px rgba(6,42,90,.07)}
   .modetog .mt.on{background:linear-gradient(135deg,var(--sea),var(--deep));color:#fff}
   .story{font-size:19px;line-height:1.7;color:#1c2f42;margin:0}
+  .player{margin:0 0 14px}
+  .player audio{border-radius:12px;background:#eef4fb;display:block}
+  .pctrl{display:flex;gap:8px;margin-top:9px;flex-wrap:wrap}
+  .pctrl button{flex:1;min-width:92px;border:1.5px solid var(--line);background:#fff;color:var(--deep);border-radius:12px;padding:9px 8px;font-size:13.5px;font-weight:800;cursor:pointer}
+  .pctrl button:active{transform:scale(.96)}
   .langtog{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 10px}
   .langb{border:2px solid var(--line);background:#fff;color:var(--muted);border-radius:16px;padding:5px 11px;font-size:12px;font-weight:800;cursor:pointer}
   .langb.on{border-color:var(--sea);background:var(--sea);color:#fff}
@@ -189,11 +194,18 @@ async function boot(){
 }
 window.addEventListener('hashchange',()=>{route();window.scrollTo(0,0);});
 function aurl(id){const p=(AUDIO.backends[AUDIO.backend]||{}).prefix||'el';return AUDIO.base+p+'/'+id+'.mp3?v='+AUDIO.v;}
+function stopCur(){if(cur){cur.el.pause();cur.el.currentTime=0;cur.btn&&cur.btn.classList.remove('playing');cur=null;}}
 function play(id,btn){
   if(!id||!AUDIO.clips[id])return;
-  if(cur){cur.el.pause();cur.el.currentTime=0;cur.btn&&cur.btn.classList.remove('playing');}
-  const el=new Audio(aurl(id));cur={el,btn};if(btn)btn.classList.add('playing');
-  el.addEventListener('ended',()=>btn&&btn.classList.remove('playing'));
+  // clicking the same button again toggles pause / resume — so "pause / shut up" always works
+  if(cur&&cur.id===id&&cur.btn===btn){
+    if(cur.el.paused){cur.el.play();btn&&btn.classList.add('playing');}
+    else{cur.el.pause();btn&&btn.classList.remove('playing');}
+    return;
+  }
+  stopCur();
+  const el=new Audio(aurl(id));cur={el,btn,id};if(btn)btn.classList.add('playing');
+  el.addEventListener('ended',()=>{btn&&btn.classList.remove('playing');if(cur&&cur.el===el)cur=null;});
   el.play().catch(()=>btn&&btn.classList.remove('playing'));
 }
 document.body.addEventListener('click',e=>{const b=e.target.closest('[data-aud]');if(b)play(b.dataset.aud,b);});
@@ -254,14 +266,14 @@ function renderHome(){
     <div class="lnum" style="background:linear-gradient(135deg,var(--good),#0b9)">${icon}</div>
     <div class="vmain"><div class="t">${t}</div><div class="s">${d}</div></div>
     <span style="color:var(--muted);font-size:22px">›</span></div>`;
-  const st=s=>`<div class="card lcard" onclick="location.hash='lecture/${s.id}'">
-    <div class="lnum" style="background:linear-gradient(135deg,#ff9f43,#ee8130)">${s.level}</div>
-    <div class="vmain"><div class="t">${s.title}</div><div class="s">${s.level_label} · ${s.voice==='oris'?'♂':'♀'}</div></div>
+  const st=(s,n)=>`<div class="card lcard" onclick="location.hash='lecture/${s.id}'">
+    <div class="lnum" style="background:linear-gradient(135deg,#ff9f43,#ee8130)">${n}</div>
+    <div class="vmain"><div class="t">${s.title}</div><div class="s">${'★'.repeat(s.level)}<span style="opacity:.35">${'★'.repeat(Math.max(0,5-s.level))}</span> · ${s.level_label} · ${s.voice==='oris'?'♂':'♀'}</div></div>
     <span style="color:var(--muted);font-size:22px">›</span></div>`;
   const lessonsView=`${LESSONS.map(lc).join('')}<a class="big purple" href="#parle">🗣️ Le français qu'on parle vraiment</a>`;
   const quizView=`${cat('mix','🎲','Quiz mixte','un poco de todo')}${cat('ecoute','🎧','Écoute','oye y elige')}${cat('trad','🔤','Traduction','🇪🇸 ↔ 🇫🇷')}${cat('gram','✍️','Grammaire','conjugación y género')}${cat('culture','🧠','Culture','sur Nice et le cours')}${cat('pieges','⚖️','Pièges','español → francés')}`;
   const cartesView=`<div class="card" style="text-align:center"><div style="font-size:15px;line-height:1.5">🎴 Apprends le vocabulaire.<br><span style="color:var(--muted);font-size:13px">Écoute, devine, puis appuie pour révéler (🇬🇧 + 🇪🇸).</span></div></div><a class="big coral" href="#flash">Commencer les cartes →</a>`;
-  const lecturesView=`<div class="card" style="text-align:center"><div style="font-size:14px;line-height:1.5;color:#2a3f56">📖 Des histoires simples, du plus facile au plus difficile.<br><span style="color:var(--muted);font-size:13px">Lis, écoute — et découvre que tu comprends déjà !</span></div></div>${((STORIES&&STORIES.stories)||[]).map(st).join('')}`;
+  const lecturesView=`<div class="card" style="text-align:center"><div style="font-size:14px;line-height:1.5;color:#2a3f56">📖 Des histoires simples, du plus facile au plus difficile.<br><span style="color:var(--muted);font-size:13px">Lis, écoute — et découvre que tu comprends déjà !</span></div></div>${((STORIES&&STORIES.stories)||[]).map((s,i)=>st(s,i+1)).join('')}`;
   const views={lessons:lessonsView,quiz:quizView,cartes:cartesView,lectures:lecturesView};
   document.getElementById('view').innerHTML=`
     <div class="card" style="text-align:center;padding:14px"><div style="font-size:15px;line-height:1.5">Bienvenue, ma belle 🌊<br>
@@ -278,15 +290,24 @@ function renderLectures(id){
   const S=(STORIES&&STORIES.stories)||[];
   const s=S.find(x=>x.id===id);
   if(!s){document.getElementById('ttl').textContent='Lectures';
-    document.getElementById('view').innerHTML=S.map(x=>`<div class="card lcard" onclick="location.hash='lecture/${x.id}'"><div class="lnum" style="background:linear-gradient(135deg,#ff9f43,#ee8130)">${x.level}</div><div class="vmain"><div class="t">${x.title}</div><div class="s">${x.level_label}</div></div><span style="color:var(--muted);font-size:22px">›</span></div>`).join('');return;}
+    document.getElementById('view').innerHTML=S.map((x,i)=>`<div class="card lcard" onclick="location.hash='lecture/${x.id}'"><div class="lnum" style="background:linear-gradient(135deg,#ff9f43,#ee8130)">${i+1}</div><div class="vmain"><div class="t">${x.title}</div><div class="s">${'★'.repeat(x.level)}<span style="opacity:.35">${'★'.repeat(Math.max(0,5-x.level))}</span> · ${x.level_label}</div></div><span style="color:var(--muted);font-size:22px">›</span></div>`).join('');return;}
   document.getElementById('ttl').textContent=s.title;
+  const idx=S.findIndex(x=>x.id===s.id);
+  stopCur();
   const vocab=s.vocab.map(v=>`<div class="v"><div class="vmain"><div class="vfr" style="font-size:16px">${v.fr}</div><div class="ves">🇪🇸 ${v.es} &nbsp;·&nbsp; 🇬🇧 ${v.en}</div></div></div>`).join('');
   document.getElementById('view').innerHTML=`
-    <div class="card"><div style="font-size:13px;color:var(--muted)">${s.level_label} · ${s.voice==='oris'?'voix ♂':'voix ♀'}</div>
+    <div class="card"><div style="font-size:13px;color:var(--muted)">Lecture ${idx+1} · ${'★'.repeat(s.level)} · ${s.voice==='oris'?'voix ♂':'voix ♀'}</div>
       <div style="font-weight:800;font-size:21px;margin:4px 0 2px">${s.title}</div><div class="ves">${s.title_es}</div></div>
     <div class="card"><h2>Vocabulaire — avant de lire</h2>${vocab}</div>
     <div class="card"><h2>Écoute &amp; lis</h2>
-      <button class="pbtn" data-aud="${s.audio}" style="width:100%;border-radius:14px;height:48px;font-size:15px;font-weight:700;margin-bottom:12px">🔊 Écouter l'histoire</button>
+      <div class="player">
+        <audio id="storyaud" preload="none" controls controlslist="nodownload" src="${aurl(s.audio)}" style="width:100%;height:40px" onplay="stopCur()"></audio>
+        <div class="pctrl">
+          <button type="button" onclick="var a=document.getElementById('storyaud');a.currentTime=0;a.play()">↺ recommencer</button>
+          <button type="button" onclick="var a=document.getElementById('storyaud');a.currentTime=Math.max(0,a.currentTime-10)">« 10s</button>
+          <button type="button" onclick="document.getElementById('storyaud').pause()">⏸ pause</button>
+        </div>
+      </div>
       <p class="story">${esc(s.text)}</p></div>`;
 }
 /* ---------- phonology (Chapter 0) ---------- */
