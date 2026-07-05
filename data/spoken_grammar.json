@@ -1,55 +1,223 @@
 {
   "meta": {
     "note": "Structured spoken-French grammar spine derived from docs/teaching-charter.md. Contemporary spoken register only. Bridge = Spanish. Example clips have no audio ids yet; they get generated when each becomes a lesson.",
-    "register": ["on=we", "contractions (j'ai, c'est, y a)", "est-ce que / intonation questions", "ne dropped in fast speech (recognition)", "je voudrais/j'aimerais for politeness"]
+    "register": [
+      "on=we",
+      "contractions (j'ai, c'est, y a)",
+      "est-ce que / intonation questions",
+      "ne dropped in fast speech (recognition)",
+      "je voudrais/j'aimerais for politeness"
+    ]
   },
   "tense_system": [
-    {"tense": "présent", "status": "teach", "use": "now, general truths, near future in context", "es_anchor": "presente"},
-    {"tense": "passé composé", "status": "teach", "use": "completed, bounded events", "es_anchor": "pretérito (vi, comí)", "example": {"fr": "Hier, j'ai vu Marie.", "es": "Ayer vi a María.", "en": "Yesterday I saw Marie."}},
-    {"tense": "imparfait", "status": "teach", "use": "background, description, habit, ongoing states", "es_anchor": "imperfecto (hacía, estaba)", "example": {"fr": "Il faisait beau et j'étais fatiguée.", "es": "Hacía buen tiempo y estaba cansada.", "en": "It was nice out and I was tired."}},
-    {"tense": "futur proche", "status": "teach", "use": "PRIMARY everyday future: aller + infinitif", "es_anchor": "ir a + inf (voy a)", "example": {"fr": "Je vais manger.", "es": "Voy a comer.", "en": "I'm going to eat."}},
-    {"tense": "futur simple", "status": "teach-secondary", "use": "plans, predictions; less frequent in speech than futur proche", "es_anchor": "futuro (comeré)"},
-    {"tense": "conditionnel", "status": "teach", "use": "politeness and hypotheticals", "es_anchor": "condicional (querría, gustaría)", "example": {"fr": "Je voudrais un café.", "es": "Querría un café.", "en": "I'd like a coffee."}},
-    {"tense": "passé simple", "status": "recognition_only", "use": "literary narration; she READS it, never says it", "es_anchor": "pretérito literario"}
+    {
+      "tense": "présent",
+      "status": "teach",
+      "use": "now, general truths, near future in context",
+      "es_anchor": "presente"
+    },
+    {
+      "tense": "passé composé",
+      "status": "teach",
+      "use": "completed, bounded events",
+      "es_anchor": "pretérito (vi, comí)",
+      "example": {
+        "fr": "Hier, j'ai vu Marie.",
+        "es": "Ayer vi a María.",
+        "en": "Yesterday I saw Marie."
+      }
+    },
+    {
+      "tense": "imparfait",
+      "status": "teach",
+      "use": "background, description, habit, ongoing states",
+      "es_anchor": "imperfecto (hacía, estaba)",
+      "example": {
+        "fr": "Il faisait beau et j'étais fatiguée.",
+        "es": "Hacía buen tiempo y estaba cansada.",
+        "en": "It was nice out and I was tired."
+      }
+    },
+    {
+      "tense": "futur proche",
+      "status": "teach",
+      "use": "PRIMARY everyday future: aller + infinitif",
+      "es_anchor": "ir a + inf (voy a)",
+      "example": {
+        "fr": "Je vais manger.",
+        "es": "Voy a comer.",
+        "en": "I'm going to eat."
+      }
+    },
+    {
+      "tense": "futur simple",
+      "status": "teach-secondary",
+      "use": "plans, predictions; less frequent in speech than futur proche",
+      "es_anchor": "futuro (comeré)"
+    },
+    {
+      "tense": "conditionnel",
+      "status": "teach",
+      "use": "politeness and hypotheticals",
+      "es_anchor": "condicional (querría, gustaría)",
+      "example": {
+        "fr": "Je voudrais un café.",
+        "es": "Querría un café.",
+        "en": "I'd like a coffee."
+      }
+    },
+    {
+      "tense": "passé simple",
+      "status": "recognition_only",
+      "use": "literary narration; she READS it, never says it",
+      "es_anchor": "pretérito literario"
+    }
   ],
   "past_two_tense_rule": {
     "principle": "Spoken past = passé composé (completed events) + imparfait (background/habit/state). Maps onto her Spanish pretérito/imperfecto instinct.",
-    "sequence_example": {"fr": "On est arrivés, on a mangé, puis on est partis.", "es": "Llegamos, comimos, y luego nos fuimos.", "en": "We arrived, ate, then left.", "note": "chain of completed events -> all passé composé"}
+    "sequence_example": {
+      "fr": "On est arrivés, on a mangé, puis on est partis.",
+      "es": "Llegamos, comimos, y luego nos fuimos.",
+      "en": "We arrived, ate, then left.",
+      "note": "chain of completed events -> all passé composé"
+    }
   },
   "subjunctive": {
     "teach_as": "fixed high-frequency chunks, not theory",
     "heuristic": "Main clause = pressure / wish / feeling / doubt / purpose -> subordinate verb goes subjunctive.",
     "present_triggers": [
-      {"frame": "il faut que", "gloss_es": "hace falta que / hay que", "example": {"fr": "Il faut que tu viennes.", "es": "Tienes que venir.", "en": "You have to come."}},
-      {"frame": "je veux que", "gloss_es": "quiero que", "example": {"fr": "Je veux que tu sois là.", "es": "Quiero que estés ahí.", "en": "I want you to be there."}},
-      {"frame": "j'aimerais que", "gloss_es": "me gustaría que", "example": {"fr": "J'aimerais qu'on parte tôt.", "es": "Me gustaría que saliéramos temprano.", "en": "I'd like us to leave early."}},
-      {"frame": "c'est important que", "gloss_es": "es importante que", "example": {"fr": "C'est important qu'on parte tôt.", "es": "Es importante que salgamos temprano.", "en": "It's important that we leave early."}},
-      {"frame": "je suis content/désolé que", "gloss_es": "me alegra / siento que", "example": {"fr": "Je suis content qu'elle soit venue.", "es": "Me alegra que haya venido.", "en": "I'm happy she came.", "subj": "past"}},
-      {"frame": "avant que", "gloss_es": "antes de que", "example": {"fr": "Avant qu'on parte, il faut acheter de l'eau.", "es": "Antes de que salgamos, hay que comprar agua.", "en": "Before we leave, we need to buy water."}},
-      {"frame": "pour que", "gloss_es": "para que", "example": {"fr": "Je t'appelle pour que tu saches.", "es": "Te llamo para que sepas.", "en": "I'm calling so you know."}},
-      {"frame": "bien que", "gloss_es": "aunque (+ subj)", "example": {"fr": "Bien qu'il soit fatigué, il vient.", "es": "Aunque esté cansado, viene.", "en": "Although he's tired, he's coming."}}
+      {
+        "frame": "il faut que",
+        "gloss_es": "hace falta que / hay que",
+        "example": {
+          "fr": "Il faut que tu viennes.",
+          "es": "Tienes que venir.",
+          "en": "You have to come."
+        }
+      },
+      {
+        "frame": "je veux que",
+        "gloss_es": "quiero que",
+        "example": {
+          "fr": "Je veux que tu sois là.",
+          "es": "Quiero que estés ahí.",
+          "en": "I want you to be there."
+        }
+      },
+      {
+        "frame": "j'aimerais que",
+        "gloss_es": "me gustaría que",
+        "example": {
+          "fr": "J'aimerais qu'on parte tôt.",
+          "es": "Me gustaría que saliéramos temprano.",
+          "en": "I'd like us to leave early."
+        }
+      },
+      {
+        "frame": "c'est important que",
+        "gloss_es": "es importante que",
+        "example": {
+          "fr": "C'est important qu'on parte tôt.",
+          "es": "Es importante que salgamos temprano.",
+          "en": "It's important that we leave early."
+        }
+      },
+      {
+        "frame": "je suis content/désolé que",
+        "gloss_es": "me alegra / siento que",
+        "example": {
+          "fr": "Je suis content qu'elle soit venue.",
+          "es": "Me alegra que haya venido.",
+          "en": "I'm happy she came.",
+          "subj": "past"
+        }
+      },
+      {
+        "frame": "avant que",
+        "gloss_es": "antes de que",
+        "example": {
+          "fr": "Avant qu'on parte, il faut acheter de l'eau.",
+          "es": "Antes de que salgamos, hay que comprar agua.",
+          "en": "Before we leave, we need to buy water."
+        }
+      },
+      {
+        "frame": "pour que",
+        "gloss_es": "para que",
+        "example": {
+          "fr": "Je t'appelle pour que tu saches.",
+          "es": "Te llamo para que sepas.",
+          "en": "I'm calling so you know."
+        }
+      },
+      {
+        "frame": "bien que",
+        "gloss_es": "aunque (+ subj)",
+        "example": {
+          "fr": "Bien qu'il soit fatigué, il vient.",
+          "es": "Aunque esté cansado, viene.",
+          "en": "Although he's tired, he's coming."
+        }
+      }
     ],
     "indicative_contrast": [
-      {"frame": "même si", "takes": "indicative", "gloss_es": "aunque / incluso si (+ indicativo)", "example": {"fr": "Même s'il est fatigué, il vient.", "es": "Aunque está cansado, viene.", "en": "Even if he's tired, he's coming."}}
+      {
+        "frame": "même si",
+        "takes": "indicative",
+        "gloss_es": "aunque / incluso si (+ indicativo)",
+        "example": {
+          "fr": "Même s'il est fatigué, il vient.",
+          "es": "Aunque está cansado, viene.",
+          "en": "Even if he's tired, he's coming."
+        }
+      }
     ],
     "past_subjunctive": {
       "name": "passé du subjonctif",
       "form": "avoir/être (present subjunctive) + past participle — COMPOUND, not the imperfect subjunctive",
       "use": "when the trigger points at something genuinely past",
       "examples": [
-        {"fr": "Je suis content que tu sois venu.", "es": "Me alegra que hayas venido.", "en": "I'm glad you came."},
-        {"fr": "C'est dommage qu'on ait raté le train.", "es": "Es una pena que hayamos perdido el tren.", "en": "It's too bad we missed the train."},
-        {"fr": "Je ne crois pas qu'il ait compris.", "es": "No creo que haya entendido.", "en": "I don't think he understood."}
+        {
+          "fr": "Je suis content que tu sois venu.",
+          "es": "Me alegra que hayas venido.",
+          "en": "I'm glad you came."
+        },
+        {
+          "fr": "C'est dommage qu'on ait raté le train.",
+          "es": "Es una pena que hayamos perdido el tren.",
+          "en": "It's too bad we missed the train."
+        },
+        {
+          "fr": "Je ne crois pas qu'il ait compris.",
+          "es": "No creo que haya entendido.",
+          "en": "I don't think he understood."
+        }
       ]
     }
   },
   "polite_conditional": {
     "principle": "For polite requests French uses the CONDITIONAL, not a 'quisiera-style' imperfect subjunctive. These are survival phrases for Nice — teach as fixed chunks.",
     "frames": [
-      {"fr": "Je voudrais un café.", "es": "Quisiera / Querría un café.", "en": "I'd like a coffee."},
-      {"fr": "J'aimerais réserver une table.", "es": "Me gustaría reservar una mesa.", "en": "I'd like to reserve a table."},
-      {"fr": "Est-ce que je pourrais avoir l'addition ?", "es": "¿Podría traerme la cuenta?", "en": "Could I have the check?"},
-      {"fr": "Vous pourriez m'aider ?", "es": "¿Podría ayudarme?", "en": "Could you help me?"}
+      {
+        "fr": "Je voudrais un café.",
+        "es": "Quisiera / Querría un café.",
+        "en": "I'd like a coffee."
+      },
+      {
+        "fr": "J'aimerais réserver une table.",
+        "es": "Me gustaría reservar una mesa.",
+        "en": "I'd like to reserve a table."
+      },
+      {
+        "fr": "Est-ce que je pourrais avoir l'addition ?",
+        "es": "¿Podría traerme la cuenta?",
+        "en": "Could I have the check?"
+      },
+      {
+        "fr": "Vous pourriez m'aider ?",
+        "es": "¿Podría ayudarme?",
+        "en": "Could you help me?"
+      }
     ]
   },
   "spanish_traps": [
@@ -59,7 +227,11 @@
       "her_instinct": "Spanish uses the imperfect subjunctive 'quisiera' as a polite 'I'd like'.",
       "french_reality": "French has NO 'quisiera'-style imperfect subjunctive for this. Polite requests use the conditional: je voudrais, j'aimerais, je pourrais, est-ce que vous pourriez…?",
       "wrong": "(imperfect-subjunctive request forms do not exist in spoken French)",
-      "right": {"fr": "Je voudrais un café.", "es": "Quisiera un café.", "en": "I'd like a coffee."},
+      "right": {
+        "fr": "Je voudrais un café.",
+        "es": "Quisiera un café.",
+        "en": "I'd like a coffee."
+      },
       "rule": "Map quisiera/querría/me gustaría -> je voudrais / j'aimerais. Never build a French imperfect-subjunctive polite form."
     },
     {
@@ -68,7 +240,11 @@
       "her_instinct": "Spanish requires past subjunctive after a past main verb (Quería que vinieras).",
       "french_reality": "Spoken French keeps the PRESENT subjunctive even after a past main verb.",
       "wrong": "Je voulais que tu vinsses.",
-      "right": {"fr": "Je voulais que tu viennes.", "es": "Quería que vinieras.", "en": "I wanted you to come."},
+      "right": {
+        "fr": "Je voulais que tu viennes.",
+        "es": "Quería que vinieras.",
+        "en": "I wanted you to come."
+      },
       "rule": "After a past main verb, still use the PRESENT subjunctive. The imparfait du subjonctif (vinsses, vînt, fût) is recognition-only."
     },
     {
@@ -76,22 +252,125 @@
       "severity": "high",
       "her_instinct": "Spanish splits ser vs estar.",
       "french_reality": "French has ONE verb être for both.",
-      "right": {"fr": "Je suis américaine. / Je suis à Nice.", "es": "Soy americana. / Estoy en Niza.", "en": "I am American. / I am in Nice."}
+      "right": {
+        "fr": "Je suis américaine. / Je suis à Nice.",
+        "es": "Soy americana. / Estoy en Niza.",
+        "en": "I am American. / I am in Nice."
+      }
     },
     {
       "id": "future_preference",
       "severity": "medium",
       "her_instinct": "Spanish uses both simple future (comeré) and ir a + inf (voy a comer).",
       "french_reality": "Spoken French strongly prefers futur proche (je vais manger) over the simple future.",
-      "right": {"fr": "Je vais manger.", "es": "Voy a comer.", "en": "I'm going to eat."}
+      "right": {
+        "fr": "Je vais manger.",
+        "es": "Voy a comer.",
+        "en": "I'm going to eat."
+      }
     },
     {
       "id": "ne_expletif",
       "severity": "low",
       "her_instinct": "n/a",
       "french_reality": "Careful/literary French inserts a meaningless 'ne' after craindre / avant que (Je crains qu'il ne parte). Spoken French usually drops it.",
-      "right": {"fr": "Je crains qu'il parte.", "es": "Temo que se vaya.", "en": "I'm afraid he'll leave."},
+      "right": {
+        "fr": "Je crains qu'il parte.",
+        "es": "Temo que se vaya.",
+        "en": "I'm afraid he'll leave."
+      },
       "rule": "recognition-only; do not drill production of ne explétif"
+    },
+    {
+      "id": "negation_double",
+      "severity": "high",
+      "her_instinct": "Spanish negates with one word: « No veo nada ».",
+      "french_reality": "French wraps the verb: ne … rien. Don't add « pas » on top of « rien/jamais/personne ».",
+      "wrong": "Je ne vois pas rien.",
+      "right": {
+        "fr": "Je ne vois rien.",
+        "es": "No veo nada.",
+        "en": "I don't see anything."
+      },
+      "rule": "rien/jamais/personne already carry the negation — no extra « pas »."
+    },
+    {
+      "id": "object_pronoun_before_verb",
+      "severity": "high",
+      "her_instinct": "Good news: like Spanish, the object pronoun goes BEFORE the verb.",
+      "french_reality": "« Lo veo » = « Je le vois », never « Je vois le ». English word order is the trap here.",
+      "wrong": "Je vois le.",
+      "right": {
+        "fr": "Je le vois.",
+        "es": "Lo veo.",
+        "en": "I see him/it."
+      },
+      "rule": "Object pronoun before the conjugated verb, exactly like Spanish."
+    },
+    {
+      "id": "reflexive_pronoun_required",
+      "severity": "medium",
+      "her_instinct": "Reflexives work just like Spanish (me/te/se).",
+      "french_reality": "Don't drop the reflexive pronoun: « me levanto » = « je me lève », not « je lève ».",
+      "wrong": "Je lève à sept heures.",
+      "right": {
+        "fr": "Je me lève à sept heures.",
+        "es": "Me levanto a las siete.",
+        "en": "I get up at seven."
+      },
+      "rule": "Keep the reflexive pronoun before the verb: je me lève, tu te lèves."
+    },
+    {
+      "id": "meilleur_not_plus_bon",
+      "severity": "high",
+      "her_instinct": "To say 'better' I'd build « plus bon » (más bueno).",
+      "french_reality": "« bon » is irregular: better = « meilleur ». Never « plus bon ».",
+      "wrong": "C'est plus bon que la pizza.",
+      "right": {
+        "fr": "C'est meilleur que la pizza.",
+        "es": "Es mejor que la pizza.",
+        "en": "It's better than pizza."
+      },
+      "rule": "bon → meilleur (adj), bien → mieux (adv). No « plus bon »."
+    },
+    {
+      "id": "mon_before_feminine_vowel",
+      "severity": "medium",
+      "her_instinct": "« mi amiga » is feminine, so « ma amie ».",
+      "french_reality": "Before a vowel, feminine possessives switch to mon/ton/son: « mon amie ».",
+      "wrong": "Ma amie Chloé.",
+      "right": {
+        "fr": "Mon amie Chloé.",
+        "es": "Mi amiga Chloé.",
+        "en": "My friend Chloé."
+      },
+      "rule": "Before a vowel sound, use mon/ton/son even for feminine nouns."
+    },
+    {
+      "id": "pourquoi_vs_parce_que",
+      "severity": "medium",
+      "her_instinct": "« por qué » and « porque » look like one idea.",
+      "french_reality": "Question = pourquoi ; answer = parce que. Two different words.",
+      "wrong": "Pour quoi tu ris ?",
+      "right": {
+        "fr": "Pourquoi tu ris ?",
+        "es": "¿Por qué ríes?",
+        "en": "Why are you laughing?"
+      },
+      "rule": "pourquoi (why, question) vs parce que (because, answer)."
+    },
+    {
+      "id": "imperative_pronoun_moi",
+      "severity": "medium",
+      "her_instinct": "« dame » attaches the pronoun after — so « donne me »?",
+      "french_reality": "Affirmative command attaches the pronoun with a hyphen and uses « moi »: « donne-moi ».",
+      "wrong": "Me donne ton numéro.",
+      "right": {
+        "fr": "Donne-moi ton numéro.",
+        "es": "Dame tu número.",
+        "en": "Give me your number."
+      },
+      "rule": "Affirmative imperative: verb-moi/toi (hyphen), like Spanish « dame »."
     }
   ]
 }

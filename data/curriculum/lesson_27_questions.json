@@ -1,0 +1,303 @@
+{
+  "id": "L27",
+  "order": 27,
+  "slug": "questions",
+  "title": "Les questions",
+  "es_title": "Cómo preguntar (qui, où, pourquoi…)",
+  "focus": "Preguntar en francés hablado: las palabras clave (qui, où, quand, comment, pourquoi, combien, quel) y « est-ce que » — sin la inversión de los libros.",
+  "objectives": [
+    "Usar las palabras interrogativas.",
+    "Preguntar con « est-ce que » o solo con la entonación.",
+    "« quel/quelle » concuerda con el nombre."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "C'est où, c'est quand ?"
+    },
+    {
+      "t": "pair",
+      "fr": "Ce matin, j'ai demandé à une dame : « Pardon, la plage, c'est où ? Et le marché, c'est quand ? » Pas de grammaire compliquée — tu montes la voix à la fin, et voilà, c'est une question.",
+      "es": "Esta mañana, le he preguntado a una señora: «Perdón, la playa, ¿es dónde? ¿Y el mercado, es cuándo?» Nada de gramática complicada — subes la voz al final, y ya está, es una pregunta.",
+      "en": "This morning I asked a lady, 'Excuse me, the beach — where is it? And the market, when is it?' No complicated grammar — you just raise your voice at the end, and boom, it's a question."
+    },
+    {
+      "t": "h3",
+      "text": "Est-ce que : la formule magique"
+    },
+    {
+      "t": "pair",
+      "fr": "Dans les livres, on écrit « Où vas-tu ? », mais franchement, personne parle comme ça dans la rue. Nous, on colle « est-ce que » devant : « Est-ce que le bus 12 va au port ? » — et le chauffeur comprend tout de suite.",
+      "es": "En los libros, se escribe «Où vas-tu?», pero francamente, nadie habla así en la calle. Nosotros, pegamos «es que» delante: «¿Es que el bus 12 va al puerto?» — y el chofer comprende enseguida.",
+      "en": "In books they write 'Où vas-tu?', but honestly, nobody talks like that on the street. Us, we just glue 'est-ce que' on the front: 'Does the number 12 bus go to the port?' — and the driver gets it right away."
+    },
+    {
+      "t": "h3",
+      "text": "Qui, que, quoi ?!"
+    },
+    {
+      "t": "pair",
+      "fr": "Mon frère est entré sans frapper et m'a demandé : « Tu regardes quoi ? » Moi : « Et toi, qui t'a invité dans ma chambre ? Comment tu oses ? »",
+      "es": "Mi hermano ha entrado sin tocar y me ha preguntado: «¿Tú miras qué?» Yo: «Y tú, ¿quién te ha invitado a mi cuarto? ¿Cómo tú osas?»",
+      "en": "My brother walked in without knocking and asked, 'What are you watching?' Me: 'And you — who invited you into my room? How dare you?'"
+    },
+    {
+      "t": "h3",
+      "text": "Pourquoi ? Parce que."
+    },
+    {
+      "t": "pair",
+      "fr": "Maman demande toujours pourquoi : pourquoi tu rentres tard, pourquoi la glace coûte quatre euros, pourquoi on marche encore. Moi, je réponds avec la logique de Nice : parce que c'est beau, voilà pourquoi.",
+      "es": "Mamá pregunta siempre por qué: por qué tú vuelves tarde, por qué el helado cuesta cuatro euros, por qué caminamos todavía. Yo, respondo con la lógica de Niza: porque es bello, he ahí por qué.",
+      "en": "Mom is always asking why: why are you home late, why does ice cream cost four euros, why are we still walking. Me, I answer with Nice logic: because it's beautiful, that's why."
+    },
+    {
+      "t": "h3",
+      "text": "Combien, quel — les questions du marché"
+    },
+    {
+      "t": "pair",
+      "fr": "Au marché, la question essentielle : « C'est combien, les fraises ? » Et puis « il est quelle heure ? », « on prend quel bus ? » — avec « quel », tu accordes, mais bon, personne t'arrête dans la rue pour vérifier.",
+      "es": "En el mercado, la pregunta esencial: «¿Es cuánto, las fresas?» Y luego «¿es qué hora?», «¿tomamos qué bus?» — con «quel» (qué/cuál), tú concuerdas, pero bueno, nadie te para en la calle para verificar.",
+      "en": "At the market, the essential question: 'How much are the strawberries?' And then 'what time is it?', 'which bus are we taking?' — with 'quel' you have to make it agree, but hey, nobody stops you on the street to check."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L27-qui",
+      "fr": "qui ?",
+      "es": "¿quién?",
+      "en": "who?",
+      "ipa": "ki",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Qui est là ?",
+      "voice": "emilie",
+      "audio": "L27-qui",
+      "star": true
+    },
+    {
+      "id": "L27-quoi",
+      "fr": "quoi ? / que ?",
+      "es": "¿qué?",
+      "en": "what?",
+      "ipa": "kwa",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Tu fais quoi ?",
+      "voice": "oris",
+      "audio": "L27-quoi",
+      "star": true
+    },
+    {
+      "id": "L27-ou",
+      "fr": "où ?",
+      "es": "¿dónde?",
+      "en": "where?",
+      "ipa": "u",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Où est la plage ?",
+      "voice": "emilie",
+      "audio": "L27-ou",
+      "star": true
+    },
+    {
+      "id": "L27-quand",
+      "fr": "quand ?",
+      "es": "¿cuándo?",
+      "en": "when?",
+      "ipa": "kɑ̃",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Tu arrives quand ?",
+      "voice": "oris",
+      "audio": "L27-quand",
+      "star": true
+    },
+    {
+      "id": "L27-comment",
+      "fr": "comment ?",
+      "es": "¿cómo?",
+      "en": "how?",
+      "ipa": "kɔmɑ̃",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Comment tu t'appelles ?",
+      "voice": "emilie",
+      "audio": "L27-comment",
+      "star": true
+    },
+    {
+      "id": "L27-pourquoi",
+      "fr": "pourquoi ?",
+      "es": "¿por qué?",
+      "en": "why?",
+      "ipa": "puʁkwa",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Pourquoi tu ris ?",
+      "voice": "oris",
+      "audio": "L27-pourquoi",
+      "star": true
+    },
+    {
+      "id": "L27-parceque",
+      "fr": "parce que",
+      "es": "porque",
+      "en": "because",
+      "ipa": "paʁs kə",
+      "pos": "conj",
+      "cognate_type": "non_cognate",
+      "ex": "Parce que c'est beau.",
+      "voice": "emilie",
+      "audio": "L27-parceque"
+    },
+    {
+      "id": "L27-combien",
+      "fr": "combien ?",
+      "es": "¿cuánto?",
+      "en": "how much?",
+      "ipa": "kɔ̃bjɛ̃",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Ça coûte combien ?",
+      "voice": "oris",
+      "audio": "L27-combien",
+      "star": true
+    },
+    {
+      "id": "L27-quel",
+      "fr": "quel / quelle ?",
+      "es": "¿qué? / ¿cuál?",
+      "en": "which? / what?",
+      "ipa": "kɛl",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Quelle heure est-il ?",
+      "voice": "emilie",
+      "audio": "L27-quel",
+      "star": true
+    },
+    {
+      "id": "L27-estce",
+      "fr": "est-ce que… ?",
+      "es": "(marca de pregunta)",
+      "en": "(question marker)",
+      "ipa": "ɛs kə",
+      "pos": "interro",
+      "cognate_type": "non_cognate",
+      "ex": "Est-ce que tu viens ?",
+      "voice": "oris",
+      "audio": "L27-estce",
+      "star": true
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L27-s01",
+      "register": "parle",
+      "fr": "Comment tu t'appelles ? — Moi, c'est Emma.",
+      "es": "¿Cómo te llamas? — Yo, soy Emma.",
+      "en": "What's your name? — I'm Emma.",
+      "voice": "emilie",
+      "audio": "L27-s01"
+    },
+    {
+      "id": "L27-s02",
+      "register": "parle",
+      "fr": "Pardon, ça coûte combien, les fraises ?",
+      "es": "Perdón, ¿cuánto cuestan las fresas?",
+      "en": "Excuse me, how much are the strawberries?",
+      "voice": "oris",
+      "audio": "L27-s02"
+    },
+    {
+      "id": "L27-s03",
+      "register": "parle",
+      "fr": "Est-ce que le bus 12 va au port ?",
+      "es": "¿El bus 12 va al puerto?",
+      "en": "Does the number 12 bus go to the port?",
+      "voice": "emilie",
+      "audio": "L27-s03",
+      "gloss": "« est-ce que » = pregunta sí/no, sin inversión"
+    },
+    {
+      "id": "L27-s04",
+      "register": "parle",
+      "fr": "On mange quoi ce soir ?",
+      "es": "¿Qué comemos esta noche?",
+      "en": "What are we eating tonight?",
+      "voice": "oris",
+      "audio": "L27-s04"
+    }
+  ],
+  "drills": [
+    {
+      "q": "« ¿Qué hora es? »",
+      "sub": "français correct :",
+      "ans": "Quelle heure est-il ?",
+      "opts": [
+        "Quelle heure est-il ?",
+        "Quel heure est-il ?",
+        "Comment heure est-il ?",
+        "Où heure est-il ?"
+      ]
+    },
+    {
+      "q": "« ¿Cuánto cuesta? » → Ça coûte ___ ?",
+      "sub": "le bon mot :",
+      "ans": "combien",
+      "opts": [
+        "combien",
+        "comment",
+        "quel",
+        "pourquoi"
+      ]
+    },
+    {
+      "q": "« ¿Por qué ríes? »",
+      "sub": "attention pourquoi ≠ parce que :",
+      "ans": "Pourquoi tu ris ?",
+      "opts": [
+        "Pourquoi tu ris ?",
+        "Parce que tu ris ?",
+        "Pour quoi tu ris ?",
+        "Comment tu ris ?"
+      ]
+    },
+    {
+      "q": "Question oui/non polie : « ___ tu viens ? »",
+      "sub": "(es que…) :",
+      "ans": "Est-ce que",
+      "opts": [
+        "Est-ce que",
+        "Qu'est-ce qui",
+        "Est-ce qui",
+        "C'est que"
+      ]
+    },
+    {
+      "q": "« ¿Dónde está la playa? » → « ___ est la plage ? »",
+      "sub": "où (dónde), pas ou (o) :",
+      "ans": "Où",
+      "opts": [
+        "Où",
+        "Ou",
+        "D'où",
+        "Quand"
+      ]
+    },
+    {
+      "q": "« ¿Quién es? » → « ___ c'est ? »",
+      "sub": "le bon mot :",
+      "ans": "Qui",
+      "opts": [
+        "Qui",
+        "Que",
+        "Quoi",
+        "Quel"
+      ]
+    }
+  ]
+}

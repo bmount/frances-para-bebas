@@ -1,5 +1,5 @@
 /* Français pour bébas — service worker (offline for the trip) */
-const VER = 'fpb-v13';
+const VER = 'fpb-v14';
 const SHELL = VER + '-shell';
 const AUDIO = 'fpb-audio';   // audio is versioned via ?v= query, so keep across releases
 const CORE = [
@@ -32,6 +32,13 @@ const CORE = [
   'data/curriculum/lesson_24_meteo.json',
   'data/curriculum/lesson_25_sante.json',
   'data/curriculum/lesson_26_tech.json',
+  'data/curriculum/lesson_27_questions.json',
+  'data/curriculum/lesson_28_negation.json',
+  'data/curriculum/lesson_29_quotidien.json',
+  'data/curriculum/lesson_30_pronoms.json',
+  'data/curriculum/lesson_31_comparer.json',
+  'data/curriculum/lesson_32_possessifs.json',
+  'data/curriculum/lesson_33_imperatif.json',
   'data/quiz_culture.json',
   'data/stories.json'
 ];

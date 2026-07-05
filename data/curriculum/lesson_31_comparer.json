@@ -1,0 +1,289 @@
+{
+  "id": "L31",
+  "order": 31,
+  "slug": "comparer",
+  "title": "Comparer",
+  "es_title": "Comparar (plus… que, meilleur, mieux)",
+  "focus": "Comparar como en español: plus… que (más… que), moins… que, aussi… que (tan… como). Cuidado con los irregulares: bon → meilleur (adj), bien → mieux (adv).",
+  "objectives": [
+    "plus/moins/aussi … que.",
+    "Superlativo: le/la plus.",
+    "Irregulares: meilleur (adj) vs mieux (adv)."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "La plage ou la montagne ?"
+    },
+    {
+      "t": "pair",
+      "fr": "La plage est plus proche que la montagne, et franchement, elle est moins compliquée aussi. Mais la montagne est plus tranquille — ici, il y a plus de touristes que de pigeons, et ça, c'est beaucoup.",
+      "es": "La playa está más próxima que la montaña, y francamente, es menos complicada también. Pero la montaña es más tranquila — aquí, hay más turistas que palomas, y eso, es mucho.",
+      "en": "The beach is closer than the mountains, and honestly, it's less complicated too. But the mountains are quieter — here there are more tourists than pigeons, and that's saying a lot."
+    },
+    {
+      "t": "h3",
+      "text": "Socca contre pizza"
+    },
+    {
+      "t": "pair",
+      "fr": "La socca est aussi populaire que la pizza ici, mais elle est moins connue en Amérique. Pour moi, la socca est meilleure que la pizza — oui, j'ai vraiment dit ça.",
+      "es": "La socca es tan popular como la pizza aquí, pero es menos conocida en América. Para mí, la socca es mejor que la pizza — sí, verdaderamente dije eso.",
+      "en": "Socca is as popular as pizza here, but it's less well known in America. For me, socca is better than pizza — yes, I really said that."
+    },
+    {
+      "t": "h3",
+      "text": "Nice contre Paris"
+    },
+    {
+      "t": "pair",
+      "fr": "Paris est plus grand que Nice, c'est évident, mais Nice est plus ensoleillée et moins stressée. Et honnêtement, on mange mieux ici — désolée, Paris.",
+      "es": "París es más grande que Niza, es evidente, pero Niza es más soleada y menos estresada. Y honestamente, comemos mejor aquí — perdón, París.",
+      "en": "Paris is bigger than Nice, obviously, but Nice is sunnier and less stressed out. And honestly, the food's better here — sorry, Paris."
+    },
+    {
+      "t": "h3",
+      "text": "Meilleur ou mieux ? Le piège"
+    },
+    {
+      "t": "pair",
+      "fr": "Ce croissant est meilleur que celui d'hier, et je dors mieux depuis qu'on est arrivés. Attention : « bon » devient « meilleur » et « bien » devient « mieux » — en espagnol c'est « mejor » les deux fois, ici non.",
+      "es": "Este croissant es mejor que el de ayer, y duermo mejor desde que llegamos. Cuidado: « bon » se vuelve « meilleur » y « bien » se vuelve « mieux » — en español es « mejor » las dos veces, aquí no.",
+      "en": "This croissant is better than yesterday's, and I've been sleeping better since we arrived. Watch out: \"bon\" becomes \"meilleur\" and \"bien\" becomes \"mieux\" — in Spanish it's \"mejor\" both times, here it's not."
+    },
+    {
+      "t": "h3",
+      "text": "Le plus beau moment"
+    },
+    {
+      "t": "pair",
+      "fr": "Le coucher de soleil sur la Promenade, c'était le plus beau moment de la semaine, sans discussion. Et le meilleur dans tout ça ? Demain, on recommence.",
+      "es": "La puesta de sol en la Promenade, fue el más bello momento de la semana, sin discusión. ¿Y lo mejor de todo eso? Mañana, empezamos de nuevo.",
+      "en": "The sunset over the Promenade was the most beautiful moment of the week, no debate. And the best part of it all? Tomorrow we get to do it again."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L31-plus",
+      "fr": "plus … que",
+      "es": "más … que",
+      "en": "more … than",
+      "ipa": "ply kə",
+      "pos": "comp",
+      "cognate_type": "non_cognate",
+      "ex": "Nice est plus belle que Paris.",
+      "voice": "emilie",
+      "audio": "L31-plus",
+      "star": true
+    },
+    {
+      "id": "L31-moins",
+      "fr": "moins … que",
+      "es": "menos … que",
+      "en": "less … than",
+      "ipa": "mwɛ̃ kə",
+      "pos": "comp",
+      "cognate_type": "non_cognate",
+      "ex": "Il fait moins froid ici.",
+      "voice": "oris",
+      "audio": "L31-moins",
+      "star": true
+    },
+    {
+      "id": "L31-aussi",
+      "fr": "aussi … que",
+      "es": "tan … como",
+      "en": "as … as",
+      "ipa": "osi kə",
+      "pos": "comp",
+      "cognate_type": "non_cognate",
+      "ex": "Elle est aussi grande que moi.",
+      "voice": "emilie",
+      "audio": "L31-aussi",
+      "star": true
+    },
+    {
+      "id": "L31-leplus",
+      "fr": "le plus / la plus",
+      "es": "el/la más",
+      "en": "the most",
+      "ipa": "lə ply",
+      "pos": "comp",
+      "cognate_type": "non_cognate",
+      "ex": "C'est la plage la plus jolie.",
+      "voice": "oris",
+      "audio": "L31-leplus",
+      "star": true
+    },
+    {
+      "id": "L31-meilleur",
+      "fr": "meilleur / meilleure",
+      "es": "mejor (adjetivo)",
+      "en": "better (adj.)",
+      "ipa": "mɛjœʁ",
+      "pos": "adj",
+      "cognate_type": "non_cognate",
+      "ex": "Ce croissant est meilleur.",
+      "voice": "emilie",
+      "audio": "L31-meilleur",
+      "star": true
+    },
+    {
+      "id": "L31-mieux",
+      "fr": "mieux",
+      "es": "mejor (adverbio)",
+      "en": "better (adv.)",
+      "ipa": "mjø",
+      "pos": "adv",
+      "cognate_type": "non_cognate",
+      "ex": "On mange mieux à Nice.",
+      "voice": "oris",
+      "audio": "L31-mieux",
+      "star": true
+    },
+    {
+      "id": "L31-lemeilleur",
+      "fr": "le meilleur",
+      "es": "el mejor",
+      "en": "the best",
+      "ipa": "lə mɛjœʁ",
+      "pos": "adj",
+      "cognate_type": "non_cognate",
+      "ex": "C'est le meilleur glacier.",
+      "voice": "emilie",
+      "audio": "L31-lemeilleur",
+      "star": true
+    },
+    {
+      "id": "L31-plusgrand",
+      "fr": "plus grand",
+      "es": "más grande",
+      "en": "bigger",
+      "ipa": "ply ɡʁɑ̃",
+      "pos": "comp",
+      "cognate_type": "non_cognate",
+      "ex": "Paris est plus grand que Nice.",
+      "voice": "oris",
+      "audio": "L31-plusgrand"
+    },
+    {
+      "id": "L31-moinscher",
+      "fr": "moins cher",
+      "es": "más barato",
+      "en": "cheaper",
+      "ipa": "mwɛ̃ ʃɛʁ",
+      "pos": "comp",
+      "cognate_type": "non_cognate",
+      "ex": "C'est moins cher au marché.",
+      "voice": "emilie",
+      "audio": "L31-moinscher"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L31-s01",
+      "register": "parle",
+      "fr": "Nice est plus belle que Paris, promis !",
+      "es": "¡Niza es más bella que París, lo prometo!",
+      "en": "Nice is more beautiful than Paris, I promise!",
+      "voice": "emilie",
+      "audio": "L31-s01"
+    },
+    {
+      "id": "L31-s02",
+      "register": "parle",
+      "fr": "La socca, c'est meilleur que la pizza !",
+      "es": "¡La socca es mejor que la pizza!",
+      "en": "Socca is better than pizza!",
+      "voice": "oris",
+      "audio": "L31-s02"
+    },
+    {
+      "id": "L31-s03",
+      "register": "parle",
+      "fr": "On mange mieux ici qu'à Paris.",
+      "es": "Se come mejor aquí que en París.",
+      "en": "The food's better here than in Paris.",
+      "voice": "emilie",
+      "audio": "L31-s03",
+      "gloss": "mieux = mejor (adverbio, con un verbo)"
+    },
+    {
+      "id": "L31-s04",
+      "register": "parle",
+      "fr": "C'est le meilleur glacier de la ville.",
+      "es": "Es la mejor heladería de la ciudad.",
+      "en": "It's the best ice cream shop in town.",
+      "voice": "oris",
+      "audio": "L31-s04"
+    }
+  ],
+  "drills": [
+    {
+      "q": "« más … que » = ___ … que",
+      "sub": "comparatif :",
+      "ans": "plus",
+      "opts": [
+        "plus",
+        "moins",
+        "aussi",
+        "très"
+      ]
+    },
+    {
+      "q": "« tan … como » = ___ … que",
+      "sub": "comparatif d'égalité :",
+      "ans": "aussi",
+      "opts": [
+        "aussi",
+        "plus",
+        "moins",
+        "tant"
+      ]
+    },
+    {
+      "q": "Irrégulier : « bon » au comparatif =",
+      "sub": "(pas « plus bon ») :",
+      "ans": "meilleur",
+      "opts": [
+        "meilleur",
+        "plus bon",
+        "mieux",
+        "bien"
+      ]
+    },
+    {
+      "q": "« se come mejor » (avec un verbe) → « on mange ___ »",
+      "sub": "adverbe :",
+      "ans": "mieux",
+      "opts": [
+        "mieux",
+        "meilleur",
+        "plus bon",
+        "bon"
+      ]
+    },
+    {
+      "q": "« el mejor helado » → « le ___ glacier »",
+      "sub": "superlatif :",
+      "ans": "meilleur",
+      "opts": [
+        "meilleur",
+        "mieux",
+        "plus bon",
+        "meilleure"
+      ]
+    },
+    {
+      "q": "« menos caro » → « ___ cher »",
+      "sub": "le bon mot :",
+      "ans": "moins",
+      "opts": [
+        "moins",
+        "plus",
+        "aussi",
+        "très"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "id": "L29",
+  "order": 29,
+  "slug": "quotidien",
+  "title": "Le quotidien",
+  "es_title": "La rutina (verbos reflexivos: me levanto…)",
+  "focus": "Los verbos reflexivos funcionan IGUAL que en español (me/te/se + verbo, pronombre antes del verbo). « je me lève » = « me levanto ». Un regalo enorme.",
+  "objectives": [
+    "Conjugar reflexivos (je me lève, tu te lèves).",
+    "Colocar el pronombre reflexivo ANTES del verbo, como en español.",
+    "Contar tu rutina: lever, laver, habiller, coucher."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Je me réveille"
+    },
+    {
+      "t": "pair",
+      "fr": "Le matin, je me réveille à huit heures parce que les mouettes de Nice crient comme des folles. Je me lève tout de suite — le soleil ici, ça ne pardonne pas.",
+      "es": "Por la mañana, me despierto a las ocho porque las gaviotas de Niza gritan como locas. Me levanto en seguida — el sol aquí, eso no perdona.",
+      "en": "In the morning I wake up at eight because the Nice seagulls scream like maniacs. I get up right away — the sun here does not mess around."
+    },
+    {
+      "t": "h3",
+      "text": "Je me prépare"
+    },
+    {
+      "t": "pair",
+      "fr": "Je me lave, je m'habille, je me coiffe — et je réalise un truc : c'est exactement comme en espagnol. Me levanto, je me lève ; le petit pronom se place avant le verbe, cadeau total.",
+      "es": "Me lavo, me visto, me peino — y me doy cuenta de una cosa: es exactamente como en español. Me levanto, je me lève; el pequeño pronombre se coloca antes del verbo, regalo total.",
+      "en": "I wash up, get dressed, do my hair — and I realize something: it's exactly like Spanish. Me levanto is je me lève; the little pronoun goes right before the verb. Total gift."
+    },
+    {
+      "t": "h3",
+      "text": "On se dépêche !"
+    },
+    {
+      "t": "pair",
+      "fr": "Mon amie sonne en bas, alors je me dépêche comme jamais. On descend vite vers la plage avec les serviettes et un pain au chocolat encore chaud.",
+      "es": "Mi amiga toca el timbre abajo, así que me doy prisa como nunca. Bajamos rápido hacia la playa con las toallas y un pan de chocolate todavía caliente.",
+      "en": "My friend rings the bell downstairs, so I hurry like never before. We rush down to the beach with our towels and a still-warm pain au chocolat."
+    },
+    {
+      "t": "h3",
+      "text": "La plage"
+    },
+    {
+      "t": "pair",
+      "fr": "À la plage, on se baigne et on se détend sur les galets — oui, des galets, pas du sable. Le chien d'à côté s'appelle Kiki et sa maîtresse le répète toutes les cinq minutes.",
+      "es": "En la playa, nos bañamos y nos relajamos sobre los guijarros — sí, guijarros, no arena. El perro de al lado se llama Kiki y su dueña lo repite cada cinco minutos.",
+      "en": "At the beach we swim and relax on the pebbles — yes, pebbles, not sand. The dog next to us is named Kiki, and his owner repeats it every five minutes."
+    },
+    {
+      "t": "h3",
+      "text": "Je me couche"
+    },
+    {
+      "t": "pair",
+      "fr": "Le soir, je rentre, je me douche et je me couche vers onze heures. Je m'endors avec le bruit des vagues et une certitude : le français, avec l'espagnol dans la poche, c'est presque de la triche.",
+      "es": "Por la noche, vuelvo, me ducho y me acuesto hacia las once. Me duermo con el ruido de las olas y una certeza: el francés, con el español en el bolsillo, es casi trampa.",
+      "en": "At night I head home, shower, and go to bed around eleven. I fall asleep to the sound of the waves with one certainty: French, with Spanish in your pocket, is almost cheating."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L29-lever",
+      "fr": "se lever",
+      "es": "levantarse",
+      "en": "to get up",
+      "ipa": "sə ləve",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "ex": "Je me lève à sept heures.",
+      "voice": "emilie",
+      "audio": "L29-lever",
+      "star": true
+    },
+    {
+      "id": "L29-reveiller",
+      "fr": "se réveiller",
+      "es": "despertarse",
+      "en": "to wake up",
+      "ipa": "sə ʁevɛje",
+      "pos": "verb",
+      "cognate_type": "semi",
+      "ex": "Je me réveille tôt.",
+      "voice": "oris",
+      "audio": "L29-reveiller",
+      "star": true
+    },
+    {
+      "id": "L29-laver",
+      "fr": "se laver",
+      "es": "lavarse",
+      "en": "to wash up",
+      "ipa": "sə lave",
+      "pos": "verb",
+      "cognate_type": "transparent",
+      "ex": "Je me lave les mains.",
+      "voice": "emilie",
+      "audio": "L29-laver",
+      "star": true
+    },
+    {
+      "id": "L29-habiller",
+      "fr": "s'habiller",
+      "es": "vestirse",
+      "en": "to get dressed",
+      "ipa": "sabije",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "ex": "Je m'habille vite.",
+      "voice": "oris",
+      "audio": "L29-habiller",
+      "star": true
+    },
+    {
+      "id": "L29-coucher",
+      "fr": "se coucher",
+      "es": "acostarse",
+      "en": "to go to bed",
+      "ipa": "sə kuʃe",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "ex": "Je me couche tard.",
+      "voice": "emilie",
+      "audio": "L29-coucher",
+      "star": true
+    },
+    {
+      "id": "L29-appeler",
+      "fr": "s'appeler",
+      "es": "llamarse",
+      "en": "to be called",
+      "ipa": "saple",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "ex": "Je m'appelle Emma.",
+      "voice": "oris",
+      "audio": "L29-appeler",
+      "star": true
+    },
+    {
+      "id": "L29-depecher",
+      "fr": "se dépêcher",
+      "es": "darse prisa",
+      "en": "to hurry",
+      "ipa": "sə depeʃe",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "ex": "Dépêche-toi !",
+      "voice": "emilie",
+      "audio": "L29-depecher",
+      "star": true
+    },
+    {
+      "id": "L29-reposer",
+      "fr": "se reposer",
+      "es": "descansar",
+      "en": "to rest",
+      "ipa": "sə ʁəpoze",
+      "pos": "verb",
+      "cognate_type": "semi",
+      "ex": "Je me repose sur la plage.",
+      "voice": "oris",
+      "audio": "L29-reposer"
+    },
+    {
+      "id": "L29-doucher",
+      "fr": "se doucher",
+      "es": "ducharse",
+      "en": "to shower",
+      "ipa": "sə duʃe",
+      "pos": "verb",
+      "cognate_type": "semi",
+      "ex": "Je me douche le soir.",
+      "voice": "emilie",
+      "audio": "L29-doucher"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L29-s01",
+      "register": "parle",
+      "fr": "Le matin, je me lève et je me lave.",
+      "es": "Por la mañana, me levanto y me lavo.",
+      "en": "In the morning, I get up and wash up.",
+      "voice": "emilie",
+      "audio": "L29-s01"
+    },
+    {
+      "id": "L29-s02",
+      "register": "parle",
+      "fr": "Dépêche-toi, on va rater le bus !",
+      "es": "¡Date prisa, vamos a perder el bus!",
+      "en": "Hurry up, we're going to miss the bus!",
+      "voice": "oris",
+      "audio": "L29-s02"
+    },
+    {
+      "id": "L29-s03",
+      "register": "parle",
+      "fr": "Le soir, je me couche tard à Nice.",
+      "es": "Por la noche, me acuesto tarde en Niza.",
+      "en": "At night, I go to bed late in Nice.",
+      "voice": "emilie",
+      "audio": "L29-s03"
+    },
+    {
+      "id": "L29-s04",
+      "register": "parle",
+      "fr": "Comment tu t'appelles ? — Je m'appelle Léa.",
+      "es": "¿Cómo te llamas? — Me llamo Léa.",
+      "en": "What's your name? — My name is Léa.",
+      "voice": "oris",
+      "audio": "L29-s04"
+    }
+  ],
+  "drills": [
+    {
+      "q": "« Me levanto » = ___",
+      "sub": "français correct :",
+      "ans": "je me lève",
+      "opts": [
+        "je me lève",
+        "je lève",
+        "je se lève",
+        "me levo"
+      ]
+    },
+    {
+      "q": "El pronombre reflexivo va ___ el verbo (como en español).",
+      "sub": "position :",
+      "ans": "avant",
+      "opts": [
+        "avant",
+        "après",
+        "à la fin",
+        "on l'oublie"
+      ]
+    },
+    {
+      "q": "« Se llama Léa » → « Elle ___ Léa. »",
+      "sub": "le bon mot :",
+      "ans": "s'appelle",
+      "opts": [
+        "s'appelle",
+        "se appelle",
+        "appelle",
+        "se llama"
+      ]
+    },
+    {
+      "q": "« Acostarse » = ___",
+      "sub": "le bon verbe :",
+      "ans": "se coucher",
+      "opts": [
+        "se coucher",
+        "se lever",
+        "se laver",
+        "se reposer"
+      ]
+    },
+    {
+      "q": "« Me visto rápido » → « Je ___ vite. »",
+      "sub": "le bon mot :",
+      "ans": "m'habille",
+      "opts": [
+        "m'habille",
+        "habille",
+        "me habille",
+        "s'habille"
+      ]
+    },
+    {
+      "q": "« ¡Date prisa! » (à un ami) → « ___ ! »",
+      "sub": "impératif réfléchi :",
+      "ans": "Dépêche-toi",
+      "opts": [
+        "Dépêche-toi",
+        "Te dépêche",
+        "Dépêche-te",
+        "Se dépêche"
+      ]
+    }
+  ]
+}

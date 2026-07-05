@@ -1,0 +1,303 @@
+{
+  "id": "L33",
+  "order": 33,
+  "slug": "imperatif",
+  "title": "L'impératif",
+  "es_title": "Dar órdenes (Regarde ! Allons-y !)",
+  "focus": "Dar órdenes y sugerencias. Se cae el sujeto, como en español (« mira » → « regarde »). Con pronombre: « donne-moi » = « dame ». « Allons-y ! » = « ¡vámonos! ». Negativo: « ne bouge pas ! ».",
+  "objectives": [
+    "Imperativo tú/usted/nosotros (regarde / regardez / allons-y).",
+    "Pronombre después en afirmativo: donne-moi (como « dame »).",
+    "Imperativo negativo: ne bouge pas."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Regarde-moi ça !"
+    },
+    {
+      "t": "pair",
+      "fr": "Regarde cette mer, elle est complètement turquoise ! Écoute les vagues et arrête de regarder ton téléphone deux secondes.",
+      "es": "¡Mira este mar, está completamente turquesa! Escucha las olas y para de mirar tu teléfono dos segundos.",
+      "en": "Look at this sea, it's completely turquoise! Listen to the waves and stop staring at your phone for two seconds."
+    },
+    {
+      "t": "h3",
+      "text": "Donne-moi, dis-moi"
+    },
+    {
+      "t": "pair",
+      "fr": "Donne-moi la crème solaire, je grille déjà. Et dis-moi où tu as caché les chips, s'il te plaît !",
+      "es": "Dame la crema solar, ya me quemo. ¡Y dime dónde escondiste las papas, por favor!",
+      "en": "Hand me the sunscreen, I'm already frying. And tell me where you hid the chips, please!"
+    },
+    {
+      "t": "h3",
+      "text": "Allons-y !"
+    },
+    {
+      "t": "pair",
+      "fr": "L'eau est parfaite, allons-y ! Vas-y en premier, moi je surveille les serviettes… bon, d'accord, on y va ensemble.",
+      "es": "El agua está perfecta, ¡vamos! Ve tú primero, yo vigilo las toallas… bueno, de acuerdo, vamos juntas.",
+      "en": "The water is perfect, let's go! You go first, I'll guard the towels... okay, fine, we'll go in together."
+    },
+    {
+      "t": "h3",
+      "text": "Venez voir !"
+    },
+    {
+      "t": "pair",
+      "fr": "Les filles, venez voir cette méduse, elle est énorme ! Madame, excusez-moi, regardez… c'est dangereux, ça ?",
+      "es": "¡Chicas, vengan a ver esta medusa, es enorme! Señora, discúlpeme, mire… ¿es peligroso, eso?",
+      "en": "Girls, come see this jellyfish, it's huge! Ma'am, excuse me, look... is that thing dangerous?"
+    },
+    {
+      "t": "h3",
+      "text": "Ne bouge pas !"
+    },
+    {
+      "t": "pair",
+      "fr": "Ne bouge pas, il y a une guêpe sur ta glace ! Ne panique pas non plus… trop tard, elle a couru dans la mer avec son cône.",
+      "es": "¡No te muevas, hay una avispa en tu helado! Tampoco entres en pánico… demasiado tarde, corrió al mar con su cono.",
+      "en": "Don't move, there's a wasp on your ice cream! And don't panic either... too late, she sprinted into the sea, cone and all."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L33-regarde",
+      "fr": "Regarde !",
+      "es": "¡Mira!",
+      "en": "Look!",
+      "ipa": "ʁəɡaʁd",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Regarde la mer !",
+      "voice": "emilie",
+      "audio": "L33-regarde",
+      "star": true
+    },
+    {
+      "id": "L33-ecoute",
+      "fr": "Écoute !",
+      "es": "¡Escucha!",
+      "en": "Listen!",
+      "ipa": "ekut",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Écoute ça !",
+      "voice": "oris",
+      "audio": "L33-ecoute",
+      "star": true
+    },
+    {
+      "id": "L33-viens",
+      "fr": "Viens !",
+      "es": "¡Ven!",
+      "en": "Come!",
+      "ipa": "vjɛ̃",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Viens avec moi !",
+      "voice": "emilie",
+      "audio": "L33-viens",
+      "star": true
+    },
+    {
+      "id": "L33-attends",
+      "fr": "Attends !",
+      "es": "¡Espera!",
+      "en": "Wait!",
+      "ipa": "atɑ̃",
+      "pos": "imper",
+      "cognate_type": "semi",
+      "ex": "Attends une seconde !",
+      "voice": "oris",
+      "audio": "L33-attends",
+      "star": true
+    },
+    {
+      "id": "L33-allonsy",
+      "fr": "Allons-y !",
+      "es": "¡Vámonos!",
+      "en": "Let's go!",
+      "ipa": "alɔ̃zi",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Allons-y, on est en retard !",
+      "voice": "emilie",
+      "audio": "L33-allonsy",
+      "star": true
+    },
+    {
+      "id": "L33-vasy",
+      "fr": "Vas-y !",
+      "es": "¡Dale! / ¡Ve!",
+      "en": "Go on!",
+      "ipa": "vazi",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Vas-y, n'aie pas peur !",
+      "voice": "oris",
+      "audio": "L33-vasy",
+      "star": true
+    },
+    {
+      "id": "L33-donnemoi",
+      "fr": "Donne-moi…",
+      "es": "Dame…",
+      "en": "Give me…",
+      "ipa": "dɔn mwa",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Donne-moi ton insta.",
+      "voice": "emilie",
+      "audio": "L33-donnemoi",
+      "star": true
+    },
+    {
+      "id": "L33-dismoi",
+      "fr": "Dis-moi",
+      "es": "Dime",
+      "en": "Tell me",
+      "ipa": "di mwa",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Dis-moi la vérité.",
+      "voice": "oris",
+      "audio": "L33-dismoi",
+      "star": true
+    },
+    {
+      "id": "L33-nebougepas",
+      "fr": "Ne bouge pas !",
+      "es": "¡No te muevas!",
+      "en": "Don't move!",
+      "ipa": "nə buʒ pa",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Ne bouge pas, je prends une photo !",
+      "voice": "emilie",
+      "audio": "L33-nebougepas",
+      "star": true
+    },
+    {
+      "id": "L33-regardez",
+      "fr": "Regardez ! (vous)",
+      "es": "¡Miren! / ¡Mire!",
+      "en": "Look! (formal/pl.)",
+      "ipa": "ʁəɡaʁde",
+      "pos": "imper",
+      "cognate_type": "non_cognate",
+      "ex": "Regardez ici, s'il vous plaît.",
+      "voice": "oris",
+      "audio": "L33-regardez"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L33-s01",
+      "register": "parle",
+      "fr": "Regarde la mer, elle est magnifique !",
+      "es": "¡Mira el mar, está magnífico!",
+      "en": "Look at the sea, it's magnificent!",
+      "voice": "emilie",
+      "audio": "L33-s01"
+    },
+    {
+      "id": "L33-s02",
+      "register": "parle",
+      "fr": "Allons-y ! On va rater le bus.",
+      "es": "¡Vámonos! Vamos a perder el bus.",
+      "en": "Let's go! We're going to miss the bus.",
+      "voice": "oris",
+      "audio": "L33-s02"
+    },
+    {
+      "id": "L33-s03",
+      "register": "parle",
+      "fr": "Donne-moi ton numéro, je t'appelle.",
+      "es": "Dame tu número, te llamo.",
+      "en": "Give me your number, I'll call you.",
+      "voice": "emilie",
+      "audio": "L33-s03",
+      "gloss": "pronombre DESPUÉS en afirmativo: donne-moi = dame"
+    },
+    {
+      "id": "L33-s04",
+      "register": "parle",
+      "fr": "Ne bouge pas, je prends une photo !",
+      "es": "¡No te muevas, saco una foto!",
+      "en": "Don't move, I'm taking a photo!",
+      "voice": "oris",
+      "audio": "L33-s04"
+    }
+  ],
+  "drills": [
+    {
+      "q": "« ¡Mira! » (à un ami) =",
+      "sub": "impératif tu (verbe -er, pas de -s) :",
+      "ans": "Regarde !",
+      "opts": [
+        "Regarde !",
+        "Regardes !",
+        "Regarder !",
+        "Regardez !"
+      ]
+    },
+    {
+      "q": "« ¡Vámonos! » =",
+      "sub": "impératif « nous » :",
+      "ans": "Allons-y !",
+      "opts": [
+        "Allons-y !",
+        "Allez !",
+        "On va",
+        "Vas-y !"
+      ]
+    },
+    {
+      "q": "« Dame tu insta » → « ___ ton insta »",
+      "sub": "pronom après, moi (pas me) :",
+      "ans": "Donne-moi",
+      "opts": [
+        "Donne-moi",
+        "Me donne",
+        "Donnes-moi",
+        "Moi donne"
+      ]
+    },
+    {
+      "q": "« ¡No te muevas! » =",
+      "sub": "impératif négatif :",
+      "ans": "Ne bouge pas !",
+      "opts": [
+        "Ne bouge pas !",
+        "Ne pas bouge !",
+        "Bouge pas non !",
+        "No bouge pas !"
+      ]
+    },
+    {
+      "q": "« ¡Escucha! » =",
+      "sub": "impératif tu :",
+      "ans": "Écoute !",
+      "opts": [
+        "Écoute !",
+        "Écoutes !",
+        "Écouter !",
+        "Écoutez !"
+      ]
+    },
+    {
+      "q": "« Dime la verdad » → « ___ la vérité »",
+      "sub": "le bon mot :",
+      "ans": "Dis-moi",
+      "opts": [
+        "Dis-moi",
+        "Me dis",
+        "Dis-me",
+        "Moi dis"
+      ]
+    }
+  ]
+}

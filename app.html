@@ -163,7 +163,11 @@ async function boot(){
     'data/curriculum/lesson_20_mythes_religions.json','data/curriculum/lesson_21_prepositions.json',
     'data/curriculum/lesson_22_temps.json','data/curriculum/lesson_23_famille.json',
     'data/curriculum/lesson_24_meteo.json','data/curriculum/lesson_25_sante.json',
-    'data/curriculum/lesson_26_tech.json'];
+    'data/curriculum/lesson_26_tech.json',
+    'data/curriculum/lesson_27_questions.json','data/curriculum/lesson_28_negation.json',
+    'data/curriculum/lesson_29_quotidien.json','data/curriculum/lesson_30_pronoms.json',
+    'data/curriculum/lesson_31_comparer.json','data/curriculum/lesson_32_possessifs.json',
+    'data/curriculum/lesson_33_imperatif.json'];
   LESSONS=await Promise.all(files.map(f=>fetch(f).then(r=>r.json())));
   route();
 }
@@ -443,6 +447,7 @@ function buildQuiz(cat){
   LESSONS.filter(L=>L.vocab).flatMap(L=>L.vocab).filter(v=>v.gender&&/^(le |la )/.test(v.fr||'')).forEach(v=>{
     const bare=v.fr.replace(/^(le|la) /,'');
     Q.gram.push({type:'Genre',q:`___ ${bare}`,sub:'le / la ?',ans:v.fr.startsWith('la')?'la':'le',opts:['le','la'],aud:v.audio});});
+  LESSONS.filter(L=>L.drills).flatMap(L=>L.drills).forEach(d=>Q.gram.push({type:d.type||'✍️ Grammaire',q:d.q,sub:d.sub,ans:d.ans,opts:shuffle((d.opts||[]).slice()),aud:d.aud}));
   ((CULTURE&&CULTURE.questions)||[]).forEach(c=>Q.culture.push({type:'🧠 Culture',q:c.q,ans:c.answer,opts:shuffle(c.options.slice())}));
   ((GRAMMAR&&GRAMMAR.spanish_traps)||[]).filter(t=>t.right&&t.wrong&&/[a-zà-ÿ]/i.test(t.wrong)).forEach(t=>Q.pieges.push({type:'⚖️ Piège',q:t.right.es,sub:'français correct :',ans:t.right.fr,opts:shuffle([t.right.fr,t.wrong])}));
   let pool;

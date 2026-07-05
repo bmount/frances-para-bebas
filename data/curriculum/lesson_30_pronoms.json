@@ -1,0 +1,289 @@
+{
+  "id": "L30",
+  "order": 30,
+  "slug": "pronoms",
+  "title": "Les pronoms",
+  "es_title": "Pronombres de objeto (lo veo, le hablo)",
+  "focus": "Los pronombres de objeto van ANTES del verbo, igual que en español: « je le vois » = « lo veo », « je lui parle » = « le hablo ». Directo (le/la/les) vs indirecto (lui/leur).",
+  "objectives": [
+    "Directo: me, te, le/la, nous, vous, les.",
+    "Indirecto: me, te, lui, nous, vous, leur.",
+    "Colocar el pronombre antes del verbo (reflejo del español)."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Le pronom avant le verbe, comme chez nous"
+    },
+    {
+      "t": "pair",
+      "fr": "Bonne nouvelle : en français, le pronom se place avant le verbe, exactement comme en espagnol. Je le vois, je lui parle — mon cerveau connaît déjà cette musique.",
+      "es": "Buena noticia: en francés, el pronombre se coloca antes del verbo, exactamente como en español. Lo veo, le hablo — mi cerebro ya conoce esta música.",
+      "en": "Good news: in French, the pronoun goes before the verb, exactly like in Spanish. Je le vois, je lui parle — my brain already knows this tune."
+    },
+    {
+      "t": "h3",
+      "text": "Le garçon du Cours Saleya"
+    },
+    {
+      "t": "pair",
+      "fr": "Il y a un garçon qui vend des fleurs au marché, et franchement, je le trouve mignon. Je le regarde discrètement pendant que ma mère achète des tomates.",
+      "es": "Hay un chico que vende flores en el mercado, y francamente, lo encuentro lindo. Lo miro discretamente mientras mi madre compra tomates.",
+      "en": "There's a boy who sells flowers at the market, and honestly, I think he's cute. I sneak looks at him while my mom buys tomatoes."
+    },
+    {
+      "t": "h3",
+      "text": "Je lui envoie tout"
+    },
+    {
+      "t": "pair",
+      "fr": "Ma meilleure amie est restée à la maison, alors je lui envoie un message toutes les dix minutes. Hier, je lui ai raconté l'histoire du garçon, et elle m'a répondu avec quinze émojis.",
+      "es": "Mi mejor amiga se quedó en casa, así que le envío un mensaje cada diez minutos. Ayer, le conté la historia del chico, y ella me respondió con quince emojis.",
+      "en": "My best friend stayed back home, so I text her every ten minutes. Yesterday I told her the story about the boy, and she replied with fifteen emojis."
+    },
+    {
+      "t": "h3",
+      "text": "Mes parents, je les appelle (parfois)"
+    },
+    {
+      "t": "pair",
+      "fr": "Quand je me promène seule sur la Promenade des Anglais, je les appelle pour dire que tout va bien. Bon, d'accord : parfois je les ignore un peu, mais je leur réponds toujours avant le dîner.",
+      "es": "Cuando paseo sola por la Promenade des Anglais, los llamo para decir que todo va bien. Bueno, de acuerdo: a veces los ignoro un poco, pero les respondo siempre antes de la cena.",
+      "en": "When I walk alone on the Promenade des Anglais, I call them to say everything's fine. Okay, fine: sometimes I ignore them a little, but I always answer them before dinner."
+    },
+    {
+      "t": "h3",
+      "text": "Lui ou le ? Petit truc"
+    },
+    {
+      "t": "pair",
+      "fr": "Si en espagnol tu dis « lo » ou « la », en français tu dis « le » ou « la » ; et si tu dis « le », en français c'est « lui ». Le garçon aux fleurs, je le trouve adorable, et un jour, promis, je lui parle.",
+      "es": "Si en español dices « lo » o « la », en francés dices « le » o « la »; y si dices « le », en francés es « lui ». Al chico de las flores, lo encuentro adorable, y un día, prometido, le hablo.",
+      "en": "If in Spanish you say lo or la, in French you say le or la; and if you say le, in French it's lui. The flower boy — I think he's adorable, and one day, I promise, I'm talking to him."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L30-me",
+      "fr": "me / m'",
+      "es": "me",
+      "en": "me",
+      "ipa": "mə",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "ex": "Il me parle.",
+      "voice": "emilie",
+      "audio": "L30-me",
+      "star": true
+    },
+    {
+      "id": "L30-te",
+      "fr": "te / t'",
+      "es": "te",
+      "en": "you",
+      "ipa": "tə",
+      "pos": "pron",
+      "cognate_type": "transparent",
+      "ex": "Je te vois.",
+      "voice": "oris",
+      "audio": "L30-te",
+      "star": true
+    },
+    {
+      "id": "L30-le",
+      "fr": "le",
+      "es": "lo",
+      "en": "him / it",
+      "ipa": "lə",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "ex": "Je le connais.",
+      "voice": "emilie",
+      "audio": "L30-le",
+      "star": true
+    },
+    {
+      "id": "L30-la",
+      "fr": "la",
+      "es": "la",
+      "en": "her / it",
+      "ipa": "la",
+      "pos": "pron",
+      "cognate_type": "transparent",
+      "ex": "Je la connais.",
+      "voice": "oris",
+      "audio": "L30-la",
+      "star": true
+    },
+    {
+      "id": "L30-les",
+      "fr": "les",
+      "es": "los / las",
+      "en": "them",
+      "ipa": "le",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "ex": "Je les appelle.",
+      "voice": "emilie",
+      "audio": "L30-les",
+      "star": true
+    },
+    {
+      "id": "L30-lui",
+      "fr": "lui",
+      "es": "le (a él/ella)",
+      "en": "(to) him/her",
+      "ipa": "lɥi",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "ex": "Je lui parle.",
+      "voice": "oris",
+      "audio": "L30-lui",
+      "star": true
+    },
+    {
+      "id": "L30-leur",
+      "fr": "leur",
+      "es": "les (a ellos)",
+      "en": "(to) them",
+      "ipa": "lœʁ",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "ex": "Je leur parle.",
+      "voice": "emilie",
+      "audio": "L30-leur",
+      "star": true
+    },
+    {
+      "id": "L30-nous",
+      "fr": "nous",
+      "es": "nos",
+      "en": "us",
+      "ipa": "nu",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "ex": "Il nous attend.",
+      "voice": "oris",
+      "audio": "L30-nous"
+    },
+    {
+      "id": "L30-vous",
+      "fr": "vous",
+      "es": "os / les",
+      "en": "you (pl.)",
+      "ipa": "vu",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "ex": "Je vous remercie.",
+      "voice": "emilie",
+      "audio": "L30-vous"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L30-s01",
+      "register": "parle",
+      "fr": "Ce garçon ? Je le trouve trop mignon.",
+      "es": "¿Ese chico? Lo encuentro súper lindo.",
+      "en": "That boy? I think he's really cute.",
+      "voice": "emilie",
+      "audio": "L30-s01",
+      "gloss": "le = lo (objeto directo, antes del verbo)"
+    },
+    {
+      "id": "L30-s02",
+      "register": "parle",
+      "fr": "Je lui envoie un message tout de suite.",
+      "es": "Le envío un mensaje ahora mismo.",
+      "en": "I'll send him/her a message right away.",
+      "voice": "oris",
+      "audio": "L30-s02"
+    },
+    {
+      "id": "L30-s03",
+      "register": "parle",
+      "fr": "Mes parents ? Je les appelle ce soir.",
+      "es": "¿Mis padres? Los llamo esta noche.",
+      "en": "My parents? I'll call them tonight.",
+      "voice": "emilie",
+      "audio": "L30-s03"
+    },
+    {
+      "id": "L30-s04",
+      "register": "parle",
+      "fr": "Tu me vois ? Coucou, je suis là !",
+      "es": "¿Me ves? ¡Hola, aquí estoy!",
+      "en": "Can you see me? Hey, I'm here!",
+      "voice": "oris",
+      "audio": "L30-s04"
+    }
+  ],
+  "drills": [
+    {
+      "q": "« Lo veo » → « Je ___ vois. »",
+      "sub": "objet direct :",
+      "ans": "le",
+      "opts": [
+        "le",
+        "lui",
+        "la",
+        "les"
+      ]
+    },
+    {
+      "q": "El pronombre de objeto va ___ el verbo conjugado.",
+      "sub": "position :",
+      "ans": "avant",
+      "opts": [
+        "avant",
+        "après",
+        "à la fin",
+        "n'importe où"
+      ]
+    },
+    {
+      "q": "« Le hablo (a él) » → « Je ___ parle. »",
+      "sub": "objet indirect :",
+      "ans": "lui",
+      "opts": [
+        "lui",
+        "le",
+        "leur",
+        "il"
+      ]
+    },
+    {
+      "q": "« Los llamo » → « Je ___ appelle. »",
+      "sub": "le bon mot :",
+      "ans": "les",
+      "opts": [
+        "les",
+        "leur",
+        "le",
+        "la"
+      ]
+    },
+    {
+      "q": "« Les hablo (a ellos) » → « Je ___ parle. »",
+      "sub": "objet indirect pluriel :",
+      "ans": "leur",
+      "opts": [
+        "leur",
+        "les",
+        "lui",
+        "ils"
+      ]
+    },
+    {
+      "q": "« Te veo » → « Je ___ vois. »",
+      "sub": "le bon mot :",
+      "ans": "te",
+      "opts": [
+        "te",
+        "toi",
+        "tu",
+        "lui"
+      ]
+    }
+  ]
+}

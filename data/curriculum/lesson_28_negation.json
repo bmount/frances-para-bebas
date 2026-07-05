@@ -1,0 +1,288 @@
+{
+  "id": "L28",
+  "order": 28,
+  "slug": "negation",
+  "title": "La négation",
+  "es_title": "Decir no (ne… pas, jamais, rien)",
+  "focus": "El « no » francés viene en DOS piezas (ne … pas) alrededor del verbo — pero al hablar, casi siempre se cae el « ne ». Y las variantes: jamais, rien, plus, personne.",
+  "objectives": [
+    "Construir ne … pas alrededor del verbo.",
+    "Usar jamais, rien, plus, personne.",
+    "Entender que en la calle el « ne » desaparece: « je sais pas »."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Deux mots pour dire non"
+    },
+    {
+      "t": "pair",
+      "fr": "En espagnol, on dit « no » et c'est fini. Mais le français adore compliquer : il met « ne » avant le verbe et « pas » après — je ne comprends pas cette obsession.",
+      "es": "En español, se dice « no » y se acabó. Pero el francés adora complicar: pone « ne » antes del verbo y « pas » después — yo no comprendo esta obsesión.",
+      "en": "In Spanish you say \"no\" and that's it. But French loves to complicate things: it puts \"ne\" before the verb and \"pas\" after — I do not understand this obsession."
+    },
+    {
+      "t": "h3",
+      "text": "Le « ne » invisible"
+    },
+    {
+      "t": "pair",
+      "fr": "Secret énorme : dans les rues de Nice, le « ne » disparaît complètement. Les gens disent « je sais pas », « c'est pas grave », et honnêtement, c'est beaucoup plus facile pour moi.",
+      "es": "Secreto enorme: en las calles de Niza, el « ne » desaparece completamente. La gente dice « je sais pas », « c'est pas grave », y honestamente, es mucho más fácil para mí.",
+      "en": "Huge secret: in the streets of Nice, the \"ne\" disappears completely. People say \"je sais pas,\" \"c'est pas grave,\" and honestly, that's way easier for me."
+    },
+    {
+      "t": "h3",
+      "text": "Jamais de la vie"
+    },
+    {
+      "t": "pair",
+      "fr": "Le serveur du café m'a demandé : « Tu manges jamais de socca ? Impossible ! » Moi, je refuse jamais une spécialité locale — c'est une question de principe.",
+      "es": "El mesero del café me preguntó: « ¿Tú nunca comes socca? ¡Imposible! » Yo, yo nunca rechazo una especialidad local — es una cuestión de principio.",
+      "en": "The café waiter asked me, \"You've never eaten socca? Impossible!\" Me, I never turn down a local specialty — it's a matter of principle."
+    },
+    {
+      "t": "h3",
+      "text": "Rien à déclarer"
+    },
+    {
+      "t": "pair",
+      "fr": "À l'aéroport, le panneau annonçait « rien à déclarer », et j'ai adoré la formule. Maintenant, quand maman demande qui a mangé le chocolat, je réponds : « J'ai rien fait, j'ai rien vu. »",
+      "es": "En el aeropuerto, el letrero anunciaba « nada que declarar », y adoré la fórmula. Ahora, cuando mamá pregunta quién comió el chocolate, respondo: « Yo no hice nada, yo no vi nada. »",
+      "en": "At the airport, the sign said \"nothing to declare,\" and I loved the phrase. Now, when Mom asks who ate the chocolate, I answer: \"I didn't do anything, I didn't see anything.\""
+    },
+    {
+      "t": "h3",
+      "text": "Plus de glace, personne dehors"
+    },
+    {
+      "t": "pair",
+      "fr": "À vingt heures, le glacier a annoncé : « Il y a plus de citron, désolé. » Et à minuit, sur la Promenade, il y a personne — juste moi, la mer, et zéro regrets.",
+      "es": "A las veinte horas, el heladero anunció: « Ya no hay limón, lo siento. » Y a medianoche, en el Paseo, no hay nadie — solo yo, el mar, y cero arrepentimientos.",
+      "en": "At eight p.m., the ice cream guy announced, \"No more lemon, sorry.\" And at midnight, on the Promenade, there's nobody — just me, the sea, and zero regrets."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L28-nepas",
+      "fr": "ne … pas",
+      "es": "no",
+      "en": "not",
+      "ipa": "nə pa",
+      "pos": "neg",
+      "cognate_type": "non_cognate",
+      "ex": "Je ne sais pas.",
+      "voice": "emilie",
+      "audio": "L28-nepas",
+      "star": true
+    },
+    {
+      "id": "L28-pas",
+      "fr": "pas (parlé)",
+      "es": "no (hablado)",
+      "en": "not (spoken)",
+      "ipa": "pa",
+      "pos": "neg",
+      "cognate_type": "non_cognate",
+      "ex": "C'est pas grave.",
+      "voice": "oris",
+      "audio": "L28-pas",
+      "star": true
+    },
+    {
+      "id": "L28-jamais",
+      "fr": "ne … jamais",
+      "es": "nunca",
+      "en": "never",
+      "ipa": "nə ʒamɛ",
+      "pos": "neg",
+      "cognate_type": "non_cognate",
+      "ex": "Je ne bois jamais de café.",
+      "voice": "emilie",
+      "audio": "L28-jamais",
+      "star": true
+    },
+    {
+      "id": "L28-rien",
+      "fr": "ne … rien",
+      "es": "nada",
+      "en": "nothing",
+      "ipa": "nə ʁjɛ̃",
+      "pos": "neg",
+      "cognate_type": "non_cognate",
+      "ex": "Je ne vois rien.",
+      "voice": "oris",
+      "audio": "L28-rien",
+      "star": true
+    },
+    {
+      "id": "L28-plus",
+      "fr": "ne … plus",
+      "es": "ya no",
+      "en": "no more / no longer",
+      "ipa": "nə ply",
+      "pos": "neg",
+      "cognate_type": "non_cognate",
+      "ex": "Il n'y a plus de pain.",
+      "voice": "emilie",
+      "audio": "L28-plus",
+      "star": true
+    },
+    {
+      "id": "L28-personne",
+      "fr": "ne … personne",
+      "es": "nadie",
+      "en": "nobody",
+      "ipa": "nə pɛʁsɔn",
+      "pos": "neg",
+      "cognate_type": "non_cognate",
+      "ex": "Il n'y a personne.",
+      "voice": "oris",
+      "audio": "L28-personne",
+      "star": true
+    },
+    {
+      "id": "L28-neque",
+      "fr": "ne … que",
+      "es": "solo / solamente",
+      "en": "only",
+      "ipa": "nə kə",
+      "pos": "neg",
+      "cognate_type": "non_cognate",
+      "ex": "Je n'ai qu'un euro.",
+      "voice": "emilie",
+      "audio": "L28-neque"
+    },
+    {
+      "id": "L28-rienmot",
+      "fr": "rien",
+      "es": "nada",
+      "en": "nothing",
+      "ipa": "ʁjɛ̃",
+      "pos": "pron",
+      "cognate_type": "non_cognate",
+      "ex": "Rien à déclarer.",
+      "voice": "oris",
+      "audio": "L28-rienmot"
+    },
+    {
+      "id": "L28-jamaismot",
+      "fr": "jamais",
+      "es": "nunca / jamás",
+      "en": "never",
+      "ipa": "ʒamɛ",
+      "pos": "adv",
+      "cognate_type": "transparent",
+      "ex": "Jamais de la vie !",
+      "voice": "emilie",
+      "audio": "L28-jamaismot"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L28-s01",
+      "register": "parle",
+      "fr": "Je ne sais pas où est le tram.",
+      "es": "No sé dónde está el tranvía.",
+      "en": "I don't know where the tram is.",
+      "voice": "emilie",
+      "audio": "L28-s01"
+    },
+    {
+      "id": "L28-s02",
+      "register": "parle",
+      "fr": "C'est pas grave, on prend le bus.",
+      "es": "No pasa nada, tomamos el bus.",
+      "en": "No worries, we'll take the bus.",
+      "voice": "oris",
+      "audio": "L28-s02",
+      "gloss": "parlé: el « ne » desaparece"
+    },
+    {
+      "id": "L28-s03",
+      "register": "parle",
+      "fr": "Il n'y a plus de socca ? Dommage !",
+      "es": "¿Ya no hay socca? ¡Qué lástima!",
+      "en": "No more socca? What a shame!",
+      "voice": "emilie",
+      "audio": "L28-s03"
+    },
+    {
+      "id": "L28-s04",
+      "register": "parle",
+      "fr": "Je ne mange jamais de viande le matin.",
+      "es": "Nunca como carne por la mañana.",
+      "en": "I never eat meat in the morning.",
+      "voice": "oris",
+      "audio": "L28-s04"
+    }
+  ],
+  "drills": [
+    {
+      "q": "« Nunca » = ne … ___",
+      "sub": "le bon mot :",
+      "ans": "jamais",
+      "opts": [
+        "jamais",
+        "rien",
+        "plus",
+        "personne"
+      ]
+    },
+    {
+      "q": "« Ya no hay pan » → « Il n'y a ___ de pain. »",
+      "sub": "le bon mot :",
+      "ans": "plus",
+      "opts": [
+        "plus",
+        "pas",
+        "jamais",
+        "rien"
+      ]
+    },
+    {
+      "q": "« No veo nada » → « Je ne vois ___. »",
+      "sub": "le bon mot :",
+      "ans": "rien",
+      "opts": [
+        "rien",
+        "personne",
+        "jamais",
+        "pas"
+      ]
+    },
+    {
+      "q": "« No hay nadie » → « Il n'y a ___. »",
+      "sub": "le bon mot :",
+      "ans": "personne",
+      "opts": [
+        "personne",
+        "rien",
+        "plus",
+        "aucun"
+      ]
+    },
+    {
+      "q": "En français parlé « je sais pas », le mot souvent oublié c'est…",
+      "sub": "(les deux pièces) :",
+      "ans": "ne",
+      "opts": [
+        "ne",
+        "pas",
+        "je",
+        "sais"
+      ]
+    },
+    {
+      "q": "« No lo sé. »",
+      "sub": "phrase complète :",
+      "ans": "Je ne sais pas.",
+      "opts": [
+        "Je ne sais pas.",
+        "Je ne sais pas rien.",
+        "Je sais no.",
+        "Je no sais pas."
+      ]
+    }
+  ]
+}

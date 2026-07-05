@@ -1,0 +1,289 @@
+{
+  "id": "L32",
+  "order": 32,
+  "slug": "possessifs",
+  "title": "Mon, ce…",
+  "es_title": "Posesivos y demostrativos (mi, este)",
+  "focus": "Posesivos: mon/ma/mes (mi/mis). Concuerdan con el GÉNERO DE LA COSA, no del dueño (« son sac » = su bolso, de él o de ella) — igual que « su ». Demostrativos: ce/cette/ces (este/esta/estos), ¡sin drama este/ese/aquel!",
+  "objectives": [
+    "mon/ma/mes, ton/ta/tes, son/sa/ses.",
+    "son/sa concuerdan con el objeto, no con el dueño (como « su »).",
+    "Antes de vocal femenina: mon amie. Demostrativos ce/cette/ces."
+  ],
+  "reader": [
+    {
+      "t": "h3",
+      "text": "Ma valise, mes problèmes"
+    },
+    {
+      "t": "pair",
+      "fr": "Ma valise est énorme et mon sac est plein de crème solaire. Mes parents disent que j'exagère, mais bon, c'est ma première semaine à Nice.",
+      "es": "Mi maleta es enorme y mi bolso está lleno de crema solar. Mis padres dicen que exagero, pero bueno, es mi primera semana en Niza.",
+      "en": "My suitcase is enormous and my bag is stuffed with sunscreen. My parents say I'm overdoing it, but hey, it's my first week in Nice."
+    },
+    {
+      "t": "h3",
+      "text": "Son sac… à lui ou à elle ?"
+    },
+    {
+      "t": "pair",
+      "fr": "Sur la plage, quelqu'un a oublié son sac et sa serviette — un garçon ou une fille, mystère total. En français, « son » et « sa » suivent l'objet, pas la personne, exactement comme votre « su ».",
+      "es": "En la playa, alguien olvidó su bolso y su toalla — ¿un chico o una chica?, misterio total. En francés, « son » y « sa » siguen al objeto, no a la persona, exactamente como su « su ».",
+      "en": "On the beach, somebody left behind their bag and their towel — a boy or a girl, total mystery. In French, 'son' and 'sa' go with the thing, not the owner, exactly like your 'su'."
+    },
+    {
+      "t": "h3",
+      "text": "Mon amie (oui, mon)"
+    },
+    {
+      "t": "pair",
+      "fr": "Mon amie Chloé habite près du port et son école donne sur la mer, quelle chance. On dit « mon amie » et pas « ma amie » — devant une voyelle, le français refuse deux voyelles qui se cognent.",
+      "es": "Mi amiga Chloé vive cerca del puerto y su escuela da al mar, qué suerte. Se dice « mon amie » y no « ma amie » — delante de una vocal, el francés rechaza dos vocales que chocan.",
+      "en": "My friend Chloé lives near the port and her school looks out on the sea — lucky her. You say 'mon amie,' never 'ma amie' — before a vowel, French refuses to let two vowels crash into each other."
+    },
+    {
+      "t": "h3",
+      "text": "Cette glace, ce bonheur"
+    },
+    {
+      "t": "pair",
+      "fr": "Cette glace à la lavande est la meilleure de ma vie, et ce vendeur le sait très bien. En français, zéro drame entre « este », « ese » et « aquel » : « ce » et « cette » font tout le travail.",
+      "es": "Este helado de lavanda es el mejor de mi vida, y este vendedor lo sabe muy bien. En francés, cero drama entre « este », « ese » y « aquel »: « ce » y « cette » hacen todo el trabajo.",
+      "en": "This lavender ice cream is the best of my life, and the guy selling it knows it. In French there's zero drama between 'este,' 'ese,' and 'aquel' — 'ce' and 'cette' do all the work."
+    },
+    {
+      "t": "h3",
+      "text": "Cet été, ces vacances"
+    },
+    {
+      "t": "pair",
+      "fr": "Ce soir, on va regarder le coucher de soleil sur la Promenade avec ces touristes et leurs mille photos. Cet été est déjà mon préféré, et ces vacances viennent à peine de commencer.",
+      "es": "Esta noche, vamos a mirar la puesta de sol en el Paseo con estos turistas y sus mil fotos. Este verano ya es mi favorito, y estas vacaciones apenas acaban de comenzar.",
+      "en": "Tonight we're going to watch the sunset on the Promenade with all these tourists and their thousand photos. This summer is already my favorite, and this vacation has barely even started."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "L32-mon",
+      "fr": "mon / ma / mes",
+      "es": "mi / mis",
+      "en": "my",
+      "ipa": "mɔ̃",
+      "pos": "poss",
+      "cognate_type": "non_cognate",
+      "ex": "C'est mon sac.",
+      "voice": "emilie",
+      "audio": "L32-mon",
+      "star": true
+    },
+    {
+      "id": "L32-ton",
+      "fr": "ton / ta / tes",
+      "es": "tu / tus",
+      "en": "your",
+      "ipa": "tɔ̃",
+      "pos": "poss",
+      "cognate_type": "non_cognate",
+      "ex": "Où est ton téléphone ?",
+      "voice": "oris",
+      "audio": "L32-ton",
+      "star": true
+    },
+    {
+      "id": "L32-son",
+      "fr": "son / sa / ses",
+      "es": "su / sus",
+      "en": "his / her",
+      "ipa": "sɔ̃",
+      "pos": "poss",
+      "cognate_type": "non_cognate",
+      "ex": "C'est son sac.",
+      "voice": "emilie",
+      "audio": "L32-son",
+      "star": true
+    },
+    {
+      "id": "L32-notre",
+      "fr": "notre / nos",
+      "es": "nuestro / nuestros",
+      "en": "our",
+      "ipa": "nɔtʁ",
+      "pos": "poss",
+      "cognate_type": "transparent",
+      "ex": "C'est notre hôtel.",
+      "voice": "oris",
+      "audio": "L32-notre"
+    },
+    {
+      "id": "L32-votre",
+      "fr": "votre / vos",
+      "es": "su / vuestro",
+      "en": "your (pl.)",
+      "ipa": "vɔtʁ",
+      "pos": "poss",
+      "cognate_type": "non_cognate",
+      "ex": "Voici votre chambre.",
+      "voice": "emilie",
+      "audio": "L32-votre"
+    },
+    {
+      "id": "L32-monamie",
+      "fr": "mon amie",
+      "es": "mi amiga",
+      "en": "my friend (f.)",
+      "ipa": "mɔ̃ n‿ami",
+      "pos": "poss",
+      "cognate_type": "non_cognate",
+      "ex": "Mon amie Chloé.",
+      "voice": "oris",
+      "audio": "L32-monamie",
+      "star": true
+    },
+    {
+      "id": "L32-ce",
+      "fr": "ce / cet",
+      "es": "este",
+      "en": "this / that (m.)",
+      "ipa": "sə",
+      "pos": "dem",
+      "cognate_type": "non_cognate",
+      "ex": "Ce garçon, cet ami.",
+      "voice": "emilie",
+      "audio": "L32-ce",
+      "star": true
+    },
+    {
+      "id": "L32-cette",
+      "fr": "cette",
+      "es": "esta",
+      "en": "this / that (f.)",
+      "ipa": "sɛt",
+      "pos": "dem",
+      "cognate_type": "non_cognate",
+      "ex": "Cette plage est belle.",
+      "voice": "oris",
+      "audio": "L32-cette",
+      "star": true
+    },
+    {
+      "id": "L32-ces",
+      "fr": "ces",
+      "es": "estos / estas",
+      "en": "these / those",
+      "ipa": "se",
+      "pos": "dem",
+      "cognate_type": "non_cognate",
+      "ex": "Ces glaces sont énormes.",
+      "voice": "emilie",
+      "audio": "L32-ces",
+      "star": true
+    }
+  ],
+  "sentences": [
+    {
+      "id": "L32-s01",
+      "register": "parle",
+      "fr": "C'est mon sac, pas ton sac !",
+      "es": "¡Es mi bolso, no tu bolso!",
+      "en": "This is my bag, not your bag!",
+      "voice": "emilie",
+      "audio": "L32-s01"
+    },
+    {
+      "id": "L32-s02",
+      "register": "parle",
+      "fr": "Son frère et sa sœur habitent à Nice.",
+      "es": "Su hermano y su hermana viven en Niza.",
+      "en": "His/her brother and sister live in Nice.",
+      "voice": "oris",
+      "audio": "L32-s02",
+      "gloss": "son/sa = del objeto, no del dueño"
+    },
+    {
+      "id": "L32-s03",
+      "register": "parle",
+      "fr": "Cette plage est ma préférée.",
+      "es": "Esta playa es mi preferida.",
+      "en": "This beach is my favorite.",
+      "voice": "emilie",
+      "audio": "L32-s03"
+    },
+    {
+      "id": "L32-s04",
+      "register": "parle",
+      "fr": "Regarde ces glaces, elles sont énormes !",
+      "es": "¡Mira estos helados, son enormes!",
+      "en": "Look at these ice creams, they're huge!",
+      "voice": "oris",
+      "audio": "L32-s04"
+    }
+  ],
+  "drills": [
+    {
+      "q": "« mi maleta » (valise = fém.) → « ___ valise »",
+      "sub": "accord avec l'objet :",
+      "ans": "ma",
+      "opts": [
+        "ma",
+        "mon",
+        "mes",
+        "ta"
+      ]
+    },
+    {
+      "q": "Piège : « mi amiga » (fém. + voyelle) → « ___ amie »",
+      "sub": "devant une voyelle :",
+      "ans": "mon",
+      "opts": [
+        "mon",
+        "ma",
+        "mes",
+        "une"
+      ]
+    },
+    {
+      "q": "« su coche » (de él o de ella) → « ___ voiture »",
+      "sub": "voiture = fém., neutre au propriétaire :",
+      "ans": "sa",
+      "opts": [
+        "sa",
+        "son",
+        "ses",
+        "leur"
+      ]
+    },
+    {
+      "q": "« esta playa » → « ___ plage »",
+      "sub": "démonstratif fém. :",
+      "ans": "cette",
+      "opts": [
+        "cette",
+        "ce",
+        "cet",
+        "ces"
+      ]
+    },
+    {
+      "q": "« este chico » → « ___ garçon »",
+      "sub": "démonstratif masc. :",
+      "ans": "ce",
+      "opts": [
+        "ce",
+        "cette",
+        "cet",
+        "ces"
+      ]
+    },
+    {
+      "q": "« estos helados » → « ___ glaces »",
+      "sub": "(pas « ses ») :",
+      "ans": "ces",
+      "opts": [
+        "ces",
+        "ses",
+        "cette",
+        "ce"
+      ]
+    }
+  ]
+}

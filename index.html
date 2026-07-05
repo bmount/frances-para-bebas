@@ -83,7 +83,7 @@
       <div class="pill"><div class="i">🎧</div><div class="t">Audio + quiz</div><div class="d">Chaque phrase se parle, se teste</div></div>
     </div>
 
-    <h2 class="sec">Le parcours · 26 modules + Chapitre 0</h2>
+    <h2 class="sec">Le parcours · 33 modules + Chapitre 0</h2>
     <div id="map"></div>
 
     <footer>fait avec ❤️ par Papa · <span id="cnt"></span></footer>
@@ -117,6 +117,13 @@ const MODULES=[
   {n:24,t:"La météo",d:"il fait beau · il pleut · le mistral",ready:1},
   {n:25,t:"Le corps & la santé",d:"j'ai mal à… · alergias · végétarienne",ready:1},
   {n:26,t:"Téléphone & tech",d:"wifi, batterie, chargeur · le code wifi",ready:1},
+  {n:27,t:"Les questions",d:"qui, où, pourquoi, combien · est-ce que",ready:1},
+  {n:28,t:"La négation",d:"ne… pas/jamais/rien · el « ne » que cae",ready:1},
+  {n:29,t:"Le quotidien",d:"reflexivos: je me lève = me levanto",ready:1},
+  {n:30,t:"Les pronoms",d:"le/la/lui/leur · antes del verbo, como ES",ready:1},
+  {n:31,t:"Comparer",d:"plus… que · meilleur vs mieux",ready:1},
+  {n:32,t:"Mon, ce…",d:"posesivos & demostrativos · son = « su »",ready:1},
+  {n:33,t:"L'impératif",d:"Regarde ! Allons-y ! Donne-moi…",ready:1},
 ];
 document.getElementById('map').innerHTML=MODULES.map(m=>{
   const tag=m.ready?'<span class="badge on">PRÊT</span>':'<span class="badge soon">bientôt</span>';
