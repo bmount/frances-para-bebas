@@ -2,74 +2,1379 @@
   "note": "Graded readings — cognate-maximized so a Spanish speaker can follow. Each has a vocab block (the few non-guessable words), the text, and a full-reading audio (voice gender matches narrator gender per the safeguard).",
   "stories": [
     {
-      "id": "ST1", "order": 1, "level": 1, "level_label": "1 · très facile",
-      "title": "Ma journée parfaite à Nice", "title_es": "Mi día perfecto en Niza",
-      "narrator": "f", "voice": "emilie", "audio": "ST1",
+      "id": "ST1",
+      "order": 1,
+      "level": 1,
+      "level_label": "1 · très facile",
+      "title": "Ma journée parfaite à Nice",
+      "title_es": "Mi día perfecto en Niza",
+      "narrator": "f",
+      "voice": "emilie",
+      "audio": "ST1",
       "vocab": [
-        {"fr": "une journée", "es": "un día", "en": "a day"},
-        {"fr": "le ciel", "es": "el cielo", "en": "the sky"},
-        {"fr": "les rues", "es": "las calles", "en": "the streets"},
-        {"fr": "pleines de", "es": "llenas de", "en": "full of"},
-        {"fr": "une glace", "es": "un helado", "en": "an ice cream"},
-        {"fr": "je nage", "es": "nado", "en": "I swim"},
-        {"fr": "l'eau", "es": "el agua", "en": "the water"},
-        {"fr": "la vue", "es": "la vista", "en": "the view"},
-        {"fr": "après", "es": "después", "en": "afterwards"},
-        {"fr": "j'adore", "es": "me encanta", "en": "I love"}
+        {
+          "fr": "une journée",
+          "es": "un día",
+          "en": "a day"
+        },
+        {
+          "fr": "le ciel",
+          "es": "el cielo",
+          "en": "the sky"
+        },
+        {
+          "fr": "les rues",
+          "es": "las calles",
+          "en": "the streets"
+        },
+        {
+          "fr": "pleines de",
+          "es": "llenas de",
+          "en": "full of"
+        },
+        {
+          "fr": "une glace",
+          "es": "un helado",
+          "en": "an ice cream"
+        },
+        {
+          "fr": "je nage",
+          "es": "nado",
+          "en": "I swim"
+        },
+        {
+          "fr": "l'eau",
+          "es": "el agua",
+          "en": "the water"
+        },
+        {
+          "fr": "la vue",
+          "es": "la vista",
+          "en": "the view"
+        },
+        {
+          "fr": "après",
+          "es": "después",
+          "en": "afterwards"
+        },
+        {
+          "fr": "j'adore",
+          "es": "me encanta",
+          "en": "I love"
+        }
       ],
       "text": "J'arrive à Nice avec ma famille. Le climat est parfait et le ciel est bleu. Je visite le Vieux-Nice : les rues sont pittoresques et pleines de couleurs. Je mange une glace délicieuse au chocolat. Après, je nage dans la mer Méditerranée. L'eau est transparente et magnifique ! J'admire la vue splendide de la Promenade. Je suis très contente. C'est une journée absolument parfaite. J'adore Nice !"
     },
     {
-      "id": "ST2", "order": 2, "level": 1, "level_label": "1 · facile",
-      "title": "L'origine du nom « Nice »", "title_es": "El origen del nombre « Nice »",
-      "narrator": "none", "voice": "emilie", "audio": "ST2",
+      "id": "ST2",
+      "order": 2,
+      "level": 1,
+      "level_label": "1 · facile",
+      "title": "L'origine du nom « Nice »",
+      "title_es": "El origen del nombre « Nice »",
+      "narrator": "none",
+      "voice": "emilie",
+      "audio": "ST2",
       "vocab": [
-        {"fr": "une ville", "es": "una ciudad", "en": "a city"},
-        {"fr": "vers", "es": "hacia (aprox.)", "en": "around"},
-        {"fr": "avant", "es": "antes de", "en": "before"},
-        {"fr": "ont fondé", "es": "fundaron", "en": "founded"},
-        {"fr": "une déesse", "es": "una diosa", "en": "a goddess"},
-        {"fr": "plus tard", "es": "más tarde", "en": "later"},
-        {"fr": "une colline", "es": "una colina", "en": "a hill"},
-        {"fr": "aujourd'hui", "es": "hoy", "en": "today"},
-        {"fr": "un quartier", "es": "un barrio", "en": "a district"}
+        {
+          "fr": "une ville",
+          "es": "una ciudad",
+          "en": "a city"
+        },
+        {
+          "fr": "vers",
+          "es": "hacia (aprox.)",
+          "en": "around"
+        },
+        {
+          "fr": "avant",
+          "es": "antes de",
+          "en": "before"
+        },
+        {
+          "fr": "ont fondé",
+          "es": "fundaron",
+          "en": "founded"
+        },
+        {
+          "fr": "une déesse",
+          "es": "una diosa",
+          "en": "a goddess"
+        },
+        {
+          "fr": "plus tard",
+          "es": "más tarde",
+          "en": "later"
+        },
+        {
+          "fr": "une colline",
+          "es": "una colina",
+          "en": "a hill"
+        },
+        {
+          "fr": "aujourd'hui",
+          "es": "hoy",
+          "en": "today"
+        },
+        {
+          "fr": "un quartier",
+          "es": "un barrio",
+          "en": "a district"
+        }
       ],
       "text": "Vers 350 avant Jésus-Christ, les Grecs ont fondé la ville de Nice. Ils ont donné à la ville le nom « Nikaia », en l'honneur de Niké, la déesse de la victoire. Donc, le nom « Nice » signifie « la victoire ». Plus tard, les Romains ont construit la ville de Cemenelum sur la colline de Cimiez. Aujourd'hui, Cimiez est un quartier de Nice, et les touristes visitent les ruines romaines. Nice est une ville très ancienne et très historique."
     },
     {
-      "id": "ST3", "order": 3, "level": 2, "level_label": "2 · une recette",
-      "title": "La socca, spécialité de Nice", "title_es": "La socca, especialidad de Niza",
-      "narrator": "none", "voice": "oris", "audio": "ST3",
+      "id": "ST3",
+      "order": 3,
+      "level": 2,
+      "level_label": "2 · une recette",
+      "title": "La socca, spécialité de Nice",
+      "title_es": "La socca, especialidad de Niza",
+      "narrator": "none",
+      "voice": "oris",
+      "audio": "ST3",
       "vocab": [
-        {"fr": "le pois chiche", "es": "el garbanzo", "en": "chickpea"},
-        {"fr": "la farine", "es": "la harina", "en": "flour"},
-        {"fr": "l'huile", "es": "el aceite", "en": "oil"},
-        {"fr": "l'eau", "es": "el agua", "en": "water"},
-        {"fr": "mélanger", "es": "mezclar", "en": "to mix"},
-        {"fr": "verser", "es": "verter", "en": "to pour"},
-        {"fr": "le four", "es": "el horno", "en": "oven"},
-        {"fr": "cuire", "es": "cocer", "en": "to bake"},
-        {"fr": "couper", "es": "cortar", "en": "to cut"},
-        {"fr": "chaud", "es": "caliente", "en": "hot"}
+        {
+          "fr": "le pois chiche",
+          "es": "el garbanzo",
+          "en": "chickpea"
+        },
+        {
+          "fr": "la farine",
+          "es": "la harina",
+          "en": "flour"
+        },
+        {
+          "fr": "l'huile",
+          "es": "el aceite",
+          "en": "oil"
+        },
+        {
+          "fr": "l'eau",
+          "es": "el agua",
+          "en": "water"
+        },
+        {
+          "fr": "mélanger",
+          "es": "mezclar",
+          "en": "to mix"
+        },
+        {
+          "fr": "verser",
+          "es": "verter",
+          "en": "to pour"
+        },
+        {
+          "fr": "le four",
+          "es": "el horno",
+          "en": "oven"
+        },
+        {
+          "fr": "cuire",
+          "es": "cocer",
+          "en": "to bake"
+        },
+        {
+          "fr": "couper",
+          "es": "cortar",
+          "en": "to cut"
+        },
+        {
+          "fr": "chaud",
+          "es": "caliente",
+          "en": "hot"
+        }
       ],
       "text": "La socca est la spécialité traditionnelle de Nice. La recette est très simple. Les ingrédients : de la farine de pois chiche, de l'huile d'olive, de l'eau et du sel. Préparation : dans un récipient, mélanger la farine avec l'eau, l'huile d'olive et le sel. La consistance doit être liquide, comme une crème. Verser la préparation sur une grande plaque. Cuire au four très chaud pendant dix minutes. La surface doit être dorée, presque caramélisée. Finalement, couper la socca en portions et manger immédiatement, très chaud. C'est délicieux, économique et cent pour cent traditionnel !"
     },
     {
-      "id": "ST4", "order": 4, "level": 3, "level_label": "3 · une aventure",
-      "title": "Le sommet du Mont Boron", "title_es": "La cima del Mont Boron",
-      "narrator": "m", "voice": "oris", "audio": "ST4",
+      "id": "ST4",
+      "order": 4,
+      "level": 3,
+      "level_label": "3 · une aventure",
+      "title": "Le sommet du Mont Boron",
+      "title_es": "La cima del Mont Boron",
+      "narrator": "m",
+      "voice": "oris",
+      "audio": "ST4",
       "vocab": [
-        {"fr": "je cours", "es": "corro", "en": "I run"},
-        {"fr": "le sentier", "es": "el sendero", "en": "the trail"},
-        {"fr": "la pente", "es": "la cuesta", "en": "the slope"},
-        {"fr": "vite", "es": "rápido", "en": "quickly"},
-        {"fr": "les jambes", "es": "las piernas", "en": "the legs"},
-        {"fr": "fier", "es": "orgulloso", "en": "proud"},
-        {"fr": "la vue", "es": "la vista", "en": "the view"},
-        {"fr": "puis", "es": "luego", "en": "then"},
-        {"fr": "la matinée", "es": "la mañana", "en": "the morning"}
+        {
+          "fr": "je cours",
+          "es": "corro",
+          "en": "I run"
+        },
+        {
+          "fr": "le sentier",
+          "es": "el sendero",
+          "en": "the trail"
+        },
+        {
+          "fr": "la pente",
+          "es": "la cuesta",
+          "en": "the slope"
+        },
+        {
+          "fr": "vite",
+          "es": "rápido",
+          "en": "quickly"
+        },
+        {
+          "fr": "les jambes",
+          "es": "las piernas",
+          "en": "the legs"
+        },
+        {
+          "fr": "fier",
+          "es": "orgulloso",
+          "en": "proud"
+        },
+        {
+          "fr": "la vue",
+          "es": "la vista",
+          "en": "the view"
+        },
+        {
+          "fr": "puis",
+          "es": "luego",
+          "en": "then"
+        },
+        {
+          "fr": "la matinée",
+          "es": "la mañana",
+          "en": "the morning"
+        }
       ],
       "text": "Ce matin, à Nice, je décide une aventure : monter la colline du Mont Boron. Je commence sur la Promenade des Anglais. Je cours rapidement ; l'air est frais et la mer est d'un bleu intense. Ensuite, je monte le sentier. La pente est difficile et je suis vite fatigué. Mes jambes protestent, mais je continue avec détermination. Après trente minutes d'effort, j'arrive au sommet. Le panorama sur la Baie des Anges est magnifique : la mer immense, le port, les villas élégantes. J'admire la vue en silence, puis je prends une photo pour ma famille. Je suis content et très fier de mon effort. Finalement, je descends et, pour célébrer ma victoire, je mange une socca délicieuse. Quelle matinée fantastique !"
+    },
+    {
+      "id": "ST5",
+      "order": 5,
+      "level": 2,
+      "level_label": "2 · Roma en Niza",
+      "title": "Les pierres de Cimiez",
+      "title_es": "Las piedras de Cimiez",
+      "narrator": "none",
+      "voice": "oris",
+      "audio": "ST5",
+      "vocab": [
+        {
+          "fr": "au-dessus de",
+          "es": "encima de, por arriba de",
+          "en": "above, over"
+        },
+        {
+          "fr": "on marche (marcher)",
+          "es": "se camina (¡ojo! marchar = irse)",
+          "en": "one walks"
+        },
+        {
+          "fr": "voici",
+          "es": "aquí está, he aquí",
+          "en": "here is"
+        },
+        {
+          "fr": "où",
+          "es": "donde",
+          "en": "where"
+        },
+        {
+          "fr": "regardaient (regarder)",
+          "es": "miraban",
+          "en": "were watching"
+        },
+        {
+          "fr": "plus loin (loin)",
+          "es": "más lejos",
+          "en": "farther"
+        },
+        {
+          "fr": "les bains (le bain)",
+          "es": "los baños",
+          "en": "the baths"
+        },
+        {
+          "fr": "tous les jours",
+          "es": "todos los días",
+          "en": "every day"
+        },
+        {
+          "fr": "il y a (deux mille ans)",
+          "es": "hace (dos mil años)",
+          "en": "(two thousand years) ago"
+        },
+        {
+          "fr": "l'herbe",
+          "es": "la hierba, el césped",
+          "en": "the grass"
+        },
+        {
+          "fr": "reste (rester)",
+          "es": "permanece, queda (¡ojo! restar = quitar)",
+          "en": "remains, stays"
+        },
+        {
+          "fr": "garde (garder)",
+          "es": "guarda, conserva",
+          "en": "keeps"
+        }
+      ],
+      "text": "Sur la colline de Cimiez, au-dessus de Nice, on visite les ruines romaines de l'ancienne Cemenelum. On marche entre les pierres antiques. Voici l'amphithéâtre, où les Romains regardaient les spectacles. Un peu plus loin, on découvre les thermes, les bains publics de la cité. Les murs sont immenses. On imagine les familles romaines, les soldats et la vie de tous les jours. Il y a deux mille ans, une ville complète existait ici. Aujourd'hui, l'herbe verte couvre les colonnes, mais la mémoire reste. C'est magnifique et tranquille. Cimiez garde en silence l'histoire des siècles passés."
+    },
+    {
+      "id": "ST6",
+      "order": 6,
+      "level": 2,
+      "level_label": "2 · el mercado",
+      "title": "Un matin au Cours Saleya",
+      "title_es": "Una mañana en el Cours Saleya",
+      "narrator": "f",
+      "voice": "emilie",
+      "audio": "ST6",
+      "vocab": [
+        {
+          "fr": "ce matin",
+          "es": "esta mañana",
+          "en": "this morning"
+        },
+        {
+          "fr": "les fleurs",
+          "es": "las flores",
+          "en": "the flowers"
+        },
+        {
+          "fr": "un panier",
+          "es": "una cesta",
+          "en": "a basket"
+        },
+        {
+          "fr": "une marchande",
+          "es": "una vendedora",
+          "en": "a (female) vendor"
+        },
+        {
+          "fr": "offrir (m'a offert)",
+          "es": "regalar/ofrecer",
+          "en": "to give/offer"
+        },
+        {
+          "fr": "sourire (m'a souri)",
+          "es": "sonreír",
+          "en": "to smile"
+        },
+        {
+          "fr": "goûter (goûte)",
+          "es": "probar/saborear (¡ojo! no es 'gustar')",
+          "en": "to taste"
+        },
+        {
+          "fr": "adorer (j'ai adoré)",
+          "es": "encantar",
+          "en": "to love/adore"
+        },
+        {
+          "fr": "garder",
+          "es": "guardar/conservar",
+          "en": "to keep"
+        },
+        {
+          "fr": "une promenade",
+          "es": "un paseo",
+          "en": "a stroll/walk"
+        }
+      ],
+      "text": "Ce matin, on est allées au marché du Cours Saleya, dans le vieux Nice. Les fleurs formaient des rivières de couleurs magnifiques : violet, orange, rose. J'ai admiré les olives noires et vertes dans des paniers immenses. L'air avait un parfum délicieux de socca chaude. Une marchande très aimable m'a offert une olive et m'a souri. « Goûte, elle est excellente ! » J'ai adoré ce moment simple. Le marché continuait, animé et vivant, et moi, j'étais très contente. Je vais garder cette mémoire précieuse de ma promenade à Nice."
+    },
+    {
+      "id": "ST7",
+      "order": 7,
+      "level": 2,
+      "level_label": "2 · carta romana",
+      "title": "Une lettre de Cemenelum",
+      "title_es": "Una carta desde Cemenelum",
+      "narrator": "m",
+      "voice": "oris",
+      "audio": "ST7",
+      "vocab": [
+        {
+          "fr": "chère",
+          "es": "querida",
+          "en": "dear"
+        },
+        {
+          "fr": "les journées",
+          "es": "los días",
+          "en": "the days"
+        },
+        {
+          "fr": "les bateaux",
+          "es": "los barcos",
+          "en": "the boats"
+        },
+        {
+          "fr": "la maison",
+          "es": "la casa",
+          "en": "the home/house"
+        },
+        {
+          "fr": "la nourriture",
+          "es": "la comida",
+          "en": "the food"
+        },
+        {
+          "fr": "manque",
+          "es": "falta",
+          "en": "is lacking/missing"
+        },
+        {
+          "fr": "le soir",
+          "es": "la tarde/noche",
+          "en": "the evening"
+        },
+        {
+          "fr": "le vent",
+          "es": "el viento",
+          "en": "the wind"
+        },
+        {
+          "fr": "fier",
+          "es": "orgulloso",
+          "en": "proud"
+        },
+        {
+          "fr": "bientôt",
+          "es": "pronto",
+          "en": "soon"
+        },
+        {
+          "fr": "se retrouver",
+          "es": "reencontrarse",
+          "en": "to meet again"
+        },
+        {
+          "fr": "le fils",
+          "es": "el hijo",
+          "en": "the son"
+        }
+      ],
+      "text": "Chère famille, je suis arrivé à Cemenelum, dans le camp des soldats. La mer est bleue et immense, et les montagnes sont magnifiques. Ici, les journées passent lentement. On garde les routes, on défend la ville, et parfois on regarde les bateaux à l'horizon. Je pense souvent à vous, à la maison, à notre table. La nourriture manque un peu, et le soir le vent est froid. Mais je suis fier de servir Rome. Je résiste, je continue, et j'imagine déjà mon retour. Bientôt, j'espère, on va se retrouver. Gardez ma mémoire, comme je garde la vôtre. Je vous embrasse. Votre fils."
+    },
+    {
+      "id": "ST8",
+      "order": 8,
+      "level": 2,
+      "level_label": "2 · el arte",
+      "title": "La lumière de Nice",
+      "title_es": "La luz de Niza",
+      "narrator": "none",
+      "voice": "emilie",
+      "audio": "ST8",
+      "vocab": [
+        {
+          "fr": "la lumière",
+          "es": "la luz",
+          "en": "the light"
+        },
+        {
+          "fr": "le sud",
+          "es": "el sur",
+          "en": "the south"
+        },
+        {
+          "fr": "il a peint",
+          "es": "pintó",
+          "en": "he painted"
+        },
+        {
+          "fr": "éclatant",
+          "es": "brillante, deslumbrante",
+          "en": "dazzling, bright"
+        },
+        {
+          "fr": "le bleu",
+          "es": "el azul",
+          "en": "the blue"
+        },
+        {
+          "fr": "la mer",
+          "es": "el mar",
+          "en": "the sea"
+        },
+        {
+          "fr": "le jaune",
+          "es": "el amarillo",
+          "en": "the yellow"
+        },
+        {
+          "fr": "les tableaux",
+          "es": "los cuadros",
+          "en": "the paintings"
+        },
+        {
+          "fr": "pleins",
+          "es": "llenos",
+          "en": "full"
+        },
+        {
+          "fr": "aujourd'hui",
+          "es": "hoy",
+          "en": "today"
+        },
+        {
+          "fr": "les œuvres",
+          "es": "las obras",
+          "en": "the works (of art)"
+        }
+      ],
+      "text": "La lumière de Nice a inspiré les artistes. Matisse est arrivé sur la côte en 1917. La lumière du sud était magnifique, intense, différente. Il a peint des couleurs éclatantes : le bleu de la mer, le rouge, le jaune, l'orange des fruits. Marc Chagall a adoré la région aussi. Il a créé des tableaux immenses, pleins de personnages bibliques et de couleurs magiques. Aujourd'hui, deux musées célèbrent ces artistes : le musée Matisse et le musée Chagall. On peut admirer leurs œuvres et comprendre leur passion. À Nice, la lumière et les couleurs continuent d'inspirer les visiteurs du monde entier."
+    },
+    {
+      "id": "ST9",
+      "order": 9,
+      "level": 3,
+      "level_label": "3 · el carnaval",
+      "title": "Le Carnaval de Nice",
+      "title_es": "El Carnaval de Niza",
+      "narrator": "f",
+      "voice": "emilie",
+      "audio": "ST9",
+      "vocab": [
+        {
+          "fr": "le char",
+          "es": "la carroza",
+          "en": "the float (parade)"
+        },
+        {
+          "fr": "soudain",
+          "es": "de repente",
+          "en": "suddenly"
+        },
+        {
+          "fr": "jaune",
+          "es": "amarillo",
+          "en": "yellow"
+        },
+        {
+          "fr": "sentir (l'air sentait)",
+          "es": "oler",
+          "en": "to smell (false friend)"
+        },
+        {
+          "fr": "la pluie",
+          "es": "la lluvia",
+          "en": "the rain"
+        },
+        {
+          "fr": "mettre (j'ai mis)",
+          "es": "poner(se)",
+          "en": "to put on"
+        },
+        {
+          "fr": "le soir",
+          "es": "la noche / la tarde",
+          "en": "the evening"
+        },
+        {
+          "fr": "le roi",
+          "es": "el rey",
+          "en": "the king"
+        },
+        {
+          "fr": "oublier (je n'oublierai jamais)",
+          "es": "olvidar",
+          "en": "to forget"
+        },
+        {
+          "fr": "rire (on riait)",
+          "es": "reír",
+          "en": "to laugh"
+        }
+      ],
+      "text": "Le Carnaval de Nice, c'est magnifique ! Cette année, on est arrivés sur la Promenade avec ma famille. Les chars géants avançaient dans l'avenue, décorés de couleurs fantastiques. Sur un char immense, un roi énorme dansait au rythme de la musique. Les masques étaient mystérieux et magiques. Soudain, la fameuse bataille de fleurs a commencé ! Les danseuses lançaient des roses et des mimosas au public. J'ai attrapé une fleur jaune, et j'étais très contente. L'air sentait le parfum des fleurs. Après, les confettis ont explosé comme une pluie de couleurs. On dansait, on chantait, on riait. J'ai mis un masque de princesse et j'ai imité les artistes. Le soir, les lumières illuminaient toute la ville. Je n'oublierai jamais ce moment magnifique. Vive le Carnaval de Nice !"
+    },
+    {
+      "id": "ST10",
+      "order": 10,
+      "level": 3,
+      "level_label": "3 · 1860",
+      "title": "Nice devient française",
+      "title_es": "Niza se vuelve francesa",
+      "narrator": "none",
+      "voice": "oris",
+      "audio": "ST10",
+      "vocab": [
+        {
+          "fr": "la ville",
+          "es": "la ciudad",
+          "en": "the city"
+        },
+        {
+          "fr": "le royaume",
+          "es": "el reino",
+          "en": "the kingdom"
+        },
+        {
+          "fr": "a changé (changer)",
+          "es": "cambió (cambiar)",
+          "en": "changed (to change)"
+        },
+        {
+          "fr": "la mer",
+          "es": "el mar",
+          "en": "the sea"
+        },
+        {
+          "fr": "ensuite",
+          "es": "luego, después",
+          "en": "then, next"
+        },
+        {
+          "fr": "est né (naître)",
+          "es": "nació (nacer)",
+          "en": "was born (to be born)"
+        },
+        {
+          "fr": "encore",
+          "es": "todavía, aún",
+          "en": "still"
+        },
+        {
+          "fr": "les rues",
+          "es": "las calles",
+          "en": "the streets"
+        },
+        {
+          "fr": "peu à peu",
+          "es": "poco a poco",
+          "en": "little by little"
+        },
+        {
+          "fr": "aujourd'hui",
+          "es": "hoy",
+          "en": "today"
+        }
+      ],
+      "text": "En 1860, la ville de Nice a changé de nation. Pendant des siècles, Nice a appartenu au royaume de Piémont-Sardaigne, en Italie. Mais l'empereur Napoléon III désirait cette région magnifique, entre la mer et les montagnes. Les deux gouvernements ont signé le Traité de Turin. Ensuite, on a organisé un plébiscite: les habitants ont voté. La grande majorité a accepté la cession à la France. Un homme célèbre a protesté avec passion. Giuseppe Garibaldi, le général italien, est né à Nice. Pour lui, cette ville était sa patrie. Il considérait le vote comme une injustice et il a défendu son identité italienne. Mais la décision politique était finale. Nice est devenue française, et l'italien a peu à peu disparu des rues. Aujourd'hui, la ville garde encore la mémoire de cette histoire, entre deux cultures et deux nations différentes."
+    },
+    {
+      "id": "ST11",
+      "order": 11,
+      "level": 3,
+      "level_label": "3 · Saboya",
+      "title": "Nice, entre l'Italie et la France",
+      "title_es": "Niza, entre Italia y Francia",
+      "narrator": "none",
+      "voice": "emilie",
+      "audio": "ST11",
+      "vocab": [
+        {
+          "fr": "la ville",
+          "es": "la ciudad",
+          "en": "the city, the town"
+        },
+        {
+          "fr": "appartenir (a appartenu)",
+          "es": "pertenecer",
+          "en": "to belong"
+        },
+        {
+          "fr": "les habitants",
+          "es": "los habitantes, los vecinos",
+          "en": "the inhabitants, residents"
+        },
+        {
+          "fr": "les enfants",
+          "es": "los hijos, los niños",
+          "en": "the children"
+        },
+        {
+          "fr": "puis",
+          "es": "luego, después",
+          "en": "then, next"
+        },
+        {
+          "fr": "beaucoup",
+          "es": "muchas, mucho",
+          "en": "many, a lot"
+        },
+        {
+          "fr": "rejoindre (a rejoint)",
+          "es": "unirse a, incorporarse a",
+          "en": "to join"
+        },
+        {
+          "fr": "d'autres",
+          "es": "otros, otras",
+          "en": "others"
+        },
+        {
+          "fr": "regretter (ont regretté)",
+          "es": "lamentar, echar de menos",
+          "en": "to regret, to miss"
+        },
+        {
+          "fr": "garder (a gardé)",
+          "es": "conservar, guardar",
+          "en": "to keep"
+        },
+        {
+          "fr": "les noms",
+          "es": "los nombres",
+          "en": "the names"
+        }
+      ],
+      "text": "Pendant des siècles, Nice n'a pas appartenu à la France. La ville a fait partie de la maison de Savoie, une famille liée à l'Italie. Les habitants ont parlé un dialecte proche de l'italien. Ils ont préparé des plats italiens et ils ont donné des noms italiens à leurs enfants. La frontière a séparé Nice de la France pendant très longtemps. Puis la situation politique a changé. Les rois de Savoie ont négocié avec la France, et en 1860, un vote a décidé le destin de la ville : Nice a finalement rejoint la France. Beaucoup de familles ont célébré cette union, mais d'autres ont regretté l'Italie. Aujourd'hui, Nice a gardé sa mémoire italienne. La cuisine, les noms et le dialecte ont conservé cette identité si spéciale. La ville a uni deux cultures, et cette histoire a formé son caractère unique."
+    },
+    {
+      "id": "ST12",
+      "order": 12,
+      "level": 3,
+      "level_label": "3 · Èze",
+      "title": "Èze, le village dans le ciel",
+      "title_es": "Èze, el pueblo en el cielo",
+      "narrator": "none",
+      "voice": "oris",
+      "audio": "ST12",
+      "vocab": [
+        {
+          "fr": "au-dessus de",
+          "es": "encima de",
+          "en": "above"
+        },
+        {
+          "fr": "la mer",
+          "es": "el mar",
+          "en": "the sea"
+        },
+        {
+          "fr": "les rues",
+          "es": "las calles",
+          "en": "the streets"
+        },
+        {
+          "fr": "étroites",
+          "es": "estrechas",
+          "en": "narrow"
+        },
+        {
+          "fr": "les maisons",
+          "es": "las casas",
+          "en": "the houses"
+        },
+        {
+          "fr": "la pierre",
+          "es": "la piedra",
+          "en": "stone"
+        },
+        {
+          "fr": "le jardin",
+          "es": "el jardín",
+          "en": "the garden"
+        },
+        {
+          "fr": "le sommet",
+          "es": "la cima",
+          "en": "the summit"
+        },
+        {
+          "fr": "la vue",
+          "es": "la vista",
+          "en": "the view"
+        },
+        {
+          "fr": "les bateaux",
+          "es": "los barcos",
+          "en": "the boats"
+        },
+        {
+          "fr": "le ciel",
+          "es": "el cielo",
+          "en": "the sky"
+        },
+        {
+          "fr": "autrefois",
+          "es": "antiguamente",
+          "en": "in the past"
+        }
+      ],
+      "text": "Au-dessus de la mer, près de Nice, il y a un village médiéval extraordinaire : Èze. On monte par des rues étroites, entre des maisons de pierre très anciennes. Ici, tout est calme et mystérieux. Les Phéniciens ont fondé ce village, et l'histoire est présente à chaque pas. On imagine les familles d'autrefois, les marchands, les visiteurs curieux. Au sommet, il y a un jardin exotique magnifique, avec des plantes rares et des cactus immenses. De là, la vue est spectaculaire : la Méditerranée est bleue et infinie, et l'horizon semble toucher le ciel. On observe les bateaux minuscules, très loin. Le temps paraît suspendu. Visiter Èze, c'est entrer dans le passé, respirer l'air pur et admirer un paysage vraiment inoubliable. Un moment de pure magie sur la Côte d'Azur."
+    },
+    {
+      "id": "ST13",
+      "order": 13,
+      "level": 3,
+      "level_label": "3 · la Résistance",
+      "title": "Le message dans la montagne",
+      "title_es": "El mensaje en la montaña",
+      "narrator": "m",
+      "voice": "oris",
+      "audio": "ST13",
+      "vocab": [
+        {
+          "fr": "la nuit",
+          "es": "la noche",
+          "en": "the night"
+        },
+        {
+          "fr": "caché",
+          "es": "escondido",
+          "en": "hidden"
+        },
+        {
+          "fr": "sortir (je suis sorti)",
+          "es": "salir",
+          "en": "to leave / go out"
+        },
+        {
+          "fr": "le chemin",
+          "es": "el camino",
+          "en": "the path"
+        },
+        {
+          "fr": "le cœur",
+          "es": "el corazón",
+          "en": "the heart"
+        },
+        {
+          "fr": "battait (battre)",
+          "es": "latía (latir)",
+          "en": "was beating"
+        },
+        {
+          "fr": "derrière",
+          "es": "detrás de",
+          "en": "behind"
+        },
+        {
+          "fr": "attendre (j'ai attendu)",
+          "es": "esperar",
+          "en": "to wait (false friend: not 'atender')"
+        },
+        {
+          "fr": "trouver (j'ai trouvé)",
+          "es": "encontrar",
+          "en": "to find"
+        },
+        {
+          "fr": "les mots",
+          "es": "las palabras",
+          "en": "the words"
+        },
+        {
+          "fr": "enfin",
+          "es": "por fin",
+          "en": "finally / at last"
+        },
+        {
+          "fr": "fier",
+          "es": "orgulloso",
+          "en": "proud (false friend: not 'fiero')"
+        }
+      ],
+      "text": "En 1943, l'armée allemande occupait la région de Nice. J'avais dix-neuf ans et je faisais partie de la Résistance. Cette nuit-là, on m'a donné un message secret pour un commandant caché dans la montagne. Je suis sorti du village en silence. La lune illuminait les collines, mais je préférais l'ombre des oliviers. Soudain, j'ai entendu des voix : une patrouille allemande ! Les soldats avançaient sur le chemin. Mon cœur battait très fort. Je me suis caché derrière un mur de pierres et j'ai attendu. Ils sont passés à un mètre de moi. Après quelques minutes, j'ai continué ma route vers le refuge. J'ai enfin trouvé le commandant. « Voici le message », j'ai murmuré. Il a lu les mots importants et il a souri. Cette nuit-là, j'avais risqué ma vie, mais j'étais fier. La liberté valait bien ce danger. Un jour, la victoire serait à nous."
+    },
+    {
+      "id": "ST14",
+      "order": 14,
+      "level": 4,
+      "level_label": "4 · 1944",
+      "title": "La libération de Nice, août 1944",
+      "title_es": "La liberación de Niza, agosto de 1944",
+      "narrator": "none",
+      "voice": "emilie",
+      "audio": "ST14",
+      "vocab": [
+        {
+          "fr": "attendaient",
+          "es": "esperaban",
+          "en": "were waiting for"
+        },
+        {
+          "fr": "les rues",
+          "es": "las calles",
+          "en": "the streets"
+        },
+        {
+          "fr": "les voitures",
+          "es": "los coches",
+          "en": "the cars"
+        },
+        {
+          "fr": "tiraient",
+          "es": "disparaban",
+          "en": "were shooting"
+        },
+        {
+          "fr": "les fenêtres",
+          "es": "las ventanas",
+          "en": "the windows"
+        },
+        {
+          "fr": "reculer",
+          "es": "retroceder",
+          "en": "to retreat"
+        },
+        {
+          "fr": "quittaient",
+          "es": "abandonaban / dejaban",
+          "en": "were leaving"
+        },
+        {
+          "fr": "sont sortis",
+          "es": "salieron",
+          "en": "went/came out"
+        },
+        {
+          "fr": "la foule",
+          "es": "la multitud",
+          "en": "the crowd"
+        },
+        {
+          "fr": "les drapeaux",
+          "es": "las banderas",
+          "en": "the flags"
+        },
+        {
+          "fr": "oublié",
+          "es": "olvidado",
+          "en": "forgotten"
+        }
+      ],
+      "text": "En août 1944, la ville de Nice était occupée par l'armée allemande. Les habitants attendaient la libération avec impatience. Le 28 août, la population a décidé de résister. Dans les rues, on a construit des barricades avec des meubles, des pierres et des voitures. Les résistants n'avaient pas beaucoup d'armes, mais ils avaient un courage immense. Les soldats allemands tiraient depuis les fenêtres, et la bataille était violente. Pendant des heures, on a combattu près du port et dans les vieilles rues. Beaucoup de personnes sont mortes pour la liberté. Mais peu à peu, les Allemands ont commencé à reculer. Vaincus, ils quittaient la ville. Enfin, Nice était libre ! Les habitants sont sortis de leurs maisons. Sur les places, la foule chantait et dansait. On agitait des drapeaux tricolores aux fenêtres. Les enfants couraient et riaient. Cette victoire était magnifique après des années d'occupation. La ville entière célébrait la liberté retrouvée. Aujourd'hui encore, la mémoire de cette insurrection populaire reste très vivante. Nice n'a jamais oublié ces journées héroïques d'août 1944, quand le peuple a repris sa liberté."
+    },
+    {
+      "id": "ST15",
+      "order": 15,
+      "level": 4,
+      "level_label": "4 · los Alpes 1940",
+      "title": "La bataille des Alpes",
+      "title_es": "La batalla de los Alpes",
+      "narrator": "none",
+      "voice": "oris",
+      "audio": "ST15",
+      "vocab": [
+        {
+          "fr": "voulaient",
+          "es": "querían",
+          "en": "wanted"
+        },
+        {
+          "fr": "depuis",
+          "es": "desde",
+          "en": "from / since"
+        },
+        {
+          "fr": "a tiré",
+          "es": "disparó",
+          "en": "fired / shot"
+        },
+        {
+          "fr": "a arrêté",
+          "es": "detuvo",
+          "en": "stopped / halted"
+        },
+        {
+          "fr": "a tenu",
+          "es": "mantuvo / sostuvo",
+          "en": "held"
+        },
+        {
+          "fr": "inattendue",
+          "es": "inesperada",
+          "en": "unexpected"
+        },
+        {
+          "fr": "restaient",
+          "es": "quedaban",
+          "en": "remained"
+        },
+        {
+          "fr": "se souvient",
+          "es": "se acuerda",
+          "en": "remembers"
+        },
+        {
+          "fr": "le vent",
+          "es": "el viento",
+          "en": "the wind"
+        },
+        {
+          "fr": "gardent",
+          "es": "guardan / conservan",
+          "en": "keep / guard"
+        }
+      ],
+      "text": "En juin 1940, l'armée italienne a attaqué la frontière française, près de Menton. Les soldats français occupaient les forts de la montagne, sur la ligne alpine. Il faisait très froid et le vent était terrible. Mais les hommes ont résisté avec courage. Les Italiens étaient nombreux. Ils voulaient passer et occuper la région de Nice. Depuis les forts, les soldats observaient la vallée et ils protégeaient les villages. L'artillerie a tiré pendant des jours. Les canons français ont arrêté les colonnes ennemies. Menton a résisté. La petite armée des Alpes a tenu sa position. C'était une victoire magnifique et inattendue. Quand l'armistice est arrivé, les forts restaient intacts. Les Italiens n'ont pas conquis la région. Les soldats ont défendu la frontière avec passion, et la nation a célébré leur héroïsme. Aujourd'hui, la mémoire de cette bataille continue. Les montagnes gardent encore le silence des vieux forts. La France se souvient des soldats qui ont protégé les Alpes, un jour d'été, contre une armée immense et déterminée."
+    },
+    {
+      "id": "ST16",
+      "order": 16,
+      "level": 4,
+      "level_label": "4 · Napoleón",
+      "title": "La Route Napoléon",
+      "title_es": "La Ruta Napoleón",
+      "narrator": "none",
+      "voice": "emilie",
+      "audio": "ST16",
+      "vocab": [
+        {
+          "fr": "débarquer",
+          "es": "desembarcar",
+          "en": "to land / disembark"
+        },
+        {
+          "fr": "quitter",
+          "es": "salir de / dejar (¡no \"quitar\"!)",
+          "en": "to leave"
+        },
+        {
+          "fr": "le ciel",
+          "es": "el cielo",
+          "en": "the sky"
+        },
+        {
+          "fr": "le chemin",
+          "es": "el camino",
+          "en": "the path"
+        },
+        {
+          "fr": "le froid",
+          "es": "el frío",
+          "en": "the cold"
+        },
+        {
+          "fr": "tuer",
+          "es": "matar",
+          "en": "to kill"
+        },
+        {
+          "fr": "me voici",
+          "es": "aquí estoy / heme aquí",
+          "en": "here I am"
+        },
+        {
+          "fr": "rejoindre",
+          "es": "unirse a",
+          "en": "to join"
+        },
+        {
+          "fr": "la foule",
+          "es": "la muchedumbre",
+          "en": "the crowd"
+        },
+        {
+          "fr": "accueillir",
+          "es": "acoger / recibir",
+          "en": "to welcome"
+        },
+        {
+          "fr": "encore",
+          "es": "todavía / aún",
+          "en": "still"
+        },
+        {
+          "fr": "porter (le nom)",
+          "es": "llevar (el nombre)",
+          "en": "to bear (the name)"
+        }
+      ],
+      "text": "En mars 1815, Napoléon a débarqué au Golfe-Juan, près de Nice. Il a quitté l'île d'Elbe avec un petit groupe de soldats fidèles. La mer était calme et le ciel magnifique. Personne n'a résisté. Les habitants ont observé cette petite armée en silence. Napoléon a décidé d'éviter la route de la côte. Il a préféré les montagnes. Le chemin était difficile et dangereux. Il a traversé des villages, des forêts et des vallées. Le froid était intense, mais les soldats ont continué. À Grenoble, un régiment a bloqué la route. Les officiers ont préparé leurs fusils. Napoléon a avancé seul. « Si vous voulez tuer votre empereur, me voici ! » Les soldats ont hésité. Puis ils ont crié : « Vive l'Empereur ! » et ils ont rejoint sa marche. Cette progression triomphale a duré presque vingt jours. Le 20 mars, Napoléon est arrivé à Paris. Une foule immense l'a accueilli comme un héros. Aujourd'hui, cette célèbre route de montagne porte encore son nom : la Route Napoléon."
+    },
+    {
+      "id": "ST17",
+      "order": 17,
+      "level": 4,
+      "level_label": "4 · Belle Époque",
+      "title": "L'hiver élégant de Nice",
+      "title_es": "El invierno elegante de Niza",
+      "narrator": "none",
+      "voice": "oris",
+      "audio": "ST17",
+      "vocab": [
+        {
+          "fr": "l'hiver",
+          "es": "el invierno",
+          "en": "winter"
+        },
+        {
+          "fr": "le froid",
+          "es": "el frío",
+          "en": "the cold"
+        },
+        {
+          "fr": "doux",
+          "es": "suave",
+          "en": "mild, gentle"
+        },
+        {
+          "fr": "porter (portaient)",
+          "es": "llevar (puesto)",
+          "en": "to wear"
+        },
+        {
+          "fr": "la robe",
+          "es": "el vestido",
+          "en": "the dress"
+        },
+        {
+          "fr": "dîner (dînait)",
+          "es": "cenar",
+          "en": "to dine"
+        },
+        {
+          "fr": "le morceau",
+          "es": "el trozo, el pedazo",
+          "en": "the piece"
+        },
+        {
+          "fr": "le ciel",
+          "es": "el cielo",
+          "en": "the sky"
+        },
+        {
+          "fr": "le soir",
+          "es": "la noche, la tarde",
+          "en": "the evening"
+        },
+        {
+          "fr": "le loisir",
+          "es": "el ocio",
+          "en": "leisure"
+        },
+        {
+          "fr": "raconter (racontent)",
+          "es": "contar, narrar",
+          "en": "to tell (a story)"
+        },
+        {
+          "fr": "encore",
+          "es": "todavía, aún",
+          "en": "still"
+        }
+      ],
+      "text": "À la Belle Époque, Nice était une ville magnifique. Chaque hiver, des aristocrates russes et des visiteurs anglais arrivaient sur la Riviera pour éviter le froid du Nord. Le climat était doux, le soleil brillait, et la mer Méditerranée invitait à la promenade.\n\nLes familles riches habitaient dans de grands hôtels luxueux. Le Négresco, avec sa façade blanche et son dôme rose, est devenu un symbole de cette époque. Les élégantes dames portaient des robes splendides et des ombrelles délicates. On dansait, on dînait, on écoutait de la musique dans les salons.\n\nLes Russes ont construit une cathédrale orthodoxe magnifique, avec des coupoles colorées. C'était un morceau de Moscou sous le ciel bleu de la Côte d'Azur.\n\nL'après-midi, les visiteurs admiraient les palmiers, les jardins et les villas somptueuses. Le soir, ils fréquentaient l'opéra ou le casino. Le luxe et le loisir occupaient toutes leurs journées.\n\nCette période magnifique a duré jusqu'à la Première Guerre mondiale. Aujourd'hui, ces palais et ces monuments racontent encore l'histoire fascinante de Nice."
+    },
+    {
+      "id": "ST18",
+      "order": 18,
+      "level": 4,
+      "level_label": "4 · leyenda",
+      "title": "La légende de la Baie des Anges",
+      "title_es": "La leyenda de la Bahía de los Ángeles",
+      "narrator": "none",
+      "voice": "emilie",
+      "audio": "ST18",
+      "vocab": [
+        {
+          "fr": "les pêcheurs",
+          "es": "los pescadores",
+          "en": "the fishermen"
+        },
+        {
+          "fr": "racontaient (raconter)",
+          "es": "contaban (contar/relatar)",
+          "en": "were telling"
+        },
+        {
+          "fr": "le poisson",
+          "es": "el pez / el pescado",
+          "en": "the fish"
+        },
+        {
+          "fr": "les vagues",
+          "es": "las olas",
+          "en": "the waves"
+        },
+        {
+          "fr": "les bateaux",
+          "es": "los barcos",
+          "en": "the boats"
+        },
+        {
+          "fr": "l'hiver",
+          "es": "el invierno",
+          "en": "the winter"
+        },
+        {
+          "fr": "la lumière",
+          "es": "la luz",
+          "en": "the light"
+        },
+        {
+          "fr": "la plage",
+          "es": "la playa",
+          "en": "the beach"
+        },
+        {
+          "fr": "remercier",
+          "es": "agradecer",
+          "en": "to thank"
+        },
+        {
+          "fr": "veille (veiller)",
+          "es": "vela / cuida (velar por)",
+          "en": "watches over"
+        },
+        {
+          "fr": "toujours",
+          "es": "siempre",
+          "en": "always"
+        },
+        {
+          "fr": "sourient (sourire)",
+          "es": "sonríen (sonreír)",
+          "en": "they smile"
+        }
+      ],
+      "text": "Il y a très longtemps, sur la côte de Nice, les pêcheurs racontaient une légende magnifique. Dans la mer bleue vivait une sirène très douce, mi-ange, mi-poisson. On l'appelait l'ange de la mer. Quand une tempête terrible arrivait, la sirène montait à la surface. Avec sa voix magique, elle calmait les vagues furieuses et protégeait les petits bateaux des pêcheurs. Les familles de la ville l'adoraient. Une nuit d'hiver, une tempête violente a menacé toute la côte. Les pêcheurs, perdus dans l'obscurité, ont imploré la sirène. Elle est arrivée avec une lumière dorée et a guidé les bateaux vers la plage. Cette nuit-là, personne n'a disparu. Pour la remercier, les habitants ont donné son nom à la baie : la Baie des Anges. Aujourd'hui encore, quand la mer est calme et magnifique, les vieux pêcheurs sourient. Ils disent que l'ange de la mer veille toujours sur eux, et que sa présence protège la ville pour l'éternité."
+    },
+    {
+      "id": "ST19",
+      "order": 19,
+      "level": 5,
+      "level_label": "5 · los siglos",
+      "title": "Nice à travers les siècles",
+      "title_es": "Niza a través de los siglos",
+      "narrator": "none",
+      "voice": "oris",
+      "audio": "ST19",
+      "vocab": [
+        {
+          "fr": "la côte",
+          "es": "la costa",
+          "en": "the coast"
+        },
+        {
+          "fr": "appeler",
+          "es": "llamar",
+          "en": "to call / to name"
+        },
+        {
+          "fr": "encore",
+          "es": "todavía / aún",
+          "en": "still / yet"
+        },
+        {
+          "fr": "aujourd'hui",
+          "es": "hoy",
+          "en": "today"
+        },
+        {
+          "fr": "les rues",
+          "es": "las calles",
+          "en": "the streets"
+        },
+        {
+          "fr": "le château",
+          "es": "el castillo",
+          "en": "the castle"
+        },
+        {
+          "fr": "beaucoup",
+          "es": "mucho",
+          "en": "a lot / many"
+        },
+        {
+          "fr": "garder",
+          "es": "conservar / guardar",
+          "en": "to keep"
+        },
+        {
+          "fr": "grandir",
+          "es": "crecer",
+          "en": "to grow"
+        },
+        {
+          "fr": "longer",
+          "es": "bordear / ir a lo largo de",
+          "en": "to run alongside"
+        },
+        {
+          "fr": "attirer",
+          "es": "atraer",
+          "en": "to attract"
+        },
+        {
+          "fr": "toujours",
+          "es": "siempre",
+          "en": "always / still"
+        }
+      ],
+      "text": "Nice a une histoire immense. Il y a très longtemps, les Grecs sont arrivés sur la côte de la Méditerranée. Ils ont fondé une petite cité et ils l'ont appelée Nikaia, en l'honneur de la victoire. Ce nom magnifique existe encore aujourd'hui. Plus tard, les Romains ont occupé la région. Sur la colline de Cemenelum, ils ont construit des thermes, une arène et de longues rues. Les ruines romaines racontent encore cette époque impressionnante. Pendant des siècles, la ville a appartenu à la maison de Savoie. Les princes ont défendu le port et ont fortifié la colline du château. Nice a résisté à beaucoup d'invasions et a gardé sa culture italienne. En 1860, un grand changement historique est arrivé. Après un vote populaire, Nice a été annexée à la France. La ville a continué à grandir et à prospérer. Les touristes ont adoré son climat exceptionnel et ses plages splendides. Aujourd'hui, Nice est une cité moderne et cosmopolite. La Promenade des Anglais longe la mer bleue. Les palais élégants, les marchés colorés et les restaurants animés attirent des visiteurs de tout le continent. La mémoire des Grecs, des Romains et des princes de Savoie habite toujours ces rues magnifiques."
+    },
+    {
+      "id": "ST20",
+      "order": 20,
+      "level": 5,
+      "level_label": "5 · adiós, Niza",
+      "title": "Ma dernière nuit à Nice",
+      "title_es": "Mi última noche en Niza",
+      "narrator": "f",
+      "voice": "emilie",
+      "audio": "ST20",
+      "vocab": [
+        {
+          "fr": "ce soir",
+          "es": "esta noche",
+          "en": "tonight"
+        },
+        {
+          "fr": "assise",
+          "es": "sentada",
+          "en": "seated"
+        },
+        {
+          "fr": "la mer",
+          "es": "el mar",
+          "en": "the sea"
+        },
+        {
+          "fr": "l'eau",
+          "es": "el agua",
+          "en": "the water"
+        },
+        {
+          "fr": "les vagues",
+          "es": "las olas",
+          "en": "the waves"
+        },
+        {
+          "fr": "un cadeau",
+          "es": "un regalo",
+          "en": "a gift"
+        },
+        {
+          "fr": "la glace",
+          "es": "el helado",
+          "en": "the ice cream"
+        },
+        {
+          "fr": "le cœur",
+          "es": "el corazón",
+          "en": "the heart"
+        },
+        {
+          "fr": "les yeux",
+          "es": "los ojos",
+          "en": "the eyes"
+        },
+        {
+          "fr": "un souvenir",
+          "es": "un recuerdo",
+          "en": "a memory/keepsake"
+        },
+        {
+          "fr": "un adieu",
+          "es": "una despedida",
+          "en": "a farewell"
+        },
+        {
+          "fr": "à bientôt",
+          "es": "hasta pronto",
+          "en": "see you soon"
+        }
+      ],
+      "text": "Ce soir, c'est ma dernière nuit à Nice. Je suis assise devant la mer, et je regarde l'eau noire sous la lune. Les vagues arrivent, doucement, et je respire cet air magnifique une dernière fois. Je suis un peu triste, mais surtout je suis reconnaissante. Cet été a été un cadeau immense. Je pense à toutes ces images que je garde dans ma mémoire : les couleurs des montagnes, les rues animées, les glaces au citron, les longues conversations avec ma famille. Chaque moment a laissé une émotion profonde en moi. J'ai découvert une culture différente, une langue nouvelle, et j'ai senti mon cœur grandir. Nice m'a offert sa beauté avec une générosité totale, et je veux la remercier en silence. Demain, je vais partir, mais je sais que je ne pars pas vraiment. Une partie de moi va rester ici, près de cette mer immense. Je promets de revenir. Je le promets à la ville, aux vagues, et à cette version de moi qui a été si heureuse cet été. Les souvenirs sont précieux, comme des trésors secrets. Je ferme les yeux, et j'écoute la mer une dernière fois. Merci, Nice. Ce n'est pas un adieu, c'est simplement une promesse : à bientôt."
     }
   ]
 }
