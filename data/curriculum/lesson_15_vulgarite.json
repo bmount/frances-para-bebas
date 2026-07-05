@@ -220,5 +220,11 @@
       "voice": "oris",
       "audio": "L15-s03"
     }
-  ]
+  ],
+  "orientation": {
+    "title_es": "Vulgarité — entender el lenguaje fuerte que vas a OÍR",
+    "title_en": "Vulgarité — understanding the strong language you'll HEAR",
+    "es": "<p>Este módulo es distinto: aquí no aprendes palabras para usarlas, sino para <b>reconocerlas</b>. En Niza — en la calle, en el bus, entre adolescentes — vas a oír lenguaje fuerte todos los días. Fingir que no existe no te protege; entenderlo, sí. La regla es <span class=\"fx\">« à comprendre, pas à dire »</span>: a comprender, no a decir.</p><p>El concepto clave es el <b>registro</b>. La misma palabra puede ser un relleno inofensivo entre amigos o un insulto real dirigido a una persona — el <b>contexto</b> y el <b>destinatario</b> lo deciden todo. <span class=\"fx\">« Putain »</span> entre amigos funciona como una coma emocional, igual que tu « joder » de relleno; apuntada a alguien, es agresión. Tu oído debe distinguir las dos cosas al instante.</p><p>Saber esto no es vulgaridad: es fluidez y defensa. <b>Quien lo entiende todo es difícil de intimidar.</b></p><div class=\"opat\">Regla de oro: <span class=\"fx\">écouter et comprendre, oui ; utiliser, non</span> — escuchar y entender, sí; usar, no.</div>",
+    "en": "<p>This module is different: you're not learning these words to use them, but to <b>recognize</b> them. In Nice — on the street, on the bus, among teenagers — you'll hear strong language every day. Pretending it doesn't exist won't protect you; understanding it will. The rule is <span class=\"fx\">« à comprendre, pas à dire »</span>: to understand, not to say.</p><p>The key concept is <b>register</b>. The same word can be a harmless filler among friends or a real insult aimed at a person — <b>context</b> and <b>target</b> decide everything. <span class=\"fx\">« Putain »</span> among friends works like an emotional comma, just like filler « joder » in Spanish; aimed at someone, it's aggression. Your ear needs to tell the two apart instantly.</p><p>Knowing this isn't vulgarity — it's fluency and self-defense. <b>A person who understands everything is hard to intimidate.</b></p><div class=\"opat\">Golden rule: <span class=\"fx\">écouter et comprendre, oui ; utiliser, non</span> — listen and understand, yes; use, no.</div>"
+  }
 }

@@ -251,5 +251,11 @@
       "voice": "emilie",
       "audio": "L10-s04"
     }
-  ]
+  ],
+  "orientation": {
+    "title_es": "Oficios sin artículo",
+    "title_en": "Jobs: drop the article",
+    "es": "<p>Buenas noticias: aquí tu español te <b>salva</b>. Para decir tu profesión, el francés hace exactamente lo mismo que el español: <b>sin artículo</b>. Igual que dices « soy profesora » (y no « soy una profesora »), en francés dices <span class=\"fx\">je suis prof</span>, <span class=\"fx\">elle est médecin</span> — nunca <span class=\"fx\">je suis un prof</span>.</p><p>La trampa viene del <b>inglés</b>, que te obliga a decir “I'm <b>a</b> teacher”. Si tu cerebro arranca en inglés, vas a colar un <span class=\"fx\">un</span> que sobra. Piensa en español y listo.</p><div class=\"opat\"><span class=\"fx\">Je suis prof.</span> = Soy profe. (¡sin « un »!)</div><p>Bonus: montones de oficios son <b>cognados</b> casi perfectos: <span class=\"fx\">professeur</span>, <span class=\"fx\">docteur</span>, <span class=\"fx\">ingénieur</span>, <span class=\"fx\">artiste</span>, <span class=\"fx\">musicien</span>. Y el <b>femenino</b> funciona muy parecido al español: se añade una <b>-e</b> o cambia la terminación — <span class=\"fx\">un serveur / une serveuse</span> (mesero / mesera), <span class=\"fx\">un acteur / une actrice</span>. ¿Te suena? Claro que sí.</p>",
+    "en": "<p>Good news: this is one where your Spanish <b>saves you</b>. To say your job, French does exactly what Spanish does: <b>no article</b>. Just like you say « soy profesora » (not « soy una profesora »), in French it's <span class=\"fx\">je suis prof</span>, <span class=\"fx\">elle est médecin</span> — never <span class=\"fx\">je suis un prof</span>.</p><p>The trap here is your <b>English</b> instinct, which forces “I'm <b>a</b> teacher.” If your brain starts in English, you'll sneak in an extra <span class=\"fx\">un</span>. Think in Spanish and you're golden.</p><div class=\"opat\"><span class=\"fx\">Je suis prof.</span> = I'm a teacher. (no « un »!)</div><p>Bonus: tons of job words are near-perfect <b>cognates</b>: <span class=\"fx\">professeur</span>, <span class=\"fx\">docteur</span>, <span class=\"fx\">ingénieur</span>, <span class=\"fx\">artiste</span>, <span class=\"fx\">musicien</span>. And the <b>feminine</b> works a lot like Spanish: add an <b>-e</b> or shift the ending — <span class=\"fx\">un serveur / une serveuse</span> (waiter / waitress), <span class=\"fx\">un acteur / une actrice</span>. Sound familiar? It should.</p>"
+  }
 }

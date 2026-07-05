@@ -1,37 +1,261 @@
 {
-  "id": "L26", "order": 26, "slug": "tech",
-  "title": "Téléphone & tech", "es_title": "El móvil, el wifi, la batería",
+  "id": "L26",
+  "order": 26,
+  "slug": "tech",
+  "title": "Téléphone & tech",
+  "es_title": "El móvil, el wifi, la batería",
   "focus": "Supervivencia teen: el wifi, la batería, el cargador — y « le code wifi, s'il vous plaît ? ».",
-  "objectives": ["Pedir el wifi.", "Batería, cargador, enchufe.", "Mensaje, appli, appeler."],
+  "objectives": [
+    "Pedir el wifi.",
+    "Batería, cargador, enchufe.",
+    "Mensaje, appli, appeler."
+  ],
   "reader": [
-    {"t": "h3", "text": "Mon portable, c'est ma vie"},
-    {"t": "pair", "fr": "Mon portable, c'est ma vie ! Sans mon téléphone, je suis complètement perdue à Nice.", "es": "¡Mi móvil es mi vida! Sin mi teléfono, estoy completamente perdida en Niza.", "en": "My phone is my life! Without my phone, I'm completely lost in Nice."},
-    {"t": "h3", "text": "La question essentielle"},
-    {"t": "pair", "fr": "Dans chaque café, ma première question est toujours : « Le code wifi, s'il vous plaît ? »", "es": "En cada café, mi primera pregunta es siempre: «¿El código wifi, por favor?»", "en": "In every café, my first question is always: \"The wifi code, please?\""},
-    {"t": "h3", "text": "Catastrophe : la batterie !"},
-    {"t": "pair", "fr": "Horreur totale : ma batterie est à cinq pour cent ! Je crie : « Je n'ai plus de batterie ! »", "es": "Horror total: ¡mi batería está al cinco por ciento! Grito: «¡Ya no tengo batería!»", "en": "Total horror: my battery's at five percent! I scream: \"My battery's dead!\""},
-    {"t": "h3", "text": "Le chargeur et la prise"},
-    {"t": "pair", "fr": "J'ai mon chargeur dans mon sac, mais où est la prise ? Les prises en France sont différentes des prises américaines !", "es": "Tengo mi cargador en mi bolso, pero ¿dónde está el enchufe? ¡Los enchufes en Francia son diferentes de los americanos!", "en": "I've got my charger in my bag, but where's the outlet? Outlets in France are different from American ones!"},
-    {"t": "h3", "text": "Textos et applis"},
-    {"t": "pair", "fr": "J'envoie un message — un texto — à ma mère avec une application. Appeler avec mon numéro américain coûte une fortune !", "es": "Envío un mensaje —un texto— a mi madre con una aplicación. ¡Llamar con mi número americano cuesta una fortuna!", "en": "I send a message — a text — to my mom with an app. Calling with my American number costs a fortune!"}
+    {
+      "t": "h3",
+      "text": "Mon portable, c'est ma vie"
+    },
+    {
+      "t": "pair",
+      "fr": "Mon portable, c'est ma vie ! Sans mon téléphone, je suis complètement perdue à Nice.",
+      "es": "¡Mi móvil es mi vida! Sin mi teléfono, estoy completamente perdida en Niza.",
+      "en": "My phone is my life! Without my phone, I'm completely lost in Nice."
+    },
+    {
+      "t": "h3",
+      "text": "La question essentielle"
+    },
+    {
+      "t": "pair",
+      "fr": "Dans chaque café, ma première question est toujours : « Le code wifi, s'il vous plaît ? »",
+      "es": "En cada café, mi primera pregunta es siempre: «¿El código wifi, por favor?»",
+      "en": "In every café, my first question is always: \"The wifi code, please?\""
+    },
+    {
+      "t": "h3",
+      "text": "Catastrophe : la batterie !"
+    },
+    {
+      "t": "pair",
+      "fr": "Horreur totale : ma batterie est à cinq pour cent ! Je crie : « Je n'ai plus de batterie ! »",
+      "es": "Horror total: ¡mi batería está al cinco por ciento! Grito: «¡Ya no tengo batería!»",
+      "en": "Total horror: my battery's at five percent! I scream: \"My battery's dead!\""
+    },
+    {
+      "t": "h3",
+      "text": "Le chargeur et la prise"
+    },
+    {
+      "t": "pair",
+      "fr": "J'ai mon chargeur dans mon sac, mais où est la prise ? Les prises en France sont différentes des prises américaines !",
+      "es": "Tengo mi cargador en mi bolso, pero ¿dónde está el enchufe? ¡Los enchufes en Francia son diferentes de los americanos!",
+      "en": "I've got my charger in my bag, but where's the outlet? Outlets in France are different from American ones!"
+    },
+    {
+      "t": "h3",
+      "text": "Textos et applis"
+    },
+    {
+      "t": "pair",
+      "fr": "J'envoie un message — un texto — à ma mère avec une application. Appeler avec mon numéro américain coûte une fortune !",
+      "es": "Envío un mensaje —un texto— a mi madre con una aplicación. ¡Llamar con mi número americano cuesta una fortuna!",
+      "en": "I send a message — a text — to my mom with an app. Calling with my American number costs a fortune!"
+    }
   ],
   "vocab": [
-    {"id": "L26-portable", "fr": "le portable", "es": "el móvil / celular", "en": "the cell phone", "ipa": "lə pɔʁtabl", "pos": "noun", "gender": "m", "cognate_type": "semi", "star": true, "ex": "Où est mon portable ?", "voice": "emilie", "audio": "L26-portable"},
-    {"id": "L26-wifi", "fr": "le wifi", "es": "el wifi", "en": "the wifi", "ipa": "lə wifi", "pos": "noun", "gender": "m", "cognate_type": "transparent", "star": true, "ex": "Il y a le wifi ici ?", "voice": "oris", "audio": "L26-wifi"},
-    {"id": "L26-code", "fr": "le code wifi", "es": "la clave wifi", "en": "the wifi code", "ipa": "lə kɔd wifi", "pos": "noun", "gender": "m", "cognate_type": "transparent", "star": true, "ex": "Le code wifi, s'il vous plaît ?", "voice": "emilie", "audio": "L26-code"},
-    {"id": "L26-batterie", "fr": "la batterie", "es": "la batería", "en": "the battery", "ipa": "la batʁi", "pos": "noun", "gender": "f", "cognate_type": "transparent", "star": true, "ex": "Ma batterie est faible.", "voice": "oris", "audio": "L26-batterie"},
-    {"id": "L26-chargeur", "fr": "un chargeur", "es": "un cargador", "en": "a charger", "ipa": "ɛ̃ ʃaʁʒœʁ", "pos": "noun", "gender": "m", "cognate_type": "semi", "star": true, "ex": "Tu as un chargeur ?", "voice": "emilie", "audio": "L26-chargeur"},
-    {"id": "L26-prise", "fr": "une prise", "es": "un enchufe", "en": "an outlet", "ipa": "yn pʁiz", "pos": "noun", "gender": "f", "cognate_type": "non_cognate", "ex": "Où est la prise ?", "voice": "oris", "audio": "L26-prise"},
-    {"id": "L26-appli", "fr": "une appli", "es": "una app / aplicación", "en": "an app", "ipa": "yn apli", "pos": "noun", "gender": "f", "cognate_type": "semi", "star": true, "ex": "J'ai une appli pour ça.", "voice": "emilie", "audio": "L26-appli"},
-    {"id": "L26-message", "fr": "un message", "es": "un mensaje", "en": "a message", "ipa": "ɛ̃ mesaʒ", "pos": "noun", "gender": "m", "cognate_type": "transparent", "star": true, "ex": "Je t'envoie un message.", "voice": "oris", "audio": "L26-message"},
-    {"id": "L26-appeler", "fr": "appeler", "es": "llamar", "en": "to call", "ipa": "aple", "pos": "verb", "cognate_type": "non_cognate", "star": true, "ex": "Je vais appeler ma mère.", "voice": "emilie", "audio": "L26-appeler"},
-    {"id": "L26-numero", "fr": "un numéro", "es": "un número", "en": "a number", "ipa": "ɛ̃ nymeʁo", "pos": "noun", "gender": "m", "cognate_type": "transparent", "ex": "C'est quoi ton numéro ?", "voice": "oris", "audio": "L26-numero"},
-    {"id": "L26-photo", "fr": "une photo", "es": "una foto", "en": "a photo", "ipa": "yn fɔto", "pos": "noun", "gender": "f", "cognate_type": "transparent", "ex": "Je prends une photo.", "voice": "emilie", "audio": "L26-photo"}
+    {
+      "id": "L26-portable",
+      "fr": "le portable",
+      "es": "el móvil / celular",
+      "en": "the cell phone",
+      "ipa": "lə pɔʁtabl",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Où est mon portable ?",
+      "voice": "emilie",
+      "audio": "L26-portable"
+    },
+    {
+      "id": "L26-wifi",
+      "fr": "le wifi",
+      "es": "el wifi",
+      "en": "the wifi",
+      "ipa": "lə wifi",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Il y a le wifi ici ?",
+      "voice": "oris",
+      "audio": "L26-wifi"
+    },
+    {
+      "id": "L26-code",
+      "fr": "le code wifi",
+      "es": "la clave wifi",
+      "en": "the wifi code",
+      "ipa": "lə kɔd wifi",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Le code wifi, s'il vous plaît ?",
+      "voice": "emilie",
+      "audio": "L26-code"
+    },
+    {
+      "id": "L26-batterie",
+      "fr": "la batterie",
+      "es": "la batería",
+      "en": "the battery",
+      "ipa": "la batʁi",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Ma batterie est faible.",
+      "voice": "oris",
+      "audio": "L26-batterie"
+    },
+    {
+      "id": "L26-chargeur",
+      "fr": "un chargeur",
+      "es": "un cargador",
+      "en": "a charger",
+      "ipa": "ɛ̃ ʃaʁʒœʁ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Tu as un chargeur ?",
+      "voice": "emilie",
+      "audio": "L26-chargeur"
+    },
+    {
+      "id": "L26-prise",
+      "fr": "une prise",
+      "es": "un enchufe",
+      "en": "an outlet",
+      "ipa": "yn pʁiz",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "non_cognate",
+      "ex": "Où est la prise ?",
+      "voice": "oris",
+      "audio": "L26-prise"
+    },
+    {
+      "id": "L26-appli",
+      "fr": "une appli",
+      "es": "una app / aplicación",
+      "en": "an app",
+      "ipa": "yn apli",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "J'ai une appli pour ça.",
+      "voice": "emilie",
+      "audio": "L26-appli"
+    },
+    {
+      "id": "L26-message",
+      "fr": "un message",
+      "es": "un mensaje",
+      "en": "a message",
+      "ipa": "ɛ̃ mesaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "star": true,
+      "ex": "Je t'envoie un message.",
+      "voice": "oris",
+      "audio": "L26-message"
+    },
+    {
+      "id": "L26-appeler",
+      "fr": "appeler",
+      "es": "llamar",
+      "en": "to call",
+      "ipa": "aple",
+      "pos": "verb",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Je vais appeler ma mère.",
+      "voice": "emilie",
+      "audio": "L26-appeler"
+    },
+    {
+      "id": "L26-numero",
+      "fr": "un numéro",
+      "es": "un número",
+      "en": "a number",
+      "ipa": "ɛ̃ nymeʁo",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "transparent",
+      "ex": "C'est quoi ton numéro ?",
+      "voice": "oris",
+      "audio": "L26-numero"
+    },
+    {
+      "id": "L26-photo",
+      "fr": "une photo",
+      "es": "una foto",
+      "en": "a photo",
+      "ipa": "yn fɔto",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "transparent",
+      "ex": "Je prends une photo.",
+      "voice": "emilie",
+      "audio": "L26-photo"
+    }
   ],
   "sentences": [
-    {"id": "L26-s01", "register": "parle", "fr": "Bonjour ! Le code wifi, s'il vous plaît ?", "es": "¡Hola! ¿La clave del wifi, por favor?", "en": "Hi! The wifi code, please?", "voice": "emilie", "audio": "L26-s01"},
-    {"id": "L26-s02", "register": "parle", "fr": "Je n'ai plus de batterie ! Tu as un chargeur ?", "es": "¡Ya no tengo batería! ¿Tienes un cargador?", "en": "My battery's dead! Do you have a charger?", "voice": "oris", "audio": "L26-s02"},
-    {"id": "L26-s03", "register": "parle", "fr": "Je t'envoie un message avec l'adresse.", "es": "Te envío un mensaje con la dirección.", "en": "I'll send you a message with the address.", "voice": "emilie", "audio": "L26-s03"},
-    {"id": "L26-s04", "register": "parle", "fr": "C'est quoi ton numéro ? Je vais t'appeler.", "es": "¿Cuál es tu número? Te voy a llamar.", "en": "What's your number? I'll call you.", "voice": "oris", "audio": "L26-s04"}
-  ]
+    {
+      "id": "L26-s01",
+      "register": "parle",
+      "fr": "Bonjour ! Le code wifi, s'il vous plaît ?",
+      "es": "¡Hola! ¿La clave del wifi, por favor?",
+      "en": "Hi! The wifi code, please?",
+      "voice": "emilie",
+      "audio": "L26-s01"
+    },
+    {
+      "id": "L26-s02",
+      "register": "parle",
+      "fr": "Je n'ai plus de batterie ! Tu as un chargeur ?",
+      "es": "¡Ya no tengo batería! ¿Tienes un cargador?",
+      "en": "My battery's dead! Do you have a charger?",
+      "voice": "oris",
+      "audio": "L26-s02"
+    },
+    {
+      "id": "L26-s03",
+      "register": "parle",
+      "fr": "Je t'envoie un message avec l'adresse.",
+      "es": "Te envío un mensaje con la dirección.",
+      "en": "I'll send you a message with the address.",
+      "voice": "emilie",
+      "audio": "L26-s03"
+    },
+    {
+      "id": "L26-s04",
+      "register": "parle",
+      "fr": "C'est quoi ton numéro ? Je vais t'appeler.",
+      "es": "¿Cuál es tu número? Te voy a llamar.",
+      "en": "What's your number? I'll call you.",
+      "voice": "oris",
+      "audio": "L26-s04"
+    }
+  ],
+  "orientation": {
+    "title_es": "Teléfono y tech: wifi, batería y supervivencia digital",
+    "title_en": "Phone & tech: wifi, battery, and digital survival",
+    "es": "<p>Respira: este módulo es de los fáciles. El vocabulario tech en francés está lleno de préstamos del inglés y de cognados que vas a medio-adivinar sin estudiar: <b><span class=\"fx\">le wifi</span></b>, <b><span class=\"fx\">le code wifi</span></b> (la clave del wifi), <b><span class=\"fx\">un message</span></b> o <b><span class=\"fx\">un texto</span></b>, <b><span class=\"fx\">une appli</span></b>. Un solo falso amigo importante: <b><span class=\"fx\">un portable</span></b> es el móvil, el celular — no algo «portátil» como suena en inglés.</p><div class=\"opat\"><span class=\"fx\">Le code wifi, s'il vous plaît ?</span> = ¿la clave del wifi, por favor?</div><p>Esa frase te salva en cafés, hoteles y casas ajenas: memorízala tal cual. Y para el drama de la batería: <b><span class=\"fx\">je n'ai plus de batterie</span></b> = «ya no tengo batería». Fíjate en <span class=\"fx\">ne… plus</span>: funciona exactamente como «ya no».</p><ul class=\"oul\"><li><b><span class=\"fx\">un chargeur</span></b> = un cargador</li><li><b><span class=\"fx\">une prise</span></b> = un enchufe (¡los enchufes franceses son distintos: lleva adaptador!)</li><li><b><span class=\"fx\">appeler</span></b> = llamar; <b><span class=\"fx\">envoyer un message</span></b> = mandar un mensaje</li></ul>",
+    "en": "<p>Breathe: this is one of the easy modules. French tech vocabulary is packed with English borrowings and cognates you can half-guess without studying: <b><span class=\"fx\">le wifi</span></b>, <b><span class=\"fx\">le code wifi</span></b> (the wifi password), <b><span class=\"fx\">un message</span></b> or <b><span class=\"fx\">un texto</span></b> (a text), <b><span class=\"fx\">une appli</span></b> (an app). Just one faux ami to watch: <b><span class=\"fx\">un portable</span></b> means a cell phone — think <b>móvil</b> — not something \"portable\" in the English sense.</p><div class=\"opat\"><span class=\"fx\">Le code wifi, s'il vous plaît ?</span> = ¿la clave del wifi, por favor?</div><p>That one phrase rescues you in cafés, hotels, and other people's houses — memorize it exactly as is. For battery drama: <b><span class=\"fx\">je n'ai plus de batterie</span></b> = my battery's dead. Notice <span class=\"fx\">ne… plus</span>: it works exactly like Spanish «ya no».</p><ul class=\"oul\"><li><b><span class=\"fx\">un chargeur</span></b> = a charger</li><li><b><span class=\"fx\">une prise</span></b> = an outlet (French outlets are different — pack an adapter!)</li><li><b><span class=\"fx\">appeler</span></b> = to call; <b><span class=\"fx\">envoyer un message</span></b> = to send a text</li></ul>"
+  }
 }

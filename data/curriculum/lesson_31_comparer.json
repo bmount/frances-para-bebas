@@ -285,5 +285,11 @@
         "très"
       ]
     }
-  ]
+  ],
+  "orientation": {
+    "title_es": "Comparar: plus / moins / aussi … que",
+    "title_en": "Comparing: plus / moins / aussi … que",
+    "es": "<p>Se construye igual que en español, con un molde de dos partes:</p>\n<table class=\"oform\">\n<tr><td class=\"k\">plus … que</td><td>más … que — <span class=\"fx\">plus grand que</span></td></tr>\n<tr><td class=\"k\">moins … que</td><td>menos … que — <span class=\"fx\">moins cher que</span></td></tr>\n<tr><td class=\"k\">aussi … que</td><td>tan … como — <span class=\"fx\">aussi grand que</span></td></tr>\n</table>\n<p>El <b>superlativo</b> añade el artículo: <span class=\"fx\">le / la / les plus</span> + adjetivo = el/la más… <span class=\"fx\">le plus grand</span> (el más grande), <span class=\"fx\">la plus belle plage</span>.</p>\n<div class=\"opat\">bon → <span class=\"fx\">meilleur</span> (adjetivo) · bien → <span class=\"fx\">mieux</span> (adverbio)</div>\n<p><b>El único tropiezo:</b> el español usa «mejor» para todo, pero el francés parte en dos. <span class=\"fx\">meilleur</span> es adjetivo (acompaña a un nombre: <span class=\"fx\">un meilleur café</span> = un mejor café). <span class=\"fx\">mieux</span> es adverbio (acompaña a un verbo: <span class=\"fx\">on mange mieux</span> = se come mejor). Nunca digas «plus bon».</p>",
+    "en": "<p>Built just like Spanish, with a two-part frame:</p>\n<table class=\"oform\">\n<tr><td class=\"k\">plus … que</td><td>more … than — <span class=\"fx\">plus grand que</span></td></tr>\n<tr><td class=\"k\">moins … que</td><td>less … than — <span class=\"fx\">moins cher que</span></td></tr>\n<tr><td class=\"k\">aussi … que</td><td>as … as — <span class=\"fx\">aussi grand que</span></td></tr>\n</table>\n<p>The <b>superlative</b> adds the article: <span class=\"fx\">le / la / les plus</span> + adjective = the most… <span class=\"fx\">le plus grand</span> (the biggest), <span class=\"fx\">la plus belle plage</span>.</p>\n<div class=\"opat\">bon → <span class=\"fx\">meilleur</span> (adjective) · bien → <span class=\"fx\">mieux</span> (adverb)</div>\n<p><b>The one stumble:</b> Spanish uses «mejor» for everything, but French splits it in two. <span class=\"fx\">meilleur</span> is the adjective (with a noun: <span class=\"fx\">un meilleur café</span> = a better coffee). <span class=\"fx\">mieux</span> is the adverb (with a verb: <span class=\"fx\">on mange mieux</span> = we eat better). Never say «plus bon».</p>"
+  }
 }

@@ -284,5 +284,11 @@
         "Se dépêche"
       ]
     }
-  ]
+  ],
+  "orientation": {
+    "title_es": "Verbos reflexivos: idénticos al español (me, te, se)",
+    "title_en": "Reflexive verbs: identical to Spanish (me, te, se)",
+    "es": "<p>Regalo puro: los reflexivos franceses funcionan <b>igual que en español</b>. Llevan un pronombre (<span class=\"fx\">me, te, se…</span>) que va <b>antes del verbo</b> y concuerda con el sujeto. <span class=\"fx\">Je me lève</span> = me levanto. Punto por punto:</p>\n<table class=\"oform\">\n<tr><td class=\"k\">je me lève</td><td>me levanto</td></tr>\n<tr><td class=\"k\">tu te lèves</td><td>te levantas</td></tr>\n<tr><td class=\"k\">il/elle/on se lève</td><td>se levanta</td></tr>\n<tr><td class=\"k\">vous vous levez</td><td>se levanta(n)</td></tr>\n<tr><td class=\"k\">ils/elles se lèvent</td><td>se levantan</td></tr>\n</table>\n<div class=\"opat\"><span class=\"fx\">je me lève</span> = me levanto · el pronombre va <b>antes</b> del verbo</div>\n<p>Dos detalles: en <b>pasado</b>, los reflexivos usan <span class=\"fx\">être</span> y el participio concuerda — tú dices <span class=\"fx\">je me suis levée</span> (con -e). En <b>imperativo</b> afirmativo el pronombre salta detrás con guion: <span class=\"fx\">lève-toi !</span> (¡levántate!), <span class=\"fx\">dépêche-toi !</span> (¡date prisa!) — igual que el español pega el pronombre.</p>",
+    "en": "<p>Pure gift: French reflexives work <b>just like Spanish</b>. They carry a pronoun (<span class=\"fx\">me, te, se…</span>) that goes <b>before the verb</b> and agrees with the subject. <span class=\"fx\">Je me lève</span> = I get up. Point for point:</p>\n<table class=\"oform\">\n<tr><td class=\"k\">je me lève</td><td>I get up</td></tr>\n<tr><td class=\"k\">tu te lèves</td><td>you get up</td></tr>\n<tr><td class=\"k\">il/elle/on se lève</td><td>he/she gets up</td></tr>\n<tr><td class=\"k\">vous vous levez</td><td>you get up (formal/pl.)</td></tr>\n<tr><td class=\"k\">ils/elles se lèvent</td><td>they get up</td></tr>\n</table>\n<div class=\"opat\"><span class=\"fx\">je me lève</span> = me levanto · pronoun goes <b>before</b> the verb</div>\n<p>Two details: in the <b>past</b>, reflexives use <span class=\"fx\">être</span> and the participle agrees — you say <span class=\"fx\">je me suis levée</span> (with -e). In the affirmative <b>imperative</b> the pronoun jumps behind with a hyphen: <span class=\"fx\">lève-toi !</span> (get up!), <span class=\"fx\">dépêche-toi !</span> (hurry up!) — exactly like Spanish attaching the pronoun.</p>"
+  }
 }

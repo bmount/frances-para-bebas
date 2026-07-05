@@ -1,37 +1,252 @@
 {
-  "id": "L24", "order": 24, "slug": "meteo",
-  "title": "La météo", "es_title": "El tiempo (il fait beau…)",
+  "id": "L24",
+  "order": 24,
+  "slug": "meteo",
+  "title": "La météo",
+  "es_title": "El tiempo (il fait beau…)",
   "focus": "El tiempo — con el impersonal « il fait… ». En Nice, casi siempre « il fait beau et chaud ».",
-  "objectives": ["Preguntar « quel temps fait-il ? ».", "Usar « il fait beau / chaud / froid ».", "Il pleut, il y a du soleil / du vent."],
+  "objectives": [
+    "Preguntar « quel temps fait-il ? ».",
+    "Usar « il fait beau / chaud / froid ».",
+    "Il pleut, il y a du soleil / du vent."
+  ],
   "reader": [
-    {"t": "h3", "text": "Quel temps fait-il ?"},
-    {"t": "pair", "fr": "À Nice, tout le monde pose la question : « Quel temps fait-il ? » En français, le temps utilise l'impersonnel « il fait… ».", "es": "En Niza, todo el mundo hace la pregunta: «¿Qué tiempo hace?» En francés, el tiempo usa el impersonal «hace…».", "en": "In Nice, everyone asks: \"What's the weather like?\" In French, weather uses the impersonal \"il fait…\""},
-    {"t": "h3", "text": "Il fait beau !"},
-    {"t": "pair", "fr": "Bonne nouvelle : à Nice, normalement il fait beau et chaud ! Le climat de la Côte d'Azur est une merveille.", "es": "Buena noticia: en Niza, normalmente hace buen tiempo y calor. El clima de la Costa Azul es una maravilla.", "en": "Good news: in Nice it's usually nice and warm out! The French Riviera's climate is a marvel."},
-    {"t": "h3", "text": "Il y a du soleil"},
-    {"t": "pair", "fr": "Aujourd'hui, il y a du soleil et il n'y a pas de nuages. Parfait pour une promenade !", "es": "Hoy, hay sol y no hay nubes. ¡Perfecto para un paseo!", "en": "Today it's sunny and there are no clouds. Perfect for a walk!"},
-    {"t": "h3", "text": "Il pleut, il neige ?"},
-    {"t": "pair", "fr": "En hiver, il fait froid dans les Alpes et il neige sur les montagnes. À Nice, il pleut rarement.", "es": "En invierno, hace frío en los Alpes y nieva sobre las montañas. En Niza, llueve raramente.", "en": "In winter it's cold in the Alps and it snows on the mountains. In Nice, it rarely rains."},
-    {"t": "h3", "text": "Il y a du vent !"},
-    {"t": "pair", "fr": "Mais attention : parfois il y a du vent, le fameux mistral !", "es": "Pero atención: a veces hay viento, ¡el famoso mistral!", "en": "But watch out: sometimes it's windy — the famous mistral!"}
+    {
+      "t": "h3",
+      "text": "Quel temps fait-il ?"
+    },
+    {
+      "t": "pair",
+      "fr": "À Nice, tout le monde pose la question : « Quel temps fait-il ? » En français, le temps utilise l'impersonnel « il fait… ».",
+      "es": "En Niza, todo el mundo hace la pregunta: «¿Qué tiempo hace?» En francés, el tiempo usa el impersonal «hace…».",
+      "en": "In Nice, everyone asks: \"What's the weather like?\" In French, weather uses the impersonal \"il fait…\""
+    },
+    {
+      "t": "h3",
+      "text": "Il fait beau !"
+    },
+    {
+      "t": "pair",
+      "fr": "Bonne nouvelle : à Nice, normalement il fait beau et chaud ! Le climat de la Côte d'Azur est une merveille.",
+      "es": "Buena noticia: en Niza, normalmente hace buen tiempo y calor. El clima de la Costa Azul es una maravilla.",
+      "en": "Good news: in Nice it's usually nice and warm out! The French Riviera's climate is a marvel."
+    },
+    {
+      "t": "h3",
+      "text": "Il y a du soleil"
+    },
+    {
+      "t": "pair",
+      "fr": "Aujourd'hui, il y a du soleil et il n'y a pas de nuages. Parfait pour une promenade !",
+      "es": "Hoy, hay sol y no hay nubes. ¡Perfecto para un paseo!",
+      "en": "Today it's sunny and there are no clouds. Perfect for a walk!"
+    },
+    {
+      "t": "h3",
+      "text": "Il pleut, il neige ?"
+    },
+    {
+      "t": "pair",
+      "fr": "En hiver, il fait froid dans les Alpes et il neige sur les montagnes. À Nice, il pleut rarement.",
+      "es": "En invierno, hace frío en los Alpes y nieva sobre las montañas. En Niza, llueve raramente.",
+      "en": "In winter it's cold in the Alps and it snows on the mountains. In Nice, it rarely rains."
+    },
+    {
+      "t": "h3",
+      "text": "Il y a du vent !"
+    },
+    {
+      "t": "pair",
+      "fr": "Mais attention : parfois il y a du vent, le fameux mistral !",
+      "es": "Pero atención: a veces hay viento, ¡el famoso mistral!",
+      "en": "But watch out: sometimes it's windy — the famous mistral!"
+    }
   ],
   "vocab": [
-    {"id": "L24-quel", "fr": "quel temps fait-il ?", "es": "¿qué tiempo hace?", "en": "what's the weather like?", "ipa": "kɛl tɑ̃ fɛ til", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Quel temps fait-il aujourd'hui ?", "voice": "emilie", "audio": "L24-quel"},
-    {"id": "L24-beau", "fr": "il fait beau", "es": "hace buen tiempo", "en": "the weather is nice", "ipa": "il fɛ bo", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Il fait beau à Nice.", "voice": "oris", "audio": "L24-beau"},
-    {"id": "L24-chaud", "fr": "il fait chaud", "es": "hace calor", "en": "it's hot", "ipa": "il fɛ ʃo", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "En été, il fait très chaud.", "voice": "emilie", "audio": "L24-chaud"},
-    {"id": "L24-froid", "fr": "il fait froid", "es": "hace frío", "en": "it's cold", "ipa": "il fɛ fʁwa", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "En hiver, il fait froid.", "voice": "oris", "audio": "L24-froid"},
-    {"id": "L24-pleut", "fr": "il pleut", "es": "llueve", "en": "it's raining", "ipa": "il plø", "pos": "phrase", "cognate_type": "non_cognate", "star": true, "ex": "Il pleut, prends un parapluie.", "voice": "emilie", "audio": "L24-pleut"},
-    {"id": "L24-neige", "fr": "il neige", "es": "nieva", "en": "it's snowing", "ipa": "il nɛʒ", "pos": "phrase", "cognate_type": "non_cognate", "ex": "Il neige dans les Alpes.", "voice": "oris", "audio": "L24-neige"},
-    {"id": "L24-soleil", "fr": "il y a du soleil", "es": "hay sol", "en": "it's sunny", "ipa": "il i a dy sɔlɛj", "pos": "phrase", "cognate_type": "semi", "star": true, "ex": "Il y a du soleil sur la plage.", "voice": "emilie", "audio": "L24-soleil"},
-    {"id": "L24-vent", "fr": "il y a du vent", "es": "hay viento", "en": "it's windy", "ipa": "il i a dy vɑ̃", "pos": "phrase", "cognate_type": "semi", "ex": "Il y a du vent aujourd'hui.", "voice": "oris", "audio": "L24-vent"},
-    {"id": "L24-nuage", "fr": "un nuage", "es": "una nube", "en": "a cloud", "ipa": "ɛ̃ nɥaʒ", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "Il n'y a pas de nuages.", "voice": "emilie", "audio": "L24-nuage"},
-    {"id": "L24-pluie", "fr": "la pluie", "es": "la lluvia", "en": "the rain", "ipa": "la plɥi", "pos": "noun", "gender": "f", "cognate_type": "semi", "ex": "Je n'aime pas la pluie.", "voice": "oris", "audio": "L24-pluie"},
-    {"id": "L24-orage", "fr": "un orage", "es": "una tormenta", "en": "a storm", "ipa": "ɛ̃ nɔʁaʒ", "pos": "noun", "gender": "m", "cognate_type": "non_cognate", "ex": "Il y a un orage ce soir.", "voice": "emilie", "audio": "L24-orage"}
+    {
+      "id": "L24-quel",
+      "fr": "quel temps fait-il ?",
+      "es": "¿qué tiempo hace?",
+      "en": "what's the weather like?",
+      "ipa": "kɛl tɑ̃ fɛ til",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Quel temps fait-il aujourd'hui ?",
+      "voice": "emilie",
+      "audio": "L24-quel"
+    },
+    {
+      "id": "L24-beau",
+      "fr": "il fait beau",
+      "es": "hace buen tiempo",
+      "en": "the weather is nice",
+      "ipa": "il fɛ bo",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Il fait beau à Nice.",
+      "voice": "oris",
+      "audio": "L24-beau"
+    },
+    {
+      "id": "L24-chaud",
+      "fr": "il fait chaud",
+      "es": "hace calor",
+      "en": "it's hot",
+      "ipa": "il fɛ ʃo",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "En été, il fait très chaud.",
+      "voice": "emilie",
+      "audio": "L24-chaud"
+    },
+    {
+      "id": "L24-froid",
+      "fr": "il fait froid",
+      "es": "hace frío",
+      "en": "it's cold",
+      "ipa": "il fɛ fʁwa",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "En hiver, il fait froid.",
+      "voice": "oris",
+      "audio": "L24-froid"
+    },
+    {
+      "id": "L24-pleut",
+      "fr": "il pleut",
+      "es": "llueve",
+      "en": "it's raining",
+      "ipa": "il plø",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "star": true,
+      "ex": "Il pleut, prends un parapluie.",
+      "voice": "emilie",
+      "audio": "L24-pleut"
+    },
+    {
+      "id": "L24-neige",
+      "fr": "il neige",
+      "es": "nieva",
+      "en": "it's snowing",
+      "ipa": "il nɛʒ",
+      "pos": "phrase",
+      "cognate_type": "non_cognate",
+      "ex": "Il neige dans les Alpes.",
+      "voice": "oris",
+      "audio": "L24-neige"
+    },
+    {
+      "id": "L24-soleil",
+      "fr": "il y a du soleil",
+      "es": "hay sol",
+      "en": "it's sunny",
+      "ipa": "il i a dy sɔlɛj",
+      "pos": "phrase",
+      "cognate_type": "semi",
+      "star": true,
+      "ex": "Il y a du soleil sur la plage.",
+      "voice": "emilie",
+      "audio": "L24-soleil"
+    },
+    {
+      "id": "L24-vent",
+      "fr": "il y a du vent",
+      "es": "hay viento",
+      "en": "it's windy",
+      "ipa": "il i a dy vɑ̃",
+      "pos": "phrase",
+      "cognate_type": "semi",
+      "ex": "Il y a du vent aujourd'hui.",
+      "voice": "oris",
+      "audio": "L24-vent"
+    },
+    {
+      "id": "L24-nuage",
+      "fr": "un nuage",
+      "es": "una nube",
+      "en": "a cloud",
+      "ipa": "ɛ̃ nɥaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "ex": "Il n'y a pas de nuages.",
+      "voice": "emilie",
+      "audio": "L24-nuage"
+    },
+    {
+      "id": "L24-pluie",
+      "fr": "la pluie",
+      "es": "la lluvia",
+      "en": "the rain",
+      "ipa": "la plɥi",
+      "pos": "noun",
+      "gender": "f",
+      "cognate_type": "semi",
+      "ex": "Je n'aime pas la pluie.",
+      "voice": "oris",
+      "audio": "L24-pluie"
+    },
+    {
+      "id": "L24-orage",
+      "fr": "un orage",
+      "es": "una tormenta",
+      "en": "a storm",
+      "ipa": "ɛ̃ nɔʁaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "cognate_type": "non_cognate",
+      "ex": "Il y a un orage ce soir.",
+      "voice": "emilie",
+      "audio": "L24-orage"
+    }
   ],
   "sentences": [
-    {"id": "L24-s01", "register": "parle", "fr": "Quel temps fait-il ? — Il fait beau et chaud !", "es": "¿Qué tiempo hace? — ¡Hace buen tiempo y calor!", "en": "What's the weather like? — It's nice and warm!", "voice": "emilie", "audio": "L24-s01"},
-    {"id": "L24-s02", "register": "parle", "fr": "Il y a du soleil, on va à la plage !", "es": "¡Hay sol, vamos a la playa!", "en": "It's sunny, let's go to the beach!", "voice": "oris", "audio": "L24-s02"},
-    {"id": "L24-s03", "register": "parle", "fr": "Il pleut un peu, mais ce n'est pas grave.", "es": "Llueve un poco, pero no pasa nada.", "en": "It's raining a little, but it's no big deal.", "voice": "emilie", "audio": "L24-s03"},
-    {"id": "L24-s04", "register": "parle", "fr": "Il fait froid ce soir, prends une veste.", "es": "Hace frío esta noche, lleva una chaqueta.", "en": "It's cold tonight, take a jacket.", "voice": "oris", "audio": "L24-s04"}
-  ]
+    {
+      "id": "L24-s01",
+      "register": "parle",
+      "fr": "Quel temps fait-il ? — Il fait beau et chaud !",
+      "es": "¿Qué tiempo hace? — ¡Hace buen tiempo y calor!",
+      "en": "What's the weather like? — It's nice and warm!",
+      "voice": "emilie",
+      "audio": "L24-s01"
+    },
+    {
+      "id": "L24-s02",
+      "register": "parle",
+      "fr": "Il y a du soleil, on va à la plage !",
+      "es": "¡Hay sol, vamos a la playa!",
+      "en": "It's sunny, let's go to the beach!",
+      "voice": "oris",
+      "audio": "L24-s02"
+    },
+    {
+      "id": "L24-s03",
+      "register": "parle",
+      "fr": "Il pleut un peu, mais ce n'est pas grave.",
+      "es": "Llueve un poco, pero no pasa nada.",
+      "en": "It's raining a little, but it's no big deal.",
+      "voice": "emilie",
+      "audio": "L24-s03"
+    },
+    {
+      "id": "L24-s04",
+      "register": "parle",
+      "fr": "Il fait froid ce soir, prends une veste.",
+      "es": "Hace frío esta noche, lleva una chaqueta.",
+      "en": "It's cold tonight, take a jacket.",
+      "voice": "oris",
+      "audio": "L24-s04"
+    }
+  ],
+  "orientation": {
+    "title_es": "La météo: el tiempo y el impersonal « il fait »",
+    "title_en": "La météo: the weather and the impersonal « il fait »",
+    "es": "<p>Para hablar del tiempo, el francés usa el <b>impersonal</b> <span class=\"fx\">il fait…</span> — literalmente «hace…». Ese <span class=\"fx\">il</span> no es nadie: es un <b>sujeto fantasma</b>, como el «it» de «it's raining» en inglés. En español ni lo pronunciamos, pero la lógica es la misma.</p><p>Y la buena noticia: el español también «hace» el tiempo. <b>Hace calor, hace frío</b>… y resulta que <span class=\"fx\">faire</span> = <b>hacer</b>. Ya conoces el truco; solo cambia el disfraz.</p><div class=\"opat\"><span class=\"fx\">il fait chaud</span> = hace calor · <span class=\"fx\">il fait froid</span> = hace frío (faire = hacer)</div><p>Otros patrones: <span class=\"fx\">il y a du soleil</span> / <span class=\"fx\">il y a du vent</span> («hay sol / hay viento»), y los verbos de una sola palabra: <span class=\"fx\">il pleut</span> (llueve) y <span class=\"fx\">il neige</span> (nieva).</p><p>El premio en Niza: casi todos los días vas a poder decir <span class=\"fx\">il fait beau</span> — hace un tiempo precioso. Eso sí, ojo con <span class=\"fx\">le mistral</span>, el viento famoso que baja del valle del Ródano, despeja el cielo… y te despeina de paso.</p>",
+    "en": "<p>To talk about the weather, French uses the <b>impersonal</b> <span class=\"fx\">il fait…</span> — literally \"it makes…\". That <span class=\"fx\">il</span> isn't anybody: it's a <b>dummy subject</b>, just like the \"it\" in \"it's raining\". Nobody is actually doing the making — it's grammar filler.</p><p>Here's the good news: Spanish \"makes\" the weather too. <b>Hace calor, hace frío</b>… and it turns out <span class=\"fx\">faire</span> = <b>hacer</b>. You already own this pattern; French just puts it in a new outfit.</p><div class=\"opat\"><span class=\"fx\">il fait chaud</span> = hace calor · <span class=\"fx\">il fait froid</span> = hace frío (faire = hacer)</div><p>Other patterns: <span class=\"fx\">il y a du soleil</span> / <span class=\"fx\">il y a du vent</span> (\"there's sun / wind\"), plus the one-word weather verbs: <span class=\"fx\">il pleut</span> (llueve — it's raining) and <span class=\"fx\">il neige</span> (nieva — it's snowing).</p><p>The Nice payoff: most days you'll simply say <span class=\"fx\">il fait beau</span> — it's gorgeous out. Just watch for <span class=\"fx\">le mistral</span>, the famous wind that roars down the Rhône valley, sweeps the sky clear… and wrecks your hair on the way through.</p>"
+  }
 }
